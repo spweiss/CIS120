@@ -1,0 +1,3581 @@
+"HW03/vocab.ml" 34 1477 1481 "HW03/vocab.ml" 34 1477 1495
+type(
+  (string * string list) list
+)
+ident(
+  def texts_as_lists "HW03/vocab.ml" 44 1888 1888 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 35 1527 1531 "HW03/vocab.ml" 35 1527 1540
+type(
+  string
+)
+"HW03/vocab.ml" 35 1527 1542 "HW03/vocab.ml" 35 1527 1548
+type(
+  string list
+)
+ident(
+  ext_ref Books.modest
+)
+"HW03/vocab.ml" 35 1527 1530 "HW03/vocab.ml" 35 1527 1549
+type(
+  string * string list
+)
+"HW03/vocab.ml" 36 1551 1555 "HW03/vocab.ml" 36 1551 1564
+type(
+  string
+)
+"HW03/vocab.ml" 36 1551 1566 "HW03/vocab.ml" 36 1551 1570
+type(
+  string list
+)
+ident(
+  ext_ref Books.weak
+)
+"HW03/vocab.ml" 36 1551 1554 "HW03/vocab.ml" 36 1551 1571
+type(
+  string * string list
+)
+"HW03/vocab.ml" 37 1573 1577 "HW03/vocab.ml" 37 1573 1586
+type(
+  string
+)
+"HW03/vocab.ml" 37 1573 1588 "HW03/vocab.ml" 37 1573 1595
+type(
+  string list
+)
+ident(
+  ext_ref Books.twentyk
+)
+"HW03/vocab.ml" 37 1573 1576 "HW03/vocab.ml" 37 1573 1596
+type(
+  string * string list
+)
+"HW03/vocab.ml" 35 1527 1529 "HW03/vocab.ml" 37 1573 1598
+type(
+  (string * string list) list
+)
+type(
+  (string * string list) list
+)
+"HW03/vocab.ml" 44 1888 1892 "HW03/vocab.ml" 44 1888 1897
+type(
+  (string * string TreeSet.BSTSet.set) list
+)
+ident(
+  def texts "HW03/vocab.ml" 50 2072 2072 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 45 1928 1932 "HW03/vocab.ml" 45 1928 1941
+type(
+  string
+)
+"HW03/vocab.ml" 45 1928 1943 "HW03/vocab.ml" 45 1928 1954
+type(
+  string list -> string TreeSet.BSTSet.set
+)
+ident(
+  ext_ref TreeSet.BSTSet.set_of_list
+)
+"HW03/vocab.ml" 45 1928 1955 "HW03/vocab.ml" 45 1928 1961
+type(
+  string list
+)
+ident(
+  ext_ref Books.modest
+)
+"HW03/vocab.ml" 45 1928 1943 "HW03/vocab.ml" 45 1928 1961
+call(
+  stack
+)
+type(
+  string TreeSet.BSTSet.set
+)
+"HW03/vocab.ml" 45 1928 1931 "HW03/vocab.ml" 45 1928 1962
+type(
+  string * string TreeSet.BSTSet.set
+)
+"HW03/vocab.ml" 46 1964 1968 "HW03/vocab.ml" 46 1964 1977
+type(
+  string
+)
+"HW03/vocab.ml" 46 1964 1979 "HW03/vocab.ml" 46 1964 1990
+type(
+  string list -> string TreeSet.BSTSet.set
+)
+ident(
+  ext_ref TreeSet.BSTSet.set_of_list
+)
+"HW03/vocab.ml" 46 1964 1991 "HW03/vocab.ml" 46 1964 1995
+type(
+  string list
+)
+ident(
+  ext_ref Books.weak
+)
+"HW03/vocab.ml" 46 1964 1979 "HW03/vocab.ml" 46 1964 1995
+call(
+  stack
+)
+type(
+  string TreeSet.BSTSet.set
+)
+"HW03/vocab.ml" 46 1964 1967 "HW03/vocab.ml" 46 1964 1996
+type(
+  string * string TreeSet.BSTSet.set
+)
+"HW03/vocab.ml" 47 1998 2002 "HW03/vocab.ml" 47 1998 2011
+type(
+  string
+)
+"HW03/vocab.ml" 47 1998 2013 "HW03/vocab.ml" 47 1998 2024
+type(
+  string list -> string TreeSet.BSTSet.set
+)
+ident(
+  ext_ref TreeSet.BSTSet.set_of_list
+)
+"HW03/vocab.ml" 47 1998 2025 "HW03/vocab.ml" 47 1998 2032
+type(
+  string list
+)
+ident(
+  ext_ref Books.twentyk
+)
+"HW03/vocab.ml" 47 1998 2013 "HW03/vocab.ml" 47 1998 2032
+call(
+  stack
+)
+type(
+  string TreeSet.BSTSet.set
+)
+"HW03/vocab.ml" 47 1998 2001 "HW03/vocab.ml" 47 1998 2033
+type(
+  string * string TreeSet.BSTSet.set
+)
+"HW03/vocab.ml" 45 1928 1930 "HW03/vocab.ml" 47 1998 2034
+type(
+  (string * string TreeSet.BSTSet.set) list
+)
+type(
+  (string * string TreeSet.BSTSet.set) list
+)
+"HW03/vocab.ml" 50 2072 2076 "HW03/vocab.ml" 50 2072 2087
+type(
+  string list
+)
+ident(
+  def ocaml_vocab "HW03/vocab.ml" 57 2492 2492 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 50 2072 2105 "HW03/vocab.ml" 50 2072 2110
+type(
+  string
+)
+"HW03/vocab.ml" 50 2072 2112 "HW03/vocab.ml" 50 2072 2125
+type(
+  string
+)
+"HW03/vocab.ml" 50 2072 2127 "HW03/vocab.ml" 50 2072 2137
+type(
+  string
+)
+"HW03/vocab.ml" 50 2072 2139 "HW03/vocab.ml" 50 2072 2145
+type(
+  string
+)
+"HW03/vocab.ml" 51 2147 2149 "HW03/vocab.ml" 51 2147 2157
+type(
+  string
+)
+"HW03/vocab.ml" 51 2147 2159 "HW03/vocab.ml" 51 2147 2169
+type(
+  string
+)
+"HW03/vocab.ml" 51 2147 2171 "HW03/vocab.ml" 51 2147 2182
+type(
+  string
+)
+"HW03/vocab.ml" 51 2147 2184 "HW03/vocab.ml" 51 2147 2194
+type(
+  string
+)
+"HW03/vocab.ml" 51 2147 2196 "HW03/vocab.ml" 51 2147 2205
+type(
+  string
+)
+"HW03/vocab.ml" 51 2147 2207 "HW03/vocab.ml" 51 2147 2215
+type(
+  string
+)
+"HW03/vocab.ml" 51 2147 2217 "HW03/vocab.ml" 51 2147 2224
+type(
+  string
+)
+"HW03/vocab.ml" 52 2226 2228 "HW03/vocab.ml" 52 2226 2234
+type(
+  string
+)
+"HW03/vocab.ml" 52 2226 2236 "HW03/vocab.ml" 52 2226 2244
+type(
+  string
+)
+"HW03/vocab.ml" 52 2226 2246 "HW03/vocab.ml" 52 2226 2254
+type(
+  string
+)
+"HW03/vocab.ml" 52 2226 2256 "HW03/vocab.ml" 52 2226 2265
+type(
+  string
+)
+"HW03/vocab.ml" 52 2226 2267 "HW03/vocab.ml" 52 2226 2275
+type(
+  string
+)
+"HW03/vocab.ml" 52 2226 2277 "HW03/vocab.ml" 52 2226 2288
+type(
+  string
+)
+"HW03/vocab.ml" 52 2226 2290 "HW03/vocab.ml" 52 2226 2300
+type(
+  string
+)
+"HW03/vocab.ml" 53 2302 2304 "HW03/vocab.ml" 53 2302 2320
+type(
+  string
+)
+"HW03/vocab.ml" 53 2302 2322 "HW03/vocab.ml" 53 2302 2334
+type(
+  string
+)
+"HW03/vocab.ml" 53 2302 2336 "HW03/vocab.ml" 53 2302 2349
+type(
+  string
+)
+"HW03/vocab.ml" 53 2302 2351 "HW03/vocab.ml" 53 2302 2361
+type(
+  string
+)
+"HW03/vocab.ml" 53 2302 2363 "HW03/vocab.ml" 53 2302 2370
+type(
+  string
+)
+"HW03/vocab.ml" 54 2372 2374 "HW03/vocab.ml" 54 2372 2384
+type(
+  string
+)
+"HW03/vocab.ml" 54 2372 2386 "HW03/vocab.ml" 54 2372 2397
+type(
+  string
+)
+"HW03/vocab.ml" 54 2372 2399 "HW03/vocab.ml" 54 2372 2410
+type(
+  string
+)
+"HW03/vocab.ml" 54 2372 2412 "HW03/vocab.ml" 54 2372 2420
+type(
+  string
+)
+"HW03/vocab.ml" 54 2372 2422 "HW03/vocab.ml" 54 2372 2428
+type(
+  string
+)
+"HW03/vocab.ml" 54 2372 2430 "HW03/vocab.ml" 54 2372 2441
+type(
+  string
+)
+"HW03/vocab.ml" 50 2072 2104 "HW03/vocab.ml" 54 2372 2442
+type(
+  string list
+)
+type(
+  string list
+)
+"HW03/vocab.ml" 57 2492 2496 "HW03/vocab.ml" 57 2492 2505
+type(
+  string list
+)
+ident(
+  def sat_vocab "HW03/vocab.ml" 149 9105 9105 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 57 2492 2523 "HW03/vocab.ml" 57 2492 2531
+type(
+  string
+)
+"HW03/vocab.ml" 57 2492 2533 "HW03/vocab.ml" 57 2492 2542
+type(
+  string
+)
+"HW03/vocab.ml" 57 2492 2544 "HW03/vocab.ml" 57 2492 2554
+type(
+  string
+)
+"HW03/vocab.ml" 57 2492 2556 "HW03/vocab.ml" 57 2492 2566
+type(
+  string
+)
+"HW03/vocab.ml" 58 2568 2570 "HW03/vocab.ml" 58 2568 2580
+type(
+  string
+)
+"HW03/vocab.ml" 58 2568 2582 "HW03/vocab.ml" 58 2568 2592
+type(
+  string
+)
+"HW03/vocab.ml" 58 2568 2594 "HW03/vocab.ml" 58 2568 2604
+type(
+  string
+)
+"HW03/vocab.ml" 58 2568 2606 "HW03/vocab.ml" 58 2568 2618
+type(
+  string
+)
+"HW03/vocab.ml" 58 2568 2620 "HW03/vocab.ml" 58 2568 2630
+type(
+  string
+)
+"HW03/vocab.ml" 58 2568 2632 "HW03/vocab.ml" 58 2568 2642
+type(
+  string
+)
+"HW03/vocab.ml" 59 2644 2646 "HW03/vocab.ml" 59 2644 2657
+type(
+  string
+)
+"HW03/vocab.ml" 59 2644 2659 "HW03/vocab.ml" 59 2644 2670
+type(
+  string
+)
+"HW03/vocab.ml" 59 2644 2672 "HW03/vocab.ml" 59 2644 2683
+type(
+  string
+)
+"HW03/vocab.ml" 59 2644 2685 "HW03/vocab.ml" 59 2644 2695
+type(
+  string
+)
+"HW03/vocab.ml" 59 2644 2697 "HW03/vocab.ml" 59 2644 2708
+type(
+  string
+)
+"HW03/vocab.ml" 59 2644 2710 "HW03/vocab.ml" 59 2644 2720
+type(
+  string
+)
+"HW03/vocab.ml" 60 2722 2724 "HW03/vocab.ml" 60 2722 2739
+type(
+  string
+)
+"HW03/vocab.ml" 60 2722 2741 "HW03/vocab.ml" 60 2722 2752
+type(
+  string
+)
+"HW03/vocab.ml" 60 2722 2754 "HW03/vocab.ml" 60 2722 2761
+type(
+  string
+)
+"HW03/vocab.ml" 60 2722 2763 "HW03/vocab.ml" 60 2722 2772
+type(
+  string
+)
+"HW03/vocab.ml" 60 2722 2774 "HW03/vocab.ml" 60 2722 2784
+type(
+  string
+)
+"HW03/vocab.ml" 60 2722 2786 "HW03/vocab.ml" 60 2722 2797
+type(
+  string
+)
+"HW03/vocab.ml" 61 2799 2801 "HW03/vocab.ml" 61 2799 2809
+type(
+  string
+)
+"HW03/vocab.ml" 61 2799 2811 "HW03/vocab.ml" 61 2799 2820
+type(
+  string
+)
+"HW03/vocab.ml" 61 2799 2822 "HW03/vocab.ml" 61 2799 2831
+type(
+  string
+)
+"HW03/vocab.ml" 61 2799 2833 "HW03/vocab.ml" 61 2799 2846
+type(
+  string
+)
+"HW03/vocab.ml" 61 2799 2848 "HW03/vocab.ml" 61 2799 2859
+type(
+  string
+)
+"HW03/vocab.ml" 61 2799 2861 "HW03/vocab.ml" 61 2799 2873
+type(
+  string
+)
+"HW03/vocab.ml" 62 2875 2877 "HW03/vocab.ml" 62 2875 2887
+type(
+  string
+)
+"HW03/vocab.ml" 62 2875 2889 "HW03/vocab.ml" 62 2875 2900
+type(
+  string
+)
+"HW03/vocab.ml" 62 2875 2902 "HW03/vocab.ml" 62 2875 2912
+type(
+  string
+)
+"HW03/vocab.ml" 62 2875 2914 "HW03/vocab.ml" 62 2875 2923
+type(
+  string
+)
+"HW03/vocab.ml" 62 2875 2925 "HW03/vocab.ml" 62 2875 2938
+type(
+  string
+)
+"HW03/vocab.ml" 62 2875 2940 "HW03/vocab.ml" 62 2875 2949
+type(
+  string
+)
+"HW03/vocab.ml" 63 2951 2953 "HW03/vocab.ml" 63 2951 2964
+type(
+  string
+)
+"HW03/vocab.ml" 63 2951 2966 "HW03/vocab.ml" 63 2951 2973
+type(
+  string
+)
+"HW03/vocab.ml" 63 2951 2975 "HW03/vocab.ml" 63 2951 2987
+type(
+  string
+)
+"HW03/vocab.ml" 63 2951 2989 "HW03/vocab.ml" 63 2951 3000
+type(
+  string
+)
+"HW03/vocab.ml" 63 2951 3002 "HW03/vocab.ml" 63 2951 3013
+type(
+  string
+)
+"HW03/vocab.ml" 63 2951 3015 "HW03/vocab.ml" 63 2951 3028
+type(
+  string
+)
+"HW03/vocab.ml" 64 3030 3032 "HW03/vocab.ml" 64 3030 3042
+type(
+  string
+)
+"HW03/vocab.ml" 64 3030 3044 "HW03/vocab.ml" 64 3030 3055
+type(
+  string
+)
+"HW03/vocab.ml" 64 3030 3057 "HW03/vocab.ml" 64 3030 3068
+type(
+  string
+)
+"HW03/vocab.ml" 64 3030 3070 "HW03/vocab.ml" 64 3030 3077
+type(
+  string
+)
+"HW03/vocab.ml" 64 3030 3079 "HW03/vocab.ml" 64 3030 3087
+type(
+  string
+)
+"HW03/vocab.ml" 64 3030 3089 "HW03/vocab.ml" 64 3030 3100
+type(
+  string
+)
+"HW03/vocab.ml" 65 3102 3104 "HW03/vocab.ml" 65 3102 3116
+type(
+  string
+)
+"HW03/vocab.ml" 65 3102 3118 "HW03/vocab.ml" 65 3102 3133
+type(
+  string
+)
+"HW03/vocab.ml" 65 3102 3135 "HW03/vocab.ml" 65 3102 3146
+type(
+  string
+)
+"HW03/vocab.ml" 65 3102 3148 "HW03/vocab.ml" 65 3102 3159
+type(
+  string
+)
+"HW03/vocab.ml" 65 3102 3161 "HW03/vocab.ml" 65 3102 3170
+type(
+  string
+)
+"HW03/vocab.ml" 65 3102 3172 "HW03/vocab.ml" 65 3102 3179
+type(
+  string
+)
+"HW03/vocab.ml" 66 3181 3183 "HW03/vocab.ml" 66 3181 3190
+type(
+  string
+)
+"HW03/vocab.ml" 66 3181 3192 "HW03/vocab.ml" 66 3181 3204
+type(
+  string
+)
+"HW03/vocab.ml" 66 3181 3206 "HW03/vocab.ml" 66 3181 3216
+type(
+  string
+)
+"HW03/vocab.ml" 66 3181 3218 "HW03/vocab.ml" 66 3181 3224
+type(
+  string
+)
+"HW03/vocab.ml" 66 3181 3226 "HW03/vocab.ml" 66 3181 3237
+type(
+  string
+)
+"HW03/vocab.ml" 66 3181 3239 "HW03/vocab.ml" 66 3181 3248
+type(
+  string
+)
+"HW03/vocab.ml" 66 3181 3250 "HW03/vocab.ml" 66 3181 3260
+type(
+  string
+)
+"HW03/vocab.ml" 67 3262 3264 "HW03/vocab.ml" 67 3262 3276
+type(
+  string
+)
+"HW03/vocab.ml" 67 3262 3278 "HW03/vocab.ml" 67 3262 3291
+type(
+  string
+)
+"HW03/vocab.ml" 67 3262 3293 "HW03/vocab.ml" 67 3262 3301
+type(
+  string
+)
+"HW03/vocab.ml" 67 3262 3303 "HW03/vocab.ml" 67 3262 3310
+type(
+  string
+)
+"HW03/vocab.ml" 67 3262 3312 "HW03/vocab.ml" 67 3262 3326
+type(
+  string
+)
+"HW03/vocab.ml" 67 3262 3328 "HW03/vocab.ml" 67 3262 3340
+type(
+  string
+)
+"HW03/vocab.ml" 68 3342 3344 "HW03/vocab.ml" 68 3342 3355
+type(
+  string
+)
+"HW03/vocab.ml" 68 3342 3357 "HW03/vocab.ml" 68 3342 3366
+type(
+  string
+)
+"HW03/vocab.ml" 68 3342 3368 "HW03/vocab.ml" 68 3342 3379
+type(
+  string
+)
+"HW03/vocab.ml" 68 3342 3381 "HW03/vocab.ml" 68 3342 3387
+type(
+  string
+)
+"HW03/vocab.ml" 68 3342 3389 "HW03/vocab.ml" 68 3342 3400
+type(
+  string
+)
+"HW03/vocab.ml" 68 3342 3402 "HW03/vocab.ml" 68 3342 3411
+type(
+  string
+)
+"HW03/vocab.ml" 69 3413 3415 "HW03/vocab.ml" 69 3413 3425
+type(
+  string
+)
+"HW03/vocab.ml" 69 3413 3427 "HW03/vocab.ml" 69 3413 3435
+type(
+  string
+)
+"HW03/vocab.ml" 69 3413 3437 "HW03/vocab.ml" 69 3413 3446
+type(
+  string
+)
+"HW03/vocab.ml" 69 3413 3448 "HW03/vocab.ml" 69 3413 3456
+type(
+  string
+)
+"HW03/vocab.ml" 69 3413 3458 "HW03/vocab.ml" 69 3413 3468
+type(
+  string
+)
+"HW03/vocab.ml" 69 3413 3470 "HW03/vocab.ml" 69 3413 3485
+type(
+  string
+)
+"HW03/vocab.ml" 70 3487 3489 "HW03/vocab.ml" 70 3487 3500
+type(
+  string
+)
+"HW03/vocab.ml" 70 3487 3502 "HW03/vocab.ml" 70 3487 3512
+type(
+  string
+)
+"HW03/vocab.ml" 70 3487 3514 "HW03/vocab.ml" 70 3487 3525
+type(
+  string
+)
+"HW03/vocab.ml" 70 3487 3527 "HW03/vocab.ml" 70 3487 3535
+type(
+  string
+)
+"HW03/vocab.ml" 70 3487 3537 "HW03/vocab.ml" 70 3487 3550
+type(
+  string
+)
+"HW03/vocab.ml" 70 3487 3552 "HW03/vocab.ml" 70 3487 3564
+type(
+  string
+)
+"HW03/vocab.ml" 71 3566 3568 "HW03/vocab.ml" 71 3566 3576
+type(
+  string
+)
+"HW03/vocab.ml" 71 3566 3578 "HW03/vocab.ml" 71 3566 3589
+type(
+  string
+)
+"HW03/vocab.ml" 71 3566 3591 "HW03/vocab.ml" 71 3566 3606
+type(
+  string
+)
+"HW03/vocab.ml" 71 3566 3608 "HW03/vocab.ml" 71 3566 3617
+type(
+  string
+)
+"HW03/vocab.ml" 71 3566 3619 "HW03/vocab.ml" 71 3566 3628
+type(
+  string
+)
+"HW03/vocab.ml" 71 3566 3630 "HW03/vocab.ml" 71 3566 3639
+type(
+  string
+)
+"HW03/vocab.ml" 72 3641 3643 "HW03/vocab.ml" 72 3641 3653
+type(
+  string
+)
+"HW03/vocab.ml" 72 3641 3655 "HW03/vocab.ml" 72 3641 3670
+type(
+  string
+)
+"HW03/vocab.ml" 72 3641 3672 "HW03/vocab.ml" 72 3641 3681
+type(
+  string
+)
+"HW03/vocab.ml" 72 3641 3683 "HW03/vocab.ml" 72 3641 3695
+type(
+  string
+)
+"HW03/vocab.ml" 72 3641 3697 "HW03/vocab.ml" 72 3641 3712
+type(
+  string
+)
+"HW03/vocab.ml" 73 3714 3716 "HW03/vocab.ml" 73 3714 3725
+type(
+  string
+)
+"HW03/vocab.ml" 73 3714 3727 "HW03/vocab.ml" 73 3714 3738
+type(
+  string
+)
+"HW03/vocab.ml" 73 3714 3740 "HW03/vocab.ml" 73 3714 3755
+type(
+  string
+)
+"HW03/vocab.ml" 73 3714 3757 "HW03/vocab.ml" 73 3714 3769
+type(
+  string
+)
+"HW03/vocab.ml" 73 3714 3771 "HW03/vocab.ml" 73 3714 3783
+type(
+  string
+)
+"HW03/vocab.ml" 74 3785 3787 "HW03/vocab.ml" 74 3785 3801
+type(
+  string
+)
+"HW03/vocab.ml" 74 3785 3803 "HW03/vocab.ml" 74 3785 3815
+type(
+  string
+)
+"HW03/vocab.ml" 74 3785 3817 "HW03/vocab.ml" 74 3785 3826
+type(
+  string
+)
+"HW03/vocab.ml" 74 3785 3828 "HW03/vocab.ml" 74 3785 3839
+type(
+  string
+)
+"HW03/vocab.ml" 74 3785 3841 "HW03/vocab.ml" 74 3785 3848
+type(
+  string
+)
+"HW03/vocab.ml" 74 3785 3850 "HW03/vocab.ml" 74 3785 3863
+type(
+  string
+)
+"HW03/vocab.ml" 75 3865 3867 "HW03/vocab.ml" 75 3865 3875
+type(
+  string
+)
+"HW03/vocab.ml" 75 3865 3877 "HW03/vocab.ml" 75 3865 3888
+type(
+  string
+)
+"HW03/vocab.ml" 75 3865 3890 "HW03/vocab.ml" 75 3865 3899
+type(
+  string
+)
+"HW03/vocab.ml" 75 3865 3901 "HW03/vocab.ml" 75 3865 3914
+type(
+  string
+)
+"HW03/vocab.ml" 75 3865 3916 "HW03/vocab.ml" 75 3865 3927
+type(
+  string
+)
+"HW03/vocab.ml" 75 3865 3929 "HW03/vocab.ml" 75 3865 3938
+type(
+  string
+)
+"HW03/vocab.ml" 76 3940 3942 "HW03/vocab.ml" 76 3940 3953
+type(
+  string
+)
+"HW03/vocab.ml" 76 3940 3955 "HW03/vocab.ml" 76 3940 3968
+type(
+  string
+)
+"HW03/vocab.ml" 76 3940 3970 "HW03/vocab.ml" 76 3940 3981
+type(
+  string
+)
+"HW03/vocab.ml" 76 3940 3983 "HW03/vocab.ml" 76 3940 3991
+type(
+  string
+)
+"HW03/vocab.ml" 76 3940 3993 "HW03/vocab.ml" 76 3940 4005
+type(
+  string
+)
+"HW03/vocab.ml" 76 3940 4007 "HW03/vocab.ml" 76 3940 4012
+type(
+  string
+)
+"HW03/vocab.ml" 77 4014 4016 "HW03/vocab.ml" 77 4014 4028
+type(
+  string
+)
+"HW03/vocab.ml" 77 4014 4030 "HW03/vocab.ml" 77 4014 4037
+type(
+  string
+)
+"HW03/vocab.ml" 77 4014 4039 "HW03/vocab.ml" 77 4014 4046
+type(
+  string
+)
+"HW03/vocab.ml" 77 4014 4048 "HW03/vocab.ml" 77 4014 4057
+type(
+  string
+)
+"HW03/vocab.ml" 77 4014 4059 "HW03/vocab.ml" 77 4014 4074
+type(
+  string
+)
+"HW03/vocab.ml" 77 4014 4076 "HW03/vocab.ml" 77 4014 4082
+type(
+  string
+)
+"HW03/vocab.ml" 78 4084 4086 "HW03/vocab.ml" 78 4084 4096
+type(
+  string
+)
+"HW03/vocab.ml" 78 4084 4098 "HW03/vocab.ml" 78 4084 4109
+type(
+  string
+)
+"HW03/vocab.ml" 78 4084 4111 "HW03/vocab.ml" 78 4084 4122
+type(
+  string
+)
+"HW03/vocab.ml" 78 4084 4124 "HW03/vocab.ml" 78 4084 4132
+type(
+  string
+)
+"HW03/vocab.ml" 78 4084 4134 "HW03/vocab.ml" 78 4084 4146
+type(
+  string
+)
+"HW03/vocab.ml" 78 4084 4148 "HW03/vocab.ml" 78 4084 4157
+type(
+  string
+)
+"HW03/vocab.ml" 79 4159 4161 "HW03/vocab.ml" 79 4159 4172
+type(
+  string
+)
+"HW03/vocab.ml" 79 4159 4174 "HW03/vocab.ml" 79 4159 4185
+type(
+  string
+)
+"HW03/vocab.ml" 79 4159 4187 "HW03/vocab.ml" 79 4159 4196
+type(
+  string
+)
+"HW03/vocab.ml" 79 4159 4198 "HW03/vocab.ml" 79 4159 4207
+type(
+  string
+)
+"HW03/vocab.ml" 79 4159 4209 "HW03/vocab.ml" 79 4159 4219
+type(
+  string
+)
+"HW03/vocab.ml" 79 4159 4221 "HW03/vocab.ml" 79 4159 4233
+type(
+  string
+)
+"HW03/vocab.ml" 80 4235 4237 "HW03/vocab.ml" 80 4235 4249
+type(
+  string
+)
+"HW03/vocab.ml" 80 4235 4251 "HW03/vocab.ml" 80 4235 4261
+type(
+  string
+)
+"HW03/vocab.ml" 80 4235 4263 "HW03/vocab.ml" 80 4235 4271
+type(
+  string
+)
+"HW03/vocab.ml" 80 4235 4273 "HW03/vocab.ml" 80 4235 4283
+type(
+  string
+)
+"HW03/vocab.ml" 80 4235 4285 "HW03/vocab.ml" 80 4235 4295
+type(
+  string
+)
+"HW03/vocab.ml" 80 4235 4297 "HW03/vocab.ml" 80 4235 4306
+type(
+  string
+)
+"HW03/vocab.ml" 81 4308 4310 "HW03/vocab.ml" 81 4308 4320
+type(
+  string
+)
+"HW03/vocab.ml" 81 4308 4322 "HW03/vocab.ml" 81 4308 4333
+type(
+  string
+)
+"HW03/vocab.ml" 81 4308 4335 "HW03/vocab.ml" 81 4308 4344
+type(
+  string
+)
+"HW03/vocab.ml" 81 4308 4346 "HW03/vocab.ml" 81 4308 4360
+type(
+  string
+)
+"HW03/vocab.ml" 81 4308 4362 "HW03/vocab.ml" 81 4308 4373
+type(
+  string
+)
+"HW03/vocab.ml" 81 4308 4375 "HW03/vocab.ml" 81 4308 4384
+type(
+  string
+)
+"HW03/vocab.ml" 82 4386 4388 "HW03/vocab.ml" 82 4386 4395
+type(
+  string
+)
+"HW03/vocab.ml" 82 4386 4397 "HW03/vocab.ml" 82 4386 4406
+type(
+  string
+)
+"HW03/vocab.ml" 82 4386 4408 "HW03/vocab.ml" 82 4386 4416
+type(
+  string
+)
+"HW03/vocab.ml" 82 4386 4418 "HW03/vocab.ml" 82 4386 4431
+type(
+  string
+)
+"HW03/vocab.ml" 82 4386 4433 "HW03/vocab.ml" 82 4386 4442
+type(
+  string
+)
+"HW03/vocab.ml" 82 4386 4444 "HW03/vocab.ml" 82 4386 4451
+type(
+  string
+)
+"HW03/vocab.ml" 82 4386 4453 "HW03/vocab.ml" 82 4386 4462
+type(
+  string
+)
+"HW03/vocab.ml" 83 4464 4466 "HW03/vocab.ml" 83 4464 4477
+type(
+  string
+)
+"HW03/vocab.ml" 83 4464 4479 "HW03/vocab.ml" 83 4464 4490
+type(
+  string
+)
+"HW03/vocab.ml" 83 4464 4492 "HW03/vocab.ml" 83 4464 4501
+type(
+  string
+)
+"HW03/vocab.ml" 83 4464 4503 "HW03/vocab.ml" 83 4464 4514
+type(
+  string
+)
+"HW03/vocab.ml" 83 4464 4516 "HW03/vocab.ml" 83 4464 4526
+type(
+  string
+)
+"HW03/vocab.ml" 83 4464 4528 "HW03/vocab.ml" 83 4464 4538
+type(
+  string
+)
+"HW03/vocab.ml" 84 4540 4542 "HW03/vocab.ml" 84 4540 4553
+type(
+  string
+)
+"HW03/vocab.ml" 84 4540 4555 "HW03/vocab.ml" 84 4540 4566
+type(
+  string
+)
+"HW03/vocab.ml" 84 4540 4568 "HW03/vocab.ml" 84 4540 4576
+type(
+  string
+)
+"HW03/vocab.ml" 84 4540 4578 "HW03/vocab.ml" 84 4540 4589
+type(
+  string
+)
+"HW03/vocab.ml" 84 4540 4591 "HW03/vocab.ml" 84 4540 4600
+type(
+  string
+)
+"HW03/vocab.ml" 84 4540 4602 "HW03/vocab.ml" 84 4540 4611
+type(
+  string
+)
+"HW03/vocab.ml" 85 4613 4615 "HW03/vocab.ml" 85 4613 4626
+type(
+  string
+)
+"HW03/vocab.ml" 85 4613 4628 "HW03/vocab.ml" 85 4613 4636
+type(
+  string
+)
+"HW03/vocab.ml" 85 4613 4638 "HW03/vocab.ml" 85 4613 4650
+type(
+  string
+)
+"HW03/vocab.ml" 85 4613 4652 "HW03/vocab.ml" 85 4613 4664
+type(
+  string
+)
+"HW03/vocab.ml" 85 4613 4666 "HW03/vocab.ml" 85 4613 4677
+type(
+  string
+)
+"HW03/vocab.ml" 85 4613 4679 "HW03/vocab.ml" 85 4613 4692
+type(
+  string
+)
+"HW03/vocab.ml" 86 4694 4696 "HW03/vocab.ml" 86 4694 4705
+type(
+  string
+)
+"HW03/vocab.ml" 86 4694 4707 "HW03/vocab.ml" 86 4694 4716
+type(
+  string
+)
+"HW03/vocab.ml" 86 4694 4718 "HW03/vocab.ml" 86 4694 4728
+type(
+  string
+)
+"HW03/vocab.ml" 86 4694 4730 "HW03/vocab.ml" 86 4694 4738
+type(
+  string
+)
+"HW03/vocab.ml" 86 4694 4740 "HW03/vocab.ml" 86 4694 4751
+type(
+  string
+)
+"HW03/vocab.ml" 86 4694 4753 "HW03/vocab.ml" 86 4694 4763
+type(
+  string
+)
+"HW03/vocab.ml" 86 4694 4765 "HW03/vocab.ml" 86 4694 4771
+type(
+  string
+)
+"HW03/vocab.ml" 87 4773 4775 "HW03/vocab.ml" 87 4773 4787
+type(
+  string
+)
+"HW03/vocab.ml" 87 4773 4789 "HW03/vocab.ml" 87 4773 4796
+type(
+  string
+)
+"HW03/vocab.ml" 87 4773 4798 "HW03/vocab.ml" 87 4773 4806
+type(
+  string
+)
+"HW03/vocab.ml" 87 4773 4808 "HW03/vocab.ml" 87 4773 4819
+type(
+  string
+)
+"HW03/vocab.ml" 87 4773 4821 "HW03/vocab.ml" 87 4773 4829
+type(
+  string
+)
+"HW03/vocab.ml" 87 4773 4831 "HW03/vocab.ml" 87 4773 4841
+type(
+  string
+)
+"HW03/vocab.ml" 88 4843 4845 "HW03/vocab.ml" 88 4843 4858
+type(
+  string
+)
+"HW03/vocab.ml" 88 4843 4860 "HW03/vocab.ml" 88 4843 4873
+type(
+  string
+)
+"HW03/vocab.ml" 88 4843 4875 "HW03/vocab.ml" 88 4843 4883
+type(
+  string
+)
+"HW03/vocab.ml" 88 4843 4885 "HW03/vocab.ml" 88 4843 4892
+type(
+  string
+)
+"HW03/vocab.ml" 88 4843 4894 "HW03/vocab.ml" 88 4843 4906
+type(
+  string
+)
+"HW03/vocab.ml" 88 4843 4908 "HW03/vocab.ml" 88 4843 4916
+type(
+  string
+)
+"HW03/vocab.ml" 89 4918 4920 "HW03/vocab.ml" 89 4918 4934
+type(
+  string
+)
+"HW03/vocab.ml" 89 4918 4936 "HW03/vocab.ml" 89 4918 4949
+type(
+  string
+)
+"HW03/vocab.ml" 89 4918 4951 "HW03/vocab.ml" 89 4918 4961
+type(
+  string
+)
+"HW03/vocab.ml" 89 4918 4963 "HW03/vocab.ml" 89 4918 4974
+type(
+  string
+)
+"HW03/vocab.ml" 89 4918 4976 "HW03/vocab.ml" 89 4918 4986
+type(
+  string
+)
+"HW03/vocab.ml" 90 4988 4990 "HW03/vocab.ml" 90 4988 5002
+type(
+  string
+)
+"HW03/vocab.ml" 90 4988 5004 "HW03/vocab.ml" 90 4988 5012
+type(
+  string
+)
+"HW03/vocab.ml" 90 4988 5014 "HW03/vocab.ml" 90 4988 5023
+type(
+  string
+)
+"HW03/vocab.ml" 90 4988 5025 "HW03/vocab.ml" 90 4988 5037
+type(
+  string
+)
+"HW03/vocab.ml" 90 4988 5039 "HW03/vocab.ml" 90 4988 5045
+type(
+  string
+)
+"HW03/vocab.ml" 90 4988 5047 "HW03/vocab.ml" 90 4988 5058
+type(
+  string
+)
+"HW03/vocab.ml" 90 4988 5060 "HW03/vocab.ml" 90 4988 5067
+type(
+  string
+)
+"HW03/vocab.ml" 91 5069 5071 "HW03/vocab.ml" 91 5069 5084
+type(
+  string
+)
+"HW03/vocab.ml" 91 5069 5086 "HW03/vocab.ml" 91 5069 5095
+type(
+  string
+)
+"HW03/vocab.ml" 91 5069 5097 "HW03/vocab.ml" 91 5069 5106
+type(
+  string
+)
+"HW03/vocab.ml" 91 5069 5108 "HW03/vocab.ml" 91 5069 5116
+type(
+  string
+)
+"HW03/vocab.ml" 91 5069 5118 "HW03/vocab.ml" 91 5069 5124
+type(
+  string
+)
+"HW03/vocab.ml" 91 5069 5126 "HW03/vocab.ml" 91 5069 5138
+type(
+  string
+)
+"HW03/vocab.ml" 92 5140 5142 "HW03/vocab.ml" 92 5140 5152
+type(
+  string
+)
+"HW03/vocab.ml" 92 5140 5154 "HW03/vocab.ml" 92 5140 5163
+type(
+  string
+)
+"HW03/vocab.ml" 92 5140 5165 "HW03/vocab.ml" 92 5140 5175
+type(
+  string
+)
+"HW03/vocab.ml" 92 5140 5177 "HW03/vocab.ml" 92 5140 5186
+type(
+  string
+)
+"HW03/vocab.ml" 92 5140 5188 "HW03/vocab.ml" 92 5140 5197
+type(
+  string
+)
+"HW03/vocab.ml" 92 5140 5199 "HW03/vocab.ml" 92 5140 5207
+type(
+  string
+)
+"HW03/vocab.ml" 93 5209 5211 "HW03/vocab.ml" 93 5209 5225
+type(
+  string
+)
+"HW03/vocab.ml" 93 5209 5227 "HW03/vocab.ml" 93 5209 5235
+type(
+  string
+)
+"HW03/vocab.ml" 93 5209 5237 "HW03/vocab.ml" 93 5209 5245
+type(
+  string
+)
+"HW03/vocab.ml" 93 5209 5247 "HW03/vocab.ml" 93 5209 5258
+type(
+  string
+)
+"HW03/vocab.ml" 93 5209 5260 "HW03/vocab.ml" 93 5209 5267
+type(
+  string
+)
+"HW03/vocab.ml" 93 5209 5269 "HW03/vocab.ml" 93 5209 5282
+type(
+  string
+)
+"HW03/vocab.ml" 94 5284 5286 "HW03/vocab.ml" 94 5284 5295
+type(
+  string
+)
+"HW03/vocab.ml" 94 5284 5297 "HW03/vocab.ml" 94 5284 5309
+type(
+  string
+)
+"HW03/vocab.ml" 94 5284 5311 "HW03/vocab.ml" 94 5284 5321
+type(
+  string
+)
+"HW03/vocab.ml" 94 5284 5323 "HW03/vocab.ml" 94 5284 5334
+type(
+  string
+)
+"HW03/vocab.ml" 94 5284 5336 "HW03/vocab.ml" 94 5284 5345
+type(
+  string
+)
+"HW03/vocab.ml" 94 5284 5347 "HW03/vocab.ml" 94 5284 5353
+type(
+  string
+)
+"HW03/vocab.ml" 95 5355 5357 "HW03/vocab.ml" 95 5355 5370
+type(
+  string
+)
+"HW03/vocab.ml" 95 5355 5372 "HW03/vocab.ml" 95 5355 5383
+type(
+  string
+)
+"HW03/vocab.ml" 95 5355 5385 "HW03/vocab.ml" 95 5355 5397
+type(
+  string
+)
+"HW03/vocab.ml" 95 5355 5399 "HW03/vocab.ml" 95 5355 5405
+type(
+  string
+)
+"HW03/vocab.ml" 95 5355 5407 "HW03/vocab.ml" 95 5355 5417
+type(
+  string
+)
+"HW03/vocab.ml" 95 5355 5419 "HW03/vocab.ml" 95 5355 5428
+type(
+  string
+)
+"HW03/vocab.ml" 96 5430 5432 "HW03/vocab.ml" 96 5430 5443
+type(
+  string
+)
+"HW03/vocab.ml" 96 5430 5445 "HW03/vocab.ml" 96 5430 5454
+type(
+  string
+)
+"HW03/vocab.ml" 96 5430 5456 "HW03/vocab.ml" 96 5430 5464
+type(
+  string
+)
+"HW03/vocab.ml" 96 5430 5466 "HW03/vocab.ml" 96 5430 5475
+type(
+  string
+)
+"HW03/vocab.ml" 96 5430 5477 "HW03/vocab.ml" 96 5430 5487
+type(
+  string
+)
+"HW03/vocab.ml" 96 5430 5489 "HW03/vocab.ml" 96 5430 5501
+type(
+  string
+)
+"HW03/vocab.ml" 97 5503 5505 "HW03/vocab.ml" 97 5503 5517
+type(
+  string
+)
+"HW03/vocab.ml" 97 5503 5519 "HW03/vocab.ml" 97 5503 5527
+type(
+  string
+)
+"HW03/vocab.ml" 97 5503 5529 "HW03/vocab.ml" 97 5503 5539
+type(
+  string
+)
+"HW03/vocab.ml" 97 5503 5541 "HW03/vocab.ml" 97 5503 5552
+type(
+  string
+)
+"HW03/vocab.ml" 97 5503 5554 "HW03/vocab.ml" 97 5503 5566
+type(
+  string
+)
+"HW03/vocab.ml" 97 5503 5568 "HW03/vocab.ml" 97 5503 5580
+type(
+  string
+)
+"HW03/vocab.ml" 98 5582 5584 "HW03/vocab.ml" 98 5582 5593
+type(
+  string
+)
+"HW03/vocab.ml" 98 5582 5595 "HW03/vocab.ml" 98 5582 5606
+type(
+  string
+)
+"HW03/vocab.ml" 98 5582 5608 "HW03/vocab.ml" 98 5582 5616
+type(
+  string
+)
+"HW03/vocab.ml" 98 5582 5618 "HW03/vocab.ml" 98 5582 5627
+type(
+  string
+)
+"HW03/vocab.ml" 98 5582 5629 "HW03/vocab.ml" 98 5582 5636
+type(
+  string
+)
+"HW03/vocab.ml" 98 5582 5638 "HW03/vocab.ml" 98 5582 5648
+type(
+  string
+)
+"HW03/vocab.ml" 99 5650 5652 "HW03/vocab.ml" 99 5650 5668
+type(
+  string
+)
+"HW03/vocab.ml" 99 5650 5670 "HW03/vocab.ml" 99 5650 5684
+type(
+  string
+)
+"HW03/vocab.ml" 99 5650 5686 "HW03/vocab.ml" 99 5650 5697
+type(
+  string
+)
+"HW03/vocab.ml" 99 5650 5699 "HW03/vocab.ml" 99 5650 5707
+type(
+  string
+)
+"HW03/vocab.ml" 99 5650 5709 "HW03/vocab.ml" 99 5650 5717
+type(
+  string
+)
+"HW03/vocab.ml" 100 5719 5721 "HW03/vocab.ml" 100 5719 5732
+type(
+  string
+)
+"HW03/vocab.ml" 100 5719 5734 "HW03/vocab.ml" 100 5719 5747
+type(
+  string
+)
+"HW03/vocab.ml" 100 5719 5749 "HW03/vocab.ml" 100 5719 5757
+type(
+  string
+)
+"HW03/vocab.ml" 100 5719 5759 "HW03/vocab.ml" 100 5719 5773
+type(
+  string
+)
+"HW03/vocab.ml" 100 5719 5775 "HW03/vocab.ml" 100 5719 5785
+type(
+  string
+)
+"HW03/vocab.ml" 100 5719 5787 "HW03/vocab.ml" 100 5719 5797
+type(
+  string
+)
+"HW03/vocab.ml" 101 5799 5801 "HW03/vocab.ml" 101 5799 5812
+type(
+  string
+)
+"HW03/vocab.ml" 101 5799 5814 "HW03/vocab.ml" 101 5799 5822
+type(
+  string
+)
+"HW03/vocab.ml" 101 5799 5824 "HW03/vocab.ml" 101 5799 5834
+type(
+  string
+)
+"HW03/vocab.ml" 101 5799 5836 "HW03/vocab.ml" 101 5799 5847
+type(
+  string
+)
+"HW03/vocab.ml" 101 5799 5849 "HW03/vocab.ml" 101 5799 5859
+type(
+  string
+)
+"HW03/vocab.ml" 101 5799 5861 "HW03/vocab.ml" 101 5799 5869
+type(
+  string
+)
+"HW03/vocab.ml" 102 5871 5873 "HW03/vocab.ml" 102 5871 5884
+type(
+  string
+)
+"HW03/vocab.ml" 102 5871 5886 "HW03/vocab.ml" 102 5871 5893
+type(
+  string
+)
+"HW03/vocab.ml" 102 5871 5895 "HW03/vocab.ml" 102 5871 5904
+type(
+  string
+)
+"HW03/vocab.ml" 102 5871 5906 "HW03/vocab.ml" 102 5871 5918
+type(
+  string
+)
+"HW03/vocab.ml" 102 5871 5920 "HW03/vocab.ml" 102 5871 5927
+type(
+  string
+)
+"HW03/vocab.ml" 102 5871 5929 "HW03/vocab.ml" 102 5871 5938
+type(
+  string
+)
+"HW03/vocab.ml" 103 5940 5942 "HW03/vocab.ml" 103 5940 5955
+type(
+  string
+)
+"HW03/vocab.ml" 103 5940 5957 "HW03/vocab.ml" 103 5940 5967
+type(
+  string
+)
+"HW03/vocab.ml" 103 5940 5969 "HW03/vocab.ml" 103 5940 5980
+type(
+  string
+)
+"HW03/vocab.ml" 103 5940 5982 "HW03/vocab.ml" 103 5940 5994
+type(
+  string
+)
+"HW03/vocab.ml" 103 5940 5996 "HW03/vocab.ml" 103 5940 6008
+type(
+  string
+)
+"HW03/vocab.ml" 104 6010 6012 "HW03/vocab.ml" 104 6010 6024
+type(
+  string
+)
+"HW03/vocab.ml" 104 6010 6026 "HW03/vocab.ml" 104 6010 6035
+type(
+  string
+)
+"HW03/vocab.ml" 104 6010 6037 "HW03/vocab.ml" 104 6010 6045
+type(
+  string
+)
+"HW03/vocab.ml" 104 6010 6047 "HW03/vocab.ml" 104 6010 6057
+type(
+  string
+)
+"HW03/vocab.ml" 104 6010 6059 "HW03/vocab.ml" 104 6010 6068
+type(
+  string
+)
+"HW03/vocab.ml" 104 6010 6070 "HW03/vocab.ml" 104 6010 6083
+type(
+  string
+)
+"HW03/vocab.ml" 105 6085 6087 "HW03/vocab.ml" 105 6085 6098
+type(
+  string
+)
+"HW03/vocab.ml" 105 6085 6100 "HW03/vocab.ml" 105 6085 6111
+type(
+  string
+)
+"HW03/vocab.ml" 105 6085 6113 "HW03/vocab.ml" 105 6085 6123
+type(
+  string
+)
+"HW03/vocab.ml" 105 6085 6125 "HW03/vocab.ml" 105 6085 6139
+type(
+  string
+)
+"HW03/vocab.ml" 105 6085 6141 "HW03/vocab.ml" 105 6085 6155
+type(
+  string
+)
+"HW03/vocab.ml" 106 6157 6159 "HW03/vocab.ml" 106 6157 6168
+type(
+  string
+)
+"HW03/vocab.ml" 106 6157 6170 "HW03/vocab.ml" 106 6157 6179
+type(
+  string
+)
+"HW03/vocab.ml" 106 6157 6181 "HW03/vocab.ml" 106 6157 6189
+type(
+  string
+)
+"HW03/vocab.ml" 106 6157 6191 "HW03/vocab.ml" 106 6157 6199
+type(
+  string
+)
+"HW03/vocab.ml" 106 6157 6201 "HW03/vocab.ml" 106 6157 6214
+type(
+  string
+)
+"HW03/vocab.ml" 106 6157 6216 "HW03/vocab.ml" 106 6157 6230
+type(
+  string
+)
+"HW03/vocab.ml" 107 6232 6234 "HW03/vocab.ml" 107 6232 6243
+type(
+  string
+)
+"HW03/vocab.ml" 107 6232 6245 "HW03/vocab.ml" 107 6232 6257
+type(
+  string
+)
+"HW03/vocab.ml" 107 6232 6259 "HW03/vocab.ml" 107 6232 6271
+type(
+  string
+)
+"HW03/vocab.ml" 107 6232 6273 "HW03/vocab.ml" 107 6232 6281
+type(
+  string
+)
+"HW03/vocab.ml" 107 6232 6283 "HW03/vocab.ml" 107 6232 6295
+type(
+  string
+)
+"HW03/vocab.ml" 107 6232 6297 "HW03/vocab.ml" 107 6232 6307
+type(
+  string
+)
+"HW03/vocab.ml" 108 6309 6311 "HW03/vocab.ml" 108 6309 6322
+type(
+  string
+)
+"HW03/vocab.ml" 108 6309 6324 "HW03/vocab.ml" 108 6309 6331
+type(
+  string
+)
+"HW03/vocab.ml" 108 6309 6333 "HW03/vocab.ml" 108 6309 6347
+type(
+  string
+)
+"HW03/vocab.ml" 108 6309 6349 "HW03/vocab.ml" 108 6309 6358
+type(
+  string
+)
+"HW03/vocab.ml" 108 6309 6360 "HW03/vocab.ml" 108 6309 6371
+type(
+  string
+)
+"HW03/vocab.ml" 108 6309 6373 "HW03/vocab.ml" 108 6309 6383
+type(
+  string
+)
+"HW03/vocab.ml" 109 6385 6387 "HW03/vocab.ml" 109 6385 6400
+type(
+  string
+)
+"HW03/vocab.ml" 109 6385 6402 "HW03/vocab.ml" 109 6385 6415
+type(
+  string
+)
+"HW03/vocab.ml" 109 6385 6417 "HW03/vocab.ml" 109 6385 6426
+type(
+  string
+)
+"HW03/vocab.ml" 109 6385 6428 "HW03/vocab.ml" 109 6385 6436
+type(
+  string
+)
+"HW03/vocab.ml" 109 6385 6438 "HW03/vocab.ml" 109 6385 6451
+type(
+  string
+)
+"HW03/vocab.ml" 109 6385 6453 "HW03/vocab.ml" 109 6385 6462
+type(
+  string
+)
+"HW03/vocab.ml" 110 6464 6466 "HW03/vocab.ml" 110 6464 6475
+type(
+  string
+)
+"HW03/vocab.ml" 110 6464 6477 "HW03/vocab.ml" 110 6464 6483
+type(
+  string
+)
+"HW03/vocab.ml" 110 6464 6485 "HW03/vocab.ml" 110 6464 6494
+type(
+  string
+)
+"HW03/vocab.ml" 110 6464 6496 "HW03/vocab.ml" 110 6464 6505
+type(
+  string
+)
+"HW03/vocab.ml" 110 6464 6507 "HW03/vocab.ml" 110 6464 6519
+type(
+  string
+)
+"HW03/vocab.ml" 110 6464 6521 "HW03/vocab.ml" 110 6464 6531
+type(
+  string
+)
+"HW03/vocab.ml" 110 6464 6533 "HW03/vocab.ml" 110 6464 6542
+type(
+  string
+)
+"HW03/vocab.ml" 111 6544 6546 "HW03/vocab.ml" 111 6544 6559
+type(
+  string
+)
+"HW03/vocab.ml" 111 6544 6561 "HW03/vocab.ml" 111 6544 6569
+type(
+  string
+)
+"HW03/vocab.ml" 111 6544 6571 "HW03/vocab.ml" 111 6544 6583
+type(
+  string
+)
+"HW03/vocab.ml" 111 6544 6585 "HW03/vocab.ml" 111 6544 6593
+type(
+  string
+)
+"HW03/vocab.ml" 111 6544 6595 "HW03/vocab.ml" 111 6544 6605
+type(
+  string
+)
+"HW03/vocab.ml" 111 6544 6607 "HW03/vocab.ml" 111 6544 6617
+type(
+  string
+)
+"HW03/vocab.ml" 112 6619 6621 "HW03/vocab.ml" 112 6619 6634
+type(
+  string
+)
+"HW03/vocab.ml" 112 6619 6636 "HW03/vocab.ml" 112 6619 6644
+type(
+  string
+)
+"HW03/vocab.ml" 112 6619 6646 "HW03/vocab.ml" 112 6619 6654
+type(
+  string
+)
+"HW03/vocab.ml" 112 6619 6656 "HW03/vocab.ml" 112 6619 6666
+type(
+  string
+)
+"HW03/vocab.ml" 112 6619 6668 "HW03/vocab.ml" 112 6619 6678
+type(
+  string
+)
+"HW03/vocab.ml" 112 6619 6680 "HW03/vocab.ml" 112 6619 6692
+type(
+  string
+)
+"HW03/vocab.ml" 113 6694 6696 "HW03/vocab.ml" 113 6694 6709
+type(
+  string
+)
+"HW03/vocab.ml" 113 6694 6711 "HW03/vocab.ml" 113 6694 6723
+type(
+  string
+)
+"HW03/vocab.ml" 113 6694 6725 "HW03/vocab.ml" 113 6694 6735
+type(
+  string
+)
+"HW03/vocab.ml" 113 6694 6737 "HW03/vocab.ml" 113 6694 6747
+type(
+  string
+)
+"HW03/vocab.ml" 113 6694 6749 "HW03/vocab.ml" 113 6694 6763
+type(
+  string
+)
+"HW03/vocab.ml" 114 6765 6767 "HW03/vocab.ml" 114 6765 6780
+type(
+  string
+)
+"HW03/vocab.ml" 114 6765 6782 "HW03/vocab.ml" 114 6765 6793
+type(
+  string
+)
+"HW03/vocab.ml" 114 6765 6795 "HW03/vocab.ml" 114 6765 6808
+type(
+  string
+)
+"HW03/vocab.ml" 114 6765 6810 "HW03/vocab.ml" 114 6765 6819
+type(
+  string
+)
+"HW03/vocab.ml" 114 6765 6821 "HW03/vocab.ml" 114 6765 6828
+type(
+  string
+)
+"HW03/vocab.ml" 114 6765 6830 "HW03/vocab.ml" 114 6765 6838
+type(
+  string
+)
+"HW03/vocab.ml" 115 6840 6842 "HW03/vocab.ml" 115 6840 6851
+type(
+  string
+)
+"HW03/vocab.ml" 115 6840 6853 "HW03/vocab.ml" 115 6840 6864
+type(
+  string
+)
+"HW03/vocab.ml" 115 6840 6866 "HW03/vocab.ml" 115 6840 6876
+type(
+  string
+)
+"HW03/vocab.ml" 115 6840 6878 "HW03/vocab.ml" 115 6840 6891
+type(
+  string
+)
+"HW03/vocab.ml" 115 6840 6893 "HW03/vocab.ml" 115 6840 6904
+type(
+  string
+)
+"HW03/vocab.ml" 115 6840 6906 "HW03/vocab.ml" 115 6840 6914
+type(
+  string
+)
+"HW03/vocab.ml" 116 6916 6918 "HW03/vocab.ml" 116 6916 6929
+type(
+  string
+)
+"HW03/vocab.ml" 116 6916 6931 "HW03/vocab.ml" 116 6916 6942
+type(
+  string
+)
+"HW03/vocab.ml" 116 6916 6944 "HW03/vocab.ml" 116 6916 6952
+type(
+  string
+)
+"HW03/vocab.ml" 116 6916 6954 "HW03/vocab.ml" 116 6916 6963
+type(
+  string
+)
+"HW03/vocab.ml" 116 6916 6965 "HW03/vocab.ml" 116 6916 6975
+type(
+  string
+)
+"HW03/vocab.ml" 116 6916 6977 "HW03/vocab.ml" 116 6916 6989
+type(
+  string
+)
+"HW03/vocab.ml" 117 6991 6993 "HW03/vocab.ml" 117 6991 7001
+type(
+  string
+)
+"HW03/vocab.ml" 117 6991 7003 "HW03/vocab.ml" 117 6991 7011
+type(
+  string
+)
+"HW03/vocab.ml" 117 6991 7013 "HW03/vocab.ml" 117 6991 7026
+type(
+  string
+)
+"HW03/vocab.ml" 117 6991 7028 "HW03/vocab.ml" 117 6991 7043
+type(
+  string
+)
+"HW03/vocab.ml" 117 6991 7045 "HW03/vocab.ml" 117 6991 7054
+type(
+  string
+)
+"HW03/vocab.ml" 117 6991 7056 "HW03/vocab.ml" 117 6991 7065
+type(
+  string
+)
+"HW03/vocab.ml" 118 7067 7069 "HW03/vocab.ml" 118 7067 7078
+type(
+  string
+)
+"HW03/vocab.ml" 118 7067 7080 "HW03/vocab.ml" 118 7067 7091
+type(
+  string
+)
+"HW03/vocab.ml" 118 7067 7093 "HW03/vocab.ml" 118 7067 7102
+type(
+  string
+)
+"HW03/vocab.ml" 118 7067 7104 "HW03/vocab.ml" 118 7067 7111
+type(
+  string
+)
+"HW03/vocab.ml" 118 7067 7113 "HW03/vocab.ml" 118 7067 7121
+type(
+  string
+)
+"HW03/vocab.ml" 118 7067 7123 "HW03/vocab.ml" 118 7067 7132
+type(
+  string
+)
+"HW03/vocab.ml" 118 7067 7134 "HW03/vocab.ml" 118 7067 7145
+type(
+  string
+)
+"HW03/vocab.ml" 119 7147 7149 "HW03/vocab.ml" 119 7147 7160
+type(
+  string
+)
+"HW03/vocab.ml" 119 7147 7162 "HW03/vocab.ml" 119 7147 7172
+type(
+  string
+)
+"HW03/vocab.ml" 119 7147 7174 "HW03/vocab.ml" 119 7147 7182
+type(
+  string
+)
+"HW03/vocab.ml" 119 7147 7184 "HW03/vocab.ml" 119 7147 7194
+type(
+  string
+)
+"HW03/vocab.ml" 119 7147 7196 "HW03/vocab.ml" 119 7147 7205
+type(
+  string
+)
+"HW03/vocab.ml" 119 7147 7207 "HW03/vocab.ml" 119 7147 7214
+type(
+  string
+)
+"HW03/vocab.ml" 120 7216 7218 "HW03/vocab.ml" 120 7216 7231
+type(
+  string
+)
+"HW03/vocab.ml" 120 7216 7233 "HW03/vocab.ml" 120 7216 7241
+type(
+  string
+)
+"HW03/vocab.ml" 120 7216 7243 "HW03/vocab.ml" 120 7216 7255
+type(
+  string
+)
+"HW03/vocab.ml" 120 7216 7257 "HW03/vocab.ml" 120 7216 7268
+type(
+  string
+)
+"HW03/vocab.ml" 120 7216 7270 "HW03/vocab.ml" 120 7216 7282
+type(
+  string
+)
+"HW03/vocab.ml" 120 7216 7284 "HW03/vocab.ml" 120 7216 7290
+type(
+  string
+)
+"HW03/vocab.ml" 121 7292 7294 "HW03/vocab.ml" 121 7292 7301
+type(
+  string
+)
+"HW03/vocab.ml" 121 7292 7303 "HW03/vocab.ml" 121 7292 7313
+type(
+  string
+)
+"HW03/vocab.ml" 121 7292 7315 "HW03/vocab.ml" 121 7292 7325
+type(
+  string
+)
+"HW03/vocab.ml" 121 7292 7327 "HW03/vocab.ml" 121 7292 7335
+type(
+  string
+)
+"HW03/vocab.ml" 121 7292 7337 "HW03/vocab.ml" 121 7292 7345
+type(
+  string
+)
+"HW03/vocab.ml" 121 7292 7347 "HW03/vocab.ml" 121 7292 7355
+type(
+  string
+)
+"HW03/vocab.ml" 121 7292 7357 "HW03/vocab.ml" 121 7292 7367
+type(
+  string
+)
+"HW03/vocab.ml" 122 7369 7371 "HW03/vocab.ml" 122 7369 7382
+type(
+  string
+)
+"HW03/vocab.ml" 122 7369 7384 "HW03/vocab.ml" 122 7369 7392
+type(
+  string
+)
+"HW03/vocab.ml" 122 7369 7394 "HW03/vocab.ml" 122 7369 7403
+type(
+  string
+)
+"HW03/vocab.ml" 122 7369 7405 "HW03/vocab.ml" 122 7369 7414
+type(
+  string
+)
+"HW03/vocab.ml" 122 7369 7416 "HW03/vocab.ml" 122 7369 7425
+type(
+  string
+)
+"HW03/vocab.ml" 122 7369 7427 "HW03/vocab.ml" 122 7369 7435
+type(
+  string
+)
+"HW03/vocab.ml" 123 7437 7439 "HW03/vocab.ml" 123 7437 7451
+type(
+  string
+)
+"HW03/vocab.ml" 123 7437 7453 "HW03/vocab.ml" 123 7437 7463
+type(
+  string
+)
+"HW03/vocab.ml" 123 7437 7465 "HW03/vocab.ml" 123 7437 7472
+type(
+  string
+)
+"HW03/vocab.ml" 123 7437 7474 "HW03/vocab.ml" 123 7437 7485
+type(
+  string
+)
+"HW03/vocab.ml" 123 7437 7487 "HW03/vocab.ml" 123 7437 7497
+type(
+  string
+)
+"HW03/vocab.ml" 123 7437 7499 "HW03/vocab.ml" 123 7437 7509
+type(
+  string
+)
+"HW03/vocab.ml" 124 7511 7513 "HW03/vocab.ml" 124 7511 7529
+type(
+  string
+)
+"HW03/vocab.ml" 124 7511 7531 "HW03/vocab.ml" 124 7511 7538
+type(
+  string
+)
+"HW03/vocab.ml" 124 7511 7540 "HW03/vocab.ml" 124 7511 7546
+type(
+  string
+)
+"HW03/vocab.ml" 124 7511 7548 "HW03/vocab.ml" 124 7511 7558
+type(
+  string
+)
+"HW03/vocab.ml" 124 7511 7560 "HW03/vocab.ml" 124 7511 7569
+type(
+  string
+)
+"HW03/vocab.ml" 124 7511 7571 "HW03/vocab.ml" 124 7511 7582
+type(
+  string
+)
+"HW03/vocab.ml" 125 7584 7586 "HW03/vocab.ml" 125 7584 7596
+type(
+  string
+)
+"HW03/vocab.ml" 125 7584 7598 "HW03/vocab.ml" 125 7584 7609
+type(
+  string
+)
+"HW03/vocab.ml" 125 7584 7611 "HW03/vocab.ml" 125 7584 7620
+type(
+  string
+)
+"HW03/vocab.ml" 125 7584 7622 "HW03/vocab.ml" 125 7584 7634
+type(
+  string
+)
+"HW03/vocab.ml" 125 7584 7636 "HW03/vocab.ml" 125 7584 7647
+type(
+  string
+)
+"HW03/vocab.ml" 125 7584 7649 "HW03/vocab.ml" 125 7584 7658
+type(
+  string
+)
+"HW03/vocab.ml" 126 7660 7662 "HW03/vocab.ml" 126 7660 7671
+type(
+  string
+)
+"HW03/vocab.ml" 126 7660 7673 "HW03/vocab.ml" 126 7660 7683
+type(
+  string
+)
+"HW03/vocab.ml" 126 7660 7685 "HW03/vocab.ml" 126 7660 7695
+type(
+  string
+)
+"HW03/vocab.ml" 126 7660 7697 "HW03/vocab.ml" 126 7660 7715
+type(
+  string
+)
+"HW03/vocab.ml" 126 7660 7717 "HW03/vocab.ml" 126 7660 7727
+type(
+  string
+)
+"HW03/vocab.ml" 126 7660 7729 "HW03/vocab.ml" 126 7660 7738
+type(
+  string
+)
+"HW03/vocab.ml" 127 7740 7742 "HW03/vocab.ml" 127 7740 7750
+type(
+  string
+)
+"HW03/vocab.ml" 127 7740 7752 "HW03/vocab.ml" 127 7740 7763
+type(
+  string
+)
+"HW03/vocab.ml" 127 7740 7765 "HW03/vocab.ml" 127 7740 7772
+type(
+  string
+)
+"HW03/vocab.ml" 127 7740 7774 "HW03/vocab.ml" 127 7740 7786
+type(
+  string
+)
+"HW03/vocab.ml" 127 7740 7788 "HW03/vocab.ml" 127 7740 7799
+type(
+  string
+)
+"HW03/vocab.ml" 127 7740 7801 "HW03/vocab.ml" 127 7740 7814
+type(
+  string
+)
+"HW03/vocab.ml" 128 7816 7818 "HW03/vocab.ml" 128 7816 7829
+type(
+  string
+)
+"HW03/vocab.ml" 128 7816 7831 "HW03/vocab.ml" 128 7816 7843
+type(
+  string
+)
+"HW03/vocab.ml" 128 7816 7845 "HW03/vocab.ml" 128 7816 7856
+type(
+  string
+)
+"HW03/vocab.ml" 128 7816 7858 "HW03/vocab.ml" 128 7816 7869
+type(
+  string
+)
+"HW03/vocab.ml" 128 7816 7871 "HW03/vocab.ml" 128 7816 7886
+type(
+  string
+)
+"HW03/vocab.ml" 129 7888 7890 "HW03/vocab.ml" 129 7888 7901
+type(
+  string
+)
+"HW03/vocab.ml" 129 7888 7903 "HW03/vocab.ml" 129 7888 7913
+type(
+  string
+)
+"HW03/vocab.ml" 129 7888 7915 "HW03/vocab.ml" 129 7888 7924
+type(
+  string
+)
+"HW03/vocab.ml" 129 7888 7926 "HW03/vocab.ml" 129 7888 7938
+type(
+  string
+)
+"HW03/vocab.ml" 129 7888 7940 "HW03/vocab.ml" 129 7888 7949
+type(
+  string
+)
+"HW03/vocab.ml" 129 7888 7951 "HW03/vocab.ml" 129 7888 7960
+type(
+  string
+)
+"HW03/vocab.ml" 130 7962 7964 "HW03/vocab.ml" 130 7962 7972
+type(
+  string
+)
+"HW03/vocab.ml" 130 7962 7974 "HW03/vocab.ml" 130 7962 7981
+type(
+  string
+)
+"HW03/vocab.ml" 130 7962 7983 "HW03/vocab.ml" 130 7962 7994
+type(
+  string
+)
+"HW03/vocab.ml" 130 7962 7996 "HW03/vocab.ml" 130 7962 8009
+type(
+  string
+)
+"HW03/vocab.ml" 130 7962 8011 "HW03/vocab.ml" 130 7962 8023
+type(
+  string
+)
+"HW03/vocab.ml" 130 7962 8025 "HW03/vocab.ml" 130 7962 8032
+type(
+  string
+)
+"HW03/vocab.ml" 131 8034 8036 "HW03/vocab.ml" 131 8034 8047
+type(
+  string
+)
+"HW03/vocab.ml" 131 8034 8049 "HW03/vocab.ml" 131 8034 8060
+type(
+  string
+)
+"HW03/vocab.ml" 131 8034 8062 "HW03/vocab.ml" 131 8034 8073
+type(
+  string
+)
+"HW03/vocab.ml" 131 8034 8075 "HW03/vocab.ml" 131 8034 8087
+type(
+  string
+)
+"HW03/vocab.ml" 131 8034 8089 "HW03/vocab.ml" 131 8034 8098
+type(
+  string
+)
+"HW03/vocab.ml" 131 8034 8100 "HW03/vocab.ml" 131 8034 8113
+type(
+  string
+)
+"HW03/vocab.ml" 132 8115 8117 "HW03/vocab.ml" 132 8115 8124
+type(
+  string
+)
+"HW03/vocab.ml" 132 8115 8126 "HW03/vocab.ml" 132 8115 8136
+type(
+  string
+)
+"HW03/vocab.ml" 132 8115 8138 "HW03/vocab.ml" 132 8115 8150
+type(
+  string
+)
+"HW03/vocab.ml" 132 8115 8152 "HW03/vocab.ml" 132 8115 8163
+type(
+  string
+)
+"HW03/vocab.ml" 132 8115 8165 "HW03/vocab.ml" 132 8115 8177
+type(
+  string
+)
+"HW03/vocab.ml" 132 8115 8179 "HW03/vocab.ml" 132 8115 8188
+type(
+  string
+)
+"HW03/vocab.ml" 133 8190 8192 "HW03/vocab.ml" 133 8190 8200
+type(
+  string
+)
+"HW03/vocab.ml" 133 8190 8202 "HW03/vocab.ml" 133 8190 8212
+type(
+  string
+)
+"HW03/vocab.ml" 133 8190 8214 "HW03/vocab.ml" 133 8190 8224
+type(
+  string
+)
+"HW03/vocab.ml" 133 8190 8226 "HW03/vocab.ml" 133 8190 8237
+type(
+  string
+)
+"HW03/vocab.ml" 133 8190 8239 "HW03/vocab.ml" 133 8190 8247
+type(
+  string
+)
+"HW03/vocab.ml" 133 8190 8249 "HW03/vocab.ml" 133 8190 8260
+type(
+  string
+)
+"HW03/vocab.ml" 134 8262 8264 "HW03/vocab.ml" 134 8262 8276
+type(
+  string
+)
+"HW03/vocab.ml" 134 8262 8278 "HW03/vocab.ml" 134 8262 8289
+type(
+  string
+)
+"HW03/vocab.ml" 134 8262 8291 "HW03/vocab.ml" 134 8262 8301
+type(
+  string
+)
+"HW03/vocab.ml" 134 8262 8303 "HW03/vocab.ml" 134 8262 8312
+type(
+  string
+)
+"HW03/vocab.ml" 134 8262 8314 "HW03/vocab.ml" 134 8262 8322
+type(
+  string
+)
+"HW03/vocab.ml" 134 8262 8324 "HW03/vocab.ml" 134 8262 8333
+type(
+  string
+)
+"HW03/vocab.ml" 135 8335 8337 "HW03/vocab.ml" 135 8335 8345
+type(
+  string
+)
+"HW03/vocab.ml" 135 8335 8347 "HW03/vocab.ml" 135 8335 8355
+type(
+  string
+)
+"HW03/vocab.ml" 135 8335 8357 "HW03/vocab.ml" 135 8335 8368
+type(
+  string
+)
+"HW03/vocab.ml" 135 8335 8370 "HW03/vocab.ml" 135 8335 8377
+type(
+  string
+)
+"HW03/vocab.ml" 135 8335 8379 "HW03/vocab.ml" 135 8335 8388
+type(
+  string
+)
+"HW03/vocab.ml" 135 8335 8390 "HW03/vocab.ml" 135 8335 8402
+type(
+  string
+)
+"HW03/vocab.ml" 136 8404 8406 "HW03/vocab.ml" 136 8404 8417
+type(
+  string
+)
+"HW03/vocab.ml" 136 8404 8419 "HW03/vocab.ml" 136 8404 8433
+type(
+  string
+)
+"HW03/vocab.ml" 136 8404 8435 "HW03/vocab.ml" 136 8404 8441
+type(
+  string
+)
+"HW03/vocab.ml" 136 8404 8443 "HW03/vocab.ml" 136 8404 8453
+type(
+  string
+)
+"HW03/vocab.ml" 136 8404 8455 "HW03/vocab.ml" 136 8404 8463
+type(
+  string
+)
+"HW03/vocab.ml" 136 8404 8465 "HW03/vocab.ml" 136 8404 8480
+type(
+  string
+)
+"HW03/vocab.ml" 137 8482 8484 "HW03/vocab.ml" 137 8482 8496
+type(
+  string
+)
+"HW03/vocab.ml" 137 8482 8498 "HW03/vocab.ml" 137 8482 8510
+type(
+  string
+)
+"HW03/vocab.ml" 137 8482 8512 "HW03/vocab.ml" 137 8482 8522
+type(
+  string
+)
+"HW03/vocab.ml" 137 8482 8524 "HW03/vocab.ml" 137 8482 8533
+type(
+  string
+)
+"HW03/vocab.ml" 137 8482 8535 "HW03/vocab.ml" 137 8482 8545
+type(
+  string
+)
+"HW03/vocab.ml" 137 8482 8547 "HW03/vocab.ml" 137 8482 8556
+type(
+  string
+)
+"HW03/vocab.ml" 138 8558 8560 "HW03/vocab.ml" 138 8558 8571
+type(
+  string
+)
+"HW03/vocab.ml" 138 8558 8573 "HW03/vocab.ml" 138 8558 8580
+type(
+  string
+)
+"HW03/vocab.ml" 138 8558 8582 "HW03/vocab.ml" 138 8558 8594
+type(
+  string
+)
+"HW03/vocab.ml" 138 8558 8596 "HW03/vocab.ml" 138 8558 8607
+type(
+  string
+)
+"HW03/vocab.ml" 138 8558 8609 "HW03/vocab.ml" 138 8558 8621
+type(
+  string
+)
+"HW03/vocab.ml" 138 8558 8623 "HW03/vocab.ml" 138 8558 8636
+type(
+  string
+)
+"HW03/vocab.ml" 139 8638 8640 "HW03/vocab.ml" 139 8638 8652
+type(
+  string
+)
+"HW03/vocab.ml" 139 8638 8654 "HW03/vocab.ml" 139 8638 8667
+type(
+  string
+)
+"HW03/vocab.ml" 139 8638 8669 "HW03/vocab.ml" 139 8638 8681
+type(
+  string
+)
+"HW03/vocab.ml" 139 8638 8683 "HW03/vocab.ml" 139 8638 8692
+type(
+  string
+)
+"HW03/vocab.ml" 139 8638 8694 "HW03/vocab.ml" 139 8638 8707
+type(
+  string
+)
+"HW03/vocab.ml" 140 8709 8711 "HW03/vocab.ml" 140 8709 8720
+type(
+  string
+)
+"HW03/vocab.ml" 140 8709 8722 "HW03/vocab.ml" 140 8709 8733
+type(
+  string
+)
+"HW03/vocab.ml" 57 2492 2522 "HW03/vocab.ml" 140 8709 8734
+type(
+  string list
+)
+type(
+  string list
+)
+"HW03/vocab.ml" 149 9105 9109 "HW03/vocab.ml" 149 9105 9117
+type(
+  ('a -> bool) -> 'a list -> int
+)
+ident(
+  def count_if "HW03/vocab.ml" 158 9589 9589 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 149 9105 9119 "HW03/vocab.ml" 149 9105 9123
+type(
+  'a -> bool
+)
+ident(
+  def pred "HW03/vocab.ml" 149 9105 9137 "HW03/vocab.ml" 150 9158 9187
+)
+"HW03/vocab.ml" 149 9105 9138 "HW03/vocab.ml" 149 9105 9139
+type(
+  'a list
+)
+ident(
+  def l "HW03/vocab.ml" 149 9105 9150 "HW03/vocab.ml" 150 9158 9187
+)
+"HW03/vocab.ml" 150 9158 9160 "HW03/vocab.ml" 150 9158 9171
+type(
+  'a list -> int
+)
+ident(
+  ext_ref HigherOrder.list_length
+)
+"HW03/vocab.ml" 150 9158 9173 "HW03/vocab.ml" 150 9158 9179
+type(
+  ('a -> bool) -> 'a list -> 'a list
+)
+ident(
+  ext_ref HigherOrder.filter
+)
+"HW03/vocab.ml" 150 9158 9180 "HW03/vocab.ml" 150 9158 9184
+type(
+  'a -> bool
+)
+ident(
+  int_ref pred "HW03/vocab.ml" 149 9105 9119 "HW03/vocab.ml" 149 9105 9123
+)
+"HW03/vocab.ml" 150 9158 9185 "HW03/vocab.ml" 150 9158 9186
+type(
+  'a list
+)
+ident(
+  int_ref l "HW03/vocab.ml" 149 9105 9138 "HW03/vocab.ml" 149 9105 9139
+)
+"HW03/vocab.ml" 150 9158 9172 "HW03/vocab.ml" 150 9158 9187
+call(
+  stack
+)
+type(
+  'a list
+)
+"HW03/vocab.ml" 150 9158 9160 "HW03/vocab.ml" 150 9158 9187
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"HW03/vocab.ml" 158 9589 9593 "HW03/vocab.ml" 158 9589 9612
+type(
+  string list -> string TreeSet.BSTSet.set -> int
+)
+ident(
+  def count_words_in_text "HW03/vocab.ml" 166 9977 9977 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 158 9589 9614 "HW03/vocab.ml" 158 9589 9624
+type(
+  string list
+)
+ident(
+  def vocabulary "HW03/vocab.ml" 158 9589 9639 "HW03/vocab.ml" 159 9666 9712
+)
+"HW03/vocab.ml" 158 9589 9640 "HW03/vocab.ml" 158 9589 9644
+type(
+  string TreeSet.BSTSet.set
+)
+ident(
+  def text "HW03/vocab.ml" 158 9589 9658 "HW03/vocab.ml" 159 9666 9712
+)
+"HW03/vocab.ml" 159 9666 9668 "HW03/vocab.ml" 159 9666 9676
+type(
+  (string -> bool) -> string list -> int
+)
+ident(
+  int_ref count_if "HW03/vocab.ml" 149 9105 9109 "HW03/vocab.ml" 149 9105 9117
+)
+"HW03/vocab.ml" 159 9666 9682 "HW03/vocab.ml" 159 9666 9683
+type(
+  string
+)
+ident(
+  def x "HW03/vocab.ml" 159 9666 9687 "HW03/vocab.ml" 159 9666 9700
+)
+"HW03/vocab.ml" 159 9666 9687 "HW03/vocab.ml" 159 9666 9693
+type(
+  string -> string TreeSet.BSTSet.set -> bool
+)
+ident(
+  ext_ref TreeSet.BSTSet.member
+)
+"HW03/vocab.ml" 159 9666 9694 "HW03/vocab.ml" 159 9666 9695
+type(
+  string
+)
+ident(
+  int_ref x "HW03/vocab.ml" 159 9666 9682 "HW03/vocab.ml" 159 9666 9683
+)
+"HW03/vocab.ml" 159 9666 9696 "HW03/vocab.ml" 159 9666 9700
+type(
+  string TreeSet.BSTSet.set
+)
+ident(
+  int_ref text "HW03/vocab.ml" 158 9589 9640 "HW03/vocab.ml" 158 9589 9644
+)
+"HW03/vocab.ml" 159 9666 9687 "HW03/vocab.ml" 159 9666 9700
+call(
+  tail
+)
+type(
+  bool
+)
+"HW03/vocab.ml" 159 9666 9677 "HW03/vocab.ml" 159 9666 9701
+type(
+  string -> bool
+)
+"HW03/vocab.ml" 159 9666 9702 "HW03/vocab.ml" 159 9666 9712
+type(
+  string list
+)
+ident(
+  int_ref vocabulary "HW03/vocab.ml" 158 9589 9614 "HW03/vocab.ml" 158 9589 9624
+)
+"HW03/vocab.ml" 159 9666 9668 "HW03/vocab.ml" 159 9666 9712
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"HW03/vocab.ml" 166 9977 9981 "HW03/vocab.ml" 166 9977 9985
+type(
+  int -> int -> int
+)
+ident(
+  def plus "HW03/vocab.ml" 175 10360 10360 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 167 10007 10014 "HW03/vocab.ml" 167 10007 10015
+type(
+  int
+)
+ident(
+  def x "HW03/vocab.ml" 167 10007 10022 "HW03/vocab.ml" 167 10007 10039
+)
+"HW03/vocab.ml" 167 10007 10023 "HW03/vocab.ml" 167 10007 10024
+type(
+  int
+)
+ident(
+  def y "HW03/vocab.ml" 167 10007 10034 "HW03/vocab.ml" 167 10007 10039
+)
+"HW03/vocab.ml" 167 10007 10034 "HW03/vocab.ml" 167 10007 10035
+type(
+  int
+)
+ident(
+  int_ref x "HW03/vocab.ml" 167 10007 10014 "HW03/vocab.ml" 167 10007 10015
+)
+"HW03/vocab.ml" 167 10007 10036 "HW03/vocab.ml" 167 10007 10037
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"HW03/vocab.ml" 167 10007 10038 "HW03/vocab.ml" 167 10007 10039
+type(
+  int
+)
+ident(
+  int_ref y "HW03/vocab.ml" 167 10007 10023 "HW03/vocab.ml" 167 10007 10024
+)
+"HW03/vocab.ml" 167 10007 10034 "HW03/vocab.ml" 167 10007 10039
+type(
+  int
+)
+"HW03/vocab.ml" 167 10007 10009 "HW03/vocab.ml" 167 10007 10039
+type(
+  int -> int -> int
+)
+type(
+  int -> int -> int
+)
+"HW03/vocab.ml" 175 10360 10364 "HW03/vocab.ml" 175 10360 10370
+type(
+  int -> int
+)
+ident(
+  def plus_7 "HW03/vocab.ml" 177 10393 10393 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 175 10360 10385 "HW03/vocab.ml" 175 10360 10389
+type(
+  int -> int -> int
+)
+ident(
+  int_ref plus "HW03/vocab.ml" 166 9977 9981 "HW03/vocab.ml" 166 9977 9985
+)
+"HW03/vocab.ml" 175 10360 10390 "HW03/vocab.ml" 175 10360 10391
+type(
+  int
+)
+"HW03/vocab.ml" 175 10360 10385 "HW03/vocab.ml" 175 10360 10391
+call(
+  stack
+)
+type(
+  int -> int
+)
+type(
+  int -> int
+)
+"HW03/vocab.ml" 177 10393 10397 "HW03/vocab.ml" 177 10393 10401
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/vocab.ml" 179 10431 10434 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 177 10393 10402 "HW03/vocab.ml" 177 10393 10404
+type(
+  unit
+)
+"HW03/vocab.ml" 178 10414 10416 "HW03/vocab.ml" 178 10414 10422
+type(
+  int -> int
+)
+ident(
+  int_ref plus_7 "HW03/vocab.ml" 175 10360 10364 "HW03/vocab.ml" 175 10360 10370
+)
+"HW03/vocab.ml" 178 10414 10423 "HW03/vocab.ml" 178 10414 10425
+type(
+  int
+)
+"HW03/vocab.ml" 178 10414 10416 "HW03/vocab.ml" 178 10414 10425
+call(
+  stack
+)
+type(
+  int
+)
+"HW03/vocab.ml" 178 10414 10426 "HW03/vocab.ml" 178 10414 10427
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/vocab.ml" 178 10414 10428 "HW03/vocab.ml" 178 10414 10430
+type(
+  int
+)
+"HW03/vocab.ml" 178 10414 10416 "HW03/vocab.ml" 178 10414 10430
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/vocab.ml" 179 10431 10434 "HW03/vocab.ml" 179 10431 10442
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/vocab.ml" 179 10431 10443 "HW03/vocab.ml" 179 10431 10484
+type(
+  string
+)
+"HW03/vocab.ml" 179 10431 10485 "HW03/vocab.ml" 179 10431 10489
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/vocab.ml" 177 10393 10397 "HW03/vocab.ml" 177 10393 10401
+)
+"HW03/vocab.ml" 179 10431 10434 "HW03/vocab.ml" 179 10431 10489
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/vocab.ml" 188 10833 10837 "HW03/vocab.ml" 188 10833 10854
+type(
+  string TreeSet.BSTSet.set -> int
+)
+ident(
+  def count_ocaml_words "HW03/vocab.ml" 194 11062 11062 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 189 10876 10878 "HW03/vocab.ml" 189 10876 10897
+type(
+  string list -> string TreeSet.BSTSet.set -> int
+)
+ident(
+  int_ref count_words_in_text "HW03/vocab.ml" 158 9589 9593 "HW03/vocab.ml" 158 9589 9612
+)
+"HW03/vocab.ml" 189 10876 10898 "HW03/vocab.ml" 189 10876 10909
+type(
+  string list
+)
+ident(
+  int_ref ocaml_vocab "HW03/vocab.ml" 50 2072 2076 "HW03/vocab.ml" 50 2072 2087
+)
+"HW03/vocab.ml" 189 10876 10878 "HW03/vocab.ml" 189 10876 10909
+call(
+  stack
+)
+type(
+  string TreeSet.BSTSet.set -> int
+)
+type(
+  string TreeSet.BSTSet.set -> int
+)
+"HW03/vocab.ml" 194 11062 11066 "HW03/vocab.ml" 194 11062 11081
+type(
+  string TreeSet.BSTSet.set -> int
+)
+ident(
+  def count_sat_words "HW03/vocab.ml" 206 11636 11636 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 195 11103 11105 "HW03/vocab.ml" 195 11103 11124
+type(
+  string list -> string TreeSet.BSTSet.set -> int
+)
+ident(
+  int_ref count_words_in_text "HW03/vocab.ml" 158 9589 9593 "HW03/vocab.ml" 158 9589 9612
+)
+"HW03/vocab.ml" 195 11103 11125 "HW03/vocab.ml" 195 11103 11134
+type(
+  string list
+)
+ident(
+  int_ref sat_vocab "HW03/vocab.ml" 57 2492 2496 "HW03/vocab.ml" 57 2492 2505
+)
+"HW03/vocab.ml" 195 11103 11105 "HW03/vocab.ml" 195 11103 11134
+call(
+  stack
+)
+type(
+  string TreeSet.BSTSet.set -> int
+)
+type(
+  string TreeSet.BSTSet.set -> int
+)
+"HW03/vocab.ml" 206 11636 11640 "HW03/vocab.ml" 206 11636 11656
+type(
+  string -> (string TreeSet.BSTSet.set -> int) -> string
+)
+ident(
+  def string_of_counts "HW03/vocab.ml" 226 12611 12611 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 206 11636 11658 "HW03/vocab.ml" 206 11636 11663
+type(
+  string
+)
+ident(
+  def title "HW03/vocab.ml" 206 11636 11673 "HW03/vocab.ml" 210 11843 11855
+)
+"HW03/vocab.ml" 206 11636 11674 "HW03/vocab.ml" 206 11636 11681
+type(
+  string TreeSet.BSTSet.set -> int
+)
+ident(
+  def counter "HW03/vocab.ml" 206 11636 11702 "HW03/vocab.ml" 210 11843 11855
+)
+"HW03/vocab.ml" 207 11713 11716 "HW03/vocab.ml" 207 11713 11724
+type(
+  string
+)
+"HW03/vocab.ml" 207 11713 11725 "HW03/vocab.ml" 207 11713 11726
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"HW03/vocab.ml" 207 11713 11727 "HW03/vocab.ml" 207 11713 11732
+type(
+  string
+)
+ident(
+  int_ref title "HW03/vocab.ml" 206 11636 11658 "HW03/vocab.ml" 206 11636 11663
+)
+"HW03/vocab.ml" 207 11713 11733 "HW03/vocab.ml" 207 11713 11734
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"HW03/vocab.ml" 207 11713 11735 "HW03/vocab.ml" 207 11713 11745
+type(
+  string
+)
+"HW03/vocab.ml" 207 11713 11727 "HW03/vocab.ml" 207 11713 11745
+call(
+  stack
+)
+type(
+  string
+)
+"HW03/vocab.ml" 207 11713 11715 "HW03/vocab.ml" 207 11713 11746
+call(
+  stack
+)
+type(
+  string
+)
+"HW03/vocab.ml" 207 11713 11747 "HW03/vocab.ml" 207 11713 11748
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"HW03/vocab.ml" 208 11749 11753 "HW03/vocab.ml" 208 11749 11766
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"HW03/vocab.ml" 208 11749 11767 "HW03/vocab.ml" 208 11749 11771
+type(
+  string
+)
+"HW03/vocab.ml" 208 11749 11773 "HW03/vocab.ml" 208 11749 11782
+type(
+  (string * string TreeSet.BSTSet.set -> string) ->
+  (string * string TreeSet.BSTSet.set) list -> string list
+)
+ident(
+  ext_ref HigherOrder.transform
+)
+"HW03/vocab.ml" 209 11783 11795 "HW03/vocab.ml" 209 11783 11799
+type(
+  string
+)
+ident(
+  def name "HW03/vocab.ml" 209 11783 11807 "HW03/vocab.ml" 209 11783 11841
+)
+"HW03/vocab.ml" 209 11783 11801 "HW03/vocab.ml" 209 11783 11802
+type(
+  string TreeSet.BSTSet.set
+)
+ident(
+  def s "HW03/vocab.ml" 209 11783 11807 "HW03/vocab.ml" 209 11783 11841
+)
+"HW03/vocab.ml" 209 11783 11794 "HW03/vocab.ml" 209 11783 11803
+type(
+  string * string TreeSet.BSTSet.set
+)
+"HW03/vocab.ml" 209 11783 11807 "HW03/vocab.ml" 209 11783 11811
+type(
+  string
+)
+ident(
+  int_ref name "HW03/vocab.ml" 209 11783 11795 "HW03/vocab.ml" 209 11783 11799
+)
+"HW03/vocab.ml" 209 11783 11812 "HW03/vocab.ml" 209 11783 11813
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"HW03/vocab.ml" 209 11783 11815 "HW03/vocab.ml" 209 11783 11828
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"HW03/vocab.ml" 209 11783 11830 "HW03/vocab.ml" 209 11783 11837
+type(
+  string TreeSet.BSTSet.set -> int
+)
+ident(
+  int_ref counter "HW03/vocab.ml" 206 11636 11674 "HW03/vocab.ml" 206 11636 11681
+)
+"HW03/vocab.ml" 209 11783 11838 "HW03/vocab.ml" 209 11783 11839
+type(
+  string TreeSet.BSTSet.set
+)
+ident(
+  int_ref s "HW03/vocab.ml" 209 11783 11801 "HW03/vocab.ml" 209 11783 11802
+)
+"HW03/vocab.ml" 209 11783 11829 "HW03/vocab.ml" 209 11783 11840
+call(
+  stack
+)
+type(
+  int
+)
+"HW03/vocab.ml" 209 11783 11814 "HW03/vocab.ml" 209 11783 11841
+call(
+  stack
+)
+type(
+  string
+)
+"HW03/vocab.ml" 209 11783 11807 "HW03/vocab.ml" 209 11783 11841
+call(
+  tail
+)
+type(
+  string
+)
+"HW03/vocab.ml" 209 11783 11789 "HW03/vocab.ml" 209 11783 11842
+type(
+  string * string TreeSet.BSTSet.set -> string
+)
+"HW03/vocab.ml" 210 11843 11849 "HW03/vocab.ml" 210 11843 11854
+type(
+  (string * string TreeSet.BSTSet.set) list
+)
+ident(
+  int_ref texts "HW03/vocab.ml" 44 1888 1892 "HW03/vocab.ml" 44 1888 1897
+)
+"HW03/vocab.ml" 208 11749 11772 "HW03/vocab.ml" 210 11843 11855
+call(
+  stack
+)
+type(
+  string list
+)
+"HW03/vocab.ml" 208 11749 11753 "HW03/vocab.ml" 210 11843 11855
+call(
+  stack
+)
+type(
+  string
+)
+"HW03/vocab.ml" 207 11713 11715 "HW03/vocab.ml" 210 11843 11855
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"HW03/vocab.ml" 226 12611 12615 "HW03/vocab.ml" 226 12611 12631
+type(
+  int
+)
+ident(
+  def modest_sat_words "HW03/vocab.ml" 227 12643 12643 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 226 12611 12641 "HW03/vocab.ml" 226 12611 12642
+type(
+  int
+)
+type(
+  int
+)
+"HW03/vocab.ml" 227 12643 12647 "HW03/vocab.ml" 227 12643 12661
+type(
+  int
+)
+ident(
+  def weak_sat_words "HW03/vocab.ml" 228 12676 12676 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 227 12643 12673 "HW03/vocab.ml" 227 12643 12675
+type(
+  int
+)
+type(
+  int
+)
+"HW03/vocab.ml" 228 12676 12680 "HW03/vocab.ml" 228 12676 12697
+type(
+  int
+)
+ident(
+  def twentyk_sat_words "HW03/vocab.ml" 236 12998 12998 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 228 12676 12706 "HW03/vocab.ml" 228 12676 12708
+type(
+  int
+)
+type(
+  int
+)
+"HW03/vocab.ml" 236 12998 13002 "HW03/vocab.ml" 236 12998 13018
+type(
+  string TreeSet.BSTSet.set -> int
+)
+ident(
+  def count_length_gt7 "HW03/vocab.ml" 248 13458 13458 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 236 12998 13020 "HW03/vocab.ml" 236 12998 13021
+type(
+  string TreeSet.BSTSet.set
+)
+ident(
+  def s "HW03/vocab.ml" 236 12998 13035 "HW03/vocab.ml" 237 13043 13102
+)
+"HW03/vocab.ml" 237 13043 13045 "HW03/vocab.ml" 237 13043 13053
+type(
+  (string -> bool) -> string list -> int
+)
+ident(
+  int_ref count_if "HW03/vocab.ml" 149 9105 9109 "HW03/vocab.ml" 149 9105 9117
+)
+"HW03/vocab.ml" 237 13043 13059 "HW03/vocab.ml" 237 13043 13060
+type(
+  string
+)
+ident(
+  def x "HW03/vocab.ml" 237 13043 13064 "HW03/vocab.ml" 237 13043 13085
+)
+"HW03/vocab.ml" 237 13043 13065 "HW03/vocab.ml" 237 13043 13078
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"HW03/vocab.ml" 237 13043 13079 "HW03/vocab.ml" 237 13043 13080
+type(
+  string
+)
+ident(
+  int_ref x "HW03/vocab.ml" 237 13043 13059 "HW03/vocab.ml" 237 13043 13060
+)
+"HW03/vocab.ml" 237 13043 13064 "HW03/vocab.ml" 237 13043 13081
+type(
+  int
+)
+"HW03/vocab.ml" 237 13043 13082 "HW03/vocab.ml" 237 13043 13083
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"HW03/vocab.ml" 237 13043 13084 "HW03/vocab.ml" 237 13043 13085
+type(
+  int
+)
+"HW03/vocab.ml" 237 13043 13064 "HW03/vocab.ml" 237 13043 13085
+type(
+  bool
+)
+"HW03/vocab.ml" 237 13043 13054 "HW03/vocab.ml" 237 13043 13086
+type(
+  string -> bool
+)
+"HW03/vocab.ml" 237 13043 13088 "HW03/vocab.ml" 237 13043 13099
+type(
+  string TreeSet.BSTSet.set -> string list
+)
+ident(
+  ext_ref TreeSet.BSTSet.list_of_set
+)
+"HW03/vocab.ml" 237 13043 13100 "HW03/vocab.ml" 237 13043 13101
+type(
+  string TreeSet.BSTSet.set
+)
+ident(
+  int_ref s "HW03/vocab.ml" 236 12998 13020 "HW03/vocab.ml" 236 12998 13021
+)
+"HW03/vocab.ml" 237 13043 13087 "HW03/vocab.ml" 237 13043 13102
+call(
+  stack
+)
+type(
+  string list
+)
+"HW03/vocab.ml" 237 13043 13045 "HW03/vocab.ml" 237 13043 13102
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"HW03/vocab.ml" 248 13458 13462 "HW03/vocab.ml" 248 13458 13479
+type(
+  int
+)
+ident(
+  def modest_length_gt7 "HW03/vocab.ml" 249 13493 13493 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 248 13458 13489 "HW03/vocab.ml" 248 13458 13492
+type(
+  int
+)
+type(
+  int
+)
+"HW03/vocab.ml" 249 13493 13497 "HW03/vocab.ml" 249 13493 13512
+type(
+  int
+)
+ident(
+  def weak_length_gt7 "HW03/vocab.ml" 250 13529 13529 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 249 13493 13524 "HW03/vocab.ml" 249 13493 13528
+type(
+  int
+)
+type(
+  int
+)
+"HW03/vocab.ml" 250 13529 13533 "HW03/vocab.ml" 250 13529 13551
+type(
+  int
+)
+ident(
+  def twentyk_length_gt7 "HW03/vocab.ml" 275 14419 14419 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 250 13529 13560 "HW03/vocab.ml" 250 13529 13564
+type(
+  int
+)
+type(
+  int
+)
+"HW03/vocab.ml" 275 14419 14423 "HW03/vocab.ml" 275 14419 14434
+type(
+  char -> string -> bool
+)
+ident(
+  def starts_with "HW03/vocab.ml" 283 14746 14746 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 275 14419 14436 "HW03/vocab.ml" 275 14419 14437
+type(
+  char
+)
+ident(
+  def c "HW03/vocab.ml" 275 14419 14445 "HW03/vocab.ml" 276 14466 14486
+)
+"HW03/vocab.ml" 275 14419 14446 "HW03/vocab.ml" 275 14419 14447
+type(
+  string
+)
+ident(
+  def s "HW03/vocab.ml" 275 14419 14457 "HW03/vocab.ml" 276 14466 14486
+)
+"HW03/vocab.ml" 276 14466 14468 "HW03/vocab.ml" 276 14466 14478
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"HW03/vocab.ml" 276 14466 14479 "HW03/vocab.ml" 276 14466 14480
+type(
+  string
+)
+ident(
+  int_ref s "HW03/vocab.ml" 275 14419 14446 "HW03/vocab.ml" 275 14419 14447
+)
+"HW03/vocab.ml" 276 14466 14481 "HW03/vocab.ml" 276 14466 14482
+type(
+  int
+)
+"HW03/vocab.ml" 276 14466 14468 "HW03/vocab.ml" 276 14466 14482
+type(
+  char
+)
+"HW03/vocab.ml" 276 14466 14483 "HW03/vocab.ml" 276 14466 14484
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/vocab.ml" 276 14466 14485 "HW03/vocab.ml" 276 14466 14486
+type(
+  char
+)
+ident(
+  int_ref c "HW03/vocab.ml" 275 14419 14436 "HW03/vocab.ml" 275 14419 14437
+)
+"HW03/vocab.ml" 276 14466 14468 "HW03/vocab.ml" 276 14466 14486
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/vocab.ml" 283 14746 14750 "HW03/vocab.ml" 283 14746 14779
+type(
+  char -> string TreeSet.BSTSet.set -> int
+)
+ident(
+  def count_sat_vocab_starting_with "HW03/vocab.ml" 288 14952 14952 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 283 14746 14781 "HW03/vocab.ml" 283 14746 14782
+type(
+  char
+)
+ident(
+  def c "HW03/vocab.ml" 283 14746 14789 "HW03/vocab.ml" 284 14811 14874
+)
+"HW03/vocab.ml" 284 14811 14813 "HW03/vocab.ml" 284 14811 14821
+type(
+  string -> string TreeSet.BSTSet.set -> int
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"HW03/vocab.ml" 284 14811 14822 "HW03/vocab.ml" 284 14811 14874
+type(
+  string
+)
+"HW03/vocab.ml" 284 14811 14813 "HW03/vocab.ml" 284 14811 14874
+call(
+  tail
+)
+type(
+  string TreeSet.BSTSet.set -> int
+)
+type(
+  string TreeSet.BSTSet.set -> int
+)
+"HW03/vocab.ml" 288 14952 14956 "HW03/vocab.ml" 288 14952 14960
+type(
+  char list
+)
+ident(
+  def abcs "HW03/vocab.ml" 299 15524 15524 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 288 14952 14975 "HW03/vocab.ml" 288 14952 14978
+type(
+  char
+)
+"HW03/vocab.ml" 288 14952 14980 "HW03/vocab.ml" 288 14952 14983
+type(
+  char
+)
+"HW03/vocab.ml" 288 14952 14985 "HW03/vocab.ml" 288 14952 14988
+type(
+  char
+)
+"HW03/vocab.ml" 288 14952 14990 "HW03/vocab.ml" 288 14952 14993
+type(
+  char
+)
+"HW03/vocab.ml" 288 14952 14995 "HW03/vocab.ml" 288 14952 14998
+type(
+  char
+)
+"HW03/vocab.ml" 288 14952 15000 "HW03/vocab.ml" 288 14952 15003
+type(
+  char
+)
+"HW03/vocab.ml" 288 14952 15005 "HW03/vocab.ml" 288 14952 15008
+type(
+  char
+)
+"HW03/vocab.ml" 288 14952 15010 "HW03/vocab.ml" 288 14952 15013
+type(
+  char
+)
+"HW03/vocab.ml" 288 14952 15015 "HW03/vocab.ml" 288 14952 15018
+type(
+  char
+)
+"HW03/vocab.ml" 288 14952 15020 "HW03/vocab.ml" 288 14952 15023
+type(
+  char
+)
+"HW03/vocab.ml" 288 14952 15025 "HW03/vocab.ml" 288 14952 15028
+type(
+  char
+)
+"HW03/vocab.ml" 289 15030 15032 "HW03/vocab.ml" 289 15030 15035
+type(
+  char
+)
+"HW03/vocab.ml" 289 15030 15037 "HW03/vocab.ml" 289 15030 15040
+type(
+  char
+)
+"HW03/vocab.ml" 289 15030 15042 "HW03/vocab.ml" 289 15030 15045
+type(
+  char
+)
+"HW03/vocab.ml" 289 15030 15047 "HW03/vocab.ml" 289 15030 15050
+type(
+  char
+)
+"HW03/vocab.ml" 289 15030 15052 "HW03/vocab.ml" 289 15030 15055
+type(
+  char
+)
+"HW03/vocab.ml" 289 15030 15057 "HW03/vocab.ml" 289 15030 15060
+type(
+  char
+)
+"HW03/vocab.ml" 289 15030 15062 "HW03/vocab.ml" 289 15030 15065
+type(
+  char
+)
+"HW03/vocab.ml" 289 15030 15067 "HW03/vocab.ml" 289 15030 15070
+type(
+  char
+)
+"HW03/vocab.ml" 289 15030 15072 "HW03/vocab.ml" 289 15030 15075
+type(
+  char
+)
+"HW03/vocab.ml" 289 15030 15077 "HW03/vocab.ml" 289 15030 15080
+type(
+  char
+)
+"HW03/vocab.ml" 289 15030 15082 "HW03/vocab.ml" 289 15030 15085
+type(
+  char
+)
+"HW03/vocab.ml" 289 15030 15087 "HW03/vocab.ml" 289 15030 15090
+type(
+  char
+)
+"HW03/vocab.ml" 289 15030 15092 "HW03/vocab.ml" 289 15030 15095
+type(
+  char
+)
+"HW03/vocab.ml" 289 15030 15097 "HW03/vocab.ml" 289 15030 15100
+type(
+  char
+)
+"HW03/vocab.ml" 289 15030 15102 "HW03/vocab.ml" 289 15030 15105
+type(
+  char
+)
+"HW03/vocab.ml" 288 14952 14974 "HW03/vocab.ml" 289 15030 15106
+type(
+  char list
+)
+type(
+  char list
+)
+"HW03/vocab.ml" 299 15524 15528 "HW03/vocab.ml" 299 15524 15543
+type(
+  (char * int list) list
+)
+ident(
+  def frequency_table "HW03/vocab.ml" 304 15655 15655 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 300 15570 15572 "HW03/vocab.ml" 300 15570 15574
+type(
+  (char * int list) list
+)
+type(
+  (char * int list) list
+)
+"HW03/vocab.ml" 304 15655 15659 "HW03/vocab.ml" 304 15655 15674
+type(
+  string
+)
+ident(
+  def table_as_string "HW03/vocab.ml" 314 15911 15965 "HW03/vocab.ml" 1 0 -1
+)
+"HW03/vocab.ml" 305 15685 15691 "HW03/vocab.ml" 305 15685 15697
+type(
+  string
+)
+ident(
+  def header "HW03/vocab.ml" 309 15789 15791 "HW03/vocab.ml" 314 15911 15965
+)
+"HW03/vocab.ml" 305 15685 15700 "HW03/vocab.ml" 305 15685 15705
+type(
+  string
+)
+"HW03/vocab.ml" 305 15685 15706 "HW03/vocab.ml" 305 15685 15707
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"HW03/vocab.ml" 306 15708 15713 "HW03/vocab.ml" 306 15708 15726
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"HW03/vocab.ml" 306 15708 15727 "HW03/vocab.ml" 306 15708 15729
+type(
+  string
+)
+"HW03/vocab.ml" 306 15708 15731 "HW03/vocab.ml" 306 15708 15740
+type(
+  (string * string TreeSet.BSTSet.set -> string) ->
+  (string * string TreeSet.BSTSet.set) list -> string list
+)
+ident(
+  ext_ref HigherOrder.transform
+)
+"HW03/vocab.ml" 306 15708 15747 "HW03/vocab.ml" 306 15708 15751
+type(
+  string
+)
+ident(
+  def name "HW03/vocab.ml" 306 15708 15759 "HW03/vocab.ml" 306 15708 15763
+)
+"HW03/vocab.ml" 306 15708 15753 "HW03/vocab.ml" 306 15708 15754
+type(
+  string TreeSet.BSTSet.set
+)
+"HW03/vocab.ml" 306 15708 15746 "HW03/vocab.ml" 306 15708 15755
+type(
+  string * string TreeSet.BSTSet.set
+)
+"HW03/vocab.ml" 306 15708 15759 "HW03/vocab.ml" 306 15708 15763
+type(
+  string
+)
+ident(
+  int_ref name "HW03/vocab.ml" 306 15708 15747 "HW03/vocab.ml" 306 15708 15751
+)
+"HW03/vocab.ml" 306 15708 15741 "HW03/vocab.ml" 306 15708 15764
+type(
+  string * string TreeSet.BSTSet.set -> string
+)
+"HW03/vocab.ml" 306 15708 15765 "HW03/vocab.ml" 306 15708 15770
+type(
+  (string * string TreeSet.BSTSet.set) list
+)
+ident(
+  int_ref texts "HW03/vocab.ml" 44 1888 1892 "HW03/vocab.ml" 44 1888 1897
+)
+"HW03/vocab.ml" 306 15708 15730 "HW03/vocab.ml" 306 15708 15771
+call(
+  stack
+)
+type(
+  string list
+)
+"HW03/vocab.ml" 306 15708 15712 "HW03/vocab.ml" 306 15708 15772
+call(
+  stack
+)
+type(
+  string
+)
+"HW03/vocab.ml" 307 15773 15777 "HW03/vocab.ml" 307 15773 15778
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"HW03/vocab.ml" 307 15773 15779 "HW03/vocab.ml" 307 15773 15783
+type(
+  string
+)
+"HW03/vocab.ml" 306 15708 15712 "HW03/vocab.ml" 307 15773 15783
+call(
+  stack
+)
+type(
+  string
+)
+"HW03/vocab.ml" 305 15685 15700 "HW03/vocab.ml" 307 15773 15783
+call(
+  stack
+)
+type(
+  string
+)
+"HW03/vocab.ml" 309 15789 15795 "HW03/vocab.ml" 309 15789 15798
+type(
+  char * int list -> string
+)
+ident(
+  def row "HW03/vocab.ml" 313 15900 15902 "HW03/vocab.ml" 314 15911 15965
+)
+"HW03/vocab.ml" 309 15789 15800 "HW03/vocab.ml" 309 15789 15801
+type(
+  char
+)
+ident(
+  def c "HW03/vocab.ml" 310 15808 15812 "HW03/vocab.ml" 311 15838 15894
+)
+"HW03/vocab.ml" 309 15789 15803 "HW03/vocab.ml" 309 15789 15804
+type(
+  int list
+)
+ident(
+  def l "HW03/vocab.ml" 310 15808 15812 "HW03/vocab.ml" 311 15838 15894
+)
+"HW03/vocab.ml" 309 15789 15799 "HW03/vocab.ml" 309 15789 15805
+type(
+  char * int list
+)
+"HW03/vocab.ml" 310 15808 15813 "HW03/vocab.ml" 310 15808 15825
+type(
+  char -> string
+)
+ident(
+  ext_ref Char.escaped
+)
+"HW03/vocab.ml" 310 15808 15826 "HW03/vocab.ml" 310 15808 15827
+type(
+  char
+)
+ident(
+  int_ref c "HW03/vocab.ml" 309 15789 15800 "HW03/vocab.ml" 309 15789 15801
+)
+"HW03/vocab.ml" 310 15808 15812 "HW03/vocab.ml" 310 15808 15828
+call(
+  stack
+)
+type(
+  string
+)
+"HW03/vocab.ml" 310 15808 15829 "HW03/vocab.ml" 310 15808 15830
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"HW03/vocab.ml" 310 15808 15831 "HW03/vocab.ml" 310 15808 15835
+type(
+  string
+)
+"HW03/vocab.ml" 310 15808 15836 "HW03/vocab.ml" 310 15808 15837
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"HW03/vocab.ml" 311 15838 15843 "HW03/vocab.ml" 311 15838 15856
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"HW03/vocab.ml" 311 15838 15857 "HW03/vocab.ml" 311 15838 15865
+type(
+  string
+)
+"HW03/vocab.ml" 311 15838 15867 "HW03/vocab.ml" 311 15838 15876
+type(
+  (int -> string) -> int list -> string list
+)
+ident(
+  ext_ref HigherOrder.transform
+)
+"HW03/vocab.ml" 311 15838 15877 "HW03/vocab.ml" 311 15838 15890
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"HW03/vocab.ml" 311 15838 15891 "HW03/vocab.ml" 311 15838 15892
+type(
+  int list
+)
+ident(
+  int_ref l "HW03/vocab.ml" 309 15789 15803 "HW03/vocab.ml" 309 15789 15804
+)
+"HW03/vocab.ml" 311 15838 15866 "HW03/vocab.ml" 311 15838 15893
+call(
+  stack
+)
+type(
+  string list
+)
+"HW03/vocab.ml" 311 15838 15842 "HW03/vocab.ml" 311 15838 15894
+call(
+  stack
+)
+type(
+  string
+)
+"HW03/vocab.ml" 310 15808 15831 "HW03/vocab.ml" 311 15838 15894
+call(
+  stack
+)
+type(
+  string
+)
+"HW03/vocab.ml" 310 15808 15812 "HW03/vocab.ml" 311 15838 15894
+call(
+  tail
+)
+type(
+  string
+)
+"HW03/vocab.ml" 313 15900 15902 "HW03/vocab.ml" 313 15900 15908
+type(
+  string
+)
+ident(
+  int_ref header "HW03/vocab.ml" 305 15685 15691 "HW03/vocab.ml" 305 15685 15697
+)
+"HW03/vocab.ml" 313 15900 15909 "HW03/vocab.ml" 313 15900 15910
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"HW03/vocab.ml" 314 15911 15914 "HW03/vocab.ml" 314 15911 15927
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"HW03/vocab.ml" 314 15911 15928 "HW03/vocab.ml" 314 15911 15932
+type(
+  string
+)
+"HW03/vocab.ml" 314 15911 15934 "HW03/vocab.ml" 314 15911 15943
+type(
+  (char * int list -> string) -> (char * int list) list -> string list
+)
+ident(
+  ext_ref HigherOrder.transform
+)
+"HW03/vocab.ml" 314 15911 15944 "HW03/vocab.ml" 314 15911 15947
+type(
+  char * int list -> string
+)
+ident(
+  int_ref row "HW03/vocab.ml" 309 15789 15795 "HW03/vocab.ml" 309 15789 15798
+)
+"HW03/vocab.ml" 314 15911 15948 "HW03/vocab.ml" 314 15911 15963
+type(
+  (char * int list) list
+)
+ident(
+  int_ref frequency_table "HW03/vocab.ml" 299 15524 15528 "HW03/vocab.ml" 299 15524 15543
+)
+"HW03/vocab.ml" 314 15911 15933 "HW03/vocab.ml" 314 15911 15964
+call(
+  stack
+)
+type(
+  string list
+)
+"HW03/vocab.ml" 314 15911 15913 "HW03/vocab.ml" 314 15911 15965
+call(
+  stack
+)
+type(
+  string
+)
+"HW03/vocab.ml" 313 15900 15902 "HW03/vocab.ml" 314 15911 15965
+call(
+  stack
+)
+type(
+  string
+)
+"HW03/vocab.ml" 309 15789 15791 "HW03/vocab.ml" 314 15911 15965
+type(
+  string
+)
+"HW03/vocab.ml" 305 15685 15687 "HW03/vocab.ml" 314 15911 15965
+type(
+  string
+)
+type(
+  string
+)

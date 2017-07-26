@@ -1,0 +1,1370 @@
+"HW03/listSet.ml" 30 1364 1370 "HW03/listSet.ml" 30 1364 1375
+type(
+  'a set
+)
+ident(
+  def empty "HW03/listSet.ml" 32 1391 1393 "HW03/listSet.ml" 122 4421 4424
+)
+"HW03/listSet.ml" 30 1364 1387 "HW03/listSet.ml" 30 1364 1389
+type(
+  'a set
+)
+type(
+  'a set
+)
+"HW03/listSet.ml" 32 1391 1397 "HW03/listSet.ml" 32 1391 1405
+type(
+  'a0 set -> bool
+)
+ident(
+  def is_empty "HW03/listSet.ml" 39 1596 1598 "HW03/listSet.ml" 122 4421 4424
+)
+"HW03/listSet.ml" 32 1391 1407 "HW03/listSet.ml" 32 1391 1408
+type(
+  'a0 set
+)
+ident(
+  def s "HW03/listSet.ml" 32 1391 1418 "HW03/listSet.ml" 33 1427 1440
+)
+"HW03/listSet.ml" 33 1427 1431 "HW03/listSet.ml" 33 1427 1432
+type(
+  'a0 set
+)
+ident(
+  int_ref s "HW03/listSet.ml" 32 1391 1407 "HW03/listSet.ml" 32 1391 1408
+)
+"HW03/listSet.ml" 33 1427 1433 "HW03/listSet.ml" 33 1427 1434
+type(
+  'a0 set -> 'a0 set -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/listSet.ml" 33 1427 1435 "HW03/listSet.ml" 33 1427 1440
+type(
+  'a0 set
+)
+ident(
+  int_ref empty "HW03/listSet.ml" 30 1364 1370 "HW03/listSet.ml" 30 1364 1375
+)
+"HW03/listSet.ml" 33 1427 1431 "HW03/listSet.ml" 33 1427 1440
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/listSet.ml" 39 1596 1602 "HW03/listSet.ml" 39 1596 1608
+type(
+  'a1 -> 'a1 set -> bool
+)
+ident(
+  def member "HW03/listSet.ml" 48 1977 1979 "HW03/listSet.ml" 122 4421 4424
+)
+"HW03/listSet.ml" 39 1596 1610 "HW03/listSet.ml" 39 1596 1611
+type(
+  'a1
+)
+ident(
+  def x "HW03/listSet.ml" 39 1596 1617 "HW03/listSet.ml" 40 1638 1682
+)
+"HW03/listSet.ml" 39 1596 1618 "HW03/listSet.ml" 39 1596 1619
+type(
+  'a1 set
+)
+ident(
+  def s "HW03/listSet.ml" 39 1596 1629 "HW03/listSet.ml" 40 1638 1682
+)
+"HW03/listSet.ml" 40 1638 1642 "HW03/listSet.ml" 40 1638 1646
+type(
+  ('a1 -> bool -> bool) -> bool -> 'a1 set -> bool
+)
+ident(
+  ext_ref HigherOrder.fold
+)
+"HW03/listSet.ml" 40 1638 1652 "HW03/listSet.ml" 40 1638 1653
+type(
+  'a1
+)
+ident(
+  def n "HW03/listSet.ml" 40 1638 1654 "HW03/listSet.ml" 40 1638 1673
+)
+"HW03/listSet.ml" 40 1638 1654 "HW03/listSet.ml" 40 1638 1657
+type(
+  bool
+)
+ident(
+  def acc "HW03/listSet.ml" 40 1638 1661 "HW03/listSet.ml" 40 1638 1673
+)
+"HW03/listSet.ml" 40 1638 1661 "HW03/listSet.ml" 40 1638 1662
+type(
+  'a1
+)
+ident(
+  int_ref n "HW03/listSet.ml" 40 1638 1652 "HW03/listSet.ml" 40 1638 1653
+)
+"HW03/listSet.ml" 40 1638 1663 "HW03/listSet.ml" 40 1638 1664
+type(
+  'a1 -> 'a1 -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/listSet.ml" 40 1638 1665 "HW03/listSet.ml" 40 1638 1666
+type(
+  'a1
+)
+ident(
+  int_ref x "HW03/listSet.ml" 39 1596 1610 "HW03/listSet.ml" 39 1596 1611
+)
+"HW03/listSet.ml" 40 1638 1661 "HW03/listSet.ml" 40 1638 1666
+type(
+  bool
+)
+"HW03/listSet.ml" 40 1638 1667 "HW03/listSet.ml" 40 1638 1669
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"HW03/listSet.ml" 40 1638 1670 "HW03/listSet.ml" 40 1638 1673
+type(
+  bool
+)
+ident(
+  int_ref acc "HW03/listSet.ml" 40 1638 1654 "HW03/listSet.ml" 40 1638 1657
+)
+"HW03/listSet.ml" 40 1638 1661 "HW03/listSet.ml" 40 1638 1673
+type(
+  bool
+)
+"HW03/listSet.ml" 40 1638 1647 "HW03/listSet.ml" 40 1638 1674
+type(
+  'a1 -> bool -> bool
+)
+"HW03/listSet.ml" 40 1638 1675 "HW03/listSet.ml" 40 1638 1680
+type(
+  bool
+)
+"HW03/listSet.ml" 40 1638 1681 "HW03/listSet.ml" 40 1638 1682
+type(
+  'a1 set
+)
+ident(
+  int_ref s "HW03/listSet.ml" 39 1596 1618 "HW03/listSet.ml" 39 1596 1619
+)
+"HW03/listSet.ml" 40 1638 1642 "HW03/listSet.ml" 40 1638 1682
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/listSet.ml" 48 1977 1987 "HW03/listSet.ml" 48 1977 1990
+type(
+  'a2 -> 'a2 set -> 'a2 set
+)
+ident(
+  def add "HW03/listSet.ml" 48 1977 1979 "HW03/listSet.ml" 122 4421 4424
+)
+"HW03/listSet.ml" 48 1977 1992 "HW03/listSet.ml" 48 1977 1993
+type(
+  'a2
+)
+ident(
+  def x "HW03/listSet.ml" 48 1977 1999 "HW03/listSet.ml" 54 2167 2174
+)
+"HW03/listSet.ml" 48 1977 2000 "HW03/listSet.ml" 48 1977 2001
+type(
+  'a2 set
+)
+ident(
+  def s "HW03/listSet.ml" 48 1977 2011 "HW03/listSet.ml" 54 2167 2174
+)
+"HW03/listSet.ml" 49 2022 2038 "HW03/listSet.ml" 49 2022 2039
+type(
+  'a2 set
+)
+ident(
+  int_ref s "HW03/listSet.ml" 48 1977 2000 "HW03/listSet.ml" 48 1977 2001
+)
+"HW03/listSet.ml" 50 2045 2051 "HW03/listSet.ml" 50 2045 2053
+type(
+  'a2 set
+)
+"HW03/listSet.ml" 50 2045 2058 "HW03/listSet.ml" 50 2045 2059
+type(
+  'a2
+)
+ident(
+  int_ref x "HW03/listSet.ml" 48 1977 1992 "HW03/listSet.ml" 48 1977 1993
+)
+"HW03/listSet.ml" 50 2045 2057 "HW03/listSet.ml" 50 2045 2060
+type(
+  'a2 set
+)
+"HW03/listSet.ml" 51 2061 2067 "HW03/listSet.ml" 51 2061 2068
+type(
+  'a2
+)
+ident(
+  def p "HW03/listSet.ml" 51 2061 2078 "HW03/listSet.ml" 53 2137 2166
+)
+"HW03/listSet.ml" 51 2061 2072 "HW03/listSet.ml" 51 2061 2074
+type(
+  'a2 list
+)
+ident(
+  def ps "HW03/listSet.ml" 51 2061 2078 "HW03/listSet.ml" 53 2137 2166
+)
+"HW03/listSet.ml" 51 2061 2067 "HW03/listSet.ml" 51 2061 2074
+type(
+  'a2 set
+)
+"HW03/listSet.ml" 51 2061 2081 "HW03/listSet.ml" 51 2061 2082
+type(
+  'a2
+)
+ident(
+  int_ref x "HW03/listSet.ml" 48 1977 1992 "HW03/listSet.ml" 48 1977 1993
+)
+"HW03/listSet.ml" 51 2061 2083 "HW03/listSet.ml" 51 2061 2084
+type(
+  'a2 -> 'a2 -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"HW03/listSet.ml" 51 2061 2085 "HW03/listSet.ml" 51 2061 2086
+type(
+  'a2
+)
+ident(
+  int_ref p "HW03/listSet.ml" 51 2061 2067 "HW03/listSet.ml" 51 2061 2068
+)
+"HW03/listSet.ml" 51 2061 2081 "HW03/listSet.ml" 51 2061 2086
+type(
+  bool
+)
+"HW03/listSet.ml" 51 2061 2092 "HW03/listSet.ml" 51 2061 2093
+type(
+  'a2
+)
+ident(
+  int_ref x "HW03/listSet.ml" 48 1977 1992 "HW03/listSet.ml" 48 1977 1993
+)
+"HW03/listSet.ml" 51 2061 2097 "HW03/listSet.ml" 51 2061 2098
+type(
+  'a2 set
+)
+ident(
+  int_ref s "HW03/listSet.ml" 48 1977 2000 "HW03/listSet.ml" 48 1977 2001
+)
+"HW03/listSet.ml" 51 2061 2092 "HW03/listSet.ml" 51 2061 2098
+type(
+  'a2 set
+)
+"HW03/listSet.ml" 52 2099 2124 "HW03/listSet.ml" 52 2099 2125
+type(
+  'a2
+)
+ident(
+  int_ref x "HW03/listSet.ml" 48 1977 1992 "HW03/listSet.ml" 48 1977 1993
+)
+"HW03/listSet.ml" 52 2099 2126 "HW03/listSet.ml" 52 2099 2127
+type(
+  'a2 -> 'a2 -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/listSet.ml" 52 2099 2128 "HW03/listSet.ml" 52 2099 2129
+type(
+  'a2
+)
+ident(
+  int_ref p "HW03/listSet.ml" 51 2061 2067 "HW03/listSet.ml" 51 2061 2068
+)
+"HW03/listSet.ml" 52 2099 2124 "HW03/listSet.ml" 52 2099 2129
+type(
+  bool
+)
+"HW03/listSet.ml" 52 2099 2135 "HW03/listSet.ml" 52 2099 2136
+type(
+  'a2 set
+)
+ident(
+  int_ref s "HW03/listSet.ml" 48 1977 2000 "HW03/listSet.ml" 48 1977 2001
+)
+"HW03/listSet.ml" 53 2137 2159 "HW03/listSet.ml" 53 2137 2160
+type(
+  'a2 set
+)
+ident(
+  int_ref s "HW03/listSet.ml" 48 1977 2000 "HW03/listSet.ml" 48 1977 2001
+)
+"HW03/listSet.ml" 53 2137 2161 "HW03/listSet.ml" 53 2137 2162
+type(
+  'a2 set -> 'a2 list -> 'a2 set
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"HW03/listSet.ml" 53 2137 2164 "HW03/listSet.ml" 53 2137 2165
+type(
+  'a2
+)
+ident(
+  int_ref x "HW03/listSet.ml" 48 1977 1992 "HW03/listSet.ml" 48 1977 1993
+)
+"HW03/listSet.ml" 53 2137 2163 "HW03/listSet.ml" 53 2137 2166
+type(
+  'a2 list
+)
+"HW03/listSet.ml" 53 2137 2159 "HW03/listSet.ml" 53 2137 2166
+call(
+  tail
+)
+type(
+  'a2 set
+)
+"HW03/listSet.ml" 52 2099 2121 "HW03/listSet.ml" 53 2137 2166
+type(
+  'a2 set
+)
+"HW03/listSet.ml" 51 2061 2078 "HW03/listSet.ml" 53 2137 2166
+type(
+  'a2 set
+)
+"HW03/listSet.ml" 49 2022 2026 "HW03/listSet.ml" 54 2167 2174
+type(
+  'a2 set
+)
+type(
+  'a2 set
+)
+"HW03/listSet.ml" 62 2471 2481 "HW03/listSet.ml" 62 2471 2487
+type(
+  'a3 -> 'a3 set -> 'a3 set
+)
+ident(
+  def remove "HW03/listSet.ml" 62 2471 2473 "HW03/listSet.ml" 122 4421 4424
+)
+"HW03/listSet.ml" 62 2471 2489 "HW03/listSet.ml" 62 2471 2490
+type(
+  'a3
+)
+ident(
+  def x "HW03/listSet.ml" 62 2471 2496 "HW03/listSet.ml" 68 2673 2680
+)
+"HW03/listSet.ml" 62 2471 2497 "HW03/listSet.ml" 62 2471 2498
+type(
+  'a3 set
+)
+ident(
+  def s "HW03/listSet.ml" 62 2471 2508 "HW03/listSet.ml" 68 2673 2680
+)
+"HW03/listSet.ml" 63 2519 2535 "HW03/listSet.ml" 63 2519 2536
+type(
+  'a3 set
+)
+ident(
+  int_ref s "HW03/listSet.ml" 62 2471 2497 "HW03/listSet.ml" 62 2471 2498
+)
+"HW03/listSet.ml" 64 2542 2548 "HW03/listSet.ml" 64 2542 2550
+type(
+  'a3 set
+)
+"HW03/listSet.ml" 64 2542 2554 "HW03/listSet.ml" 64 2542 2559
+type(
+  'a3 set
+)
+ident(
+  int_ref empty "HW03/listSet.ml" 30 1364 1370 "HW03/listSet.ml" 30 1364 1375
+)
+"HW03/listSet.ml" 65 2560 2566 "HW03/listSet.ml" 65 2560 2567
+type(
+  'a3
+)
+ident(
+  def p "HW03/listSet.ml" 65 2560 2577 "HW03/listSet.ml" 67 2632 2672
+)
+"HW03/listSet.ml" 65 2560 2571 "HW03/listSet.ml" 65 2560 2573
+type(
+  'a3 list
+)
+ident(
+  def ps "HW03/listSet.ml" 65 2560 2577 "HW03/listSet.ml" 67 2632 2672
+)
+"HW03/listSet.ml" 65 2560 2566 "HW03/listSet.ml" 65 2560 2573
+type(
+  'a3 set
+)
+"HW03/listSet.ml" 65 2560 2580 "HW03/listSet.ml" 65 2560 2581
+type(
+  'a3
+)
+ident(
+  int_ref x "HW03/listSet.ml" 62 2471 2489 "HW03/listSet.ml" 62 2471 2490
+)
+"HW03/listSet.ml" 65 2560 2582 "HW03/listSet.ml" 65 2560 2583
+type(
+  'a3 -> 'a3 -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"HW03/listSet.ml" 65 2560 2584 "HW03/listSet.ml" 65 2560 2585
+type(
+  'a3
+)
+ident(
+  int_ref p "HW03/listSet.ml" 65 2560 2566 "HW03/listSet.ml" 65 2560 2567
+)
+"HW03/listSet.ml" 65 2560 2580 "HW03/listSet.ml" 65 2560 2585
+type(
+  bool
+)
+"HW03/listSet.ml" 65 2560 2591 "HW03/listSet.ml" 65 2560 2592
+type(
+  'a3 set
+)
+ident(
+  int_ref s "HW03/listSet.ml" 62 2471 2497 "HW03/listSet.ml" 62 2471 2498
+)
+"HW03/listSet.ml" 66 2593 2618 "HW03/listSet.ml" 66 2593 2619
+type(
+  'a3
+)
+ident(
+  int_ref x "HW03/listSet.ml" 62 2471 2489 "HW03/listSet.ml" 62 2471 2490
+)
+"HW03/listSet.ml" 66 2593 2620 "HW03/listSet.ml" 66 2593 2621
+type(
+  'a3 -> 'a3 -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/listSet.ml" 66 2593 2622 "HW03/listSet.ml" 66 2593 2623
+type(
+  'a3
+)
+ident(
+  int_ref p "HW03/listSet.ml" 65 2560 2566 "HW03/listSet.ml" 65 2560 2567
+)
+"HW03/listSet.ml" 66 2593 2618 "HW03/listSet.ml" 66 2593 2623
+type(
+  bool
+)
+"HW03/listSet.ml" 66 2593 2629 "HW03/listSet.ml" 66 2593 2631
+type(
+  'a3 set
+)
+ident(
+  int_ref ps "HW03/listSet.ml" 65 2560 2571 "HW03/listSet.ml" 65 2560 2573
+)
+"HW03/listSet.ml" 67 2632 2654 "HW03/listSet.ml" 67 2632 2655
+type(
+  'a3
+)
+ident(
+  int_ref p "HW03/listSet.ml" 65 2560 2566 "HW03/listSet.ml" 65 2560 2567
+)
+"HW03/listSet.ml" 67 2632 2660 "HW03/listSet.ml" 67 2632 2666
+type(
+  'a3 -> 'a3 set -> 'a3 set
+)
+ident(
+  int_ref remove "HW03/listSet.ml" 62 2471 2481 "HW03/listSet.ml" 62 2471 2487
+)
+"HW03/listSet.ml" 67 2632 2667 "HW03/listSet.ml" 67 2632 2668
+type(
+  'a3
+)
+ident(
+  int_ref x "HW03/listSet.ml" 62 2471 2489 "HW03/listSet.ml" 62 2471 2490
+)
+"HW03/listSet.ml" 67 2632 2669 "HW03/listSet.ml" 67 2632 2671
+type(
+  'a3 set
+)
+ident(
+  int_ref ps "HW03/listSet.ml" 65 2560 2571 "HW03/listSet.ml" 65 2560 2573
+)
+"HW03/listSet.ml" 67 2632 2659 "HW03/listSet.ml" 67 2632 2672
+call(
+  stack
+)
+type(
+  'a3 set
+)
+"HW03/listSet.ml" 67 2632 2654 "HW03/listSet.ml" 67 2632 2672
+type(
+  'a3 set
+)
+"HW03/listSet.ml" 66 2593 2615 "HW03/listSet.ml" 67 2632 2672
+type(
+  'a3 set
+)
+"HW03/listSet.ml" 65 2560 2577 "HW03/listSet.ml" 67 2632 2672
+type(
+  'a3 set
+)
+"HW03/listSet.ml" 63 2519 2523 "HW03/listSet.ml" 68 2673 2680
+type(
+  'a3 set
+)
+type(
+  'a3 set
+)
+"HW03/listSet.ml" 75 2926 2932 "HW03/listSet.ml" 75 2926 2936
+type(
+  'a4 set -> int
+)
+ident(
+  def size "HW03/listSet.ml" 82 3129 3131 "HW03/listSet.ml" 122 4421 4424
+)
+"HW03/listSet.ml" 75 2926 2938 "HW03/listSet.ml" 75 2926 2939
+type(
+  'a4 set
+)
+ident(
+  def s "HW03/listSet.ml" 75 2926 2949 "HW03/listSet.ml" 76 2957 2992
+)
+"HW03/listSet.ml" 76 2957 2961 "HW03/listSet.ml" 76 2957 2965
+type(
+  ('a4 -> int -> int) -> int -> 'a4 set -> int
+)
+ident(
+  ext_ref HigherOrder.fold
+)
+"HW03/listSet.ml" 76 2957 2971 "HW03/listSet.ml" 76 2957 2972
+type(
+  'a4
+)
+ident(
+  def x "HW03/listSet.ml" 76 2957 2973 "HW03/listSet.ml" 76 2957 2987
+)
+"HW03/listSet.ml" 76 2957 2973 "HW03/listSet.ml" 76 2957 2976
+type(
+  int
+)
+ident(
+  def acc "HW03/listSet.ml" 76 2957 2980 "HW03/listSet.ml" 76 2957 2987
+)
+"HW03/listSet.ml" 76 2957 2980 "HW03/listSet.ml" 76 2957 2981
+type(
+  int
+)
+"HW03/listSet.ml" 76 2957 2982 "HW03/listSet.ml" 76 2957 2983
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"HW03/listSet.ml" 76 2957 2984 "HW03/listSet.ml" 76 2957 2987
+type(
+  int
+)
+ident(
+  int_ref acc "HW03/listSet.ml" 76 2957 2973 "HW03/listSet.ml" 76 2957 2976
+)
+"HW03/listSet.ml" 76 2957 2980 "HW03/listSet.ml" 76 2957 2987
+type(
+  int
+)
+"HW03/listSet.ml" 76 2957 2966 "HW03/listSet.ml" 76 2957 2988
+type(
+  'a4 -> int -> int
+)
+"HW03/listSet.ml" 76 2957 2989 "HW03/listSet.ml" 76 2957 2990
+type(
+  int
+)
+"HW03/listSet.ml" 76 2957 2991 "HW03/listSet.ml" 76 2957 2992
+type(
+  'a4 set
+)
+ident(
+  int_ref s "HW03/listSet.ml" 75 2926 2938 "HW03/listSet.ml" 75 2926 2939
+)
+"HW03/listSet.ml" 76 2957 2961 "HW03/listSet.ml" 76 2957 2992
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"HW03/listSet.ml" 82 3129 3135 "HW03/listSet.ml" 82 3129 3141
+type(
+  'a5 set -> 'a5 set -> bool
+)
+ident(
+  def equals "HW03/listSet.ml" 90 3412 3414 "HW03/listSet.ml" 122 4421 4424
+)
+"HW03/listSet.ml" 82 3129 3143 "HW03/listSet.ml" 82 3129 3144
+type(
+  'a5 set
+)
+ident(
+  def s "HW03/listSet.ml" 82 3129 3154 "HW03/listSet.ml" 83 3175 3184
+)
+"HW03/listSet.ml" 82 3129 3155 "HW03/listSet.ml" 82 3129 3156
+type(
+  'a5 set
+)
+ident(
+  def t "HW03/listSet.ml" 82 3129 3166 "HW03/listSet.ml" 83 3175 3184
+)
+"HW03/listSet.ml" 83 3175 3179 "HW03/listSet.ml" 83 3175 3180
+type(
+  'a5 set
+)
+ident(
+  int_ref s "HW03/listSet.ml" 82 3129 3143 "HW03/listSet.ml" 82 3129 3144
+)
+"HW03/listSet.ml" 83 3175 3181 "HW03/listSet.ml" 83 3175 3182
+type(
+  'a5 set -> 'a5 set -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/listSet.ml" 83 3175 3183 "HW03/listSet.ml" 83 3175 3184
+type(
+  'a5 set
+)
+ident(
+  int_ref t "HW03/listSet.ml" 82 3129 3155 "HW03/listSet.ml" 82 3129 3156
+)
+"HW03/listSet.ml" 83 3175 3179 "HW03/listSet.ml" 83 3175 3184
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/listSet.ml" 90 3412 3422 "HW03/listSet.ml" 90 3412 3433
+type(
+  'a6 list -> 'a6 set
+)
+ident(
+  def set_of_list "HW03/listSet.ml" 90 3412 3414 "HW03/listSet.ml" 122 4421 4424
+)
+"HW03/listSet.ml" 90 3412 3435 "HW03/listSet.ml" 90 3412 3436
+type(
+  'a6 list
+)
+ident(
+  def l "HW03/listSet.ml" 90 3412 3447 "HW03/listSet.ml" 94 3539 3546
+)
+"HW03/listSet.ml" 91 3458 3474 "HW03/listSet.ml" 91 3458 3475
+type(
+  'a6 list
+)
+ident(
+  int_ref l "HW03/listSet.ml" 90 3412 3435 "HW03/listSet.ml" 90 3412 3436
+)
+"HW03/listSet.ml" 92 3481 3487 "HW03/listSet.ml" 92 3481 3489
+type(
+  'a6 list
+)
+"HW03/listSet.ml" 92 3481 3493 "HW03/listSet.ml" 92 3481 3498
+type(
+  'a6 set
+)
+ident(
+  int_ref empty "HW03/listSet.ml" 30 1364 1370 "HW03/listSet.ml" 30 1364 1375
+)
+"HW03/listSet.ml" 93 3499 3505 "HW03/listSet.ml" 93 3499 3506
+type(
+  'a6
+)
+ident(
+  def x "HW03/listSet.ml" 93 3499 3516 "HW03/listSet.ml" 93 3499 3538
+)
+"HW03/listSet.ml" 93 3499 3510 "HW03/listSet.ml" 93 3499 3512
+type(
+  'a6 list
+)
+ident(
+  def xs "HW03/listSet.ml" 93 3499 3516 "HW03/listSet.ml" 93 3499 3538
+)
+"HW03/listSet.ml" 93 3499 3505 "HW03/listSet.ml" 93 3499 3512
+type(
+  'a6 list
+)
+"HW03/listSet.ml" 93 3499 3516 "HW03/listSet.ml" 93 3499 3519
+type(
+  'a6 -> 'a6 set -> 'a6 set
+)
+ident(
+  int_ref add "HW03/listSet.ml" 48 1977 1987 "HW03/listSet.ml" 48 1977 1990
+)
+"HW03/listSet.ml" 93 3499 3520 "HW03/listSet.ml" 93 3499 3521
+type(
+  'a6
+)
+ident(
+  int_ref x "HW03/listSet.ml" 93 3499 3505 "HW03/listSet.ml" 93 3499 3506
+)
+"HW03/listSet.ml" 93 3499 3523 "HW03/listSet.ml" 93 3499 3534
+type(
+  'a6 list -> 'a6 set
+)
+ident(
+  int_ref set_of_list "HW03/listSet.ml" 90 3412 3422 "HW03/listSet.ml" 90 3412 3433
+)
+"HW03/listSet.ml" 93 3499 3535 "HW03/listSet.ml" 93 3499 3537
+type(
+  'a6 list
+)
+ident(
+  int_ref xs "HW03/listSet.ml" 93 3499 3510 "HW03/listSet.ml" 93 3499 3512
+)
+"HW03/listSet.ml" 93 3499 3522 "HW03/listSet.ml" 93 3499 3538
+call(
+  stack
+)
+type(
+  'a6 set
+)
+"HW03/listSet.ml" 93 3499 3516 "HW03/listSet.ml" 93 3499 3538
+call(
+  tail
+)
+type(
+  'a6 set
+)
+"HW03/listSet.ml" 91 3458 3462 "HW03/listSet.ml" 94 3539 3546
+type(
+  'a6 set
+)
+type(
+  'a6 set
+)
+"HW03/listSet.ml" 96 3548 3554 "HW03/listSet.ml" 96 3548 3558
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/listSet.ml" 98 3627 3632 "HW03/listSet.ml" 122 4421 4424
+)
+"HW03/listSet.ml" 96 3548 3559 "HW03/listSet.ml" 96 3548 3561
+type(
+  unit
+)
+"HW03/listSet.ml" 97 3571 3575 "HW03/listSet.ml" 97 3571 3586
+type(
+  int list -> int set
+)
+ident(
+  int_ref set_of_list "HW03/listSet.ml" 90 3412 3422 "HW03/listSet.ml" 90 3412 3433
+)
+"HW03/listSet.ml" 97 3571 3588 "HW03/listSet.ml" 97 3571 3589
+type(
+  int
+)
+"HW03/listSet.ml" 97 3571 3591 "HW03/listSet.ml" 97 3571 3592
+type(
+  int
+)
+"HW03/listSet.ml" 97 3571 3594 "HW03/listSet.ml" 97 3571 3595
+type(
+  int
+)
+"HW03/listSet.ml" 97 3571 3587 "HW03/listSet.ml" 97 3571 3596
+type(
+  int list
+)
+"HW03/listSet.ml" 97 3571 3575 "HW03/listSet.ml" 97 3571 3596
+call(
+  stack
+)
+type(
+  int set
+)
+"HW03/listSet.ml" 97 3571 3597 "HW03/listSet.ml" 97 3571 3598
+type(
+  int set -> int set -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/listSet.ml" 97 3571 3599 "HW03/listSet.ml" 97 3571 3602
+type(
+  int -> int set -> int set
+)
+ident(
+  int_ref add "HW03/listSet.ml" 48 1977 1987 "HW03/listSet.ml" 48 1977 1990
+)
+"HW03/listSet.ml" 97 3571 3603 "HW03/listSet.ml" 97 3571 3604
+type(
+  int
+)
+"HW03/listSet.ml" 97 3571 3606 "HW03/listSet.ml" 97 3571 3609
+type(
+  int -> int set -> int set
+)
+ident(
+  int_ref add "HW03/listSet.ml" 48 1977 1987 "HW03/listSet.ml" 48 1977 1990
+)
+"HW03/listSet.ml" 97 3571 3610 "HW03/listSet.ml" 97 3571 3611
+type(
+  int
+)
+"HW03/listSet.ml" 97 3571 3613 "HW03/listSet.ml" 97 3571 3616
+type(
+  int -> int set -> int set
+)
+ident(
+  int_ref add "HW03/listSet.ml" 48 1977 1987 "HW03/listSet.ml" 48 1977 1990
+)
+"HW03/listSet.ml" 97 3571 3617 "HW03/listSet.ml" 97 3571 3618
+type(
+  int
+)
+"HW03/listSet.ml" 97 3571 3619 "HW03/listSet.ml" 97 3571 3624
+type(
+  int set
+)
+ident(
+  int_ref empty "HW03/listSet.ml" 30 1364 1370 "HW03/listSet.ml" 30 1364 1375
+)
+"HW03/listSet.ml" 97 3571 3612 "HW03/listSet.ml" 97 3571 3625
+call(
+  stack
+)
+type(
+  int set
+)
+"HW03/listSet.ml" 97 3571 3605 "HW03/listSet.ml" 97 3571 3626
+call(
+  stack
+)
+type(
+  int set
+)
+"HW03/listSet.ml" 97 3571 3599 "HW03/listSet.ml" 97 3571 3626
+call(
+  stack
+)
+type(
+  int set
+)
+"HW03/listSet.ml" 97 3571 3575 "HW03/listSet.ml" 97 3571 3626
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/listSet.ml" 98 3627 3632 "HW03/listSet.ml" 98 3627 3640
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/listSet.ml" 98 3627 3641 "HW03/listSet.ml" 98 3627 3665
+type(
+  string
+)
+"HW03/listSet.ml" 98 3627 3666 "HW03/listSet.ml" 98 3627 3670
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/listSet.ml" 96 3548 3554 "HW03/listSet.ml" 96 3548 3558
+)
+"HW03/listSet.ml" 98 3627 3632 "HW03/listSet.ml" 98 3627 3670
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/listSet.ml" 100 3672 3678 "HW03/listSet.ml" 100 3672 3682
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/listSet.ml" 102 3722 3727 "HW03/listSet.ml" 122 4421 4424
+)
+"HW03/listSet.ml" 100 3672 3683 "HW03/listSet.ml" 100 3672 3685
+type(
+  unit
+)
+"HW03/listSet.ml" 101 3695 3699 "HW03/listSet.ml" 101 3695 3710
+type(
+  '_b list -> '_b set
+)
+ident(
+  int_ref set_of_list "HW03/listSet.ml" 90 3412 3422 "HW03/listSet.ml" 90 3412 3433
+)
+"HW03/listSet.ml" 101 3695 3711 "HW03/listSet.ml" 101 3695 3713
+type(
+  '_b list
+)
+"HW03/listSet.ml" 101 3695 3699 "HW03/listSet.ml" 101 3695 3713
+call(
+  stack
+)
+type(
+  '_b set
+)
+"HW03/listSet.ml" 101 3695 3714 "HW03/listSet.ml" 101 3695 3715
+type(
+  '_b set -> '_b set -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/listSet.ml" 101 3695 3716 "HW03/listSet.ml" 101 3695 3721
+type(
+  '_b set
+)
+ident(
+  int_ref empty "HW03/listSet.ml" 30 1364 1370 "HW03/listSet.ml" 30 1364 1375
+)
+"HW03/listSet.ml" 101 3695 3699 "HW03/listSet.ml" 101 3695 3721
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/listSet.ml" 102 3722 3727 "HW03/listSet.ml" 102 3722 3735
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/listSet.ml" 102 3722 3736 "HW03/listSet.ml" 102 3722 3753
+type(
+  string
+)
+"HW03/listSet.ml" 102 3722 3754 "HW03/listSet.ml" 102 3722 3758
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/listSet.ml" 100 3672 3678 "HW03/listSet.ml" 100 3672 3682
+)
+"HW03/listSet.ml" 102 3722 3727 "HW03/listSet.ml" 102 3722 3758
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/listSet.ml" 104 3760 3766 "HW03/listSet.ml" 104 3760 3770
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/listSet.ml" 106 3842 3847 "HW03/listSet.ml" 122 4421 4424
+)
+"HW03/listSet.ml" 104 3760 3771 "HW03/listSet.ml" 104 3760 3773
+type(
+  unit
+)
+"HW03/listSet.ml" 105 3783 3787 "HW03/listSet.ml" 105 3783 3798
+type(
+  int list -> int set
+)
+ident(
+  int_ref set_of_list "HW03/listSet.ml" 90 3412 3422 "HW03/listSet.ml" 90 3412 3433
+)
+"HW03/listSet.ml" 105 3783 3800 "HW03/listSet.ml" 105 3783 3801
+type(
+  int
+)
+"HW03/listSet.ml" 105 3783 3803 "HW03/listSet.ml" 105 3783 3804
+type(
+  int
+)
+"HW03/listSet.ml" 105 3783 3806 "HW03/listSet.ml" 105 3783 3807
+type(
+  int
+)
+"HW03/listSet.ml" 105 3783 3809 "HW03/listSet.ml" 105 3783 3810
+type(
+  int
+)
+"HW03/listSet.ml" 105 3783 3799 "HW03/listSet.ml" 105 3783 3811
+type(
+  int list
+)
+"HW03/listSet.ml" 105 3783 3787 "HW03/listSet.ml" 105 3783 3811
+call(
+  stack
+)
+type(
+  int set
+)
+"HW03/listSet.ml" 105 3783 3812 "HW03/listSet.ml" 105 3783 3813
+type(
+  int set -> int set -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/listSet.ml" 105 3783 3814 "HW03/listSet.ml" 105 3783 3817
+type(
+  int -> int set -> int set
+)
+ident(
+  int_ref add "HW03/listSet.ml" 48 1977 1987 "HW03/listSet.ml" 48 1977 1990
+)
+"HW03/listSet.ml" 105 3783 3818 "HW03/listSet.ml" 105 3783 3819
+type(
+  int
+)
+"HW03/listSet.ml" 105 3783 3821 "HW03/listSet.ml" 105 3783 3824
+type(
+  int -> int set -> int set
+)
+ident(
+  int_ref add "HW03/listSet.ml" 48 1977 1987 "HW03/listSet.ml" 48 1977 1990
+)
+"HW03/listSet.ml" 105 3783 3825 "HW03/listSet.ml" 105 3783 3826
+type(
+  int
+)
+"HW03/listSet.ml" 105 3783 3828 "HW03/listSet.ml" 105 3783 3831
+type(
+  int -> int set -> int set
+)
+ident(
+  int_ref add "HW03/listSet.ml" 48 1977 1987 "HW03/listSet.ml" 48 1977 1990
+)
+"HW03/listSet.ml" 105 3783 3832 "HW03/listSet.ml" 105 3783 3833
+type(
+  int
+)
+"HW03/listSet.ml" 105 3783 3834 "HW03/listSet.ml" 105 3783 3839
+type(
+  int set
+)
+ident(
+  int_ref empty "HW03/listSet.ml" 30 1364 1370 "HW03/listSet.ml" 30 1364 1375
+)
+"HW03/listSet.ml" 105 3783 3827 "HW03/listSet.ml" 105 3783 3840
+call(
+  stack
+)
+type(
+  int set
+)
+"HW03/listSet.ml" 105 3783 3820 "HW03/listSet.ml" 105 3783 3841
+call(
+  stack
+)
+type(
+  int set
+)
+"HW03/listSet.ml" 105 3783 3814 "HW03/listSet.ml" 105 3783 3841
+call(
+  stack
+)
+type(
+  int set
+)
+"HW03/listSet.ml" 105 3783 3787 "HW03/listSet.ml" 105 3783 3841
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/listSet.ml" 106 3842 3847 "HW03/listSet.ml" 106 3842 3855
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/listSet.ml" 106 3842 3856 "HW03/listSet.ml" 106 3842 3876
+type(
+  string
+)
+"HW03/listSet.ml" 106 3842 3877 "HW03/listSet.ml" 106 3842 3881
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/listSet.ml" 104 3760 3766 "HW03/listSet.ml" 104 3760 3770
+)
+"HW03/listSet.ml" 106 3842 3847 "HW03/listSet.ml" 106 3842 3881
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/listSet.ml" 108 3883 3889 "HW03/listSet.ml" 108 3883 3893
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/listSet.ml" 110 3973 3978 "HW03/listSet.ml" 122 4421 4424
+)
+"HW03/listSet.ml" 108 3883 3894 "HW03/listSet.ml" 108 3883 3896
+type(
+  unit
+)
+"HW03/listSet.ml" 109 3906 3910 "HW03/listSet.ml" 109 3906 3921
+type(
+  int list -> int set
+)
+ident(
+  int_ref set_of_list "HW03/listSet.ml" 90 3412 3422 "HW03/listSet.ml" 90 3412 3433
+)
+"HW03/listSet.ml" 109 3906 3923 "HW03/listSet.ml" 109 3906 3924
+type(
+  int
+)
+"HW03/listSet.ml" 109 3906 3926 "HW03/listSet.ml" 109 3906 3927
+type(
+  int
+)
+"HW03/listSet.ml" 109 3906 3929 "HW03/listSet.ml" 109 3906 3930
+type(
+  int
+)
+"HW03/listSet.ml" 109 3906 3932 "HW03/listSet.ml" 109 3906 3933
+type(
+  int
+)
+"HW03/listSet.ml" 109 3906 3922 "HW03/listSet.ml" 109 3906 3934
+type(
+  int list
+)
+"HW03/listSet.ml" 109 3906 3910 "HW03/listSet.ml" 109 3906 3934
+call(
+  stack
+)
+type(
+  int set
+)
+"HW03/listSet.ml" 109 3906 3935 "HW03/listSet.ml" 109 3906 3936
+type(
+  int set -> int set -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/listSet.ml" 109 3906 3937 "HW03/listSet.ml" 109 3906 3940
+type(
+  int -> int set -> int set
+)
+ident(
+  int_ref add "HW03/listSet.ml" 48 1977 1987 "HW03/listSet.ml" 48 1977 1990
+)
+"HW03/listSet.ml" 109 3906 3941 "HW03/listSet.ml" 109 3906 3942
+type(
+  int
+)
+"HW03/listSet.ml" 109 3906 3944 "HW03/listSet.ml" 109 3906 3947
+type(
+  int -> int set -> int set
+)
+ident(
+  int_ref add "HW03/listSet.ml" 48 1977 1987 "HW03/listSet.ml" 48 1977 1990
+)
+"HW03/listSet.ml" 109 3906 3948 "HW03/listSet.ml" 109 3906 3949
+type(
+  int
+)
+"HW03/listSet.ml" 109 3906 3951 "HW03/listSet.ml" 109 3906 3954
+type(
+  int -> int set -> int set
+)
+ident(
+  int_ref add "HW03/listSet.ml" 48 1977 1987 "HW03/listSet.ml" 48 1977 1990
+)
+"HW03/listSet.ml" 109 3906 3955 "HW03/listSet.ml" 109 3906 3956
+type(
+  int
+)
+"HW03/listSet.ml" 109 3906 3958 "HW03/listSet.ml" 109 3906 3961
+type(
+  int -> int set -> int set
+)
+ident(
+  int_ref add "HW03/listSet.ml" 48 1977 1987 "HW03/listSet.ml" 48 1977 1990
+)
+"HW03/listSet.ml" 109 3906 3962 "HW03/listSet.ml" 109 3906 3963
+type(
+  int
+)
+"HW03/listSet.ml" 109 3906 3964 "HW03/listSet.ml" 109 3906 3969
+type(
+  int set
+)
+ident(
+  int_ref empty "HW03/listSet.ml" 30 1364 1370 "HW03/listSet.ml" 30 1364 1375
+)
+"HW03/listSet.ml" 109 3906 3957 "HW03/listSet.ml" 109 3906 3970
+call(
+  stack
+)
+type(
+  int set
+)
+"HW03/listSet.ml" 109 3906 3950 "HW03/listSet.ml" 109 3906 3971
+call(
+  stack
+)
+type(
+  int set
+)
+"HW03/listSet.ml" 109 3906 3943 "HW03/listSet.ml" 109 3906 3972
+call(
+  stack
+)
+type(
+  int set
+)
+"HW03/listSet.ml" 109 3906 3937 "HW03/listSet.ml" 109 3906 3972
+call(
+  stack
+)
+type(
+  int set
+)
+"HW03/listSet.ml" 109 3906 3910 "HW03/listSet.ml" 109 3906 3972
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/listSet.ml" 110 3973 3978 "HW03/listSet.ml" 110 3973 3986
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/listSet.ml" 110 3973 3987 "HW03/listSet.ml" 110 3973 4009
+type(
+  string
+)
+"HW03/listSet.ml" 110 3973 4010 "HW03/listSet.ml" 110 3973 4014
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/listSet.ml" 108 3883 3889 "HW03/listSet.ml" 108 3883 3893
+)
+"HW03/listSet.ml" 110 3973 3978 "HW03/listSet.ml" 110 3973 4014
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/listSet.ml" 117 4256 4262 "HW03/listSet.ml" 117 4256 4273
+type(
+  'a7 set -> 'a7 list
+)
+ident(
+  def list_of_set "HW03/listSet.ml" 121 4386 4388 "HW03/listSet.ml" 122 4421 4424
+)
+"HW03/listSet.ml" 117 4256 4275 "HW03/listSet.ml" 117 4256 4276
+type(
+  'a7 set
+)
+ident(
+  def s "HW03/listSet.ml" 117 4256 4286 "HW03/listSet.ml" 118 4298 4335
+)
+"HW03/listSet.ml" 118 4298 4302 "HW03/listSet.ml" 118 4298 4306
+type(
+  ('a7 -> 'a7 list -> 'a7 list) -> 'a7 list -> 'a7 set -> 'a7 list
+)
+ident(
+  ext_ref HigherOrder.fold
+)
+"HW03/listSet.ml" 118 4298 4312 "HW03/listSet.ml" 118 4298 4313
+type(
+  'a7
+)
+ident(
+  def x "HW03/listSet.ml" 118 4298 4314 "HW03/listSet.ml" 118 4298 4329
+)
+"HW03/listSet.ml" 118 4298 4314 "HW03/listSet.ml" 118 4298 4317
+type(
+  'a7 list
+)
+ident(
+  def acc "HW03/listSet.ml" 118 4298 4321 "HW03/listSet.ml" 118 4298 4329
+)
+"HW03/listSet.ml" 118 4298 4321 "HW03/listSet.ml" 118 4298 4322
+type(
+  'a7
+)
+ident(
+  int_ref x "HW03/listSet.ml" 118 4298 4312 "HW03/listSet.ml" 118 4298 4313
+)
+"HW03/listSet.ml" 118 4298 4326 "HW03/listSet.ml" 118 4298 4329
+type(
+  'a7 list
+)
+ident(
+  int_ref acc "HW03/listSet.ml" 118 4298 4314 "HW03/listSet.ml" 118 4298 4317
+)
+"HW03/listSet.ml" 118 4298 4321 "HW03/listSet.ml" 118 4298 4329
+type(
+  'a7 list
+)
+"HW03/listSet.ml" 118 4298 4307 "HW03/listSet.ml" 118 4298 4330
+type(
+  'a7 -> 'a7 list -> 'a7 list
+)
+"HW03/listSet.ml" 118 4298 4331 "HW03/listSet.ml" 118 4298 4333
+type(
+  'a7 list
+)
+"HW03/listSet.ml" 118 4298 4334 "HW03/listSet.ml" 118 4298 4335
+type(
+  'a7 set
+)
+ident(
+  int_ref s "HW03/listSet.ml" 117 4256 4275 "HW03/listSet.ml" 117 4256 4276
+)
+"HW03/listSet.ml" 118 4298 4302 "HW03/listSet.ml" 118 4298 4335
+call(
+  tail
+)
+type(
+  'a7 list
+)
+type(
+  'a7 list
+)
+"HW03/listSet.ml" 121 4386 4392 "HW03/listSet.ml" 121 4386 4402
+type(
+  string
+)
+ident(
+  def debug_name "HW03/listSet.ml" 121 4386 4420 "HW03/listSet.ml" 122 4421 4424
+)
+"HW03/listSet.ml" 121 4386 4413 "HW03/listSet.ml" 121 4386 4420
+type(
+  string
+)
+type(
+  string
+)

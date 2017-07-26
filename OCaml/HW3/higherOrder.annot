@@ -1,0 +1,4653 @@
+"HW03/higherOrder.ml" 16 763 771 "HW03/higherOrder.ml" 16 763 781
+type(
+  int -> int list -> bool
+)
+ident(
+  def int_member "HW03/higherOrder.ml" 16 763 763 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 16 763 783 "HW03/higherOrder.ml" 16 763 784
+type(
+  int
+)
+ident(
+  def i "HW03/higherOrder.ml" 16 763 791 "HW03/higherOrder.ml" 20 891 896
+)
+"HW03/higherOrder.ml" 16 763 792 "HW03/higherOrder.ml" 16 763 793
+type(
+  int list
+)
+ident(
+  def l "HW03/higherOrder.ml" 16 763 805 "HW03/higherOrder.ml" 20 891 896
+)
+"HW03/higherOrder.ml" 17 814 828 "HW03/higherOrder.ml" 17 814 829
+type(
+  int list
+)
+ident(
+  int_ref l "HW03/higherOrder.ml" 16 763 792 "HW03/higherOrder.ml" 16 763 793
+)
+"HW03/higherOrder.ml" 18 835 839 "HW03/higherOrder.ml" 18 835 841
+type(
+  int list
+)
+"HW03/higherOrder.ml" 18 835 845 "HW03/higherOrder.ml" 18 835 850
+type(
+  bool
+)
+"HW03/higherOrder.ml" 19 851 855 "HW03/higherOrder.ml" 19 851 856
+type(
+  int
+)
+ident(
+  def x "HW03/higherOrder.ml" 19 851 866 "HW03/higherOrder.ml" 19 851 890
+)
+"HW03/higherOrder.ml" 19 851 860 "HW03/higherOrder.ml" 19 851 862
+type(
+  int list
+)
+ident(
+  def xs "HW03/higherOrder.ml" 19 851 866 "HW03/higherOrder.ml" 19 851 890
+)
+"HW03/higherOrder.ml" 19 851 855 "HW03/higherOrder.ml" 19 851 862
+type(
+  int list
+)
+"HW03/higherOrder.ml" 19 851 866 "HW03/higherOrder.ml" 19 851 867
+type(
+  int
+)
+ident(
+  int_ref i "HW03/higherOrder.ml" 16 763 783 "HW03/higherOrder.ml" 16 763 784
+)
+"HW03/higherOrder.ml" 19 851 868 "HW03/higherOrder.ml" 19 851 869
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 19 851 870 "HW03/higherOrder.ml" 19 851 871
+type(
+  int
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 19 851 855 "HW03/higherOrder.ml" 19 851 856
+)
+"HW03/higherOrder.ml" 19 851 866 "HW03/higherOrder.ml" 19 851 871
+type(
+  bool
+)
+"HW03/higherOrder.ml" 19 851 872 "HW03/higherOrder.ml" 19 851 874
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"HW03/higherOrder.ml" 19 851 875 "HW03/higherOrder.ml" 19 851 885
+type(
+  int -> int list -> bool
+)
+ident(
+  int_ref int_member "HW03/higherOrder.ml" 16 763 771 "HW03/higherOrder.ml" 16 763 781
+)
+"HW03/higherOrder.ml" 19 851 886 "HW03/higherOrder.ml" 19 851 887
+type(
+  int
+)
+ident(
+  int_ref i "HW03/higherOrder.ml" 16 763 783 "HW03/higherOrder.ml" 16 763 784
+)
+"HW03/higherOrder.ml" 19 851 888 "HW03/higherOrder.ml" 19 851 890
+type(
+  int list
+)
+ident(
+  int_ref xs "HW03/higherOrder.ml" 19 851 860 "HW03/higherOrder.ml" 19 851 862
+)
+"HW03/higherOrder.ml" 19 851 875 "HW03/higherOrder.ml" 19 851 890
+call(
+  tail
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 19 851 866 "HW03/higherOrder.ml" 19 851 890
+type(
+  bool
+)
+"HW03/higherOrder.ml" 17 814 816 "HW03/higherOrder.ml" 20 891 896
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 22 898 906 "HW03/higherOrder.ml" 22 898 919
+type(
+  string -> string list -> bool
+)
+ident(
+  def string_member "HW03/higherOrder.ml" 22 898 898 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 22 898 921 "HW03/higherOrder.ml" 22 898 922
+type(
+  string
+)
+ident(
+  def s "HW03/higherOrder.ml" 22 898 932 "HW03/higherOrder.ml" 26 1038 1043
+)
+"HW03/higherOrder.ml" 22 898 933 "HW03/higherOrder.ml" 22 898 934
+type(
+  string list
+)
+ident(
+  def l "HW03/higherOrder.ml" 22 898 949 "HW03/higherOrder.ml" 26 1038 1043
+)
+"HW03/higherOrder.ml" 23 958 972 "HW03/higherOrder.ml" 23 958 973
+type(
+  string list
+)
+ident(
+  int_ref l "HW03/higherOrder.ml" 22 898 933 "HW03/higherOrder.ml" 22 898 934
+)
+"HW03/higherOrder.ml" 24 979 983 "HW03/higherOrder.ml" 24 979 985
+type(
+  string list
+)
+"HW03/higherOrder.ml" 24 979 989 "HW03/higherOrder.ml" 24 979 994
+type(
+  bool
+)
+"HW03/higherOrder.ml" 25 995 999 "HW03/higherOrder.ml" 25 995 1000
+type(
+  string
+)
+ident(
+  def x "HW03/higherOrder.ml" 25 995 1010 "HW03/higherOrder.ml" 25 995 1037
+)
+"HW03/higherOrder.ml" 25 995 1004 "HW03/higherOrder.ml" 25 995 1006
+type(
+  string list
+)
+ident(
+  def xs "HW03/higherOrder.ml" 25 995 1010 "HW03/higherOrder.ml" 25 995 1037
+)
+"HW03/higherOrder.ml" 25 995 999 "HW03/higherOrder.ml" 25 995 1006
+type(
+  string list
+)
+"HW03/higherOrder.ml" 25 995 1010 "HW03/higherOrder.ml" 25 995 1011
+type(
+  string
+)
+ident(
+  int_ref s "HW03/higherOrder.ml" 22 898 921 "HW03/higherOrder.ml" 22 898 922
+)
+"HW03/higherOrder.ml" 25 995 1012 "HW03/higherOrder.ml" 25 995 1013
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 25 995 1014 "HW03/higherOrder.ml" 25 995 1015
+type(
+  string
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 25 995 999 "HW03/higherOrder.ml" 25 995 1000
+)
+"HW03/higherOrder.ml" 25 995 1010 "HW03/higherOrder.ml" 25 995 1015
+type(
+  bool
+)
+"HW03/higherOrder.ml" 25 995 1016 "HW03/higherOrder.ml" 25 995 1018
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"HW03/higherOrder.ml" 25 995 1019 "HW03/higherOrder.ml" 25 995 1032
+type(
+  string -> string list -> bool
+)
+ident(
+  int_ref string_member "HW03/higherOrder.ml" 22 898 906 "HW03/higherOrder.ml" 22 898 919
+)
+"HW03/higherOrder.ml" 25 995 1033 "HW03/higherOrder.ml" 25 995 1034
+type(
+  string
+)
+ident(
+  int_ref s "HW03/higherOrder.ml" 22 898 921 "HW03/higherOrder.ml" 22 898 922
+)
+"HW03/higherOrder.ml" 25 995 1035 "HW03/higherOrder.ml" 25 995 1037
+type(
+  string list
+)
+ident(
+  int_ref xs "HW03/higherOrder.ml" 25 995 1004 "HW03/higherOrder.ml" 25 995 1006
+)
+"HW03/higherOrder.ml" 25 995 1019 "HW03/higherOrder.ml" 25 995 1037
+call(
+  tail
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 25 995 1010 "HW03/higherOrder.ml" 25 995 1037
+type(
+  bool
+)
+"HW03/higherOrder.ml" 23 958 960 "HW03/higherOrder.ml" 26 1038 1043
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 35 1489 1497 "HW03/higherOrder.ml" 35 1489 1503
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  def member "HW03/higherOrder.ml" 35 1489 1489 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 35 1489 1505 "HW03/higherOrder.ml" 35 1489 1506
+type(
+  'a
+)
+ident(
+  def x "HW03/higherOrder.ml" 35 1489 1512 "HW03/higherOrder.ml" 39 1617 1622
+)
+"HW03/higherOrder.ml" 35 1489 1513 "HW03/higherOrder.ml" 35 1489 1514
+type(
+  'a list
+)
+ident(
+  def l "HW03/higherOrder.ml" 35 1489 1525 "HW03/higherOrder.ml" 39 1617 1622
+)
+"HW03/higherOrder.ml" 36 1534 1548 "HW03/higherOrder.ml" 36 1534 1549
+type(
+  'a list
+)
+ident(
+  int_ref l "HW03/higherOrder.ml" 35 1489 1513 "HW03/higherOrder.ml" 35 1489 1514
+)
+"HW03/higherOrder.ml" 37 1555 1559 "HW03/higherOrder.ml" 37 1555 1561
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 37 1555 1565 "HW03/higherOrder.ml" 37 1555 1570
+type(
+  bool
+)
+"HW03/higherOrder.ml" 38 1571 1575 "HW03/higherOrder.ml" 38 1571 1579
+type(
+  'a
+)
+ident(
+  def head "HW03/higherOrder.ml" 38 1571 1591 "HW03/higherOrder.ml" 38 1571 1616
+)
+"HW03/higherOrder.ml" 38 1571 1583 "HW03/higherOrder.ml" 38 1571 1587
+type(
+  'a list
+)
+ident(
+  def tail "HW03/higherOrder.ml" 38 1571 1591 "HW03/higherOrder.ml" 38 1571 1616
+)
+"HW03/higherOrder.ml" 38 1571 1575 "HW03/higherOrder.ml" 38 1571 1587
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 38 1571 1591 "HW03/higherOrder.ml" 38 1571 1595
+type(
+  'a
+)
+ident(
+  int_ref head "HW03/higherOrder.ml" 38 1571 1575 "HW03/higherOrder.ml" 38 1571 1579
+)
+"HW03/higherOrder.ml" 38 1571 1596 "HW03/higherOrder.ml" 38 1571 1597
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 38 1571 1598 "HW03/higherOrder.ml" 38 1571 1599
+type(
+  'a
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 35 1489 1505 "HW03/higherOrder.ml" 35 1489 1506
+)
+"HW03/higherOrder.ml" 38 1571 1591 "HW03/higherOrder.ml" 38 1571 1599
+type(
+  bool
+)
+"HW03/higherOrder.ml" 38 1571 1600 "HW03/higherOrder.ml" 38 1571 1602
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"HW03/higherOrder.ml" 38 1571 1603 "HW03/higherOrder.ml" 38 1571 1609
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  int_ref member "HW03/higherOrder.ml" 35 1489 1497 "HW03/higherOrder.ml" 35 1489 1503
+)
+"HW03/higherOrder.ml" 38 1571 1610 "HW03/higherOrder.ml" 38 1571 1611
+type(
+  'a
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 35 1489 1505 "HW03/higherOrder.ml" 35 1489 1506
+)
+"HW03/higherOrder.ml" 38 1571 1612 "HW03/higherOrder.ml" 38 1571 1616
+type(
+  'a list
+)
+ident(
+  int_ref tail "HW03/higherOrder.ml" 38 1571 1583 "HW03/higherOrder.ml" 38 1571 1587
+)
+"HW03/higherOrder.ml" 38 1571 1603 "HW03/higherOrder.ml" 38 1571 1616
+call(
+  tail
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 38 1571 1591 "HW03/higherOrder.ml" 38 1571 1616
+type(
+  bool
+)
+"HW03/higherOrder.ml" 36 1534 1536 "HW03/higherOrder.ml" 39 1617 1622
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 45 1856 1860 "HW03/higherOrder.ml" 45 1856 1864
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 47 1901 1904 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 45 1856 1865 "HW03/higherOrder.ml" 45 1856 1867
+type(
+  unit
+)
+"HW03/higherOrder.ml" 46 1877 1879 "HW03/higherOrder.ml" 46 1877 1882
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"HW03/higherOrder.ml" 46 1877 1884 "HW03/higherOrder.ml" 46 1877 1890
+type(
+  bool -> bool list -> bool
+)
+ident(
+  int_ref member "HW03/higherOrder.ml" 35 1489 1497 "HW03/higherOrder.ml" 35 1489 1503
+)
+"HW03/higherOrder.ml" 46 1877 1891 "HW03/higherOrder.ml" 46 1877 1896
+type(
+  bool
+)
+"HW03/higherOrder.ml" 46 1877 1897 "HW03/higherOrder.ml" 46 1877 1899
+type(
+  bool list
+)
+"HW03/higherOrder.ml" 46 1877 1883 "HW03/higherOrder.ml" 46 1877 1900
+call(
+  stack
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 46 1877 1879 "HW03/higherOrder.ml" 46 1877 1900
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 47 1901 1904 "HW03/higherOrder.ml" 47 1901 1912
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 47 1901 1913 "HW03/higherOrder.ml" 47 1901 1933
+type(
+  string
+)
+"HW03/higherOrder.ml" 47 1901 1934 "HW03/higherOrder.ml" 47 1901 1938
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 45 1856 1860 "HW03/higherOrder.ml" 45 1856 1864
+)
+"HW03/higherOrder.ml" 47 1901 1904 "HW03/higherOrder.ml" 47 1901 1938
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 49 1940 1944 "HW03/higherOrder.ml" 49 1940 1948
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 51 1985 1988 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 49 1940 1949 "HW03/higherOrder.ml" 49 1940 1951
+type(
+  unit
+)
+"HW03/higherOrder.ml" 50 1961 1963 "HW03/higherOrder.ml" 50 1961 1969
+type(
+  int -> int list -> bool
+)
+ident(
+  int_ref member "HW03/higherOrder.ml" 35 1489 1497 "HW03/higherOrder.ml" 35 1489 1503
+)
+"HW03/higherOrder.ml" 50 1961 1970 "HW03/higherOrder.ml" 50 1961 1971
+type(
+  int
+)
+"HW03/higherOrder.ml" 50 1961 1973 "HW03/higherOrder.ml" 50 1961 1974
+type(
+  int
+)
+"HW03/higherOrder.ml" 50 1961 1976 "HW03/higherOrder.ml" 50 1961 1977
+type(
+  int
+)
+"HW03/higherOrder.ml" 50 1961 1979 "HW03/higherOrder.ml" 50 1961 1980
+type(
+  int
+)
+"HW03/higherOrder.ml" 50 1961 1982 "HW03/higherOrder.ml" 50 1961 1983
+type(
+  int
+)
+"HW03/higherOrder.ml" 50 1961 1972 "HW03/higherOrder.ml" 50 1961 1984
+type(
+  int list
+)
+"HW03/higherOrder.ml" 50 1961 1963 "HW03/higherOrder.ml" 50 1961 1984
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 51 1985 1988 "HW03/higherOrder.ml" 51 1985 1996
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 51 1985 1997 "HW03/higherOrder.ml" 51 1985 2023
+type(
+  string
+)
+"HW03/higherOrder.ml" 51 1985 2024 "HW03/higherOrder.ml" 51 1985 2028
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 49 1940 1944 "HW03/higherOrder.ml" 49 1940 1948
+)
+"HW03/higherOrder.ml" 51 1985 1988 "HW03/higherOrder.ml" 51 1985 2028
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 53 2030 2034 "HW03/higherOrder.ml" 53 2030 2038
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 55 2086 2089 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 53 2030 2039 "HW03/higherOrder.ml" 53 2030 2041
+type(
+  unit
+)
+"HW03/higherOrder.ml" 54 2051 2053 "HW03/higherOrder.ml" 54 2051 2056
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"HW03/higherOrder.ml" 54 2051 2058 "HW03/higherOrder.ml" 54 2051 2064
+type(
+  char -> char list -> bool
+)
+ident(
+  int_ref member "HW03/higherOrder.ml" 35 1489 1497 "HW03/higherOrder.ml" 35 1489 1503
+)
+"HW03/higherOrder.ml" 54 2051 2065 "HW03/higherOrder.ml" 54 2051 2068
+type(
+  char
+)
+"HW03/higherOrder.ml" 54 2051 2070 "HW03/higherOrder.ml" 54 2051 2073
+type(
+  char
+)
+"HW03/higherOrder.ml" 54 2051 2075 "HW03/higherOrder.ml" 54 2051 2078
+type(
+  char
+)
+"HW03/higherOrder.ml" 54 2051 2080 "HW03/higherOrder.ml" 54 2051 2083
+type(
+  char
+)
+"HW03/higherOrder.ml" 54 2051 2069 "HW03/higherOrder.ml" 54 2051 2084
+type(
+  char list
+)
+"HW03/higherOrder.ml" 54 2051 2057 "HW03/higherOrder.ml" 54 2051 2085
+call(
+  stack
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 54 2051 2053 "HW03/higherOrder.ml" 54 2051 2085
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 55 2086 2089 "HW03/higherOrder.ml" 55 2086 2097
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 55 2086 2098 "HW03/higherOrder.ml" 55 2086 2125
+type(
+  string
+)
+"HW03/higherOrder.ml" 55 2086 2126 "HW03/higherOrder.ml" 55 2086 2130
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 53 2030 2034 "HW03/higherOrder.ml" 53 2030 2038
+)
+"HW03/higherOrder.ml" 55 2086 2089 "HW03/higherOrder.ml" 55 2086 2130
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 57 2132 2136 "HW03/higherOrder.ml" 57 2132 2140
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 59 2178 2181 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 57 2132 2141 "HW03/higherOrder.ml" 57 2132 2143
+type(
+  unit
+)
+"HW03/higherOrder.ml" 58 2153 2155 "HW03/higherOrder.ml" 58 2153 2161
+type(
+  int * int -> (int * int) list -> bool
+)
+ident(
+  int_ref member "HW03/higherOrder.ml" 35 1489 1497 "HW03/higherOrder.ml" 35 1489 1503
+)
+"HW03/higherOrder.ml" 58 2153 2163 "HW03/higherOrder.ml" 58 2153 2164
+type(
+  int
+)
+"HW03/higherOrder.ml" 58 2153 2166 "HW03/higherOrder.ml" 58 2153 2167
+type(
+  int
+)
+"HW03/higherOrder.ml" 58 2153 2162 "HW03/higherOrder.ml" 58 2153 2168
+type(
+  int * int
+)
+"HW03/higherOrder.ml" 58 2153 2171 "HW03/higherOrder.ml" 58 2153 2172
+type(
+  int
+)
+"HW03/higherOrder.ml" 58 2153 2174 "HW03/higherOrder.ml" 58 2153 2175
+type(
+  int
+)
+"HW03/higherOrder.ml" 58 2153 2170 "HW03/higherOrder.ml" 58 2153 2176
+type(
+  int * int
+)
+"HW03/higherOrder.ml" 58 2153 2169 "HW03/higherOrder.ml" 58 2153 2177
+type(
+  (int * int) list
+)
+"HW03/higherOrder.ml" 58 2153 2155 "HW03/higherOrder.ml" 58 2153 2177
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 59 2178 2181 "HW03/higherOrder.ml" 59 2178 2189
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 59 2178 2190 "HW03/higherOrder.ml" 59 2178 2216
+type(
+  string
+)
+"HW03/higherOrder.ml" 59 2178 2217 "HW03/higherOrder.ml" 59 2178 2221
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 57 2132 2136 "HW03/higherOrder.ml" 57 2132 2140
+)
+"HW03/higherOrder.ml" 59 2178 2181 "HW03/higherOrder.ml" 59 2178 2221
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 65 2453 2457 "HW03/higherOrder.ml" 65 2453 2467
+type(
+  (int * string) list
+)
+ident(
+  def assoc_list "HW03/higherOrder.ml" 74 2882 2882 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 66 2491 2495 "HW03/higherOrder.ml" 66 2491 2498
+type(
+  int
+)
+"HW03/higherOrder.ml" 66 2491 2500 "HW03/higherOrder.ml" 66 2491 2506
+type(
+  string
+)
+"HW03/higherOrder.ml" 66 2491 2494 "HW03/higherOrder.ml" 66 2491 2507
+type(
+  int * string
+)
+"HW03/higherOrder.ml" 66 2491 2510 "HW03/higherOrder.ml" 66 2491 2513
+type(
+  int
+)
+"HW03/higherOrder.ml" 66 2491 2515 "HW03/higherOrder.ml" 66 2491 2522
+type(
+  string
+)
+"HW03/higherOrder.ml" 66 2491 2509 "HW03/higherOrder.ml" 66 2491 2523
+type(
+  int * string
+)
+"HW03/higherOrder.ml" 66 2491 2526 "HW03/higherOrder.ml" 66 2491 2529
+type(
+  int
+)
+"HW03/higherOrder.ml" 66 2491 2531 "HW03/higherOrder.ml" 66 2491 2537
+type(
+  string
+)
+"HW03/higherOrder.ml" 66 2491 2525 "HW03/higherOrder.ml" 66 2491 2538
+type(
+  int * string
+)
+"HW03/higherOrder.ml" 66 2491 2541 "HW03/higherOrder.ml" 66 2491 2544
+type(
+  int
+)
+"HW03/higherOrder.ml" 66 2491 2546 "HW03/higherOrder.ml" 66 2491 2549
+type(
+  string
+)
+"HW03/higherOrder.ml" 66 2491 2540 "HW03/higherOrder.ml" 66 2491 2550
+type(
+  int * string
+)
+"HW03/higherOrder.ml" 66 2491 2493 "HW03/higherOrder.ml" 66 2491 2551
+type(
+  (int * string) list
+)
+type(
+  (int * string) list
+)
+"HW03/higherOrder.ml" 74 2882 2890 "HW03/higherOrder.ml" 74 2882 2895
+type(
+  'k -> ('k * 'v) list -> 'v
+)
+ident(
+  def assoc "HW03/higherOrder.ml" 74 2882 2882 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 74 2882 2897 "HW03/higherOrder.ml" 74 2882 2900
+type(
+  'k
+)
+ident(
+  def key "HW03/higherOrder.ml" 74 2882 2906 "HW03/higherOrder.ml" 78 3053 3058
+)
+"HW03/higherOrder.ml" 74 2882 2907 "HW03/higherOrder.ml" 74 2882 2908
+type(
+  ('k * 'v) list
+)
+ident(
+  def l "HW03/higherOrder.ml" 74 2882 2926 "HW03/higherOrder.ml" 78 3053 3058
+)
+"HW03/higherOrder.ml" 75 2933 2947 "HW03/higherOrder.ml" 75 2933 2948
+type(
+  ('k * 'v) list
+)
+ident(
+  int_ref l "HW03/higherOrder.ml" 74 2882 2907 "HW03/higherOrder.ml" 74 2882 2908
+)
+"HW03/higherOrder.ml" 76 2954 2958 "HW03/higherOrder.ml" 76 2954 2960
+type(
+  ('k * 'v) list
+)
+"HW03/higherOrder.ml" 76 2954 2964 "HW03/higherOrder.ml" 76 2954 2972
+type(
+  string -> 'v
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"HW03/higherOrder.ml" 76 2954 2973 "HW03/higherOrder.ml" 76 2954 2992
+type(
+  string
+)
+"HW03/higherOrder.ml" 76 2954 2964 "HW03/higherOrder.ml" 76 2954 2992
+call(
+  tail
+)
+type(
+  'v
+)
+"HW03/higherOrder.ml" 77 2993 2998 "HW03/higherOrder.ml" 77 2993 2999
+type(
+  'k
+)
+ident(
+  def x "HW03/higherOrder.ml" 77 2993 3015 "HW03/higherOrder.ml" 77 2993 3052
+)
+"HW03/higherOrder.ml" 77 2993 3001 "HW03/higherOrder.ml" 77 2993 3002
+type(
+  'v
+)
+ident(
+  def y "HW03/higherOrder.ml" 77 2993 3015 "HW03/higherOrder.ml" 77 2993 3052
+)
+"HW03/higherOrder.ml" 77 2993 2997 "HW03/higherOrder.ml" 77 2993 3003
+type(
+  'k * 'v
+)
+"HW03/higherOrder.ml" 77 2993 3007 "HW03/higherOrder.ml" 77 2993 3011
+type(
+  ('k * 'v) list
+)
+ident(
+  def tail "HW03/higherOrder.ml" 77 2993 3015 "HW03/higherOrder.ml" 77 2993 3052
+)
+"HW03/higherOrder.ml" 77 2993 2997 "HW03/higherOrder.ml" 77 2993 3011
+type(
+  ('k * 'v) list
+)
+"HW03/higherOrder.ml" 77 2993 3018 "HW03/higherOrder.ml" 77 2993 3019
+type(
+  'k
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 77 2993 2998 "HW03/higherOrder.ml" 77 2993 2999
+)
+"HW03/higherOrder.ml" 77 2993 3020 "HW03/higherOrder.ml" 77 2993 3021
+type(
+  'k -> 'k -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 77 2993 3022 "HW03/higherOrder.ml" 77 2993 3025
+type(
+  'k
+)
+ident(
+  int_ref key "HW03/higherOrder.ml" 74 2882 2897 "HW03/higherOrder.ml" 74 2882 2900
+)
+"HW03/higherOrder.ml" 77 2993 3018 "HW03/higherOrder.ml" 77 2993 3025
+type(
+  bool
+)
+"HW03/higherOrder.ml" 77 2993 3031 "HW03/higherOrder.ml" 77 2993 3032
+type(
+  'v
+)
+ident(
+  int_ref y "HW03/higherOrder.ml" 77 2993 3001 "HW03/higherOrder.ml" 77 2993 3002
+)
+"HW03/higherOrder.ml" 77 2993 3038 "HW03/higherOrder.ml" 77 2993 3043
+type(
+  'k -> ('k * 'v) list -> 'v
+)
+ident(
+  int_ref assoc "HW03/higherOrder.ml" 74 2882 2890 "HW03/higherOrder.ml" 74 2882 2895
+)
+"HW03/higherOrder.ml" 77 2993 3044 "HW03/higherOrder.ml" 77 2993 3047
+type(
+  'k
+)
+ident(
+  int_ref key "HW03/higherOrder.ml" 74 2882 2897 "HW03/higherOrder.ml" 74 2882 2900
+)
+"HW03/higherOrder.ml" 77 2993 3048 "HW03/higherOrder.ml" 77 2993 3052
+type(
+  ('k * 'v) list
+)
+ident(
+  int_ref tail "HW03/higherOrder.ml" 77 2993 3007 "HW03/higherOrder.ml" 77 2993 3011
+)
+"HW03/higherOrder.ml" 77 2993 3038 "HW03/higherOrder.ml" 77 2993 3052
+call(
+  tail
+)
+type(
+  'v
+)
+"HW03/higherOrder.ml" 77 2993 3015 "HW03/higherOrder.ml" 77 2993 3052
+type(
+  'v
+)
+"HW03/higherOrder.ml" 75 2933 2935 "HW03/higherOrder.ml" 78 3053 3058
+type(
+  'v
+)
+type(
+  'v
+)
+"HW03/higherOrder.ml" 80 3060 3064 "HW03/higherOrder.ml" 80 3060 3068
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 82 3114 3117 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 80 3060 3069 "HW03/higherOrder.ml" 80 3060 3071
+type(
+  unit
+)
+"HW03/higherOrder.ml" 81 3081 3083 "HW03/higherOrder.ml" 81 3081 3088
+type(
+  int -> (int * string) list -> string
+)
+ident(
+  int_ref assoc "HW03/higherOrder.ml" 74 2882 2890 "HW03/higherOrder.ml" 74 2882 2895
+)
+"HW03/higherOrder.ml" 81 3081 3089 "HW03/higherOrder.ml" 81 3081 3092
+type(
+  int
+)
+"HW03/higherOrder.ml" 81 3081 3093 "HW03/higherOrder.ml" 81 3081 3103
+type(
+  (int * string) list
+)
+ident(
+  int_ref assoc_list "HW03/higherOrder.ml" 65 2453 2457 "HW03/higherOrder.ml" 65 2453 2467
+)
+"HW03/higherOrder.ml" 81 3081 3083 "HW03/higherOrder.ml" 81 3081 3103
+call(
+  stack
+)
+type(
+  string
+)
+"HW03/higherOrder.ml" 81 3081 3104 "HW03/higherOrder.ml" 81 3081 3105
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 81 3081 3106 "HW03/higherOrder.ml" 81 3081 3113
+type(
+  string
+)
+"HW03/higherOrder.ml" 81 3081 3083 "HW03/higherOrder.ml" 81 3081 3113
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 82 3114 3117 "HW03/higherOrder.ml" 82 3114 3125
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 82 3114 3126 "HW03/higherOrder.ml" 82 3114 3144
+type(
+  string
+)
+"HW03/higherOrder.ml" 82 3114 3145 "HW03/higherOrder.ml" 82 3114 3149
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 80 3060 3064 "HW03/higherOrder.ml" 80 3060 3068
+)
+"HW03/higherOrder.ml" 82 3114 3117 "HW03/higherOrder.ml" 82 3114 3149
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 84 3151 3155 "HW03/higherOrder.ml" 84 3151 3159
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 86 3210 3213 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 84 3151 3160 "HW03/higherOrder.ml" 84 3151 3162
+type(
+  unit
+)
+"HW03/higherOrder.ml" 85 3172 3174 "HW03/higherOrder.ml" 85 3172 3179
+type(
+  int -> (int * string) list -> string
+)
+ident(
+  int_ref assoc "HW03/higherOrder.ml" 74 2882 2890 "HW03/higherOrder.ml" 74 2882 2895
+)
+"HW03/higherOrder.ml" 85 3172 3180 "HW03/higherOrder.ml" 85 3172 3182
+type(
+  int
+)
+"HW03/higherOrder.ml" 85 3172 3183 "HW03/higherOrder.ml" 85 3172 3193
+type(
+  (int * string) list
+)
+ident(
+  int_ref assoc_list "HW03/higherOrder.ml" 65 2453 2457 "HW03/higherOrder.ml" 65 2453 2467
+)
+"HW03/higherOrder.ml" 85 3172 3174 "HW03/higherOrder.ml" 85 3172 3193
+call(
+  stack
+)
+type(
+  string
+)
+"HW03/higherOrder.ml" 85 3172 3194 "HW03/higherOrder.ml" 85 3172 3195
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 85 3172 3196 "HW03/higherOrder.ml" 85 3172 3209
+type(
+  string
+)
+"HW03/higherOrder.ml" 85 3172 3174 "HW03/higherOrder.ml" 85 3172 3209
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 86 3210 3213 "HW03/higherOrder.ml" 86 3210 3229
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_failing_test
+)
+"HW03/higherOrder.ml" 86 3210 3230 "HW03/higherOrder.ml" 86 3210 3252
+type(
+  string
+)
+"HW03/higherOrder.ml" 86 3210 3253 "HW03/higherOrder.ml" 86 3210 3257
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 84 3151 3155 "HW03/higherOrder.ml" 84 3151 3159
+)
+"HW03/higherOrder.ml" 86 3210 3213 "HW03/higherOrder.ml" 86 3210 3257
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 88 3259 3263 "HW03/higherOrder.ml" 88 3259 3267
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 90 3310 3313 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 88 3259 3268 "HW03/higherOrder.ml" 88 3259 3270
+type(
+  unit
+)
+"HW03/higherOrder.ml" 89 3280 3282 "HW03/higherOrder.ml" 89 3280 3287
+type(
+  int -> (int * string) list -> string
+)
+ident(
+  int_ref assoc "HW03/higherOrder.ml" 74 2882 2890 "HW03/higherOrder.ml" 74 2882 2895
+)
+"HW03/higherOrder.ml" 89 3280 3288 "HW03/higherOrder.ml" 89 3280 3290
+type(
+  int
+)
+"HW03/higherOrder.ml" 89 3280 3291 "HW03/higherOrder.ml" 89 3280 3293
+type(
+  (int * string) list
+)
+"HW03/higherOrder.ml" 89 3280 3282 "HW03/higherOrder.ml" 89 3280 3293
+call(
+  stack
+)
+type(
+  string
+)
+"HW03/higherOrder.ml" 89 3280 3294 "HW03/higherOrder.ml" 89 3280 3295
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 89 3280 3296 "HW03/higherOrder.ml" 89 3280 3309
+type(
+  string
+)
+"HW03/higherOrder.ml" 89 3280 3282 "HW03/higherOrder.ml" 89 3280 3309
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 90 3310 3313 "HW03/higherOrder.ml" 90 3310 3329
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_failing_test
+)
+"HW03/higherOrder.ml" 90 3310 3330 "HW03/higherOrder.ml" 90 3310 3349
+type(
+  string
+)
+"HW03/higherOrder.ml" 90 3310 3350 "HW03/higherOrder.ml" 90 3310 3354
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 88 3259 3263 "HW03/higherOrder.ml" 88 3259 3267
+)
+"HW03/higherOrder.ml" 90 3310 3313 "HW03/higherOrder.ml" 90 3310 3354
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 92 3356 3360 "HW03/higherOrder.ml" 92 3356 3364
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 94 3430 3433 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 92 3356 3365 "HW03/higherOrder.ml" 92 3356 3367
+type(
+  unit
+)
+"HW03/higherOrder.ml" 93 3377 3379 "HW03/higherOrder.ml" 93 3377 3384
+type(
+  int -> (int * bool) list -> bool
+)
+ident(
+  int_ref assoc "HW03/higherOrder.ml" 74 2882 2890 "HW03/higherOrder.ml" 74 2882 2895
+)
+"HW03/higherOrder.ml" 93 3377 3385 "HW03/higherOrder.ml" 93 3377 3386
+type(
+  int
+)
+"HW03/higherOrder.ml" 93 3377 3389 "HW03/higherOrder.ml" 93 3377 3390
+type(
+  int
+)
+"HW03/higherOrder.ml" 93 3377 3392 "HW03/higherOrder.ml" 93 3377 3396
+type(
+  bool
+)
+"HW03/higherOrder.ml" 93 3377 3388 "HW03/higherOrder.ml" 93 3377 3397
+type(
+  int * bool
+)
+"HW03/higherOrder.ml" 93 3377 3400 "HW03/higherOrder.ml" 93 3377 3401
+type(
+  int
+)
+"HW03/higherOrder.ml" 93 3377 3403 "HW03/higherOrder.ml" 93 3377 3408
+type(
+  bool
+)
+"HW03/higherOrder.ml" 93 3377 3399 "HW03/higherOrder.ml" 93 3377 3409
+type(
+  int * bool
+)
+"HW03/higherOrder.ml" 93 3377 3412 "HW03/higherOrder.ml" 93 3377 3413
+type(
+  int
+)
+"HW03/higherOrder.ml" 93 3377 3415 "HW03/higherOrder.ml" 93 3377 3420
+type(
+  bool
+)
+"HW03/higherOrder.ml" 93 3377 3411 "HW03/higherOrder.ml" 93 3377 3421
+type(
+  int * bool
+)
+"HW03/higherOrder.ml" 93 3377 3387 "HW03/higherOrder.ml" 93 3377 3422
+type(
+  (int * bool) list
+)
+"HW03/higherOrder.ml" 93 3377 3379 "HW03/higherOrder.ml" 93 3377 3422
+call(
+  stack
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 93 3377 3423 "HW03/higherOrder.ml" 93 3377 3424
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 93 3377 3425 "HW03/higherOrder.ml" 93 3377 3429
+type(
+  bool
+)
+"HW03/higherOrder.ml" 93 3377 3379 "HW03/higherOrder.ml" 93 3377 3429
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 94 3430 3433 "HW03/higherOrder.ml" 94 3430 3441
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 94 3430 3442 "HW03/higherOrder.ml" 94 3430 3464
+type(
+  string
+)
+"HW03/higherOrder.ml" 94 3430 3465 "HW03/higherOrder.ml" 94 3430 3469
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 92 3356 3360 "HW03/higherOrder.ml" 92 3356 3364
+)
+"HW03/higherOrder.ml" 94 3430 3433 "HW03/higherOrder.ml" 94 3430 3469
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 104 3899 3907 "HW03/higherOrder.ml" 104 3899 3916
+type(
+  ('a -> 'b) -> 'a list -> 'b list
+)
+ident(
+  def transform "HW03/higherOrder.ml" 104 3899 3899 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 104 3899 3918 "HW03/higherOrder.ml" 104 3899 3919
+type(
+  'a -> 'b
+)
+ident(
+  def f "HW03/higherOrder.ml" 104 3899 3931 "HW03/higherOrder.ml" 108 4027 4032
+)
+"HW03/higherOrder.ml" 104 3899 3932 "HW03/higherOrder.ml" 104 3899 3933
+type(
+  'a list
+)
+ident(
+  def l "HW03/higherOrder.ml" 104 3899 3944 "HW03/higherOrder.ml" 108 4027 4032
+)
+"HW03/higherOrder.ml" 105 3956 3970 "HW03/higherOrder.ml" 105 3956 3971
+type(
+  'a list
+)
+ident(
+  int_ref l "HW03/higherOrder.ml" 104 3899 3932 "HW03/higherOrder.ml" 104 3899 3933
+)
+"HW03/higherOrder.ml" 106 3977 3981 "HW03/higherOrder.ml" 106 3977 3983
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 106 3977 3987 "HW03/higherOrder.ml" 106 3977 3989
+type(
+  'b list
+)
+"HW03/higherOrder.ml" 107 3990 3994 "HW03/higherOrder.ml" 107 3990 3995
+type(
+  'a
+)
+ident(
+  def x "HW03/higherOrder.ml" 107 3990 4005 "HW03/higherOrder.ml" 107 3990 4026
+)
+"HW03/higherOrder.ml" 107 3990 3999 "HW03/higherOrder.ml" 107 3990 4001
+type(
+  'a list
+)
+ident(
+  def xs "HW03/higherOrder.ml" 107 3990 4005 "HW03/higherOrder.ml" 107 3990 4026
+)
+"HW03/higherOrder.ml" 107 3990 3994 "HW03/higherOrder.ml" 107 3990 4001
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 107 3990 4005 "HW03/higherOrder.ml" 107 3990 4006
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "HW03/higherOrder.ml" 104 3899 3918 "HW03/higherOrder.ml" 104 3899 3919
+)
+"HW03/higherOrder.ml" 107 3990 4007 "HW03/higherOrder.ml" 107 3990 4008
+type(
+  'a
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 107 3990 3994 "HW03/higherOrder.ml" 107 3990 3995
+)
+"HW03/higherOrder.ml" 107 3990 4005 "HW03/higherOrder.ml" 107 3990 4008
+call(
+  stack
+)
+type(
+  'b
+)
+"HW03/higherOrder.ml" 107 3990 4012 "HW03/higherOrder.ml" 107 3990 4021
+type(
+  ('a -> 'b) -> 'a list -> 'b list
+)
+ident(
+  int_ref transform "HW03/higherOrder.ml" 104 3899 3907 "HW03/higherOrder.ml" 104 3899 3916
+)
+"HW03/higherOrder.ml" 107 3990 4022 "HW03/higherOrder.ml" 107 3990 4023
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "HW03/higherOrder.ml" 104 3899 3918 "HW03/higherOrder.ml" 104 3899 3919
+)
+"HW03/higherOrder.ml" 107 3990 4024 "HW03/higherOrder.ml" 107 3990 4026
+type(
+  'a list
+)
+ident(
+  int_ref xs "HW03/higherOrder.ml" 107 3990 3999 "HW03/higherOrder.ml" 107 3990 4001
+)
+"HW03/higherOrder.ml" 107 3990 4012 "HW03/higherOrder.ml" 107 3990 4026
+call(
+  stack
+)
+type(
+  'b list
+)
+"HW03/higherOrder.ml" 107 3990 4005 "HW03/higherOrder.ml" 107 3990 4026
+type(
+  'b list
+)
+"HW03/higherOrder.ml" 105 3956 3958 "HW03/higherOrder.ml" 108 4027 4032
+type(
+  'b list
+)
+type(
+  'b list
+)
+"HW03/higherOrder.ml" 115 4320 4324 "HW03/higherOrder.ml" 115 4320 4334
+type(
+  string list -> string list
+)
+ident(
+  def capitalize "HW03/higherOrder.ml" 118 4400 4400 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 115 4320 4336 "HW03/higherOrder.ml" 115 4320 4337
+type(
+  string list
+)
+ident(
+  def l "HW03/higherOrder.ml" 115 4320 4352 "HW03/higherOrder.ml" 116 4368 4398
+)
+"HW03/higherOrder.ml" 116 4368 4370 "HW03/higherOrder.ml" 116 4368 4379
+type(
+  (string -> string) -> string list -> string list
+)
+ident(
+  int_ref transform "HW03/higherOrder.ml" 104 3899 3907 "HW03/higherOrder.ml" 104 3899 3916
+)
+"HW03/higherOrder.ml" 116 4368 4380 "HW03/higherOrder.ml" 116 4368 4396
+type(
+  string -> string
+)
+ident(
+  ext_ref String.uppercase
+)
+"HW03/higherOrder.ml" 116 4368 4397 "HW03/higherOrder.ml" 116 4368 4398
+type(
+  string list
+)
+ident(
+  int_ref l "HW03/higherOrder.ml" 115 4320 4336 "HW03/higherOrder.ml" 115 4320 4337
+)
+"HW03/higherOrder.ml" 116 4368 4370 "HW03/higherOrder.ml" 116 4368 4398
+call(
+  tail
+)
+type(
+  string list
+)
+type(
+  string list
+)
+"HW03/higherOrder.ml" 118 4400 4404 "HW03/higherOrder.ml" 118 4400 4408
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 120 4494 4497 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 118 4400 4409 "HW03/higherOrder.ml" 118 4400 4411
+type(
+  unit
+)
+"HW03/higherOrder.ml" 119 4421 4423 "HW03/higherOrder.ml" 119 4421 4433
+type(
+  string list -> string list
+)
+ident(
+  int_ref capitalize "HW03/higherOrder.ml" 115 4320 4324 "HW03/higherOrder.ml" 115 4320 4334
+)
+"HW03/higherOrder.ml" 119 4421 4435 "HW03/higherOrder.ml" 119 4421 4438
+type(
+  string
+)
+"HW03/higherOrder.ml" 119 4421 4440 "HW03/higherOrder.ml" 119 4421 4446
+type(
+  string
+)
+"HW03/higherOrder.ml" 119 4421 4448 "HW03/higherOrder.ml" 119 4421 4452
+type(
+  string
+)
+"HW03/higherOrder.ml" 119 4421 4454 "HW03/higherOrder.ml" 119 4421 4461
+type(
+  string
+)
+"HW03/higherOrder.ml" 119 4421 4434 "HW03/higherOrder.ml" 119 4421 4462
+type(
+  string list
+)
+"HW03/higherOrder.ml" 119 4421 4423 "HW03/higherOrder.ml" 119 4421 4462
+call(
+  stack
+)
+type(
+  string list
+)
+"HW03/higherOrder.ml" 119 4421 4463 "HW03/higherOrder.ml" 119 4421 4464
+type(
+  string list -> string list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 119 4421 4466 "HW03/higherOrder.ml" 119 4421 4469
+type(
+  string
+)
+"HW03/higherOrder.ml" 119 4421 4471 "HW03/higherOrder.ml" 119 4421 4477
+type(
+  string
+)
+"HW03/higherOrder.ml" 119 4421 4479 "HW03/higherOrder.ml" 119 4421 4483
+type(
+  string
+)
+"HW03/higherOrder.ml" 119 4421 4485 "HW03/higherOrder.ml" 119 4421 4492
+type(
+  string
+)
+"HW03/higherOrder.ml" 119 4421 4465 "HW03/higherOrder.ml" 119 4421 4493
+type(
+  string list
+)
+"HW03/higherOrder.ml" 119 4421 4423 "HW03/higherOrder.ml" 119 4421 4493
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 120 4494 4497 "HW03/higherOrder.ml" 120 4494 4505
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 120 4494 4506 "HW03/higherOrder.ml" 120 4494 4534
+type(
+  string
+)
+"HW03/higherOrder.ml" 120 4494 4535 "HW03/higherOrder.ml" 120 4494 4539
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 118 4400 4404 "HW03/higherOrder.ml" 118 4400 4408
+)
+"HW03/higherOrder.ml" 120 4494 4497 "HW03/higherOrder.ml" 120 4494 4539
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 122 4541 4545 "HW03/higherOrder.ml" 122 4541 4549
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 124 4583 4586 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 122 4541 4550 "HW03/higherOrder.ml" 122 4541 4552
+type(
+  unit
+)
+"HW03/higherOrder.ml" 123 4562 4564 "HW03/higherOrder.ml" 123 4562 4574
+type(
+  string list -> string list
+)
+ident(
+  int_ref capitalize "HW03/higherOrder.ml" 115 4320 4324 "HW03/higherOrder.ml" 115 4320 4334
+)
+"HW03/higherOrder.ml" 123 4562 4575 "HW03/higherOrder.ml" 123 4562 4577
+type(
+  string list
+)
+"HW03/higherOrder.ml" 123 4562 4564 "HW03/higherOrder.ml" 123 4562 4577
+call(
+  stack
+)
+type(
+  string list
+)
+"HW03/higherOrder.ml" 123 4562 4578 "HW03/higherOrder.ml" 123 4562 4579
+type(
+  string list -> string list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 123 4562 4580 "HW03/higherOrder.ml" 123 4562 4582
+type(
+  string list
+)
+"HW03/higherOrder.ml" 123 4562 4564 "HW03/higherOrder.ml" 123 4562 4582
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 124 4583 4586 "HW03/higherOrder.ml" 124 4583 4594
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 124 4583 4595 "HW03/higherOrder.ml" 124 4583 4619
+type(
+  string
+)
+"HW03/higherOrder.ml" 124 4583 4620 "HW03/higherOrder.ml" 124 4583 4624
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 122 4541 4545 "HW03/higherOrder.ml" 122 4541 4549
+)
+"HW03/higherOrder.ml" 124 4583 4586 "HW03/higherOrder.ml" 124 4583 4624
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 126 4626 4630 "HW03/higherOrder.ml" 126 4626 4634
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 128 4674 4677 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 126 4626 4635 "HW03/higherOrder.ml" 126 4626 4637
+type(
+  unit
+)
+"HW03/higherOrder.ml" 127 4647 4649 "HW03/higherOrder.ml" 127 4647 4659
+type(
+  string list -> string list
+)
+ident(
+  int_ref capitalize "HW03/higherOrder.ml" 115 4320 4324 "HW03/higherOrder.ml" 115 4320 4334
+)
+"HW03/higherOrder.ml" 127 4647 4661 "HW03/higherOrder.ml" 127 4647 4664
+type(
+  string
+)
+"HW03/higherOrder.ml" 127 4647 4660 "HW03/higherOrder.ml" 127 4647 4665
+type(
+  string list
+)
+"HW03/higherOrder.ml" 127 4647 4649 "HW03/higherOrder.ml" 127 4647 4665
+call(
+  stack
+)
+type(
+  string list
+)
+"HW03/higherOrder.ml" 127 4647 4666 "HW03/higherOrder.ml" 127 4647 4667
+type(
+  string list -> string list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 127 4647 4669 "HW03/higherOrder.ml" 127 4647 4672
+type(
+  string
+)
+"HW03/higherOrder.ml" 127 4647 4668 "HW03/higherOrder.ml" 127 4647 4673
+type(
+  string list
+)
+"HW03/higherOrder.ml" 127 4647 4649 "HW03/higherOrder.ml" 127 4647 4673
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 128 4674 4677 "HW03/higherOrder.ml" 128 4674 4685
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 128 4674 4686 "HW03/higherOrder.ml" 128 4674 4714
+type(
+  string
+)
+"HW03/higherOrder.ml" 128 4674 4715 "HW03/higherOrder.ml" 128 4674 4719
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 126 4626 4630 "HW03/higherOrder.ml" 126 4626 4634
+)
+"HW03/higherOrder.ml" 128 4674 4677 "HW03/higherOrder.ml" 128 4674 4719
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 130 4721 4725 "HW03/higherOrder.ml" 130 4721 4729
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 132 4769 4772 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 130 4721 4730 "HW03/higherOrder.ml" 130 4721 4732
+type(
+  unit
+)
+"HW03/higherOrder.ml" 131 4742 4744 "HW03/higherOrder.ml" 131 4742 4754
+type(
+  string list -> string list
+)
+ident(
+  int_ref capitalize "HW03/higherOrder.ml" 115 4320 4324 "HW03/higherOrder.ml" 115 4320 4334
+)
+"HW03/higherOrder.ml" 131 4742 4756 "HW03/higherOrder.ml" 131 4742 4759
+type(
+  string
+)
+"HW03/higherOrder.ml" 131 4742 4755 "HW03/higherOrder.ml" 131 4742 4760
+type(
+  string list
+)
+"HW03/higherOrder.ml" 131 4742 4744 "HW03/higherOrder.ml" 131 4742 4760
+call(
+  stack
+)
+type(
+  string list
+)
+"HW03/higherOrder.ml" 131 4742 4761 "HW03/higherOrder.ml" 131 4742 4762
+type(
+  string list -> string list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 131 4742 4764 "HW03/higherOrder.ml" 131 4742 4767
+type(
+  string
+)
+"HW03/higherOrder.ml" 131 4742 4763 "HW03/higherOrder.ml" 131 4742 4768
+type(
+  string list
+)
+"HW03/higherOrder.ml" 131 4742 4744 "HW03/higherOrder.ml" 131 4742 4768
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 132 4769 4772 "HW03/higherOrder.ml" 132 4769 4780
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 132 4769 4781 "HW03/higherOrder.ml" 132 4769 4811
+type(
+  string
+)
+"HW03/higherOrder.ml" 132 4769 4812 "HW03/higherOrder.ml" 132 4769 4816
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 130 4721 4725 "HW03/higherOrder.ml" 130 4721 4729
+)
+"HW03/higherOrder.ml" 132 4769 4772 "HW03/higherOrder.ml" 132 4769 4816
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 137 4945 4953 "HW03/higherOrder.ml" 137 4945 4957
+type(
+  ('a -> 'b -> 'b) -> 'b -> 'a list -> 'b
+)
+ident(
+  def fold "HW03/higherOrder.ml" 137 4945 4945 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 137 4945 4959 "HW03/higherOrder.ml" 137 4945 4966
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  def combine "HW03/higherOrder.ml" 137 4945 4984 "HW03/higherOrder.ml" 141 5099 5104
+)
+"HW03/higherOrder.ml" 137 4945 4985 "HW03/higherOrder.ml" 137 4945 4989
+type(
+  'b
+)
+ident(
+  def base "HW03/higherOrder.ml" 137 4945 4995 "HW03/higherOrder.ml" 141 5099 5104
+)
+"HW03/higherOrder.ml" 137 4945 4996 "HW03/higherOrder.ml" 137 4945 4997
+type(
+  'a list
+)
+ident(
+  def l "HW03/higherOrder.ml" 137 4945 5008 "HW03/higherOrder.ml" 141 5099 5104
+)
+"HW03/higherOrder.ml" 138 5015 5029 "HW03/higherOrder.ml" 138 5015 5030
+type(
+  'a list
+)
+ident(
+  int_ref l "HW03/higherOrder.ml" 137 4945 4996 "HW03/higherOrder.ml" 137 4945 4997
+)
+"HW03/higherOrder.ml" 139 5036 5040 "HW03/higherOrder.ml" 139 5036 5042
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 139 5036 5046 "HW03/higherOrder.ml" 139 5036 5050
+type(
+  'b
+)
+ident(
+  int_ref base "HW03/higherOrder.ml" 137 4945 4985 "HW03/higherOrder.ml" 137 4945 4989
+)
+"HW03/higherOrder.ml" 140 5051 5055 "HW03/higherOrder.ml" 140 5051 5056
+type(
+  'a
+)
+ident(
+  def x "HW03/higherOrder.ml" 140 5051 5066 "HW03/higherOrder.ml" 140 5051 5098
+)
+"HW03/higherOrder.ml" 140 5051 5060 "HW03/higherOrder.ml" 140 5051 5062
+type(
+  'a list
+)
+ident(
+  def xs "HW03/higherOrder.ml" 140 5051 5066 "HW03/higherOrder.ml" 140 5051 5098
+)
+"HW03/higherOrder.ml" 140 5051 5055 "HW03/higherOrder.ml" 140 5051 5062
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 140 5051 5066 "HW03/higherOrder.ml" 140 5051 5073
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  int_ref combine "HW03/higherOrder.ml" 137 4945 4959 "HW03/higherOrder.ml" 137 4945 4966
+)
+"HW03/higherOrder.ml" 140 5051 5074 "HW03/higherOrder.ml" 140 5051 5075
+type(
+  'a
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 140 5051 5055 "HW03/higherOrder.ml" 140 5051 5056
+)
+"HW03/higherOrder.ml" 140 5051 5077 "HW03/higherOrder.ml" 140 5051 5081
+type(
+  ('a -> 'b -> 'b) -> 'b -> 'a list -> 'b
+)
+ident(
+  int_ref fold "HW03/higherOrder.ml" 137 4945 4953 "HW03/higherOrder.ml" 137 4945 4957
+)
+"HW03/higherOrder.ml" 140 5051 5082 "HW03/higherOrder.ml" 140 5051 5089
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  int_ref combine "HW03/higherOrder.ml" 137 4945 4959 "HW03/higherOrder.ml" 137 4945 4966
+)
+"HW03/higherOrder.ml" 140 5051 5090 "HW03/higherOrder.ml" 140 5051 5094
+type(
+  'b
+)
+ident(
+  int_ref base "HW03/higherOrder.ml" 137 4945 4985 "HW03/higherOrder.ml" 137 4945 4989
+)
+"HW03/higherOrder.ml" 140 5051 5095 "HW03/higherOrder.ml" 140 5051 5097
+type(
+  'a list
+)
+ident(
+  int_ref xs "HW03/higherOrder.ml" 140 5051 5060 "HW03/higherOrder.ml" 140 5051 5062
+)
+"HW03/higherOrder.ml" 140 5051 5076 "HW03/higherOrder.ml" 140 5051 5098
+call(
+  stack
+)
+type(
+  'b
+)
+"HW03/higherOrder.ml" 140 5051 5066 "HW03/higherOrder.ml" 140 5051 5098
+call(
+  tail
+)
+type(
+  'b
+)
+"HW03/higherOrder.ml" 138 5015 5017 "HW03/higherOrder.ml" 141 5099 5104
+type(
+  'b
+)
+type(
+  'b
+)
+"HW03/higherOrder.ml" 149 5474 5478 "HW03/higherOrder.ml" 149 5474 5481
+type(
+  int list -> int
+)
+ident(
+  def sum "HW03/higherOrder.ml" 155 5674 5674 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 149 5474 5483 "HW03/higherOrder.ml" 149 5474 5484
+type(
+  int list
+)
+ident(
+  def l "HW03/higherOrder.ml" 149 5474 5496 "HW03/higherOrder.ml" 150 5504 5537
+)
+"HW03/higherOrder.ml" 150 5504 5506 "HW03/higherOrder.ml" 150 5504 5510
+type(
+  (int -> int -> int) -> int -> int list -> int
+)
+ident(
+  int_ref fold "HW03/higherOrder.ml" 137 4945 4953 "HW03/higherOrder.ml" 137 4945 4957
+)
+"HW03/higherOrder.ml" 150 5504 5516 "HW03/higherOrder.ml" 150 5504 5517
+type(
+  int
+)
+ident(
+  def x "HW03/higherOrder.ml" 150 5504 5518 "HW03/higherOrder.ml" 150 5504 5532
+)
+"HW03/higherOrder.ml" 150 5504 5518 "HW03/higherOrder.ml" 150 5504 5521
+type(
+  int
+)
+ident(
+  def acc "HW03/higherOrder.ml" 150 5504 5525 "HW03/higherOrder.ml" 150 5504 5532
+)
+"HW03/higherOrder.ml" 150 5504 5525 "HW03/higherOrder.ml" 150 5504 5526
+type(
+  int
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 150 5504 5516 "HW03/higherOrder.ml" 150 5504 5517
+)
+"HW03/higherOrder.ml" 150 5504 5527 "HW03/higherOrder.ml" 150 5504 5528
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"HW03/higherOrder.ml" 150 5504 5529 "HW03/higherOrder.ml" 150 5504 5532
+type(
+  int
+)
+ident(
+  int_ref acc "HW03/higherOrder.ml" 150 5504 5518 "HW03/higherOrder.ml" 150 5504 5521
+)
+"HW03/higherOrder.ml" 150 5504 5525 "HW03/higherOrder.ml" 150 5504 5532
+type(
+  int
+)
+"HW03/higherOrder.ml" 150 5504 5511 "HW03/higherOrder.ml" 150 5504 5533
+type(
+  int -> int -> int
+)
+"HW03/higherOrder.ml" 150 5504 5534 "HW03/higherOrder.ml" 150 5504 5535
+type(
+  int
+)
+"HW03/higherOrder.ml" 150 5504 5536 "HW03/higherOrder.ml" 150 5504 5537
+type(
+  int list
+)
+ident(
+  int_ref l "HW03/higherOrder.ml" 149 5474 5483 "HW03/higherOrder.ml" 149 5474 5484
+)
+"HW03/higherOrder.ml" 150 5504 5506 "HW03/higherOrder.ml" 150 5504 5537
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"HW03/higherOrder.ml" 155 5674 5678 "HW03/higherOrder.ml" 155 5674 5689
+type(
+  'a list -> int
+)
+ident(
+  def list_length "HW03/higherOrder.ml" 163 6034 6034 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 155 5674 5691 "HW03/higherOrder.ml" 155 5674 5692
+type(
+  'a list
+)
+ident(
+  def l "HW03/higherOrder.ml" 155 5674 5703 "HW03/higherOrder.ml" 156 5711 5744
+)
+"HW03/higherOrder.ml" 156 5711 5713 "HW03/higherOrder.ml" 156 5711 5717
+type(
+  ('a -> int -> int) -> int -> 'a list -> int
+)
+ident(
+  int_ref fold "HW03/higherOrder.ml" 137 4945 4953 "HW03/higherOrder.ml" 137 4945 4957
+)
+"HW03/higherOrder.ml" 156 5711 5723 "HW03/higherOrder.ml" 156 5711 5724
+type(
+  'a
+)
+"HW03/higherOrder.ml" 156 5711 5725 "HW03/higherOrder.ml" 156 5711 5728
+type(
+  int
+)
+ident(
+  def acc "HW03/higherOrder.ml" 156 5711 5732 "HW03/higherOrder.ml" 156 5711 5739
+)
+"HW03/higherOrder.ml" 156 5711 5732 "HW03/higherOrder.ml" 156 5711 5733
+type(
+  int
+)
+"HW03/higherOrder.ml" 156 5711 5734 "HW03/higherOrder.ml" 156 5711 5735
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"HW03/higherOrder.ml" 156 5711 5736 "HW03/higherOrder.ml" 156 5711 5739
+type(
+  int
+)
+ident(
+  int_ref acc "HW03/higherOrder.ml" 156 5711 5725 "HW03/higherOrder.ml" 156 5711 5728
+)
+"HW03/higherOrder.ml" 156 5711 5732 "HW03/higherOrder.ml" 156 5711 5739
+type(
+  int
+)
+"HW03/higherOrder.ml" 156 5711 5718 "HW03/higherOrder.ml" 156 5711 5740
+type(
+  'a -> int -> int
+)
+"HW03/higherOrder.ml" 156 5711 5741 "HW03/higherOrder.ml" 156 5711 5742
+type(
+  int
+)
+"HW03/higherOrder.ml" 156 5711 5743 "HW03/higherOrder.ml" 156 5711 5744
+type(
+  'a list
+)
+ident(
+  int_ref l "HW03/higherOrder.ml" 155 5674 5691 "HW03/higherOrder.ml" 155 5674 5692
+)
+"HW03/higherOrder.ml" 156 5711 5713 "HW03/higherOrder.ml" 156 5711 5744
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"HW03/higherOrder.ml" 163 6034 6038 "HW03/higherOrder.ml" 163 6034 6044
+type(
+  'a list list -> 'a list
+)
+ident(
+  def concat "HW03/higherOrder.ml" 166 6111 6111 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 163 6034 6046 "HW03/higherOrder.ml" 163 6034 6047
+type(
+  'a list list
+)
+ident(
+  def l "HW03/higherOrder.ml" 163 6034 6063 "HW03/higherOrder.ml" 164 6075 6109
+)
+"HW03/higherOrder.ml" 164 6075 6077 "HW03/higherOrder.ml" 164 6075 6081
+type(
+  ('a list -> 'a list -> 'a list) -> 'a list -> 'a list list -> 'a list
+)
+ident(
+  int_ref fold "HW03/higherOrder.ml" 137 4945 4953 "HW03/higherOrder.ml" 137 4945 4957
+)
+"HW03/higherOrder.ml" 164 6075 6087 "HW03/higherOrder.ml" 164 6075 6088
+type(
+  'a list
+)
+ident(
+  def x "HW03/higherOrder.ml" 164 6075 6089 "HW03/higherOrder.ml" 164 6075 6103
+)
+"HW03/higherOrder.ml" 164 6075 6089 "HW03/higherOrder.ml" 164 6075 6092
+type(
+  'a list
+)
+ident(
+  def acc "HW03/higherOrder.ml" 164 6075 6096 "HW03/higherOrder.ml" 164 6075 6103
+)
+"HW03/higherOrder.ml" 164 6075 6096 "HW03/higherOrder.ml" 164 6075 6097
+type(
+  'a list
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 164 6075 6087 "HW03/higherOrder.ml" 164 6075 6088
+)
+"HW03/higherOrder.ml" 164 6075 6098 "HW03/higherOrder.ml" 164 6075 6099
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"HW03/higherOrder.ml" 164 6075 6100 "HW03/higherOrder.ml" 164 6075 6103
+type(
+  'a list
+)
+ident(
+  int_ref acc "HW03/higherOrder.ml" 164 6075 6089 "HW03/higherOrder.ml" 164 6075 6092
+)
+"HW03/higherOrder.ml" 164 6075 6096 "HW03/higherOrder.ml" 164 6075 6103
+call(
+  tail
+)
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 164 6075 6082 "HW03/higherOrder.ml" 164 6075 6104
+type(
+  'a list -> 'a list -> 'a list
+)
+"HW03/higherOrder.ml" 164 6075 6105 "HW03/higherOrder.ml" 164 6075 6107
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 164 6075 6108 "HW03/higherOrder.ml" 164 6075 6109
+type(
+  'a list list
+)
+ident(
+  int_ref l "HW03/higherOrder.ml" 163 6034 6046 "HW03/higherOrder.ml" 163 6034 6047
+)
+"HW03/higherOrder.ml" 164 6075 6077 "HW03/higherOrder.ml" 164 6075 6109
+call(
+  tail
+)
+type(
+  'a list
+)
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 166 6111 6115 "HW03/higherOrder.ml" 166 6111 6119
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 168 6151 6154 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 166 6111 6120 "HW03/higherOrder.ml" 166 6111 6122
+type(
+  unit
+)
+"HW03/higherOrder.ml" 167 6132 6134 "HW03/higherOrder.ml" 167 6132 6140
+type(
+  '_a list list -> '_a list
+)
+ident(
+  int_ref concat "HW03/higherOrder.ml" 163 6034 6038 "HW03/higherOrder.ml" 163 6034 6044
+)
+"HW03/higherOrder.ml" 167 6132 6142 "HW03/higherOrder.ml" 167 6132 6144
+type(
+  '_a list
+)
+"HW03/higherOrder.ml" 167 6132 6141 "HW03/higherOrder.ml" 167 6132 6145
+type(
+  '_a list list
+)
+"HW03/higherOrder.ml" 167 6132 6134 "HW03/higherOrder.ml" 167 6132 6145
+call(
+  stack
+)
+type(
+  '_a list
+)
+"HW03/higherOrder.ml" 167 6132 6146 "HW03/higherOrder.ml" 167 6132 6147
+type(
+  '_a list -> '_a list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 167 6132 6148 "HW03/higherOrder.ml" 167 6132 6150
+type(
+  '_a list
+)
+"HW03/higherOrder.ml" 167 6132 6134 "HW03/higherOrder.ml" 167 6132 6150
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 168 6151 6154 "HW03/higherOrder.ml" 168 6151 6162
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 168 6151 6163 "HW03/higherOrder.ml" 168 6151 6190
+type(
+  string
+)
+"HW03/higherOrder.ml" 168 6151 6191 "HW03/higherOrder.ml" 168 6151 6195
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 166 6111 6115 "HW03/higherOrder.ml" 166 6111 6119
+)
+"HW03/higherOrder.ml" 168 6151 6154 "HW03/higherOrder.ml" 168 6151 6195
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 170 6197 6201 "HW03/higherOrder.ml" 170 6197 6205
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 172 6273 6276 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 170 6197 6206 "HW03/higherOrder.ml" 170 6197 6208
+type(
+  unit
+)
+"HW03/higherOrder.ml" 171 6218 6220 "HW03/higherOrder.ml" 171 6218 6226
+type(
+  int list list -> int list
+)
+ident(
+  int_ref concat "HW03/higherOrder.ml" 163 6034 6038 "HW03/higherOrder.ml" 163 6034 6044
+)
+"HW03/higherOrder.ml" 171 6218 6229 "HW03/higherOrder.ml" 171 6218 6230
+type(
+  int
+)
+"HW03/higherOrder.ml" 171 6218 6232 "HW03/higherOrder.ml" 171 6218 6233
+type(
+  int
+)
+"HW03/higherOrder.ml" 171 6218 6228 "HW03/higherOrder.ml" 171 6218 6234
+type(
+  int list
+)
+"HW03/higherOrder.ml" 171 6218 6237 "HW03/higherOrder.ml" 171 6218 6238
+type(
+  int
+)
+"HW03/higherOrder.ml" 171 6218 6236 "HW03/higherOrder.ml" 171 6218 6239
+type(
+  int list
+)
+"HW03/higherOrder.ml" 171 6218 6242 "HW03/higherOrder.ml" 171 6218 6243
+type(
+  int
+)
+"HW03/higherOrder.ml" 171 6218 6245 "HW03/higherOrder.ml" 171 6218 6246
+type(
+  int
+)
+"HW03/higherOrder.ml" 171 6218 6248 "HW03/higherOrder.ml" 171 6218 6249
+type(
+  int
+)
+"HW03/higherOrder.ml" 171 6218 6241 "HW03/higherOrder.ml" 171 6218 6250
+type(
+  int list
+)
+"HW03/higherOrder.ml" 171 6218 6227 "HW03/higherOrder.ml" 171 6218 6251
+type(
+  int list list
+)
+"HW03/higherOrder.ml" 171 6218 6220 "HW03/higherOrder.ml" 171 6218 6251
+call(
+  stack
+)
+type(
+  int list
+)
+"HW03/higherOrder.ml" 171 6218 6252 "HW03/higherOrder.ml" 171 6218 6253
+type(
+  int list -> int list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 171 6218 6255 "HW03/higherOrder.ml" 171 6218 6256
+type(
+  int
+)
+"HW03/higherOrder.ml" 171 6218 6258 "HW03/higherOrder.ml" 171 6218 6259
+type(
+  int
+)
+"HW03/higherOrder.ml" 171 6218 6261 "HW03/higherOrder.ml" 171 6218 6262
+type(
+  int
+)
+"HW03/higherOrder.ml" 171 6218 6264 "HW03/higherOrder.ml" 171 6218 6265
+type(
+  int
+)
+"HW03/higherOrder.ml" 171 6218 6267 "HW03/higherOrder.ml" 171 6218 6268
+type(
+  int
+)
+"HW03/higherOrder.ml" 171 6218 6270 "HW03/higherOrder.ml" 171 6218 6271
+type(
+  int
+)
+"HW03/higherOrder.ml" 171 6218 6254 "HW03/higherOrder.ml" 171 6218 6272
+type(
+  int list
+)
+"HW03/higherOrder.ml" 171 6218 6220 "HW03/higherOrder.ml" 171 6218 6272
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 172 6273 6276 "HW03/higherOrder.ml" 172 6273 6284
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 172 6273 6285 "HW03/higherOrder.ml" 172 6273 6311
+type(
+  string
+)
+"HW03/higherOrder.ml" 172 6273 6312 "HW03/higherOrder.ml" 172 6273 6316
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 170 6197 6201 "HW03/higherOrder.ml" 170 6197 6205
+)
+"HW03/higherOrder.ml" 172 6273 6276 "HW03/higherOrder.ml" 172 6273 6316
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 174 6318 6322 "HW03/higherOrder.ml" 174 6318 6326
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 176 6362 6365 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 174 6318 6327 "HW03/higherOrder.ml" 174 6318 6329
+type(
+  unit
+)
+"HW03/higherOrder.ml" 175 6339 6341 "HW03/higherOrder.ml" 175 6339 6347
+type(
+  '_a list list -> '_a list
+)
+ident(
+  int_ref concat "HW03/higherOrder.ml" 163 6034 6038 "HW03/higherOrder.ml" 163 6034 6044
+)
+"HW03/higherOrder.ml" 175 6339 6349 "HW03/higherOrder.ml" 175 6339 6351
+type(
+  '_a list
+)
+"HW03/higherOrder.ml" 175 6339 6353 "HW03/higherOrder.ml" 175 6339 6355
+type(
+  '_a list
+)
+"HW03/higherOrder.ml" 175 6339 6348 "HW03/higherOrder.ml" 175 6339 6356
+type(
+  '_a list list
+)
+"HW03/higherOrder.ml" 175 6339 6341 "HW03/higherOrder.ml" 175 6339 6356
+call(
+  stack
+)
+type(
+  '_a list
+)
+"HW03/higherOrder.ml" 175 6339 6357 "HW03/higherOrder.ml" 175 6339 6358
+type(
+  '_a list -> '_a list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 175 6339 6359 "HW03/higherOrder.ml" 175 6339 6361
+type(
+  '_a list
+)
+"HW03/higherOrder.ml" 175 6339 6341 "HW03/higherOrder.ml" 175 6339 6361
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 176 6362 6365 "HW03/higherOrder.ml" 176 6362 6373
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 176 6362 6374 "HW03/higherOrder.ml" 176 6362 6402
+type(
+  string
+)
+"HW03/higherOrder.ml" 176 6362 6403 "HW03/higherOrder.ml" 176 6362 6407
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 174 6318 6322 "HW03/higherOrder.ml" 174 6318 6326
+)
+"HW03/higherOrder.ml" 176 6362 6365 "HW03/higherOrder.ml" 176 6362 6407
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 181 6567 6571 "HW03/higherOrder.ml" 181 6567 6578
+type(
+  'a list -> 'a list
+)
+ident(
+  def reverse "HW03/higherOrder.ml" 184 6642 6642 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 181 6567 6580 "HW03/higherOrder.ml" 181 6567 6581
+type(
+  'a list
+)
+ident(
+  def l "HW03/higherOrder.ml" 181 6567 6592 "HW03/higherOrder.ml" 182 6604 6640
+)
+"HW03/higherOrder.ml" 182 6604 6606 "HW03/higherOrder.ml" 182 6604 6610
+type(
+  ('a -> 'a list -> 'a list) -> 'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref fold "HW03/higherOrder.ml" 137 4945 4953 "HW03/higherOrder.ml" 137 4945 4957
+)
+"HW03/higherOrder.ml" 182 6604 6616 "HW03/higherOrder.ml" 182 6604 6617
+type(
+  'a
+)
+ident(
+  def x "HW03/higherOrder.ml" 182 6604 6618 "HW03/higherOrder.ml" 182 6604 6634
+)
+"HW03/higherOrder.ml" 182 6604 6618 "HW03/higherOrder.ml" 182 6604 6621
+type(
+  'a list
+)
+ident(
+  def acc "HW03/higherOrder.ml" 182 6604 6625 "HW03/higherOrder.ml" 182 6604 6634
+)
+"HW03/higherOrder.ml" 182 6604 6625 "HW03/higherOrder.ml" 182 6604 6628
+type(
+  'a list
+)
+ident(
+  int_ref acc "HW03/higherOrder.ml" 182 6604 6618 "HW03/higherOrder.ml" 182 6604 6621
+)
+"HW03/higherOrder.ml" 182 6604 6629 "HW03/higherOrder.ml" 182 6604 6630
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"HW03/higherOrder.ml" 182 6604 6632 "HW03/higherOrder.ml" 182 6604 6633
+type(
+  'a
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 182 6604 6616 "HW03/higherOrder.ml" 182 6604 6617
+)
+"HW03/higherOrder.ml" 182 6604 6631 "HW03/higherOrder.ml" 182 6604 6634
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 182 6604 6625 "HW03/higherOrder.ml" 182 6604 6634
+call(
+  tail
+)
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 182 6604 6611 "HW03/higherOrder.ml" 182 6604 6635
+type(
+  'a -> 'a list -> 'a list
+)
+"HW03/higherOrder.ml" 182 6604 6636 "HW03/higherOrder.ml" 182 6604 6638
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 182 6604 6639 "HW03/higherOrder.ml" 182 6604 6640
+type(
+  'a list
+)
+ident(
+  int_ref l "HW03/higherOrder.ml" 181 6567 6580 "HW03/higherOrder.ml" 181 6567 6581
+)
+"HW03/higherOrder.ml" 182 6604 6606 "HW03/higherOrder.ml" 182 6604 6640
+call(
+  tail
+)
+type(
+  'a list
+)
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 184 6642 6646 "HW03/higherOrder.ml" 184 6642 6650
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 186 6731 6734 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 184 6642 6651 "HW03/higherOrder.ml" 184 6642 6653
+type(
+  unit
+)
+"HW03/higherOrder.ml" 185 6663 6665 "HW03/higherOrder.ml" 185 6663 6672
+type(
+  string list -> string list
+)
+ident(
+  int_ref reverse "HW03/higherOrder.ml" 181 6567 6571 "HW03/higherOrder.ml" 181 6567 6578
+)
+"HW03/higherOrder.ml" 185 6663 6674 "HW03/higherOrder.ml" 185 6663 6679
+type(
+  string
+)
+"HW03/higherOrder.ml" 185 6663 6681 "HW03/higherOrder.ml" 185 6663 6686
+type(
+  string
+)
+"HW03/higherOrder.ml" 185 6663 6688 "HW03/higherOrder.ml" 185 6663 6693
+type(
+  string
+)
+"HW03/higherOrder.ml" 185 6663 6695 "HW03/higherOrder.ml" 185 6663 6699
+type(
+  string
+)
+"HW03/higherOrder.ml" 185 6663 6673 "HW03/higherOrder.ml" 185 6663 6700
+type(
+  string list
+)
+"HW03/higherOrder.ml" 185 6663 6665 "HW03/higherOrder.ml" 185 6663 6700
+call(
+  stack
+)
+type(
+  string list
+)
+"HW03/higherOrder.ml" 185 6663 6701 "HW03/higherOrder.ml" 185 6663 6702
+type(
+  string list -> string list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 185 6663 6704 "HW03/higherOrder.ml" 185 6663 6708
+type(
+  string
+)
+"HW03/higherOrder.ml" 185 6663 6710 "HW03/higherOrder.ml" 185 6663 6715
+type(
+  string
+)
+"HW03/higherOrder.ml" 185 6663 6717 "HW03/higherOrder.ml" 185 6663 6722
+type(
+  string
+)
+"HW03/higherOrder.ml" 185 6663 6724 "HW03/higherOrder.ml" 185 6663 6729
+type(
+  string
+)
+"HW03/higherOrder.ml" 185 6663 6703 "HW03/higherOrder.ml" 185 6663 6730
+type(
+  string list
+)
+"HW03/higherOrder.ml" 185 6663 6665 "HW03/higherOrder.ml" 185 6663 6730
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 186 6731 6734 "HW03/higherOrder.ml" 186 6731 6742
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 186 6731 6743 "HW03/higherOrder.ml" 186 6731 6757
+type(
+  string
+)
+"HW03/higherOrder.ml" 186 6731 6758 "HW03/higherOrder.ml" 186 6731 6762
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 184 6642 6646 "HW03/higherOrder.ml" 184 6642 6650
+)
+"HW03/higherOrder.ml" 186 6731 6734 "HW03/higherOrder.ml" 186 6731 6762
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 188 6764 6768 "HW03/higherOrder.ml" 188 6764 6772
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 190 6803 6806 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 188 6764 6773 "HW03/higherOrder.ml" 188 6764 6775
+type(
+  unit
+)
+"HW03/higherOrder.ml" 189 6785 6787 "HW03/higherOrder.ml" 189 6785 6794
+type(
+  '_a list -> '_a list
+)
+ident(
+  int_ref reverse "HW03/higherOrder.ml" 181 6567 6571 "HW03/higherOrder.ml" 181 6567 6578
+)
+"HW03/higherOrder.ml" 189 6785 6795 "HW03/higherOrder.ml" 189 6785 6797
+type(
+  '_a list
+)
+"HW03/higherOrder.ml" 189 6785 6787 "HW03/higherOrder.ml" 189 6785 6797
+call(
+  stack
+)
+type(
+  '_a list
+)
+"HW03/higherOrder.ml" 189 6785 6798 "HW03/higherOrder.ml" 189 6785 6799
+type(
+  '_a list -> '_a list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 189 6785 6800 "HW03/higherOrder.ml" 189 6785 6802
+type(
+  '_a list
+)
+"HW03/higherOrder.ml" 189 6785 6787 "HW03/higherOrder.ml" 189 6785 6802
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 190 6803 6806 "HW03/higherOrder.ml" 190 6803 6814
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 190 6803 6815 "HW03/higherOrder.ml" 190 6803 6835
+type(
+  string
+)
+"HW03/higherOrder.ml" 190 6803 6836 "HW03/higherOrder.ml" 190 6803 6840
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 188 6764 6768 "HW03/higherOrder.ml" 188 6764 6772
+)
+"HW03/higherOrder.ml" 190 6803 6806 "HW03/higherOrder.ml" 190 6803 6840
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 192 6842 6846 "HW03/higherOrder.ml" 192 6842 6850
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 194 6895 6898 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 192 6842 6851 "HW03/higherOrder.ml" 192 6842 6853
+type(
+  unit
+)
+"HW03/higherOrder.ml" 193 6863 6865 "HW03/higherOrder.ml" 193 6863 6872
+type(
+  int list -> int list
+)
+ident(
+  int_ref reverse "HW03/higherOrder.ml" 181 6567 6571 "HW03/higherOrder.ml" 181 6567 6578
+)
+"HW03/higherOrder.ml" 193 6863 6874 "HW03/higherOrder.ml" 193 6863 6875
+type(
+  int
+)
+"HW03/higherOrder.ml" 193 6863 6877 "HW03/higherOrder.ml" 193 6863 6878
+type(
+  int
+)
+"HW03/higherOrder.ml" 193 6863 6880 "HW03/higherOrder.ml" 193 6863 6881
+type(
+  int
+)
+"HW03/higherOrder.ml" 193 6863 6873 "HW03/higherOrder.ml" 193 6863 6882
+type(
+  int list
+)
+"HW03/higherOrder.ml" 193 6863 6865 "HW03/higherOrder.ml" 193 6863 6882
+call(
+  stack
+)
+type(
+  int list
+)
+"HW03/higherOrder.ml" 193 6863 6883 "HW03/higherOrder.ml" 193 6863 6884
+type(
+  int list -> int list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 193 6863 6886 "HW03/higherOrder.ml" 193 6863 6887
+type(
+  int
+)
+"HW03/higherOrder.ml" 193 6863 6889 "HW03/higherOrder.ml" 193 6863 6890
+type(
+  int
+)
+"HW03/higherOrder.ml" 193 6863 6892 "HW03/higherOrder.ml" 193 6863 6893
+type(
+  int
+)
+"HW03/higherOrder.ml" 193 6863 6885 "HW03/higherOrder.ml" 193 6863 6894
+type(
+  int list
+)
+"HW03/higherOrder.ml" 193 6863 6865 "HW03/higherOrder.ml" 193 6863 6894
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 194 6895 6898 "HW03/higherOrder.ml" 194 6895 6906
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 194 6895 6907 "HW03/higherOrder.ml" 194 6895 6925
+type(
+  string
+)
+"HW03/higherOrder.ml" 194 6895 6926 "HW03/higherOrder.ml" 194 6895 6930
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 192 6842 6846 "HW03/higherOrder.ml" 192 6842 6850
+)
+"HW03/higherOrder.ml" 194 6895 6898 "HW03/higherOrder.ml" 194 6895 6930
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 196 6932 6936 "HW03/higherOrder.ml" 196 6932 6940
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 198 6993 6996 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 196 6932 6941 "HW03/higherOrder.ml" 196 6932 6943
+type(
+  unit
+)
+"HW03/higherOrder.ml" 197 6953 6955 "HW03/higherOrder.ml" 197 6953 6962
+type(
+  bool list -> bool list
+)
+ident(
+  int_ref reverse "HW03/higherOrder.ml" 181 6567 6571 "HW03/higherOrder.ml" 181 6567 6578
+)
+"HW03/higherOrder.ml" 197 6953 6964 "HW03/higherOrder.ml" 197 6953 6968
+type(
+  bool
+)
+"HW03/higherOrder.ml" 197 6953 6970 "HW03/higherOrder.ml" 197 6953 6975
+type(
+  bool
+)
+"HW03/higherOrder.ml" 197 6953 6963 "HW03/higherOrder.ml" 197 6953 6976
+type(
+  bool list
+)
+"HW03/higherOrder.ml" 197 6953 6955 "HW03/higherOrder.ml" 197 6953 6976
+call(
+  stack
+)
+type(
+  bool list
+)
+"HW03/higherOrder.ml" 197 6953 6977 "HW03/higherOrder.ml" 197 6953 6978
+type(
+  bool list -> bool list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 197 6953 6980 "HW03/higherOrder.ml" 197 6953 6985
+type(
+  bool
+)
+"HW03/higherOrder.ml" 197 6953 6987 "HW03/higherOrder.ml" 197 6953 6991
+type(
+  bool
+)
+"HW03/higherOrder.ml" 197 6953 6979 "HW03/higherOrder.ml" 197 6953 6992
+type(
+  bool list
+)
+"HW03/higherOrder.ml" 197 6953 6955 "HW03/higherOrder.ml" 197 6953 6992
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 198 6993 6996 "HW03/higherOrder.ml" 198 6993 7004
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 198 6993 7005 "HW03/higherOrder.ml" 198 6993 7024
+type(
+  string
+)
+"HW03/higherOrder.ml" 198 6993 7025 "HW03/higherOrder.ml" 198 6993 7029
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 196 6932 6936 "HW03/higherOrder.ml" 196 6932 6940
+)
+"HW03/higherOrder.ml" 198 6993 6996 "HW03/higherOrder.ml" 198 6993 7029
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 214 7785 7789 "HW03/higherOrder.ml" 214 7785 7796
+type(
+  ('a -> bool) -> 'a list -> bool
+)
+ident(
+  def for_all "HW03/higherOrder.ml" 217 7882 7882 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 214 7785 7798 "HW03/higherOrder.ml" 214 7785 7802
+type(
+  'a -> bool
+)
+ident(
+  def pred "HW03/higherOrder.ml" 214 7785 7816 "HW03/higherOrder.ml" 215 7838 7880
+)
+"HW03/higherOrder.ml" 214 7785 7817 "HW03/higherOrder.ml" 214 7785 7818
+type(
+  'a list
+)
+ident(
+  def l "HW03/higherOrder.ml" 214 7785 7829 "HW03/higherOrder.ml" 215 7838 7880
+)
+"HW03/higherOrder.ml" 215 7838 7840 "HW03/higherOrder.ml" 215 7838 7844
+type(
+  ('a -> bool -> bool) -> bool -> 'a list -> bool
+)
+ident(
+  int_ref fold "HW03/higherOrder.ml" 137 4945 4953 "HW03/higherOrder.ml" 137 4945 4957
+)
+"HW03/higherOrder.ml" 215 7838 7850 "HW03/higherOrder.ml" 215 7838 7851
+type(
+  'a
+)
+ident(
+  def x "HW03/higherOrder.ml" 215 7838 7852 "HW03/higherOrder.ml" 215 7838 7872
+)
+"HW03/higherOrder.ml" 215 7838 7852 "HW03/higherOrder.ml" 215 7838 7855
+type(
+  bool
+)
+ident(
+  def acc "HW03/higherOrder.ml" 215 7838 7859 "HW03/higherOrder.ml" 215 7838 7872
+)
+"HW03/higherOrder.ml" 215 7838 7859 "HW03/higherOrder.ml" 215 7838 7863
+type(
+  'a -> bool
+)
+ident(
+  int_ref pred "HW03/higherOrder.ml" 214 7785 7798 "HW03/higherOrder.ml" 214 7785 7802
+)
+"HW03/higherOrder.ml" 215 7838 7864 "HW03/higherOrder.ml" 215 7838 7865
+type(
+  'a
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 215 7838 7850 "HW03/higherOrder.ml" 215 7838 7851
+)
+"HW03/higherOrder.ml" 215 7838 7859 "HW03/higherOrder.ml" 215 7838 7865
+call(
+  stack
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 215 7838 7866 "HW03/higherOrder.ml" 215 7838 7868
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"HW03/higherOrder.ml" 215 7838 7869 "HW03/higherOrder.ml" 215 7838 7872
+type(
+  bool
+)
+ident(
+  int_ref acc "HW03/higherOrder.ml" 215 7838 7852 "HW03/higherOrder.ml" 215 7838 7855
+)
+"HW03/higherOrder.ml" 215 7838 7859 "HW03/higherOrder.ml" 215 7838 7872
+type(
+  bool
+)
+"HW03/higherOrder.ml" 215 7838 7845 "HW03/higherOrder.ml" 215 7838 7873
+type(
+  'a -> bool -> bool
+)
+"HW03/higherOrder.ml" 215 7838 7874 "HW03/higherOrder.ml" 215 7838 7878
+type(
+  bool
+)
+"HW03/higherOrder.ml" 215 7838 7879 "HW03/higherOrder.ml" 215 7838 7880
+type(
+  'a list
+)
+ident(
+  int_ref l "HW03/higherOrder.ml" 214 7785 7817 "HW03/higherOrder.ml" 214 7785 7818
+)
+"HW03/higherOrder.ml" 215 7838 7840 "HW03/higherOrder.ml" 215 7838 7880
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 217 7882 7886 "HW03/higherOrder.ml" 217 7882 7890
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 219 7933 7936 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 217 7882 7891 "HW03/higherOrder.ml" 217 7882 7893
+type(
+  unit
+)
+"HW03/higherOrder.ml" 218 7903 7905 "HW03/higherOrder.ml" 218 7903 7912
+type(
+  (int -> bool) -> int list -> bool
+)
+ident(
+  int_ref for_all "HW03/higherOrder.ml" 214 7785 7789 "HW03/higherOrder.ml" 214 7785 7796
+)
+"HW03/higherOrder.ml" 218 7903 7918 "HW03/higherOrder.ml" 218 7903 7919
+type(
+  int
+)
+ident(
+  def x "HW03/higherOrder.ml" 218 7903 7923 "HW03/higherOrder.ml" 218 7903 7928
+)
+"HW03/higherOrder.ml" 218 7903 7923 "HW03/higherOrder.ml" 218 7903 7924
+type(
+  int
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 218 7903 7918 "HW03/higherOrder.ml" 218 7903 7919
+)
+"HW03/higherOrder.ml" 218 7903 7925 "HW03/higherOrder.ml" 218 7903 7926
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"HW03/higherOrder.ml" 218 7903 7927 "HW03/higherOrder.ml" 218 7903 7928
+type(
+  int
+)
+"HW03/higherOrder.ml" 218 7903 7923 "HW03/higherOrder.ml" 218 7903 7928
+type(
+  bool
+)
+"HW03/higherOrder.ml" 218 7903 7913 "HW03/higherOrder.ml" 218 7903 7929
+type(
+  int -> bool
+)
+"HW03/higherOrder.ml" 218 7903 7930 "HW03/higherOrder.ml" 218 7903 7932
+type(
+  int list
+)
+"HW03/higherOrder.ml" 218 7903 7905 "HW03/higherOrder.ml" 218 7903 7932
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 219 7933 7936 "HW03/higherOrder.ml" 219 7933 7944
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 219 7933 7945 "HW03/higherOrder.ml" 219 7933 7964
+type(
+  string
+)
+"HW03/higherOrder.ml" 219 7933 7965 "HW03/higherOrder.ml" 219 7933 7969
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 217 7882 7886 "HW03/higherOrder.ml" 217 7882 7890
+)
+"HW03/higherOrder.ml" 219 7933 7936 "HW03/higherOrder.ml" 219 7933 7969
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 221 7971 7975 "HW03/higherOrder.ml" 221 7971 7979
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 223 8039 8042 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 221 7971 7980 "HW03/higherOrder.ml" 221 7971 7982
+type(
+  unit
+)
+"HW03/higherOrder.ml" 222 7992 7994 "HW03/higherOrder.ml" 222 7992 7997
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"HW03/higherOrder.ml" 222 7992 7999 "HW03/higherOrder.ml" 222 7992 8006
+type(
+  (int -> bool) -> int list -> bool
+)
+ident(
+  int_ref for_all "HW03/higherOrder.ml" 214 7785 7789 "HW03/higherOrder.ml" 214 7785 7796
+)
+"HW03/higherOrder.ml" 222 7992 8012 "HW03/higherOrder.ml" 222 7992 8013
+type(
+  int
+)
+ident(
+  def x "HW03/higherOrder.ml" 222 7992 8017 "HW03/higherOrder.ml" 222 7992 8022
+)
+"HW03/higherOrder.ml" 222 7992 8017 "HW03/higherOrder.ml" 222 7992 8018
+type(
+  int
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 222 7992 8012 "HW03/higherOrder.ml" 222 7992 8013
+)
+"HW03/higherOrder.ml" 222 7992 8019 "HW03/higherOrder.ml" 222 7992 8020
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"HW03/higherOrder.ml" 222 7992 8021 "HW03/higherOrder.ml" 222 7992 8022
+type(
+  int
+)
+"HW03/higherOrder.ml" 222 7992 8017 "HW03/higherOrder.ml" 222 7992 8022
+type(
+  bool
+)
+"HW03/higherOrder.ml" 222 7992 8007 "HW03/higherOrder.ml" 222 7992 8023
+type(
+  int -> bool
+)
+"HW03/higherOrder.ml" 222 7992 8025 "HW03/higherOrder.ml" 222 7992 8026
+type(
+  int
+)
+"HW03/higherOrder.ml" 222 7992 8028 "HW03/higherOrder.ml" 222 7992 8029
+type(
+  int
+)
+"HW03/higherOrder.ml" 222 7992 8031 "HW03/higherOrder.ml" 222 7992 8033
+type(
+  int
+)
+"HW03/higherOrder.ml" 222 7992 8035 "HW03/higherOrder.ml" 222 7992 8036
+type(
+  int
+)
+"HW03/higherOrder.ml" 222 7992 8024 "HW03/higherOrder.ml" 222 7992 8037
+type(
+  int list
+)
+"HW03/higherOrder.ml" 222 7992 7998 "HW03/higherOrder.ml" 222 7992 8038
+call(
+  stack
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 222 7992 7994 "HW03/higherOrder.ml" 222 7992 8038
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 223 8039 8042 "HW03/higherOrder.ml" 223 8039 8050
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 223 8039 8051 "HW03/higherOrder.ml" 223 8039 8074
+type(
+  string
+)
+"HW03/higherOrder.ml" 223 8039 8075 "HW03/higherOrder.ml" 223 8039 8079
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 221 7971 7975 "HW03/higherOrder.ml" 221 7971 7979
+)
+"HW03/higherOrder.ml" 223 8039 8042 "HW03/higherOrder.ml" 223 8039 8079
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 225 8081 8085 "HW03/higherOrder.ml" 225 8081 8089
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 227 8142 8145 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 225 8081 8090 "HW03/higherOrder.ml" 225 8081 8092
+type(
+  unit
+)
+"HW03/higherOrder.ml" 226 8102 8104 "HW03/higherOrder.ml" 226 8102 8111
+type(
+  (int -> bool) -> int list -> bool
+)
+ident(
+  int_ref for_all "HW03/higherOrder.ml" 214 7785 7789 "HW03/higherOrder.ml" 214 7785 7796
+)
+"HW03/higherOrder.ml" 226 8102 8117 "HW03/higherOrder.ml" 226 8102 8118
+type(
+  int
+)
+ident(
+  def x "HW03/higherOrder.ml" 226 8102 8122 "HW03/higherOrder.ml" 226 8102 8127
+)
+"HW03/higherOrder.ml" 226 8102 8122 "HW03/higherOrder.ml" 226 8102 8123
+type(
+  int
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 226 8102 8117 "HW03/higherOrder.ml" 226 8102 8118
+)
+"HW03/higherOrder.ml" 226 8102 8124 "HW03/higherOrder.ml" 226 8102 8125
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"HW03/higherOrder.ml" 226 8102 8126 "HW03/higherOrder.ml" 226 8102 8127
+type(
+  int
+)
+"HW03/higherOrder.ml" 226 8102 8122 "HW03/higherOrder.ml" 226 8102 8127
+type(
+  bool
+)
+"HW03/higherOrder.ml" 226 8102 8112 "HW03/higherOrder.ml" 226 8102 8128
+type(
+  int -> bool
+)
+"HW03/higherOrder.ml" 226 8102 8130 "HW03/higherOrder.ml" 226 8102 8131
+type(
+  int
+)
+"HW03/higherOrder.ml" 226 8102 8133 "HW03/higherOrder.ml" 226 8102 8134
+type(
+  int
+)
+"HW03/higherOrder.ml" 226 8102 8136 "HW03/higherOrder.ml" 226 8102 8137
+type(
+  int
+)
+"HW03/higherOrder.ml" 226 8102 8139 "HW03/higherOrder.ml" 226 8102 8140
+type(
+  int
+)
+"HW03/higherOrder.ml" 226 8102 8129 "HW03/higherOrder.ml" 226 8102 8141
+type(
+  int list
+)
+"HW03/higherOrder.ml" 226 8102 8104 "HW03/higherOrder.ml" 226 8102 8141
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 227 8142 8145 "HW03/higherOrder.ml" 227 8142 8153
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 227 8142 8154 "HW03/higherOrder.ml" 227 8142 8173
+type(
+  string
+)
+"HW03/higherOrder.ml" 227 8142 8174 "HW03/higherOrder.ml" 227 8142 8178
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 225 8081 8085 "HW03/higherOrder.ml" 225 8081 8089
+)
+"HW03/higherOrder.ml" 227 8142 8145 "HW03/higherOrder.ml" 227 8142 8178
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 229 8180 8184 "HW03/higherOrder.ml" 229 8180 8188
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 231 8249 8252 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 229 8180 8189 "HW03/higherOrder.ml" 229 8180 8191
+type(
+  unit
+)
+"HW03/higherOrder.ml" 230 8201 8203 "HW03/higherOrder.ml" 230 8201 8210
+type(
+  (int -> bool) -> int list -> bool
+)
+ident(
+  int_ref for_all "HW03/higherOrder.ml" 214 7785 7789 "HW03/higherOrder.ml" 214 7785 7796
+)
+"HW03/higherOrder.ml" 230 8201 8216 "HW03/higherOrder.ml" 230 8201 8217
+type(
+  int
+)
+ident(
+  def x "HW03/higherOrder.ml" 230 8201 8221 "HW03/higherOrder.ml" 230 8201 8234
+)
+"HW03/higherOrder.ml" 230 8201 8222 "HW03/higherOrder.ml" 230 8201 8223
+type(
+  int
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 230 8201 8216 "HW03/higherOrder.ml" 230 8201 8217
+)
+"HW03/higherOrder.ml" 230 8201 8224 "HW03/higherOrder.ml" 230 8201 8227
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"HW03/higherOrder.ml" 230 8201 8228 "HW03/higherOrder.ml" 230 8201 8229
+type(
+  int
+)
+"HW03/higherOrder.ml" 230 8201 8222 "HW03/higherOrder.ml" 230 8201 8229
+type(
+  int
+)
+"HW03/higherOrder.ml" 230 8201 8230 "HW03/higherOrder.ml" 230 8201 8231
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 230 8201 8232 "HW03/higherOrder.ml" 230 8201 8233
+type(
+  int
+)
+"HW03/higherOrder.ml" 230 8201 8221 "HW03/higherOrder.ml" 230 8201 8234
+type(
+  bool
+)
+"HW03/higherOrder.ml" 230 8201 8211 "HW03/higherOrder.ml" 230 8201 8235
+type(
+  int -> bool
+)
+"HW03/higherOrder.ml" 230 8201 8237 "HW03/higherOrder.ml" 230 8201 8238
+type(
+  int
+)
+"HW03/higherOrder.ml" 230 8201 8240 "HW03/higherOrder.ml" 230 8201 8241
+type(
+  int
+)
+"HW03/higherOrder.ml" 230 8201 8243 "HW03/higherOrder.ml" 230 8201 8244
+type(
+  int
+)
+"HW03/higherOrder.ml" 230 8201 8246 "HW03/higherOrder.ml" 230 8201 8247
+type(
+  int
+)
+"HW03/higherOrder.ml" 230 8201 8236 "HW03/higherOrder.ml" 230 8201 8248
+type(
+  int list
+)
+"HW03/higherOrder.ml" 230 8201 8203 "HW03/higherOrder.ml" 230 8201 8248
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 231 8249 8252 "HW03/higherOrder.ml" 231 8249 8260
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 231 8249 8261 "HW03/higherOrder.ml" 231 8249 8276
+type(
+  string
+)
+"HW03/higherOrder.ml" 231 8249 8277 "HW03/higherOrder.ml" 231 8249 8281
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 229 8180 8184 "HW03/higherOrder.ml" 229 8180 8188
+)
+"HW03/higherOrder.ml" 231 8249 8252 "HW03/higherOrder.ml" 231 8249 8281
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 237 8460 8464 "HW03/higherOrder.ml" 237 8460 8470
+type(
+  ('a -> bool) -> 'a list -> bool
+)
+ident(
+  def exists "HW03/higherOrder.ml" 240 8557 8557 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 237 8460 8472 "HW03/higherOrder.ml" 237 8460 8476
+type(
+  'a -> bool
+)
+ident(
+  def pred "HW03/higherOrder.ml" 237 8460 8490 "HW03/higherOrder.ml" 238 8512 8555
+)
+"HW03/higherOrder.ml" 237 8460 8491 "HW03/higherOrder.ml" 237 8460 8492
+type(
+  'a list
+)
+ident(
+  def l "HW03/higherOrder.ml" 237 8460 8503 "HW03/higherOrder.ml" 238 8512 8555
+)
+"HW03/higherOrder.ml" 238 8512 8514 "HW03/higherOrder.ml" 238 8512 8518
+type(
+  ('a -> bool -> bool) -> bool -> 'a list -> bool
+)
+ident(
+  int_ref fold "HW03/higherOrder.ml" 137 4945 4953 "HW03/higherOrder.ml" 137 4945 4957
+)
+"HW03/higherOrder.ml" 238 8512 8524 "HW03/higherOrder.ml" 238 8512 8525
+type(
+  'a
+)
+ident(
+  def x "HW03/higherOrder.ml" 238 8512 8526 "HW03/higherOrder.ml" 238 8512 8546
+)
+"HW03/higherOrder.ml" 238 8512 8526 "HW03/higherOrder.ml" 238 8512 8529
+type(
+  bool
+)
+ident(
+  def acc "HW03/higherOrder.ml" 238 8512 8533 "HW03/higherOrder.ml" 238 8512 8546
+)
+"HW03/higherOrder.ml" 238 8512 8533 "HW03/higherOrder.ml" 238 8512 8537
+type(
+  'a -> bool
+)
+ident(
+  int_ref pred "HW03/higherOrder.ml" 237 8460 8472 "HW03/higherOrder.ml" 237 8460 8476
+)
+"HW03/higherOrder.ml" 238 8512 8538 "HW03/higherOrder.ml" 238 8512 8539
+type(
+  'a
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 238 8512 8524 "HW03/higherOrder.ml" 238 8512 8525
+)
+"HW03/higherOrder.ml" 238 8512 8533 "HW03/higherOrder.ml" 238 8512 8539
+call(
+  stack
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 238 8512 8540 "HW03/higherOrder.ml" 238 8512 8542
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"HW03/higherOrder.ml" 238 8512 8543 "HW03/higherOrder.ml" 238 8512 8546
+type(
+  bool
+)
+ident(
+  int_ref acc "HW03/higherOrder.ml" 238 8512 8526 "HW03/higherOrder.ml" 238 8512 8529
+)
+"HW03/higherOrder.ml" 238 8512 8533 "HW03/higherOrder.ml" 238 8512 8546
+type(
+  bool
+)
+"HW03/higherOrder.ml" 238 8512 8519 "HW03/higherOrder.ml" 238 8512 8547
+type(
+  'a -> bool -> bool
+)
+"HW03/higherOrder.ml" 238 8512 8548 "HW03/higherOrder.ml" 238 8512 8553
+type(
+  bool
+)
+"HW03/higherOrder.ml" 238 8512 8554 "HW03/higherOrder.ml" 238 8512 8555
+type(
+  'a list
+)
+ident(
+  int_ref l "HW03/higherOrder.ml" 237 8460 8491 "HW03/higherOrder.ml" 237 8460 8492
+)
+"HW03/higherOrder.ml" 238 8512 8514 "HW03/higherOrder.ml" 238 8512 8555
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 240 8557 8561 "HW03/higherOrder.ml" 240 8557 8565
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 242 8613 8616 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 240 8557 8566 "HW03/higherOrder.ml" 240 8557 8568
+type(
+  unit
+)
+"HW03/higherOrder.ml" 241 8578 8580 "HW03/higherOrder.ml" 241 8578 8583
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"HW03/higherOrder.ml" 241 8578 8585 "HW03/higherOrder.ml" 241 8578 8591
+type(
+  (int -> bool) -> int list -> bool
+)
+ident(
+  int_ref exists "HW03/higherOrder.ml" 237 8460 8464 "HW03/higherOrder.ml" 237 8460 8470
+)
+"HW03/higherOrder.ml" 241 8578 8597 "HW03/higherOrder.ml" 241 8578 8598
+type(
+  int
+)
+ident(
+  def x "HW03/higherOrder.ml" 241 8578 8602 "HW03/higherOrder.ml" 241 8578 8607
+)
+"HW03/higherOrder.ml" 241 8578 8602 "HW03/higherOrder.ml" 241 8578 8603
+type(
+  int
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 241 8578 8597 "HW03/higherOrder.ml" 241 8578 8598
+)
+"HW03/higherOrder.ml" 241 8578 8604 "HW03/higherOrder.ml" 241 8578 8605
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"HW03/higherOrder.ml" 241 8578 8606 "HW03/higherOrder.ml" 241 8578 8607
+type(
+  int
+)
+"HW03/higherOrder.ml" 241 8578 8602 "HW03/higherOrder.ml" 241 8578 8607
+type(
+  bool
+)
+"HW03/higherOrder.ml" 241 8578 8592 "HW03/higherOrder.ml" 241 8578 8608
+type(
+  int -> bool
+)
+"HW03/higherOrder.ml" 241 8578 8609 "HW03/higherOrder.ml" 241 8578 8611
+type(
+  int list
+)
+"HW03/higherOrder.ml" 241 8578 8584 "HW03/higherOrder.ml" 241 8578 8612
+call(
+  stack
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 241 8578 8580 "HW03/higherOrder.ml" 241 8578 8612
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 242 8613 8616 "HW03/higherOrder.ml" 242 8613 8624
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 242 8613 8625 "HW03/higherOrder.ml" 242 8613 8643
+type(
+  string
+)
+"HW03/higherOrder.ml" 242 8613 8644 "HW03/higherOrder.ml" 242 8613 8648
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 240 8557 8561 "HW03/higherOrder.ml" 240 8557 8565
+)
+"HW03/higherOrder.ml" 242 8613 8616 "HW03/higherOrder.ml" 242 8613 8648
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 244 8650 8654 "HW03/higherOrder.ml" 244 8650 8658
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 246 8711 8714 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 244 8650 8659 "HW03/higherOrder.ml" 244 8650 8661
+type(
+  unit
+)
+"HW03/higherOrder.ml" 245 8671 8673 "HW03/higherOrder.ml" 245 8671 8679
+type(
+  (int -> bool) -> int list -> bool
+)
+ident(
+  int_ref exists "HW03/higherOrder.ml" 237 8460 8464 "HW03/higherOrder.ml" 237 8460 8470
+)
+"HW03/higherOrder.ml" 245 8671 8685 "HW03/higherOrder.ml" 245 8671 8686
+type(
+  int
+)
+ident(
+  def x "HW03/higherOrder.ml" 245 8671 8690 "HW03/higherOrder.ml" 245 8671 8695
+)
+"HW03/higherOrder.ml" 245 8671 8690 "HW03/higherOrder.ml" 245 8671 8691
+type(
+  int
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 245 8671 8685 "HW03/higherOrder.ml" 245 8671 8686
+)
+"HW03/higherOrder.ml" 245 8671 8692 "HW03/higherOrder.ml" 245 8671 8693
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"HW03/higherOrder.ml" 245 8671 8694 "HW03/higherOrder.ml" 245 8671 8695
+type(
+  int
+)
+"HW03/higherOrder.ml" 245 8671 8690 "HW03/higherOrder.ml" 245 8671 8695
+type(
+  bool
+)
+"HW03/higherOrder.ml" 245 8671 8680 "HW03/higherOrder.ml" 245 8671 8696
+type(
+  int -> bool
+)
+"HW03/higherOrder.ml" 245 8671 8698 "HW03/higherOrder.ml" 245 8671 8699
+type(
+  int
+)
+"HW03/higherOrder.ml" 245 8671 8701 "HW03/higherOrder.ml" 245 8671 8702
+type(
+  int
+)
+"HW03/higherOrder.ml" 245 8671 8704 "HW03/higherOrder.ml" 245 8671 8706
+type(
+  int
+)
+"HW03/higherOrder.ml" 245 8671 8708 "HW03/higherOrder.ml" 245 8671 8709
+type(
+  int
+)
+"HW03/higherOrder.ml" 245 8671 8697 "HW03/higherOrder.ml" 245 8671 8710
+type(
+  int list
+)
+"HW03/higherOrder.ml" 245 8671 8673 "HW03/higherOrder.ml" 245 8671 8710
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 246 8711 8714 "HW03/higherOrder.ml" 246 8711 8722
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 246 8711 8723 "HW03/higherOrder.ml" 246 8711 8741
+type(
+  string
+)
+"HW03/higherOrder.ml" 246 8711 8742 "HW03/higherOrder.ml" 246 8711 8746
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 244 8650 8654 "HW03/higherOrder.ml" 244 8650 8658
+)
+"HW03/higherOrder.ml" 246 8711 8714 "HW03/higherOrder.ml" 246 8711 8746
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 248 8748 8752 "HW03/higherOrder.ml" 248 8748 8756
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 250 8818 8821 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 248 8748 8757 "HW03/higherOrder.ml" 248 8748 8759
+type(
+  unit
+)
+"HW03/higherOrder.ml" 249 8769 8771 "HW03/higherOrder.ml" 249 8769 8774
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"HW03/higherOrder.ml" 249 8769 8776 "HW03/higherOrder.ml" 249 8769 8782
+type(
+  (int -> bool) -> int list -> bool
+)
+ident(
+  int_ref exists "HW03/higherOrder.ml" 237 8460 8464 "HW03/higherOrder.ml" 237 8460 8470
+)
+"HW03/higherOrder.ml" 249 8769 8788 "HW03/higherOrder.ml" 249 8769 8789
+type(
+  int
+)
+ident(
+  def x "HW03/higherOrder.ml" 249 8769 8793 "HW03/higherOrder.ml" 249 8769 8798
+)
+"HW03/higherOrder.ml" 249 8769 8793 "HW03/higherOrder.ml" 249 8769 8794
+type(
+  int
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 249 8769 8788 "HW03/higherOrder.ml" 249 8769 8789
+)
+"HW03/higherOrder.ml" 249 8769 8795 "HW03/higherOrder.ml" 249 8769 8796
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"HW03/higherOrder.ml" 249 8769 8797 "HW03/higherOrder.ml" 249 8769 8798
+type(
+  int
+)
+"HW03/higherOrder.ml" 249 8769 8793 "HW03/higherOrder.ml" 249 8769 8798
+type(
+  bool
+)
+"HW03/higherOrder.ml" 249 8769 8783 "HW03/higherOrder.ml" 249 8769 8799
+type(
+  int -> bool
+)
+"HW03/higherOrder.ml" 249 8769 8801 "HW03/higherOrder.ml" 249 8769 8803
+type(
+  int
+)
+"HW03/higherOrder.ml" 249 8769 8805 "HW03/higherOrder.ml" 249 8769 8807
+type(
+  int
+)
+"HW03/higherOrder.ml" 249 8769 8809 "HW03/higherOrder.ml" 249 8769 8811
+type(
+  int
+)
+"HW03/higherOrder.ml" 249 8769 8813 "HW03/higherOrder.ml" 249 8769 8815
+type(
+  int
+)
+"HW03/higherOrder.ml" 249 8769 8800 "HW03/higherOrder.ml" 249 8769 8816
+type(
+  int list
+)
+"HW03/higherOrder.ml" 249 8769 8775 "HW03/higherOrder.ml" 249 8769 8817
+call(
+  stack
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 249 8769 8771 "HW03/higherOrder.ml" 249 8769 8817
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 250 8818 8821 "HW03/higherOrder.ml" 250 8818 8829
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 250 8818 8830 "HW03/higherOrder.ml" 250 8818 8852
+type(
+  string
+)
+"HW03/higherOrder.ml" 250 8818 8853 "HW03/higherOrder.ml" 250 8818 8857
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 248 8748 8752 "HW03/higherOrder.ml" 248 8748 8756
+)
+"HW03/higherOrder.ml" 250 8818 8821 "HW03/higherOrder.ml" 250 8818 8857
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 252 8859 8863 "HW03/higherOrder.ml" 252 8859 8867
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 254 8928 8931 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 252 8859 8868 "HW03/higherOrder.ml" 252 8859 8870
+type(
+  unit
+)
+"HW03/higherOrder.ml" 253 8880 8882 "HW03/higherOrder.ml" 253 8880 8888
+type(
+  (int -> bool) -> int list -> bool
+)
+ident(
+  int_ref exists "HW03/higherOrder.ml" 237 8460 8464 "HW03/higherOrder.ml" 237 8460 8470
+)
+"HW03/higherOrder.ml" 253 8880 8894 "HW03/higherOrder.ml" 253 8880 8895
+type(
+  int
+)
+ident(
+  def x "HW03/higherOrder.ml" 253 8880 8899 "HW03/higherOrder.ml" 253 8880 8912
+)
+"HW03/higherOrder.ml" 253 8880 8900 "HW03/higherOrder.ml" 253 8880 8901
+type(
+  int
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 253 8880 8894 "HW03/higherOrder.ml" 253 8880 8895
+)
+"HW03/higherOrder.ml" 253 8880 8902 "HW03/higherOrder.ml" 253 8880 8905
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"HW03/higherOrder.ml" 253 8880 8906 "HW03/higherOrder.ml" 253 8880 8907
+type(
+  int
+)
+"HW03/higherOrder.ml" 253 8880 8900 "HW03/higherOrder.ml" 253 8880 8907
+type(
+  int
+)
+"HW03/higherOrder.ml" 253 8880 8908 "HW03/higherOrder.ml" 253 8880 8909
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 253 8880 8910 "HW03/higherOrder.ml" 253 8880 8911
+type(
+  int
+)
+"HW03/higherOrder.ml" 253 8880 8899 "HW03/higherOrder.ml" 253 8880 8912
+type(
+  bool
+)
+"HW03/higherOrder.ml" 253 8880 8889 "HW03/higherOrder.ml" 253 8880 8913
+type(
+  int -> bool
+)
+"HW03/higherOrder.ml" 253 8880 8915 "HW03/higherOrder.ml" 253 8880 8916
+type(
+  int
+)
+"HW03/higherOrder.ml" 253 8880 8918 "HW03/higherOrder.ml" 253 8880 8919
+type(
+  int
+)
+"HW03/higherOrder.ml" 253 8880 8921 "HW03/higherOrder.ml" 253 8880 8923
+type(
+  int
+)
+"HW03/higherOrder.ml" 253 8880 8925 "HW03/higherOrder.ml" 253 8880 8926
+type(
+  int
+)
+"HW03/higherOrder.ml" 253 8880 8914 "HW03/higherOrder.ml" 253 8880 8927
+type(
+  int list
+)
+"HW03/higherOrder.ml" 253 8880 8882 "HW03/higherOrder.ml" 253 8880 8927
+call(
+  tail
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 254 8928 8931 "HW03/higherOrder.ml" 254 8928 8939
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 254 8928 8940 "HW03/higherOrder.ml" 254 8928 8954
+type(
+  string
+)
+"HW03/higherOrder.ml" 254 8928 8955 "HW03/higherOrder.ml" 254 8928 8959
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 252 8859 8863 "HW03/higherOrder.ml" 252 8859 8867
+)
+"HW03/higherOrder.ml" 254 8928 8931 "HW03/higherOrder.ml" 254 8928 8959
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 260 9149 9157 "HW03/higherOrder.ml" 260 9149 9163
+type(
+  ('a -> bool) -> 'a list -> 'a list
+)
+ident(
+  def filter "HW03/higherOrder.ml" 260 9149 9149 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 260 9149 9165 "HW03/higherOrder.ml" 260 9149 9169
+type(
+  'a -> bool
+)
+ident(
+  def pred "HW03/higherOrder.ml" 260 9149 9183 "HW03/higherOrder.ml" 266 9333 9338
+)
+"HW03/higherOrder.ml" 260 9149 9184 "HW03/higherOrder.ml" 260 9149 9185
+type(
+  'a list
+)
+ident(
+  def l "HW03/higherOrder.ml" 260 9149 9196 "HW03/higherOrder.ml" 266 9333 9338
+)
+"HW03/higherOrder.ml" 261 9208 9222 "HW03/higherOrder.ml" 261 9208 9223
+type(
+  'a list
+)
+ident(
+  int_ref l "HW03/higherOrder.ml" 260 9149 9184 "HW03/higherOrder.ml" 260 9149 9185
+)
+"HW03/higherOrder.ml" 262 9229 9233 "HW03/higherOrder.ml" 262 9229 9235
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 262 9229 9239 "HW03/higherOrder.ml" 262 9229 9241
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 263 9242 9246 "HW03/higherOrder.ml" 263 9242 9247
+type(
+  'a
+)
+ident(
+  def x "HW03/higherOrder.ml" 264 9257 9263 "HW03/higherOrder.ml" 265 9292 9332
+)
+"HW03/higherOrder.ml" 263 9242 9251 "HW03/higherOrder.ml" 263 9242 9253
+type(
+  'a list
+)
+ident(
+  def xs "HW03/higherOrder.ml" 264 9257 9263 "HW03/higherOrder.ml" 265 9292 9332
+)
+"HW03/higherOrder.ml" 263 9242 9246 "HW03/higherOrder.ml" 263 9242 9253
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 264 9257 9267 "HW03/higherOrder.ml" 264 9257 9271
+type(
+  'a list
+)
+ident(
+  def rest "HW03/higherOrder.ml" 265 9292 9298 "HW03/higherOrder.ml" 265 9292 9332
+)
+"HW03/higherOrder.ml" 264 9257 9274 "HW03/higherOrder.ml" 264 9257 9280
+type(
+  ('a -> bool) -> 'a list -> 'a list
+)
+ident(
+  int_ref filter "HW03/higherOrder.ml" 260 9149 9157 "HW03/higherOrder.ml" 260 9149 9163
+)
+"HW03/higherOrder.ml" 264 9257 9281 "HW03/higherOrder.ml" 264 9257 9285
+type(
+  'a -> bool
+)
+ident(
+  int_ref pred "HW03/higherOrder.ml" 260 9149 9165 "HW03/higherOrder.ml" 260 9149 9169
+)
+"HW03/higherOrder.ml" 264 9257 9286 "HW03/higherOrder.ml" 264 9257 9288
+type(
+  'a list
+)
+ident(
+  int_ref xs "HW03/higherOrder.ml" 263 9242 9251 "HW03/higherOrder.ml" 263 9242 9253
+)
+"HW03/higherOrder.ml" 264 9257 9274 "HW03/higherOrder.ml" 264 9257 9288
+call(
+  stack
+)
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 265 9292 9301 "HW03/higherOrder.ml" 265 9292 9305
+type(
+  'a -> bool
+)
+ident(
+  int_ref pred "HW03/higherOrder.ml" 260 9149 9165 "HW03/higherOrder.ml" 260 9149 9169
+)
+"HW03/higherOrder.ml" 265 9292 9306 "HW03/higherOrder.ml" 265 9292 9307
+type(
+  'a
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 263 9242 9246 "HW03/higherOrder.ml" 263 9242 9247
+)
+"HW03/higherOrder.ml" 265 9292 9301 "HW03/higherOrder.ml" 265 9292 9307
+call(
+  stack
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 265 9292 9313 "HW03/higherOrder.ml" 265 9292 9314
+type(
+  'a
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 263 9242 9246 "HW03/higherOrder.ml" 263 9242 9247
+)
+"HW03/higherOrder.ml" 265 9292 9318 "HW03/higherOrder.ml" 265 9292 9322
+type(
+  'a list
+)
+ident(
+  int_ref rest "HW03/higherOrder.ml" 264 9257 9267 "HW03/higherOrder.ml" 264 9257 9271
+)
+"HW03/higherOrder.ml" 265 9292 9313 "HW03/higherOrder.ml" 265 9292 9322
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 265 9292 9328 "HW03/higherOrder.ml" 265 9292 9332
+type(
+  'a list
+)
+ident(
+  int_ref rest "HW03/higherOrder.ml" 264 9257 9267 "HW03/higherOrder.ml" 264 9257 9271
+)
+"HW03/higherOrder.ml" 265 9292 9298 "HW03/higherOrder.ml" 265 9292 9332
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 264 9257 9263 "HW03/higherOrder.ml" 265 9292 9332
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 261 9208 9210 "HW03/higherOrder.ml" 266 9333 9338
+type(
+  'a list
+)
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 270 9415 9419 "HW03/higherOrder.ml" 270 9415 9426
+type(
+  ('a -> bool) -> 'a list -> 'a list
+)
+ident(
+  def filter' "HW03/higherOrder.ml" 273 9532 9532 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 270 9415 9428 "HW03/higherOrder.ml" 270 9415 9432
+type(
+  'a -> bool
+)
+ident(
+  def pred "HW03/higherOrder.ml" 270 9415 9446 "HW03/higherOrder.ml" 271 9471 9530
+)
+"HW03/higherOrder.ml" 270 9415 9447 "HW03/higherOrder.ml" 270 9415 9448
+type(
+  'a list
+)
+ident(
+  def l "HW03/higherOrder.ml" 270 9415 9459 "HW03/higherOrder.ml" 271 9471 9530
+)
+"HW03/higherOrder.ml" 271 9471 9473 "HW03/higherOrder.ml" 271 9471 9477
+type(
+  ('a -> 'a list -> 'a list) -> 'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref fold "HW03/higherOrder.ml" 137 4945 4953 "HW03/higherOrder.ml" 137 4945 4957
+)
+"HW03/higherOrder.ml" 271 9471 9483 "HW03/higherOrder.ml" 271 9471 9484
+type(
+  'a
+)
+ident(
+  def x "HW03/higherOrder.ml" 271 9471 9485 "HW03/higherOrder.ml" 271 9471 9524
+)
+"HW03/higherOrder.ml" 271 9471 9485 "HW03/higherOrder.ml" 271 9471 9488
+type(
+  'a list
+)
+ident(
+  def acc "HW03/higherOrder.ml" 271 9471 9492 "HW03/higherOrder.ml" 271 9471 9524
+)
+"HW03/higherOrder.ml" 271 9471 9495 "HW03/higherOrder.ml" 271 9471 9499
+type(
+  'a -> bool
+)
+ident(
+  int_ref pred "HW03/higherOrder.ml" 270 9415 9428 "HW03/higherOrder.ml" 270 9415 9432
+)
+"HW03/higherOrder.ml" 271 9471 9500 "HW03/higherOrder.ml" 271 9471 9501
+type(
+  'a
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 271 9471 9483 "HW03/higherOrder.ml" 271 9471 9484
+)
+"HW03/higherOrder.ml" 271 9471 9495 "HW03/higherOrder.ml" 271 9471 9501
+call(
+  stack
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 271 9471 9507 "HW03/higherOrder.ml" 271 9471 9508
+type(
+  'a
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 271 9471 9483 "HW03/higherOrder.ml" 271 9471 9484
+)
+"HW03/higherOrder.ml" 271 9471 9512 "HW03/higherOrder.ml" 271 9471 9515
+type(
+  'a list
+)
+ident(
+  int_ref acc "HW03/higherOrder.ml" 271 9471 9485 "HW03/higherOrder.ml" 271 9471 9488
+)
+"HW03/higherOrder.ml" 271 9471 9507 "HW03/higherOrder.ml" 271 9471 9515
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 271 9471 9521 "HW03/higherOrder.ml" 271 9471 9524
+type(
+  'a list
+)
+ident(
+  int_ref acc "HW03/higherOrder.ml" 271 9471 9485 "HW03/higherOrder.ml" 271 9471 9488
+)
+"HW03/higherOrder.ml" 271 9471 9492 "HW03/higherOrder.ml" 271 9471 9524
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 271 9471 9478 "HW03/higherOrder.ml" 271 9471 9525
+type(
+  'a -> 'a list -> 'a list
+)
+"HW03/higherOrder.ml" 271 9471 9526 "HW03/higherOrder.ml" 271 9471 9528
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 271 9471 9529 "HW03/higherOrder.ml" 271 9471 9530
+type(
+  'a list
+)
+ident(
+  int_ref l "HW03/higherOrder.ml" 270 9415 9447 "HW03/higherOrder.ml" 270 9415 9448
+)
+"HW03/higherOrder.ml" 271 9471 9473 "HW03/higherOrder.ml" 271 9471 9530
+call(
+  tail
+)
+type(
+  'a list
+)
+type(
+  'a list
+)
+"HW03/higherOrder.ml" 273 9532 9536 "HW03/higherOrder.ml" 273 9532 9540
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 275 9606 9609 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 273 9532 9541 "HW03/higherOrder.ml" 273 9532 9543
+type(
+  unit
+)
+"HW03/higherOrder.ml" 274 9553 9555 "HW03/higherOrder.ml" 274 9553 9562
+type(
+  (int -> bool) -> int list -> int list
+)
+ident(
+  int_ref filter' "HW03/higherOrder.ml" 270 9415 9419 "HW03/higherOrder.ml" 270 9415 9426
+)
+"HW03/higherOrder.ml" 274 9553 9568 "HW03/higherOrder.ml" 274 9553 9569
+type(
+  int
+)
+ident(
+  def x "HW03/higherOrder.ml" 274 9553 9573 "HW03/higherOrder.ml" 274 9553 9578
+)
+"HW03/higherOrder.ml" 274 9553 9573 "HW03/higherOrder.ml" 274 9553 9574
+type(
+  int
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 274 9553 9568 "HW03/higherOrder.ml" 274 9553 9569
+)
+"HW03/higherOrder.ml" 274 9553 9575 "HW03/higherOrder.ml" 274 9553 9576
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"HW03/higherOrder.ml" 274 9553 9577 "HW03/higherOrder.ml" 274 9553 9578
+type(
+  int
+)
+"HW03/higherOrder.ml" 274 9553 9573 "HW03/higherOrder.ml" 274 9553 9578
+type(
+  bool
+)
+"HW03/higherOrder.ml" 274 9553 9563 "HW03/higherOrder.ml" 274 9553 9579
+type(
+  int -> bool
+)
+"HW03/higherOrder.ml" 274 9553 9581 "HW03/higherOrder.ml" 274 9553 9582
+type(
+  int
+)
+"HW03/higherOrder.ml" 274 9553 9584 "HW03/higherOrder.ml" 274 9553 9585
+type(
+  int
+)
+"HW03/higherOrder.ml" 274 9553 9587 "HW03/higherOrder.ml" 274 9553 9589
+type(
+  int
+)
+"HW03/higherOrder.ml" 274 9553 9591 "HW03/higherOrder.ml" 274 9553 9592
+type(
+  int
+)
+"HW03/higherOrder.ml" 274 9553 9580 "HW03/higherOrder.ml" 274 9553 9593
+type(
+  int list
+)
+"HW03/higherOrder.ml" 274 9553 9555 "HW03/higherOrder.ml" 274 9553 9593
+call(
+  stack
+)
+type(
+  int list
+)
+"HW03/higherOrder.ml" 274 9553 9594 "HW03/higherOrder.ml" 274 9553 9595
+type(
+  int list -> int list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 274 9553 9597 "HW03/higherOrder.ml" 274 9553 9598
+type(
+  int
+)
+"HW03/higherOrder.ml" 274 9553 9600 "HW03/higherOrder.ml" 274 9553 9601
+type(
+  int
+)
+"HW03/higherOrder.ml" 274 9553 9603 "HW03/higherOrder.ml" 274 9553 9604
+type(
+  int
+)
+"HW03/higherOrder.ml" 274 9553 9596 "HW03/higherOrder.ml" 274 9553 9605
+type(
+  int list
+)
+"HW03/higherOrder.ml" 274 9553 9555 "HW03/higherOrder.ml" 274 9553 9605
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 275 9606 9609 "HW03/higherOrder.ml" 275 9606 9617
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 275 9606 9618 "HW03/higherOrder.ml" 275 9606 9641
+type(
+  string
+)
+"HW03/higherOrder.ml" 275 9606 9642 "HW03/higherOrder.ml" 275 9606 9646
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 273 9532 9536 "HW03/higherOrder.ml" 273 9532 9540
+)
+"HW03/higherOrder.ml" 275 9606 9609 "HW03/higherOrder.ml" 275 9606 9646
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 277 9648 9652 "HW03/higherOrder.ml" 277 9648 9656
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 279 9717 9720 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 277 9648 9657 "HW03/higherOrder.ml" 277 9648 9659
+type(
+  unit
+)
+"HW03/higherOrder.ml" 278 9669 9671 "HW03/higherOrder.ml" 278 9669 9678
+type(
+  (string -> bool) -> string list -> string list
+)
+ident(
+  int_ref filter' "HW03/higherOrder.ml" 270 9415 9419 "HW03/higherOrder.ml" 270 9415 9426
+)
+"HW03/higherOrder.ml" 278 9669 9684 "HW03/higherOrder.ml" 278 9669 9685
+type(
+  string
+)
+"HW03/higherOrder.ml" 278 9669 9689 "HW03/higherOrder.ml" 278 9669 9694
+type(
+  bool
+)
+"HW03/higherOrder.ml" 278 9669 9679 "HW03/higherOrder.ml" 278 9669 9695
+type(
+  string -> bool
+)
+"HW03/higherOrder.ml" 278 9669 9697 "HW03/higherOrder.ml" 278 9669 9700
+type(
+  string
+)
+"HW03/higherOrder.ml" 278 9669 9702 "HW03/higherOrder.ml" 278 9669 9705
+type(
+  string
+)
+"HW03/higherOrder.ml" 278 9669 9707 "HW03/higherOrder.ml" 278 9669 9710
+type(
+  string
+)
+"HW03/higherOrder.ml" 278 9669 9696 "HW03/higherOrder.ml" 278 9669 9711
+type(
+  string list
+)
+"HW03/higherOrder.ml" 278 9669 9671 "HW03/higherOrder.ml" 278 9669 9711
+call(
+  stack
+)
+type(
+  string list
+)
+"HW03/higherOrder.ml" 278 9669 9712 "HW03/higherOrder.ml" 278 9669 9713
+type(
+  string list -> string list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 278 9669 9714 "HW03/higherOrder.ml" 278 9669 9716
+type(
+  string list
+)
+"HW03/higherOrder.ml" 278 9669 9671 "HW03/higherOrder.ml" 278 9669 9716
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 279 9717 9720 "HW03/higherOrder.ml" 279 9717 9728
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 279 9717 9729 "HW03/higherOrder.ml" 279 9717 9755
+type(
+  string
+)
+"HW03/higherOrder.ml" 279 9717 9756 "HW03/higherOrder.ml" 279 9717 9760
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 277 9648 9652 "HW03/higherOrder.ml" 277 9648 9656
+)
+"HW03/higherOrder.ml" 279 9717 9720 "HW03/higherOrder.ml" 279 9717 9760
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 281 9762 9766 "HW03/higherOrder.ml" 281 9762 9770
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 283 9817 9820 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 281 9762 9771 "HW03/higherOrder.ml" 281 9762 9773
+type(
+  unit
+)
+"HW03/higherOrder.ml" 282 9783 9785 "HW03/higherOrder.ml" 282 9783 9792
+type(
+  ('_a -> bool) -> '_a list -> '_a list
+)
+ident(
+  int_ref filter' "HW03/higherOrder.ml" 270 9415 9419 "HW03/higherOrder.ml" 270 9415 9426
+)
+"HW03/higherOrder.ml" 282 9783 9798 "HW03/higherOrder.ml" 282 9783 9799
+type(
+  '_a
+)
+"HW03/higherOrder.ml" 282 9783 9803 "HW03/higherOrder.ml" 282 9783 9807
+type(
+  bool
+)
+"HW03/higherOrder.ml" 282 9783 9793 "HW03/higherOrder.ml" 282 9783 9808
+type(
+  '_a -> bool
+)
+"HW03/higherOrder.ml" 282 9783 9809 "HW03/higherOrder.ml" 282 9783 9811
+type(
+  '_a list
+)
+"HW03/higherOrder.ml" 282 9783 9785 "HW03/higherOrder.ml" 282 9783 9811
+call(
+  stack
+)
+type(
+  '_a list
+)
+"HW03/higherOrder.ml" 282 9783 9812 "HW03/higherOrder.ml" 282 9783 9813
+type(
+  '_a list -> '_a list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 282 9783 9814 "HW03/higherOrder.ml" 282 9783 9816
+type(
+  '_a list
+)
+"HW03/higherOrder.ml" 282 9783 9785 "HW03/higherOrder.ml" 282 9783 9816
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 283 9817 9820 "HW03/higherOrder.ml" 283 9817 9828
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 283 9817 9829 "HW03/higherOrder.ml" 283 9817 9849
+type(
+  string
+)
+"HW03/higherOrder.ml" 283 9817 9850 "HW03/higherOrder.ml" 283 9817 9854
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 281 9762 9766 "HW03/higherOrder.ml" 281 9762 9770
+)
+"HW03/higherOrder.ml" 283 9817 9820 "HW03/higherOrder.ml" 283 9817 9854
+call(
+  stack
+)
+type(
+  unit
+)
+"HW03/higherOrder.ml" 285 9856 9860 "HW03/higherOrder.ml" 285 9856 9864
+type(
+  unit -> bool
+)
+ident(
+  def test "HW03/higherOrder.ml" 287 9930 9933 "HW03/higherOrder.ml" 1 0 -1
+)
+"HW03/higherOrder.ml" 285 9856 9865 "HW03/higherOrder.ml" 285 9856 9867
+type(
+  unit
+)
+"HW03/higherOrder.ml" 286 9877 9879 "HW03/higherOrder.ml" 286 9877 9886
+type(
+  (string -> bool) -> string list -> string list
+)
+ident(
+  int_ref filter' "HW03/higherOrder.ml" 270 9415 9419 "HW03/higherOrder.ml" 270 9415 9426
+)
+"HW03/higherOrder.ml" 286 9877 9892 "HW03/higherOrder.ml" 286 9877 9893
+type(
+  string
+)
+ident(
+  def x "HW03/higherOrder.ml" 286 9877 9897 "HW03/higherOrder.ml" 286 9877 9904
+)
+"HW03/higherOrder.ml" 286 9877 9897 "HW03/higherOrder.ml" 286 9877 9898
+type(
+  string
+)
+ident(
+  int_ref x "HW03/higherOrder.ml" 286 9877 9892 "HW03/higherOrder.ml" 286 9877 9893
+)
+"HW03/higherOrder.ml" 286 9877 9899 "HW03/higherOrder.ml" 286 9877 9900
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 286 9877 9901 "HW03/higherOrder.ml" 286 9877 9904
+type(
+  string
+)
+"HW03/higherOrder.ml" 286 9877 9897 "HW03/higherOrder.ml" 286 9877 9904
+type(
+  bool
+)
+"HW03/higherOrder.ml" 286 9877 9887 "HW03/higherOrder.ml" 286 9877 9905
+type(
+  string -> bool
+)
+"HW03/higherOrder.ml" 286 9877 9907 "HW03/higherOrder.ml" 286 9877 9910
+type(
+  string
+)
+"HW03/higherOrder.ml" 286 9877 9912 "HW03/higherOrder.ml" 286 9877 9915
+type(
+  string
+)
+"HW03/higherOrder.ml" 286 9877 9917 "HW03/higherOrder.ml" 286 9877 9920
+type(
+  string
+)
+"HW03/higherOrder.ml" 286 9877 9906 "HW03/higherOrder.ml" 286 9877 9921
+type(
+  string list
+)
+"HW03/higherOrder.ml" 286 9877 9879 "HW03/higherOrder.ml" 286 9877 9921
+call(
+  stack
+)
+type(
+  string list
+)
+"HW03/higherOrder.ml" 286 9877 9922 "HW03/higherOrder.ml" 286 9877 9923
+type(
+  string list -> string list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW03/higherOrder.ml" 286 9877 9925 "HW03/higherOrder.ml" 286 9877 9928
+type(
+  string
+)
+"HW03/higherOrder.ml" 286 9877 9924 "HW03/higherOrder.ml" 286 9877 9929
+type(
+  string list
+)
+"HW03/higherOrder.ml" 286 9877 9879 "HW03/higherOrder.ml" 286 9877 9929
+type(
+  bool
+)
+type(
+  bool
+)
+"HW03/higherOrder.ml" 287 9930 9933 "HW03/higherOrder.ml" 287 9930 9941
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  ext_ref Assert.run_test
+)
+"HW03/higherOrder.ml" 287 9930 9942 "HW03/higherOrder.ml" 287 9930 9958
+type(
+  string
+)
+"HW03/higherOrder.ml" 287 9930 9959 "HW03/higherOrder.ml" 287 9930 9963
+type(
+  unit -> bool
+)
+ident(
+  int_ref test "HW03/higherOrder.ml" 285 9856 9860 "HW03/higherOrder.ml" 285 9856 9864
+)
+"HW03/higherOrder.ml" 287 9930 9933 "HW03/higherOrder.ml" 287 9930 9963
+call(
+  stack
+)
+type(
+  unit
+)
