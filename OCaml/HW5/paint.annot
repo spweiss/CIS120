@@ -1,0 +1,5360 @@
+"HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+type(
+  state
+)
+ident(
+  def paint "HW05/paint.ml" 89 2893 2893 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 76 2553 2564 "HW05/paint.ml" 76 2553 2576
+type(
+  unit -> shape Deque.deque
+)
+ident(
+  ext_ref Deque.create
+)
+"HW05/paint.ml" 76 2553 2577 "HW05/paint.ml" 76 2553 2579
+type(
+  unit
+)
+"HW05/paint.ml" 76 2553 2564 "HW05/paint.ml" 76 2553 2579
+call(
+  stack
+)
+type(
+  shape Deque.deque
+)
+"HW05/paint.ml" 77 2581 2590 "HW05/paint.ml" 77 2581 2603
+type(
+  mode
+)
+"HW05/paint.ml" 78 2605 2615 "HW05/paint.ml" 78 2605 2620
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.black
+)
+"HW05/paint.ml" 80 2695 2707 "HW05/paint.ml" 80 2695 2711
+type(
+  shape option
+)
+"HW05/paint.ml" 81 2713 2727 "HW05/paint.ml" 81 2713 2728
+type(
+  int
+)
+"HW05/paint.ml" 82 2730 2739 "HW05/paint.ml" 82 2730 2741
+type(
+  string
+)
+"HW05/paint.ml" 75 2531 2551 "HW05/paint.ml" 83 2743 2744
+type(
+  state
+)
+type(
+  state
+)
+"HW05/paint.ml" 89 2893 2897 "HW05/paint.ml" 89 2893 2908
+type(
+  Gctx.gctx -> Gctx.color -> Gctx.gctx
+)
+ident(
+  def with_params "HW05/paint.ml" 93 2974 2974 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 89 2893 2910 "HW05/paint.ml" 89 2893 2911
+type(
+  Gctx.gctx
+)
+ident(
+  def g "HW05/paint.ml" 89 2893 2919 "HW05/paint.ml" 91 2968 2972
+)
+"HW05/paint.ml" 89 2893 2920 "HW05/paint.ml" 89 2893 2921
+type(
+  Gctx.color
+)
+ident(
+  def c "HW05/paint.ml" 89 2893 2930 "HW05/paint.ml" 91 2968 2972
+)
+"HW05/paint.ml" 90 2939 2945 "HW05/paint.ml" 90 2939 2947
+type(
+  Gctx.gctx
+)
+ident(
+  def g1 "HW05/paint.ml" 91 2968 2970 "HW05/paint.ml" 91 2968 2972
+)
+"HW05/paint.ml" 90 2939 2950 "HW05/paint.ml" 90 2939 2960
+type(
+  Gctx.gctx -> Gctx.color -> Gctx.gctx
+)
+ident(
+  ext_ref Gctx.with_color
+)
+"HW05/paint.ml" 90 2939 2961 "HW05/paint.ml" 90 2939 2962
+type(
+  Gctx.gctx
+)
+ident(
+  int_ref g "HW05/paint.ml" 89 2893 2910 "HW05/paint.ml" 89 2893 2911
+)
+"HW05/paint.ml" 90 2939 2963 "HW05/paint.ml" 90 2939 2964
+type(
+  Gctx.color
+)
+ident(
+  int_ref c "HW05/paint.ml" 89 2893 2920 "HW05/paint.ml" 89 2893 2921
+)
+"HW05/paint.ml" 90 2939 2950 "HW05/paint.ml" 90 2939 2964
+call(
+  stack
+)
+type(
+  Gctx.gctx
+)
+"HW05/paint.ml" 91 2968 2970 "HW05/paint.ml" 91 2968 2972
+type(
+  Gctx.gctx
+)
+ident(
+  int_ref g1 "HW05/paint.ml" 90 2939 2945 "HW05/paint.ml" 90 2939 2947
+)
+"HW05/paint.ml" 90 2939 2941 "HW05/paint.ml" 91 2968 2972
+type(
+  Gctx.gctx
+)
+type(
+  Gctx.gctx
+)
+"HW05/paint.ml" 93 2974 2978 "HW05/paint.ml" 93 2974 2990
+type(
+  Gctx.gctx -> int -> Gctx.color -> Gctx.gctx
+)
+ident(
+  def with_params2 "HW05/paint.ml" 114 3908 3908 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 93 2974 2992 "HW05/paint.ml" 93 2974 2993
+type(
+  Gctx.gctx
+)
+ident(
+  def g "HW05/paint.ml" 93 2974 3001 "HW05/paint.ml" 96 3093 3097
+)
+"HW05/paint.ml" 93 2974 3002 "HW05/paint.ml" 93 2974 3003
+type(
+  int
+)
+ident(
+  def t "HW05/paint.ml" 93 2974 3010 "HW05/paint.ml" 96 3093 3097
+)
+"HW05/paint.ml" 93 2974 3011 "HW05/paint.ml" 93 2974 3012
+type(
+  Gctx.color
+)
+ident(
+  def c "HW05/paint.ml" 93 2974 3021 "HW05/paint.ml" 96 3093 3097
+)
+"HW05/paint.ml" 94 3030 3036 "HW05/paint.ml" 94 3030 3038
+type(
+  Gctx.gctx
+)
+ident(
+  def g1 "HW05/paint.ml" 95 3059 3061 "HW05/paint.ml" 96 3093 3097
+)
+"HW05/paint.ml" 94 3030 3041 "HW05/paint.ml" 94 3030 3051
+type(
+  Gctx.gctx -> Gctx.color -> Gctx.gctx
+)
+ident(
+  ext_ref Gctx.with_color
+)
+"HW05/paint.ml" 94 3030 3052 "HW05/paint.ml" 94 3030 3053
+type(
+  Gctx.gctx
+)
+ident(
+  int_ref g "HW05/paint.ml" 93 2974 2992 "HW05/paint.ml" 93 2974 2993
+)
+"HW05/paint.ml" 94 3030 3054 "HW05/paint.ml" 94 3030 3055
+type(
+  Gctx.color
+)
+ident(
+  int_ref c "HW05/paint.ml" 93 2974 3011 "HW05/paint.ml" 93 2974 3012
+)
+"HW05/paint.ml" 94 3030 3041 "HW05/paint.ml" 94 3030 3055
+call(
+  stack
+)
+type(
+  Gctx.gctx
+)
+"HW05/paint.ml" 95 3059 3065 "HW05/paint.ml" 95 3059 3067
+type(
+  Gctx.gctx
+)
+ident(
+  def g2 "HW05/paint.ml" 96 3093 3095 "HW05/paint.ml" 96 3093 3097
+)
+"HW05/paint.ml" 95 3059 3070 "HW05/paint.ml" 95 3059 3084
+type(
+  Gctx.gctx -> int -> Gctx.gctx
+)
+ident(
+  ext_ref Gctx.with_thickness
+)
+"HW05/paint.ml" 95 3059 3085 "HW05/paint.ml" 95 3059 3087
+type(
+  Gctx.gctx
+)
+ident(
+  int_ref g1 "HW05/paint.ml" 94 3030 3036 "HW05/paint.ml" 94 3030 3038
+)
+"HW05/paint.ml" 95 3059 3088 "HW05/paint.ml" 95 3059 3089
+type(
+  int
+)
+ident(
+  int_ref t "HW05/paint.ml" 93 2974 3002 "HW05/paint.ml" 93 2974 3003
+)
+"HW05/paint.ml" 95 3059 3070 "HW05/paint.ml" 95 3059 3089
+call(
+  stack
+)
+type(
+  Gctx.gctx
+)
+"HW05/paint.ml" 96 3093 3095 "HW05/paint.ml" 96 3093 3097
+type(
+  Gctx.gctx
+)
+ident(
+  int_ref g2 "HW05/paint.ml" 95 3059 3065 "HW05/paint.ml" 95 3059 3067
+)
+"HW05/paint.ml" 95 3059 3061 "HW05/paint.ml" 96 3093 3097
+type(
+  Gctx.gctx
+)
+"HW05/paint.ml" 94 3030 3032 "HW05/paint.ml" 96 3093 3097
+type(
+  Gctx.gctx
+)
+type(
+  Gctx.gctx
+)
+"HW05/paint.ml" 114 3908 3912 "HW05/paint.ml" 114 3908 3919
+type(
+  Gctx.gctx -> unit
+)
+ident(
+  def repaint "HW05/paint.ml" 135 4756 4756 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 114 3908 3921 "HW05/paint.ml" 114 3908 3922
+type(
+  Gctx.gctx
+)
+ident(
+  def g "HW05/paint.ml" 114 3908 3930 "HW05/paint.ml" 131 4663 4668
+)
+"HW05/paint.ml" 115 3939 3945 "HW05/paint.ml" 115 3939 3955
+type(
+  shape -> unit
+)
+ident(
+  def draw_shape "HW05/paint.ml" 126 4481 4483 "HW05/paint.ml" 131 4663 4668
+)
+"HW05/paint.ml" 115 3939 3957 "HW05/paint.ml" 115 3939 3958
+type(
+  shape
+)
+ident(
+  def s "HW05/paint.ml" 115 3939 3967 "HW05/paint.ml" 125 4470 4477
+)
+"HW05/paint.ml" 116 3976 3992 "HW05/paint.ml" 116 3976 3993
+type(
+  shape
+)
+ident(
+  int_ref s "HW05/paint.ml" 115 3939 3957 "HW05/paint.ml" 115 3939 3958
+)
+"HW05/paint.ml" 117 3999 4013 "HW05/paint.ml" 117 3999 4014
+type(
+  Gctx.color
+)
+ident(
+  def c "HW05/paint.ml" 117 3999 4030 "HW05/paint.ml" 117 3999 4066
+)
+"HW05/paint.ml" 117 3999 4016 "HW05/paint.ml" 117 3999 4017
+type(
+  int
+)
+ident(
+  def t "HW05/paint.ml" 117 3999 4030 "HW05/paint.ml" 117 3999 4066
+)
+"HW05/paint.ml" 117 3999 4019 "HW05/paint.ml" 117 3999 4021
+type(
+  point
+)
+ident(
+  def p1 "HW05/paint.ml" 117 3999 4030 "HW05/paint.ml" 117 3999 4066
+)
+"HW05/paint.ml" 117 3999 4023 "HW05/paint.ml" 117 3999 4025
+type(
+  point
+)
+ident(
+  def p2 "HW05/paint.ml" 117 3999 4030 "HW05/paint.ml" 117 3999 4066
+)
+"HW05/paint.ml" 117 3999 4007 "HW05/paint.ml" 117 3999 4026
+type(
+  shape
+)
+"HW05/paint.ml" 117 3999 4030 "HW05/paint.ml" 117 3999 4039
+type(
+  Gctx.gctx -> Gctx.position -> Gctx.position -> unit
+)
+ident(
+  ext_ref Gctx.draw_line
+)
+"HW05/paint.ml" 117 3999 4041 "HW05/paint.ml" 117 3999 4053
+type(
+  Gctx.gctx -> int -> Gctx.color -> Gctx.gctx
+)
+ident(
+  int_ref with_params2 "HW05/paint.ml" 93 2974 2978 "HW05/paint.ml" 93 2974 2990
+)
+"HW05/paint.ml" 117 3999 4054 "HW05/paint.ml" 117 3999 4055
+type(
+  Gctx.gctx
+)
+ident(
+  int_ref g "HW05/paint.ml" 114 3908 3921 "HW05/paint.ml" 114 3908 3922
+)
+"HW05/paint.ml" 117 3999 4056 "HW05/paint.ml" 117 3999 4057
+type(
+  int
+)
+ident(
+  int_ref t "HW05/paint.ml" 117 3999 4016 "HW05/paint.ml" 117 3999 4017
+)
+"HW05/paint.ml" 117 3999 4058 "HW05/paint.ml" 117 3999 4059
+type(
+  Gctx.color
+)
+ident(
+  int_ref c "HW05/paint.ml" 117 3999 4013 "HW05/paint.ml" 117 3999 4014
+)
+"HW05/paint.ml" 117 3999 4040 "HW05/paint.ml" 117 3999 4060
+call(
+  stack
+)
+type(
+  Gctx.gctx
+)
+"HW05/paint.ml" 117 3999 4061 "HW05/paint.ml" 117 3999 4063
+type(
+  point
+)
+ident(
+  int_ref p1 "HW05/paint.ml" 117 3999 4019 "HW05/paint.ml" 117 3999 4021
+)
+"HW05/paint.ml" 117 3999 4064 "HW05/paint.ml" 117 3999 4066
+type(
+  point
+)
+ident(
+  int_ref p2 "HW05/paint.ml" 117 3999 4023 "HW05/paint.ml" 117 3999 4025
+)
+"HW05/paint.ml" 117 3999 4030 "HW05/paint.ml" 117 3999 4066
+call(
+  tail
+)
+type(
+  unit
+)
+"HW05/paint.ml" 118 4067 4083 "HW05/paint.ml" 118 4067 4084
+type(
+  Gctx.color
+)
+ident(
+  def c "HW05/paint.ml" 118 4067 4093 "HW05/paint.ml" 118 4067 4125
+)
+"HW05/paint.ml" 118 4067 4086 "HW05/paint.ml" 118 4067 4088
+type(
+  point list
+)
+ident(
+  def ps "HW05/paint.ml" 118 4067 4093 "HW05/paint.ml" 118 4067 4125
+)
+"HW05/paint.ml" 118 4067 4075 "HW05/paint.ml" 118 4067 4089
+type(
+  shape
+)
+"HW05/paint.ml" 118 4067 4093 "HW05/paint.ml" 118 4067 4104
+type(
+  Gctx.gctx -> Gctx.position list -> unit
+)
+ident(
+  ext_ref Gctx.draw_points
+)
+"HW05/paint.ml" 118 4067 4106 "HW05/paint.ml" 118 4067 4117
+type(
+  Gctx.gctx -> Gctx.color -> Gctx.gctx
+)
+ident(
+  int_ref with_params "HW05/paint.ml" 89 2893 2897 "HW05/paint.ml" 89 2893 2908
+)
+"HW05/paint.ml" 118 4067 4118 "HW05/paint.ml" 118 4067 4119
+type(
+  Gctx.gctx
+)
+ident(
+  int_ref g "HW05/paint.ml" 114 3908 3921 "HW05/paint.ml" 114 3908 3922
+)
+"HW05/paint.ml" 118 4067 4120 "HW05/paint.ml" 118 4067 4121
+type(
+  Gctx.color
+)
+ident(
+  int_ref c "HW05/paint.ml" 118 4067 4083 "HW05/paint.ml" 118 4067 4084
+)
+"HW05/paint.ml" 118 4067 4105 "HW05/paint.ml" 118 4067 4122
+call(
+  stack
+)
+type(
+  Gctx.gctx
+)
+"HW05/paint.ml" 118 4067 4123 "HW05/paint.ml" 118 4067 4125
+type(
+  Gctx.position list
+)
+ident(
+  int_ref ps "HW05/paint.ml" 118 4067 4086 "HW05/paint.ml" 118 4067 4088
+)
+"HW05/paint.ml" 118 4067 4093 "HW05/paint.ml" 118 4067 4125
+call(
+  tail
+)
+type(
+  unit
+)
+"HW05/paint.ml" 119 4126 4143 "HW05/paint.ml" 119 4126 4144
+type(
+  Gctx.color
+)
+ident(
+  def c "HW05/paint.ml" 120 4160 4170 "HW05/paint.ml" 123 4364 4420
+)
+"HW05/paint.ml" 119 4126 4146 "HW05/paint.ml" 119 4126 4147
+type(
+  int
+)
+ident(
+  def t "HW05/paint.ml" 120 4160 4170 "HW05/paint.ml" 123 4364 4420
+)
+"HW05/paint.ml" 119 4126 4149 "HW05/paint.ml" 119 4126 4151
+type(
+  point
+)
+ident(
+  def p1 "HW05/paint.ml" 120 4160 4170 "HW05/paint.ml" 123 4364 4420
+)
+"HW05/paint.ml" 119 4126 4153 "HW05/paint.ml" 119 4126 4155
+type(
+  point
+)
+ident(
+  def p2 "HW05/paint.ml" 120 4160 4170 "HW05/paint.ml" 123 4364 4420
+)
+"HW05/paint.ml" 119 4126 4134 "HW05/paint.ml" 119 4126 4156
+type(
+  shape
+)
+"HW05/paint.ml" 120 4160 4174 "HW05/paint.ml" 120 4160 4180
+type(
+  Gctx.position
+)
+ident(
+  def center "HW05/paint.ml" 121 4244 4254 "HW05/paint.ml" 123 4364 4420
+)
+"HW05/paint.ml" 120 4160 4197 "HW05/paint.ml" 120 4160 4200
+type(
+  point -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"HW05/paint.ml" 120 4160 4201 "HW05/paint.ml" 120 4160 4203
+type(
+  point
+)
+ident(
+  int_ref p1 "HW05/paint.ml" 119 4126 4149 "HW05/paint.ml" 119 4126 4151
+)
+"HW05/paint.ml" 120 4160 4197 "HW05/paint.ml" 120 4160 4203
+type(
+  int
+)
+"HW05/paint.ml" 120 4160 4204 "HW05/paint.ml" 120 4160 4205
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"HW05/paint.ml" 120 4160 4206 "HW05/paint.ml" 120 4160 4209
+type(
+  point -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"HW05/paint.ml" 120 4160 4210 "HW05/paint.ml" 120 4160 4212
+type(
+  point
+)
+ident(
+  int_ref p2 "HW05/paint.ml" 119 4126 4153 "HW05/paint.ml" 119 4126 4155
+)
+"HW05/paint.ml" 120 4160 4206 "HW05/paint.ml" 120 4160 4212
+type(
+  int
+)
+"HW05/paint.ml" 120 4160 4196 "HW05/paint.ml" 120 4160 4213
+type(
+  int
+)
+"HW05/paint.ml" 120 4160 4213 "HW05/paint.ml" 120 4160 4214
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"HW05/paint.ml" 120 4160 4214 "HW05/paint.ml" 120 4160 4215
+type(
+  int
+)
+"HW05/paint.ml" 120 4160 4195 "HW05/paint.ml" 120 4160 4216
+type(
+  int
+)
+"HW05/paint.ml" 120 4160 4220 "HW05/paint.ml" 120 4160 4223
+type(
+  point -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"HW05/paint.ml" 120 4160 4224 "HW05/paint.ml" 120 4160 4226
+type(
+  point
+)
+ident(
+  int_ref p1 "HW05/paint.ml" 119 4126 4149 "HW05/paint.ml" 119 4126 4151
+)
+"HW05/paint.ml" 120 4160 4220 "HW05/paint.ml" 120 4160 4226
+type(
+  int
+)
+"HW05/paint.ml" 120 4160 4227 "HW05/paint.ml" 120 4160 4228
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"HW05/paint.ml" 120 4160 4229 "HW05/paint.ml" 120 4160 4232
+type(
+  point -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"HW05/paint.ml" 120 4160 4233 "HW05/paint.ml" 120 4160 4235
+type(
+  point
+)
+ident(
+  int_ref p2 "HW05/paint.ml" 119 4126 4153 "HW05/paint.ml" 119 4126 4155
+)
+"HW05/paint.ml" 120 4160 4229 "HW05/paint.ml" 120 4160 4235
+type(
+  int
+)
+"HW05/paint.ml" 120 4160 4219 "HW05/paint.ml" 120 4160 4236
+type(
+  int
+)
+"HW05/paint.ml" 120 4160 4236 "HW05/paint.ml" 120 4160 4237
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"HW05/paint.ml" 120 4160 4237 "HW05/paint.ml" 120 4160 4238
+type(
+  int
+)
+"HW05/paint.ml" 120 4160 4218 "HW05/paint.ml" 120 4160 4239
+type(
+  int
+)
+"HW05/paint.ml" 120 4160 4194 "HW05/paint.ml" 120 4160 4240
+type(
+  Gctx.position
+)
+type(
+  Gctx.position
+)
+"HW05/paint.ml" 121 4244 4258 "HW05/paint.ml" 121 4244 4260
+type(
+  int
+)
+ident(
+  def rx "HW05/paint.ml" 122 4304 4314 "HW05/paint.ml" 123 4364 4420
+)
+"HW05/paint.ml" 121 4244 4270 "HW05/paint.ml" 121 4244 4273
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.abs
+)
+"HW05/paint.ml" 121 4244 4276 "HW05/paint.ml" 121 4244 4279
+type(
+  Gctx.position -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"HW05/paint.ml" 121 4244 4280 "HW05/paint.ml" 121 4244 4286
+type(
+  Gctx.position
+)
+ident(
+  int_ref center "HW05/paint.ml" 120 4160 4174 "HW05/paint.ml" 120 4160 4180
+)
+"HW05/paint.ml" 121 4244 4275 "HW05/paint.ml" 121 4244 4287
+type(
+  int
+)
+"HW05/paint.ml" 121 4244 4288 "HW05/paint.ml" 121 4244 4289
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"HW05/paint.ml" 121 4244 4291 "HW05/paint.ml" 121 4244 4294
+type(
+  point -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"HW05/paint.ml" 121 4244 4295 "HW05/paint.ml" 121 4244 4297
+type(
+  point
+)
+ident(
+  int_ref p1 "HW05/paint.ml" 119 4126 4149 "HW05/paint.ml" 119 4126 4151
+)
+"HW05/paint.ml" 121 4244 4290 "HW05/paint.ml" 121 4244 4298
+type(
+  int
+)
+"HW05/paint.ml" 121 4244 4274 "HW05/paint.ml" 121 4244 4299
+type(
+  int
+)
+"HW05/paint.ml" 121 4244 4269 "HW05/paint.ml" 121 4244 4300
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+"HW05/paint.ml" 122 4304 4318 "HW05/paint.ml" 122 4304 4320
+type(
+  int
+)
+ident(
+  def ry "HW05/paint.ml" 123 4364 4374 "HW05/paint.ml" 123 4364 4420
+)
+"HW05/paint.ml" 122 4304 4330 "HW05/paint.ml" 122 4304 4333
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.abs
+)
+"HW05/paint.ml" 122 4304 4336 "HW05/paint.ml" 122 4304 4339
+type(
+  Gctx.position -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"HW05/paint.ml" 122 4304 4340 "HW05/paint.ml" 122 4304 4346
+type(
+  Gctx.position
+)
+ident(
+  int_ref center "HW05/paint.ml" 120 4160 4174 "HW05/paint.ml" 120 4160 4180
+)
+"HW05/paint.ml" 122 4304 4335 "HW05/paint.ml" 122 4304 4347
+type(
+  int
+)
+"HW05/paint.ml" 122 4304 4348 "HW05/paint.ml" 122 4304 4349
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"HW05/paint.ml" 122 4304 4351 "HW05/paint.ml" 122 4304 4354
+type(
+  point -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"HW05/paint.ml" 122 4304 4355 "HW05/paint.ml" 122 4304 4357
+type(
+  point
+)
+ident(
+  int_ref p1 "HW05/paint.ml" 119 4126 4149 "HW05/paint.ml" 119 4126 4151
+)
+"HW05/paint.ml" 122 4304 4350 "HW05/paint.ml" 122 4304 4358
+type(
+  int
+)
+"HW05/paint.ml" 122 4304 4334 "HW05/paint.ml" 122 4304 4359
+type(
+  int
+)
+"HW05/paint.ml" 122 4304 4329 "HW05/paint.ml" 122 4304 4360
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+"HW05/paint.ml" 123 4364 4374 "HW05/paint.ml" 123 4364 4386
+type(
+  Gctx.gctx -> Gctx.position -> int -> int -> unit
+)
+ident(
+  ext_ref Gctx.draw_ellipse
+)
+"HW05/paint.ml" 123 4364 4388 "HW05/paint.ml" 123 4364 4400
+type(
+  Gctx.gctx -> int -> Gctx.color -> Gctx.gctx
+)
+ident(
+  int_ref with_params2 "HW05/paint.ml" 93 2974 2978 "HW05/paint.ml" 93 2974 2990
+)
+"HW05/paint.ml" 123 4364 4401 "HW05/paint.ml" 123 4364 4402
+type(
+  Gctx.gctx
+)
+ident(
+  int_ref g "HW05/paint.ml" 114 3908 3921 "HW05/paint.ml" 114 3908 3922
+)
+"HW05/paint.ml" 123 4364 4403 "HW05/paint.ml" 123 4364 4404
+type(
+  int
+)
+ident(
+  int_ref t "HW05/paint.ml" 119 4126 4146 "HW05/paint.ml" 119 4126 4147
+)
+"HW05/paint.ml" 123 4364 4405 "HW05/paint.ml" 123 4364 4406
+type(
+  Gctx.color
+)
+ident(
+  int_ref c "HW05/paint.ml" 119 4126 4143 "HW05/paint.ml" 119 4126 4144
+)
+"HW05/paint.ml" 123 4364 4387 "HW05/paint.ml" 123 4364 4407
+call(
+  stack
+)
+type(
+  Gctx.gctx
+)
+"HW05/paint.ml" 123 4364 4408 "HW05/paint.ml" 123 4364 4414
+type(
+  Gctx.position
+)
+ident(
+  int_ref center "HW05/paint.ml" 120 4160 4174 "HW05/paint.ml" 120 4160 4180
+)
+"HW05/paint.ml" 123 4364 4415 "HW05/paint.ml" 123 4364 4417
+type(
+  int
+)
+ident(
+  int_ref rx "HW05/paint.ml" 121 4244 4258 "HW05/paint.ml" 121 4244 4260
+)
+"HW05/paint.ml" 123 4364 4418 "HW05/paint.ml" 123 4364 4420
+type(
+  int
+)
+ident(
+  int_ref ry "HW05/paint.ml" 122 4304 4318 "HW05/paint.ml" 122 4304 4320
+)
+"HW05/paint.ml" 123 4364 4374 "HW05/paint.ml" 123 4364 4420
+call(
+  tail
+)
+type(
+  unit
+)
+"HW05/paint.ml" 122 4304 4314 "HW05/paint.ml" 123 4364 4420
+type(
+  unit
+)
+"HW05/paint.ml" 121 4244 4254 "HW05/paint.ml" 123 4364 4420
+type(
+  unit
+)
+"HW05/paint.ml" 120 4160 4170 "HW05/paint.ml" 123 4364 4420
+type(
+  unit
+)
+"HW05/paint.ml" 124 4421 4435 "HW05/paint.ml" 124 4421 4436
+type(
+  Gctx.color
+)
+ident(
+  def c "HW05/paint.ml" 124 4421 4447 "HW05/paint.ml" 124 4421 4469
+)
+"HW05/paint.ml" 124 4421 4438 "HW05/paint.ml" 124 4421 4439
+type(
+  string
+)
+ident(
+  def s "HW05/paint.ml" 124 4421 4447 "HW05/paint.ml" 124 4421 4469
+)
+"HW05/paint.ml" 124 4421 4441 "HW05/paint.ml" 124 4421 4442
+type(
+  point
+)
+ident(
+  def p "HW05/paint.ml" 124 4421 4447 "HW05/paint.ml" 124 4421 4469
+)
+"HW05/paint.ml" 124 4421 4429 "HW05/paint.ml" 124 4421 4443
+type(
+  shape
+)
+"HW05/paint.ml" 124 4421 4447 "HW05/paint.ml" 124 4421 4467
+type(
+  string -> unit
+)
+ident(
+  ext_ref Graphics.draw_string
+)
+"HW05/paint.ml" 124 4421 4468 "HW05/paint.ml" 124 4421 4469
+type(
+  string
+)
+ident(
+  int_ref s "HW05/paint.ml" 124 4421 4438 "HW05/paint.ml" 124 4421 4439
+)
+"HW05/paint.ml" 124 4421 4447 "HW05/paint.ml" 124 4421 4469
+type(
+  unit
+)
+"HW05/paint.ml" 116 3976 3980 "HW05/paint.ml" 125 4470 4477
+type(
+  unit
+)
+type(
+  unit
+)
+"HW05/paint.ml" 126 4481 4483 "HW05/paint.ml" 126 4481 4496
+type(
+  (shape -> unit) -> shape Deque.deque -> unit
+)
+ident(
+  ext_ref Deque.iterate
+)
+"HW05/paint.ml" 126 4481 4497 "HW05/paint.ml" 126 4481 4507
+type(
+  shape -> unit
+)
+ident(
+  int_ref draw_shape "HW05/paint.ml" 115 3939 3945 "HW05/paint.ml" 115 3939 3955
+)
+"HW05/paint.ml" 126 4481 4508 "HW05/paint.ml" 126 4481 4513
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 126 4481 4508 "HW05/paint.ml" 126 4481 4520
+type(
+  shape Deque.deque
+)
+"HW05/paint.ml" 126 4481 4483 "HW05/paint.ml" 126 4481 4520
+call(
+  stack
+)
+type(
+  unit
+)
+"HW05/paint.ml" 128 4588 4602 "HW05/paint.ml" 128 4588 4607
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 128 4588 4602 "HW05/paint.ml" 128 4588 4615
+type(
+  shape option
+)
+"HW05/paint.ml" 129 4621 4625 "HW05/paint.ml" 129 4621 4629
+type(
+  shape option
+)
+"HW05/paint.ml" 129 4621 4633 "HW05/paint.ml" 129 4621 4635
+type(
+  unit
+)
+"HW05/paint.ml" 130 4636 4645 "HW05/paint.ml" 130 4636 4646
+type(
+  shape
+)
+ident(
+  def n "HW05/paint.ml" 130 4636 4650 "HW05/paint.ml" 130 4636 4662
+)
+"HW05/paint.ml" 130 4636 4640 "HW05/paint.ml" 130 4636 4646
+type(
+  shape option
+)
+"HW05/paint.ml" 130 4636 4650 "HW05/paint.ml" 130 4636 4660
+type(
+  shape -> unit
+)
+ident(
+  int_ref draw_shape "HW05/paint.ml" 115 3939 3945 "HW05/paint.ml" 115 3939 3955
+)
+"HW05/paint.ml" 130 4636 4661 "HW05/paint.ml" 130 4636 4662
+type(
+  shape
+)
+ident(
+  int_ref n "HW05/paint.ml" 130 4636 4645 "HW05/paint.ml" 130 4636 4646
+)
+"HW05/paint.ml" 130 4636 4650 "HW05/paint.ml" 130 4636 4662
+call(
+  tail
+)
+type(
+  unit
+)
+"HW05/paint.ml" 128 4588 4590 "HW05/paint.ml" 131 4663 4668
+type(
+  unit
+)
+"HW05/paint.ml" 126 4481 4483 "HW05/paint.ml" 131 4663 4668
+type(
+  unit
+)
+"HW05/paint.ml" 115 3939 3941 "HW05/paint.ml" 131 4663 4668
+type(
+  unit
+)
+type(
+  unit
+)
+"HW05/paint.ml" 135 4756 4762 "HW05/paint.ml" 135 4756 4774
+type(
+  Widget.widget
+)
+ident(
+  def paint_canvas "HW05/paint.ml" 145 5145 5145 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 135 4756 4787 "HW05/paint.ml" 135 4756 4810
+type(
+  Widget.notifier_controller
+)
+ident(
+  def paint_canvas_controller "HW05/paint.ml" 145 5145 5145 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 135 4756 4760 "HW05/paint.ml" 135 4756 4834
+type(
+  Widget.widget * Widget.notifier_controller
+)
+"HW05/paint.ml" 136 4837 4839 "HW05/paint.ml" 136 4837 4845
+type(
+  Gctx.dimension ->
+  (Gctx.gctx -> unit) -> Widget.widget * Widget.notifier_controller
+)
+ident(
+  ext_ref Widget.canvas
+)
+"HW05/paint.ml" 136 4837 4847 "HW05/paint.ml" 136 4837 4850
+type(
+  int
+)
+"HW05/paint.ml" 136 4837 4852 "HW05/paint.ml" 136 4837 4855
+type(
+  int
+)
+"HW05/paint.ml" 136 4837 4846 "HW05/paint.ml" 136 4837 4856
+type(
+  Gctx.dimension
+)
+"HW05/paint.ml" 136 4837 4857 "HW05/paint.ml" 136 4837 4864
+type(
+  Gctx.gctx -> unit
+)
+ident(
+  int_ref repaint "HW05/paint.ml" 114 3908 3912 "HW05/paint.ml" 114 3908 3919
+)
+"HW05/paint.ml" 136 4837 4839 "HW05/paint.ml" 136 4837 4864
+call(
+  stack
+)
+type(
+  Widget.widget * Widget.notifier_controller
+)
+"HW05/paint.ml" 145 5145 5149 "HW05/paint.ml" 145 5145 5161
+type(
+  Gctx.gctx -> Gctx.event -> unit
+)
+ident(
+  def paint_action "HW05/paint.ml" 255 10518 10521 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 145 5145 5163 "HW05/paint.ml" 145 5145 5165
+type(
+  Gctx.gctx
+)
+ident(
+  def gc "HW05/paint.ml" 145 5145 5172 "HW05/paint.ml" 252 10440 10445
+)
+"HW05/paint.ml" 145 5145 5173 "HW05/paint.ml" 145 5145 5178
+type(
+  Gctx.event
+)
+ident(
+  def event "HW05/paint.ml" 145 5145 5186 "HW05/paint.ml" 252 10440 10445
+)
+"HW05/paint.ml" 146 5195 5201 "HW05/paint.ml" 146 5195 5202
+type(
+  Gctx.position
+)
+ident(
+  def p "HW05/paint.ml" 147 5250 5252 "HW05/paint.ml" 252 10440 10445
+)
+"HW05/paint.ml" 146 5195 5206 "HW05/paint.ml" 146 5195 5215
+type(
+  Gctx.event -> Gctx.gctx -> Gctx.position
+)
+ident(
+  ext_ref Gctx.event_pos
+)
+"HW05/paint.ml" 146 5195 5216 "HW05/paint.ml" 146 5195 5221
+type(
+  Gctx.event
+)
+ident(
+  int_ref event "HW05/paint.ml" 145 5145 5173 "HW05/paint.ml" 145 5145 5178
+)
+"HW05/paint.ml" 146 5195 5222 "HW05/paint.ml" 146 5195 5224
+type(
+  Gctx.gctx
+)
+ident(
+  int_ref gc "HW05/paint.ml" 145 5145 5163 "HW05/paint.ml" 145 5145 5165
+)
+"HW05/paint.ml" 146 5195 5206 "HW05/paint.ml" 146 5195 5224
+call(
+  stack
+)
+type(
+  Gctx.position
+)
+"HW05/paint.ml" 147 5250 5265 "HW05/paint.ml" 147 5250 5275
+type(
+  Gctx.event -> Gctx.event_type
+)
+ident(
+  ext_ref Gctx.event_type
+)
+"HW05/paint.ml" 147 5250 5276 "HW05/paint.ml" 147 5250 5281
+type(
+  Gctx.event
+)
+ident(
+  int_ref event "HW05/paint.ml" 145 5145 5173 "HW05/paint.ml" 145 5145 5178
+)
+"HW05/paint.ml" 147 5250 5264 "HW05/paint.ml" 147 5250 5282
+call(
+  stack
+)
+type(
+  Gctx.event_type
+)
+"HW05/paint.ml" 148 5288 5294 "HW05/paint.ml" 148 5288 5303
+type(
+  Gctx.event_type
+)
+"HW05/paint.ml" 152 5541 5562 "HW05/paint.ml" 152 5541 5567
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 152 5541 5562 "HW05/paint.ml" 152 5541 5572
+type(
+  mode
+)
+"HW05/paint.ml" 153 5579 5593 "HW05/paint.ml" 153 5579 5606
+type(
+  mode
+)
+"HW05/paint.ml" 157 5862 5878 "HW05/paint.ml" 157 5862 5883
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 157 5862 5904 "HW05/paint.ml" 157 5862 5905
+type(
+  Gctx.position
+)
+ident(
+  int_ref p "HW05/paint.ml" 146 5195 5201 "HW05/paint.ml" 146 5195 5202
+)
+"HW05/paint.ml" 157 5862 5892 "HW05/paint.ml" 157 5862 5905
+type(
+  mode
+)
+"HW05/paint.ml" 157 5862 5878 "HW05/paint.ml" 157 5862 5905
+type(
+  unit
+)
+"HW05/paint.ml" 158 5906 5932 "HW05/paint.ml" 158 5906 5934
+type(
+  point
+)
+ident(
+  def p1 "HW05/paint.ml" 164 6283 6299 "HW05/paint.ml" 170 6601 6639
+)
+"HW05/paint.ml" 158 5906 5920 "HW05/paint.ml" 158 5906 5934
+type(
+  mode
+)
+"HW05/paint.ml" 164 6283 6300 "HW05/paint.ml" 164 6283 6317
+type(
+  shape -> shape Deque.deque -> unit
+)
+ident(
+  ext_ref Deque.insert_tail
+)
+"HW05/paint.ml" 165 6324 6343 "HW05/paint.ml" 165 6324 6348
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 165 6324 6343 "HW05/paint.ml" 165 6324 6354
+type(
+  Gctx.color
+)
+"HW05/paint.ml" 165 6324 6356 "HW05/paint.ml" 165 6324 6361
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 165 6324 6356 "HW05/paint.ml" 165 6324 6371
+type(
+  int
+)
+"HW05/paint.ml" 165 6324 6373 "HW05/paint.ml" 165 6324 6375
+type(
+  point
+)
+ident(
+  int_ref p1 "HW05/paint.ml" 158 5906 5932 "HW05/paint.ml" 158 5906 5934
+)
+"HW05/paint.ml" 165 6324 6377 "HW05/paint.ml" 165 6324 6378
+type(
+  Gctx.position
+)
+ident(
+  int_ref p "HW05/paint.ml" 146 5195 5201 "HW05/paint.ml" 146 5195 5202
+)
+"HW05/paint.ml" 164 6283 6318 "HW05/paint.ml" 165 6324 6380
+type(
+  shape
+)
+"HW05/paint.ml" 165 6324 6381 "HW05/paint.ml" 165 6324 6386
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 165 6324 6381 "HW05/paint.ml" 165 6324 6393
+type(
+  shape Deque.deque
+)
+"HW05/paint.ml" 164 6283 6300 "HW05/paint.ml" 165 6324 6393
+call(
+  stack
+)
+type(
+  unit
+)
+"HW05/paint.ml" 167 6442 6458 "HW05/paint.ml" 167 6442 6463
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 167 6442 6472 "HW05/paint.ml" 167 6442 6485
+type(
+  mode
+)
+"HW05/paint.ml" 167 6442 6458 "HW05/paint.ml" 167 6442 6485
+type(
+  unit
+)
+"HW05/paint.ml" 170 6601 6617 "HW05/paint.ml" 170 6601 6622
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 170 6601 6634 "HW05/paint.ml" 170 6601 6638
+type(
+  shape option
+)
+"HW05/paint.ml" 170 6601 6617 "HW05/paint.ml" 170 6601 6638
+type(
+  unit
+)
+"HW05/paint.ml" 167 6442 6458 "HW05/paint.ml" 170 6601 6638
+type(
+  unit
+)
+"HW05/paint.ml" 164 6283 6299 "HW05/paint.ml" 170 6601 6639
+type(
+  unit
+)
+"HW05/paint.ml" 171 6640 6654 "HW05/paint.ml" 171 6640 6663
+type(
+  mode
+)
+"HW05/paint.ml" 171 6640 6667 "HW05/paint.ml" 171 6640 6672
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 171 6640 6698 "HW05/paint.ml" 171 6640 6703
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 171 6640 6698 "HW05/paint.ml" 171 6640 6709
+type(
+  Gctx.color
+)
+"HW05/paint.ml" 171 6640 6712 "HW05/paint.ml" 171 6640 6713
+type(
+  Gctx.position
+)
+ident(
+  int_ref p "HW05/paint.ml" 146 5195 5201 "HW05/paint.ml" 146 5195 5202
+)
+"HW05/paint.ml" 171 6640 6711 "HW05/paint.ml" 171 6640 6714
+type(
+  point list
+)
+"HW05/paint.ml" 171 6640 6689 "HW05/paint.ml" 171 6640 6716
+type(
+  shape
+)
+"HW05/paint.ml" 171 6640 6684 "HW05/paint.ml" 171 6640 6716
+type(
+  shape option
+)
+"HW05/paint.ml" 171 6640 6667 "HW05/paint.ml" 171 6640 6716
+type(
+  unit
+)
+"HW05/paint.ml" 172 6717 6731 "HW05/paint.ml" 172 6717 6747
+type(
+  mode
+)
+"HW05/paint.ml" 172 6717 6751 "HW05/paint.ml" 172 6717 6756
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 172 6717 6780 "HW05/paint.ml" 172 6717 6781
+type(
+  Gctx.position
+)
+ident(
+  int_ref p "HW05/paint.ml" 146 5195 5201 "HW05/paint.ml" 146 5195 5202
+)
+"HW05/paint.ml" 172 6717 6765 "HW05/paint.ml" 172 6717 6781
+type(
+  mode
+)
+"HW05/paint.ml" 172 6717 6751 "HW05/paint.ml" 172 6717 6781
+type(
+  unit
+)
+"HW05/paint.ml" 173 6782 6811 "HW05/paint.ml" 173 6782 6813
+type(
+  point
+)
+ident(
+  def p2 "HW05/paint.ml" 176 6940 6956 "HW05/paint.ml" 180 7150 7189
+)
+"HW05/paint.ml" 173 6782 6796 "HW05/paint.ml" 173 6782 6813
+type(
+  mode
+)
+"HW05/paint.ml" 176 6940 6957 "HW05/paint.ml" 176 6940 6974
+type(
+  shape -> shape Deque.deque -> unit
+)
+ident(
+  ext_ref Deque.insert_tail
+)
+"HW05/paint.ml" 177 6984 7003 "HW05/paint.ml" 177 6984 7008
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 177 6984 7003 "HW05/paint.ml" 177 6984 7014
+type(
+  Gctx.color
+)
+"HW05/paint.ml" 177 6984 7016 "HW05/paint.ml" 177 6984 7021
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 177 6984 7016 "HW05/paint.ml" 177 6984 7031
+type(
+  int
+)
+"HW05/paint.ml" 177 6984 7033 "HW05/paint.ml" 177 6984 7035
+type(
+  point
+)
+ident(
+  int_ref p2 "HW05/paint.ml" 173 6782 6811 "HW05/paint.ml" 173 6782 6813
+)
+"HW05/paint.ml" 177 6984 7037 "HW05/paint.ml" 177 6984 7038
+type(
+  Gctx.position
+)
+ident(
+  int_ref p "HW05/paint.ml" 146 5195 5201 "HW05/paint.ml" 146 5195 5202
+)
+"HW05/paint.ml" 176 6940 6975 "HW05/paint.ml" 177 6984 7040
+type(
+  shape
+)
+"HW05/paint.ml" 177 6984 7041 "HW05/paint.ml" 177 6984 7046
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 177 6984 7041 "HW05/paint.ml" 177 6984 7053
+type(
+  shape Deque.deque
+)
+"HW05/paint.ml" 176 6940 6957 "HW05/paint.ml" 177 6984 7053
+call(
+  stack
+)
+type(
+  unit
+)
+"HW05/paint.ml" 179 7102 7118 "HW05/paint.ml" 179 7102 7123
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 179 7102 7132 "HW05/paint.ml" 179 7102 7148
+type(
+  mode
+)
+"HW05/paint.ml" 179 7102 7118 "HW05/paint.ml" 179 7102 7148
+type(
+  unit
+)
+"HW05/paint.ml" 180 7150 7166 "HW05/paint.ml" 180 7150 7171
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 180 7150 7183 "HW05/paint.ml" 180 7150 7187
+type(
+  shape option
+)
+"HW05/paint.ml" 180 7150 7166 "HW05/paint.ml" 180 7150 7188
+type(
+  unit
+)
+"HW05/paint.ml" 179 7102 7118 "HW05/paint.ml" 180 7150 7188
+type(
+  unit
+)
+"HW05/paint.ml" 176 6940 6956 "HW05/paint.ml" 180 7150 7189
+type(
+  unit
+)
+"HW05/paint.ml" 181 7190 7204 "HW05/paint.ml" 181 7190 7217
+type(
+  mode
+)
+"HW05/paint.ml" 181 7190 7221 "HW05/paint.ml" 181 7190 7223
+type(
+  unit
+)
+"HW05/paint.ml" 182 7224 7238 "HW05/paint.ml" 182 7224 7249
+type(
+  mode
+)
+"HW05/paint.ml" 183 7253 7270 "HW05/paint.ml" 183 7253 7275
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 183 7253 7284 "HW05/paint.ml" 183 7253 7297
+type(
+  mode
+)
+"HW05/paint.ml" 183 7253 7270 "HW05/paint.ml" 183 7253 7297
+type(
+  unit
+)
+"HW05/paint.ml" 183 7253 7299 "HW05/paint.ml" 183 7253 7304
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 183 7253 7316 "HW05/paint.ml" 183 7253 7320
+type(
+  shape option
+)
+"HW05/paint.ml" 183 7253 7299 "HW05/paint.ml" 183 7253 7320
+type(
+  unit
+)
+"HW05/paint.ml" 183 7253 7269 "HW05/paint.ml" 183 7253 7321
+type(
+  unit
+)
+"HW05/paint.ml" 152 5541 5549 "HW05/paint.ml" 184 7322 7336
+type(
+  unit
+)
+"HW05/paint.ml" 185 7337 7343 "HW05/paint.ml" 185 7337 7352
+type(
+  Gctx.event_type
+)
+"HW05/paint.ml" 189 7593 7613 "HW05/paint.ml" 189 7593 7618
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 189 7593 7613 "HW05/paint.ml" 189 7593 7623
+type(
+  mode
+)
+"HW05/paint.ml" 190 7629 7639 "HW05/paint.ml" 190 7629 7652
+type(
+  mode
+)
+"HW05/paint.ml" 190 7629 7656 "HW05/paint.ml" 190 7629 7658
+type(
+  unit
+)
+"HW05/paint.ml" 191 7659 7681 "HW05/paint.ml" 191 7659 7683
+type(
+  point
+)
+ident(
+  def p1 "HW05/paint.ml" 191 7659 7687 "HW05/paint.ml" 192 7715 7765
+)
+"HW05/paint.ml" 191 7659 7669 "HW05/paint.ml" 191 7659 7683
+type(
+  mode
+)
+"HW05/paint.ml" 191 7659 7687 "HW05/paint.ml" 191 7659 7692
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 192 7715 7728 "HW05/paint.ml" 192 7715 7733
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 192 7715 7728 "HW05/paint.ml" 192 7715 7739
+type(
+  Gctx.color
+)
+"HW05/paint.ml" 192 7715 7741 "HW05/paint.ml" 192 7715 7746
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 192 7715 7741 "HW05/paint.ml" 192 7715 7756
+type(
+  int
+)
+"HW05/paint.ml" 192 7715 7758 "HW05/paint.ml" 192 7715 7760
+type(
+  point
+)
+ident(
+  int_ref p1 "HW05/paint.ml" 191 7659 7681 "HW05/paint.ml" 191 7659 7683
+)
+"HW05/paint.ml" 192 7715 7762 "HW05/paint.ml" 192 7715 7763
+type(
+  Gctx.position
+)
+ident(
+  int_ref p "HW05/paint.ml" 146 5195 5201 "HW05/paint.ml" 146 5195 5202
+)
+"HW05/paint.ml" 191 7659 7709 "HW05/paint.ml" 192 7715 7765
+type(
+  shape
+)
+"HW05/paint.ml" 191 7659 7704 "HW05/paint.ml" 192 7715 7765
+type(
+  shape option
+)
+"HW05/paint.ml" 191 7659 7687 "HW05/paint.ml" 192 7715 7765
+type(
+  unit
+)
+"HW05/paint.ml" 194 7835 7845 "HW05/paint.ml" 194 7835 7854
+type(
+  mode
+)
+"HW05/paint.ml" 194 7835 7862 "HW05/paint.ml" 194 7835 7868
+type(
+  point list
+)
+ident(
+  def points "HW05/paint.ml" 200 8092 8115 "HW05/paint.ml" 200 8092 8172
+)
+"HW05/paint.ml" 195 7871 7908 "HW05/paint.ml" 195 7871 7913
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 195 7871 7908 "HW05/paint.ml" 195 7871 7921
+type(
+  shape option
+)
+"HW05/paint.ml" 196 7927 7954 "HW05/paint.ml" 196 7927 7958
+type(
+  shape option
+)
+"HW05/paint.ml" 196 7927 7962 "HW05/paint.ml" 196 7927 7964
+type(
+  point list
+)
+"HW05/paint.ml" 197 7965 8006 "HW05/paint.ml" 197 7965 8007
+type(
+  Gctx.color
+)
+"HW05/paint.ml" 197 7965 8009 "HW05/paint.ml" 197 7965 8011
+type(
+  point list
+)
+ident(
+  def ps "HW05/paint.ml" 197 7965 8017 "HW05/paint.ml" 197 7965 8019
+)
+"HW05/paint.ml" 197 7965 7997 "HW05/paint.ml" 197 7965 8013
+type(
+  shape
+)
+"HW05/paint.ml" 197 7965 7992 "HW05/paint.ml" 197 7965 8013
+type(
+  shape option
+)
+"HW05/paint.ml" 197 7965 8017 "HW05/paint.ml" 197 7965 8019
+type(
+  point list
+)
+ident(
+  int_ref ps "HW05/paint.ml" 197 7965 8009 "HW05/paint.ml" 197 7965 8011
+)
+"HW05/paint.ml" 198 8020 8052 "HW05/paint.ml" 198 8020 8053
+type(
+  shape
+)
+"HW05/paint.ml" 198 8020 8047 "HW05/paint.ml" 198 8020 8053
+type(
+  shape option
+)
+"HW05/paint.ml" 198 8020 8057 "HW05/paint.ml" 198 8020 8059
+type(
+  point list
+)
+"HW05/paint.ml" 195 7871 7896 "HW05/paint.ml" 199 8060 8088
+type(
+  point list
+)
+"HW05/paint.ml" 200 8092 8115 "HW05/paint.ml" 200 8092 8120
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 200 8092 8146 "HW05/paint.ml" 200 8092 8151
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 200 8092 8146 "HW05/paint.ml" 200 8092 8157
+type(
+  Gctx.color
+)
+"HW05/paint.ml" 200 8092 8159 "HW05/paint.ml" 200 8092 8160
+type(
+  Gctx.position
+)
+ident(
+  int_ref p "HW05/paint.ml" 146 5195 5201 "HW05/paint.ml" 146 5195 5202
+)
+"HW05/paint.ml" 200 8092 8164 "HW05/paint.ml" 200 8092 8170
+type(
+  point list
+)
+ident(
+  int_ref points "HW05/paint.ml" 194 7835 7862 "HW05/paint.ml" 194 7835 7868
+)
+"HW05/paint.ml" 200 8092 8159 "HW05/paint.ml" 200 8092 8170
+type(
+  point list
+)
+"HW05/paint.ml" 200 8092 8137 "HW05/paint.ml" 200 8092 8172
+type(
+  shape
+)
+"HW05/paint.ml" 200 8092 8132 "HW05/paint.ml" 200 8092 8172
+type(
+  shape option
+)
+"HW05/paint.ml" 200 8092 8115 "HW05/paint.ml" 200 8092 8172
+type(
+  unit
+)
+"HW05/paint.ml" 194 7835 7858 "HW05/paint.ml" 200 8092 8172
+type(
+  unit
+)
+"HW05/paint.ml" 202 8255 8265 "HW05/paint.ml" 202 8255 8281
+type(
+  mode
+)
+"HW05/paint.ml" 202 8255 8285 "HW05/paint.ml" 202 8255 8287
+type(
+  unit
+)
+"HW05/paint.ml" 203 8288 8313 "HW05/paint.ml" 203 8288 8315
+type(
+  point
+)
+ident(
+  def p2 "HW05/paint.ml" 203 8288 8319 "HW05/paint.ml" 204 8350 8400
+)
+"HW05/paint.ml" 203 8288 8298 "HW05/paint.ml" 203 8288 8315
+type(
+  mode
+)
+"HW05/paint.ml" 203 8288 8319 "HW05/paint.ml" 203 8288 8324
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 204 8350 8363 "HW05/paint.ml" 204 8350 8368
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 204 8350 8363 "HW05/paint.ml" 204 8350 8374
+type(
+  Gctx.color
+)
+"HW05/paint.ml" 204 8350 8376 "HW05/paint.ml" 204 8350 8381
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 204 8350 8376 "HW05/paint.ml" 204 8350 8391
+type(
+  int
+)
+"HW05/paint.ml" 204 8350 8393 "HW05/paint.ml" 204 8350 8395
+type(
+  point
+)
+ident(
+  int_ref p2 "HW05/paint.ml" 203 8288 8313 "HW05/paint.ml" 203 8288 8315
+)
+"HW05/paint.ml" 204 8350 8397 "HW05/paint.ml" 204 8350 8398
+type(
+  Gctx.position
+)
+ident(
+  int_ref p "HW05/paint.ml" 146 5195 5201 "HW05/paint.ml" 146 5195 5202
+)
+"HW05/paint.ml" 203 8288 8341 "HW05/paint.ml" 204 8350 8400
+type(
+  shape
+)
+"HW05/paint.ml" 203 8288 8336 "HW05/paint.ml" 204 8350 8400
+type(
+  shape option
+)
+"HW05/paint.ml" 203 8288 8319 "HW05/paint.ml" 204 8350 8400
+type(
+  unit
+)
+"HW05/paint.ml" 206 8474 8484 "HW05/paint.ml" 206 8474 8497
+type(
+  mode
+)
+"HW05/paint.ml" 206 8474 8501 "HW05/paint.ml" 206 8474 8503
+type(
+  unit
+)
+"HW05/paint.ml" 207 8504 8514 "HW05/paint.ml" 207 8504 8525
+type(
+  mode
+)
+"HW05/paint.ml" 207 8504 8529 "HW05/paint.ml" 207 8504 8531
+type(
+  unit
+)
+"HW05/paint.ml" 189 7593 7601 "HW05/paint.ml" 208 8532 8543
+type(
+  unit
+)
+"HW05/paint.ml" 209 8544 8550 "HW05/paint.ml" 209 8544 8557
+type(
+  Gctx.event_type
+)
+"HW05/paint.ml" 212 8717 8737 "HW05/paint.ml" 212 8717 8742
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 212 8717 8737 "HW05/paint.ml" 212 8717 8747
+type(
+  mode
+)
+"HW05/paint.ml" 213 8753 8763 "HW05/paint.ml" 213 8753 8776
+type(
+  mode
+)
+"HW05/paint.ml" 213 8753 8780 "HW05/paint.ml" 213 8753 8782
+type(
+  unit
+)
+"HW05/paint.ml" 214 8783 8805 "HW05/paint.ml" 214 8783 8807
+type(
+  point
+)
+ident(
+  def p1 "HW05/paint.ml" 215 8811 8823 "HW05/paint.ml" 221 9107 9147
+)
+"HW05/paint.ml" 214 8783 8793 "HW05/paint.ml" 214 8783 8807
+type(
+  mode
+)
+"HW05/paint.ml" 215 8811 8824 "HW05/paint.ml" 215 8811 8829
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 215 8811 8841 "HW05/paint.ml" 215 8811 8845
+type(
+  shape option
+)
+"HW05/paint.ml" 215 8811 8824 "HW05/paint.ml" 215 8811 8845
+type(
+  unit
+)
+"HW05/paint.ml" 218 8961 8973 "HW05/paint.ml" 218 8961 8990
+type(
+  shape -> shape Deque.deque -> unit
+)
+ident(
+  ext_ref Deque.insert_tail
+)
+"HW05/paint.ml" 219 8997 9012 "HW05/paint.ml" 219 8997 9017
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 219 8997 9012 "HW05/paint.ml" 219 8997 9023
+type(
+  Gctx.color
+)
+"HW05/paint.ml" 219 8997 9025 "HW05/paint.ml" 219 8997 9030
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 219 8997 9025 "HW05/paint.ml" 219 8997 9040
+type(
+  int
+)
+"HW05/paint.ml" 219 8997 9042 "HW05/paint.ml" 219 8997 9044
+type(
+  point
+)
+ident(
+  int_ref p1 "HW05/paint.ml" 214 8783 8805 "HW05/paint.ml" 214 8783 8807
+)
+"HW05/paint.ml" 219 8997 9046 "HW05/paint.ml" 219 8997 9047
+type(
+  Gctx.position
+)
+ident(
+  int_ref p "HW05/paint.ml" 146 5195 5201 "HW05/paint.ml" 146 5195 5202
+)
+"HW05/paint.ml" 218 8961 8991 "HW05/paint.ml" 219 8997 9049
+type(
+  shape
+)
+"HW05/paint.ml" 219 8997 9050 "HW05/paint.ml" 219 8997 9055
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 219 8997 9050 "HW05/paint.ml" 219 8997 9062
+type(
+  shape Deque.deque
+)
+"HW05/paint.ml" 218 8961 8973 "HW05/paint.ml" 219 8997 9062
+call(
+  stack
+)
+type(
+  unit
+)
+"HW05/paint.ml" 221 9107 9119 "HW05/paint.ml" 221 9107 9124
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 221 9107 9133 "HW05/paint.ml" 221 9107 9146
+type(
+  mode
+)
+"HW05/paint.ml" 221 9107 9119 "HW05/paint.ml" 221 9107 9146
+type(
+  unit
+)
+"HW05/paint.ml" 218 8961 8973 "HW05/paint.ml" 221 9107 9146
+type(
+  unit
+)
+"HW05/paint.ml" 215 8811 8823 "HW05/paint.ml" 221 9107 9147
+type(
+  unit
+)
+"HW05/paint.ml" 222 9148 9158 "HW05/paint.ml" 222 9148 9167
+type(
+  mode
+)
+"HW05/paint.ml" 222 9148 9175 "HW05/paint.ml" 222 9148 9181
+type(
+  point list
+)
+ident(
+  def points "HW05/paint.ml" 228 9405 9428 "HW05/paint.ml" 230 9501 9562
+)
+"HW05/paint.ml" 223 9184 9221 "HW05/paint.ml" 223 9184 9226
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 223 9184 9221 "HW05/paint.ml" 223 9184 9234
+type(
+  shape option
+)
+"HW05/paint.ml" 224 9240 9267 "HW05/paint.ml" 224 9240 9271
+type(
+  shape option
+)
+"HW05/paint.ml" 224 9240 9275 "HW05/paint.ml" 224 9240 9277
+type(
+  point list
+)
+"HW05/paint.ml" 225 9278 9319 "HW05/paint.ml" 225 9278 9320
+type(
+  Gctx.color
+)
+"HW05/paint.ml" 225 9278 9322 "HW05/paint.ml" 225 9278 9324
+type(
+  point list
+)
+ident(
+  def ps "HW05/paint.ml" 225 9278 9330 "HW05/paint.ml" 225 9278 9332
+)
+"HW05/paint.ml" 225 9278 9310 "HW05/paint.ml" 225 9278 9326
+type(
+  shape
+)
+"HW05/paint.ml" 225 9278 9305 "HW05/paint.ml" 225 9278 9326
+type(
+  shape option
+)
+"HW05/paint.ml" 225 9278 9330 "HW05/paint.ml" 225 9278 9332
+type(
+  point list
+)
+ident(
+  int_ref ps "HW05/paint.ml" 225 9278 9322 "HW05/paint.ml" 225 9278 9324
+)
+"HW05/paint.ml" 226 9333 9365 "HW05/paint.ml" 226 9333 9366
+type(
+  shape
+)
+"HW05/paint.ml" 226 9333 9360 "HW05/paint.ml" 226 9333 9366
+type(
+  shape option
+)
+"HW05/paint.ml" 226 9333 9370 "HW05/paint.ml" 226 9333 9372
+type(
+  point list
+)
+"HW05/paint.ml" 223 9184 9209 "HW05/paint.ml" 227 9373 9401
+type(
+  point list
+)
+"HW05/paint.ml" 228 9405 9428 "HW05/paint.ml" 228 9405 9433
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 228 9405 9445 "HW05/paint.ml" 228 9405 9449
+type(
+  shape option
+)
+"HW05/paint.ml" 228 9405 9428 "HW05/paint.ml" 228 9405 9449
+type(
+  unit
+)
+"HW05/paint.ml" 229 9452 9475 "HW05/paint.ml" 229 9452 9492
+type(
+  shape -> shape Deque.deque -> unit
+)
+ident(
+  ext_ref Deque.insert_tail
+)
+"HW05/paint.ml" 230 9501 9527 "HW05/paint.ml" 230 9501 9532
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 230 9501 9527 "HW05/paint.ml" 230 9501 9538
+type(
+  Gctx.color
+)
+"HW05/paint.ml" 230 9501 9540 "HW05/paint.ml" 230 9501 9546
+type(
+  point list
+)
+ident(
+  int_ref points "HW05/paint.ml" 222 9148 9175 "HW05/paint.ml" 222 9148 9181
+)
+"HW05/paint.ml" 229 9452 9493 "HW05/paint.ml" 230 9501 9548
+type(
+  shape
+)
+"HW05/paint.ml" 230 9501 9549 "HW05/paint.ml" 230 9501 9554
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 230 9501 9549 "HW05/paint.ml" 230 9501 9561
+type(
+  shape Deque.deque
+)
+"HW05/paint.ml" 229 9452 9475 "HW05/paint.ml" 230 9501 9562
+call(
+  tail
+)
+type(
+  unit
+)
+"HW05/paint.ml" 228 9405 9428 "HW05/paint.ml" 230 9501 9562
+type(
+  unit
+)
+"HW05/paint.ml" 222 9148 9171 "HW05/paint.ml" 230 9501 9562
+type(
+  unit
+)
+"HW05/paint.ml" 233 9679 9689 "HW05/paint.ml" 233 9679 9705
+type(
+  mode
+)
+"HW05/paint.ml" 233 9679 9709 "HW05/paint.ml" 233 9679 9711
+type(
+  unit
+)
+"HW05/paint.ml" 234 9712 9737 "HW05/paint.ml" 234 9712 9739
+type(
+  point
+)
+ident(
+  def p2 "HW05/paint.ml" 235 9743 9755 "HW05/paint.ml" 241 10042 10085
+)
+"HW05/paint.ml" 234 9712 9722 "HW05/paint.ml" 234 9712 9739
+type(
+  mode
+)
+"HW05/paint.ml" 235 9743 9756 "HW05/paint.ml" 235 9743 9761
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 235 9743 9773 "HW05/paint.ml" 235 9743 9777
+type(
+  shape option
+)
+"HW05/paint.ml" 235 9743 9756 "HW05/paint.ml" 235 9743 9777
+type(
+  unit
+)
+"HW05/paint.ml" 238 9893 9905 "HW05/paint.ml" 238 9893 9922
+type(
+  shape -> shape Deque.deque -> unit
+)
+ident(
+  ext_ref Deque.insert_tail
+)
+"HW05/paint.ml" 239 9932 9947 "HW05/paint.ml" 239 9932 9952
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 239 9932 9947 "HW05/paint.ml" 239 9932 9958
+type(
+  Gctx.color
+)
+"HW05/paint.ml" 239 9932 9960 "HW05/paint.ml" 239 9932 9965
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 239 9932 9960 "HW05/paint.ml" 239 9932 9975
+type(
+  int
+)
+"HW05/paint.ml" 239 9932 9977 "HW05/paint.ml" 239 9932 9979
+type(
+  point
+)
+ident(
+  int_ref p2 "HW05/paint.ml" 234 9712 9737 "HW05/paint.ml" 234 9712 9739
+)
+"HW05/paint.ml" 239 9932 9981 "HW05/paint.ml" 239 9932 9982
+type(
+  Gctx.position
+)
+ident(
+  int_ref p "HW05/paint.ml" 146 5195 5201 "HW05/paint.ml" 146 5195 5202
+)
+"HW05/paint.ml" 238 9893 9923 "HW05/paint.ml" 239 9932 9984
+type(
+  shape
+)
+"HW05/paint.ml" 239 9932 9985 "HW05/paint.ml" 239 9932 9990
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 239 9932 9985 "HW05/paint.ml" 239 9932 9997
+type(
+  shape Deque.deque
+)
+"HW05/paint.ml" 238 9893 9905 "HW05/paint.ml" 239 9932 9997
+call(
+  stack
+)
+type(
+  unit
+)
+"HW05/paint.ml" 241 10042 10054 "HW05/paint.ml" 241 10042 10059
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 241 10042 10068 "HW05/paint.ml" 241 10042 10084
+type(
+  mode
+)
+"HW05/paint.ml" 241 10042 10054 "HW05/paint.ml" 241 10042 10084
+type(
+  unit
+)
+"HW05/paint.ml" 238 9893 9905 "HW05/paint.ml" 241 10042 10084
+type(
+  unit
+)
+"HW05/paint.ml" 235 9743 9755 "HW05/paint.ml" 241 10042 10085
+type(
+  unit
+)
+"HW05/paint.ml" 242 10086 10096 "HW05/paint.ml" 242 10086 10109
+type(
+  mode
+)
+"HW05/paint.ml" 242 10086 10113 "HW05/paint.ml" 242 10086 10115
+type(
+  unit
+)
+"HW05/paint.ml" 243 10116 10126 "HW05/paint.ml" 243 10116 10137
+type(
+  mode
+)
+"HW05/paint.ml" 243 10116 10141 "HW05/paint.ml" 243 10116 10143
+type(
+  unit
+)
+"HW05/paint.ml" 212 8717 8725 "HW05/paint.ml" 244 10144 10155
+type(
+  unit
+)
+"HW05/paint.ml" 246 10159 10165 "HW05/paint.ml" 246 10159 10174
+type(
+  Gctx.event_type
+)
+"HW05/paint.ml" 250 10419 10423 "HW05/paint.ml" 250 10419 10425
+type(
+  unit
+)
+"HW05/paint.ml" 251 10426 10432 "HW05/paint.ml" 251 10426 10433
+type(
+  Gctx.event_type
+)
+"HW05/paint.ml" 251 10426 10437 "HW05/paint.ml" 251 10426 10439
+type(
+  unit
+)
+"HW05/paint.ml" 147 5250 5252 "HW05/paint.ml" 252 10440 10445
+type(
+  unit
+)
+"HW05/paint.ml" 146 5195 5197 "HW05/paint.ml" 252 10440 10445
+type(
+  unit
+)
+type(
+  unit
+)
+"HW05/paint.ml" 255 10518 10521 "HW05/paint.ml" 255 10518 10544
+type(
+  Widget.notifier_controller
+)
+ident(
+  int_ref paint_canvas_controller "HW05/paint.ml" 135 4756 4787 "HW05/paint.ml" 135 4756 4810
+)
+"HW05/paint.ml" 255 10518 10521 "HW05/paint.ml" 255 10518 10563
+type(
+  Widget.event_listener -> unit
+)
+"HW05/paint.ml" 255 10518 10564 "HW05/paint.ml" 255 10518 10576
+type(
+  Widget.event_listener
+)
+ident(
+  int_ref paint_action "HW05/paint.ml" 145 5145 5149 "HW05/paint.ml" 145 5145 5161
+)
+"HW05/paint.ml" 255 10518 10521 "HW05/paint.ml" 255 10518 10576
+call(
+  stack
+)
+type(
+  unit
+)
+"HW05/paint.ml" 280 11756 11761 "HW05/paint.ml" 280 11756 11767
+type(
+  Widget.widget
+)
+ident(
+  def w_undo "HW05/paint.ml" 287 11972 11972 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 280 11756 11769 "HW05/paint.ml" 280 11756 11776
+type(
+  Widget.label_controller
+)
+ident(
+  def lc_undo "HW05/paint.ml" 287 11972 11972 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 280 11756 11778 "HW05/paint.ml" 280 11756 11785
+type(
+  Widget.notifier_controller
+)
+ident(
+  def nc_undo "HW05/paint.ml" 287 11972 11972 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 280 11756 11760 "HW05/paint.ml" 280 11756 11786
+type(
+  Widget.widget * Widget.label_controller * Widget.notifier_controller
+)
+"HW05/paint.ml" 280 11756 11789 "HW05/paint.ml" 280 11756 11795
+type(
+  string ->
+  Widget.widget * Widget.label_controller * Widget.notifier_controller
+)
+ident(
+  ext_ref Widget.button
+)
+"HW05/paint.ml" 280 11756 11796 "HW05/paint.ml" 280 11756 11802
+type(
+  string
+)
+"HW05/paint.ml" 280 11756 11789 "HW05/paint.ml" 280 11756 11802
+call(
+  stack
+)
+type(
+  Widget.widget * Widget.label_controller * Widget.notifier_controller
+)
+"HW05/paint.ml" 287 11972 11976 "HW05/paint.ml" 287 11972 11980
+type(
+  unit -> unit
+)
+ident(
+  def undo "HW05/paint.ml" 303 12505 12508 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 287 11972 11981 "HW05/paint.ml" 287 11972 11983
+type(
+  unit
+)
+"HW05/paint.ml" 288 11993 11999 "HW05/paint.ml" 288 11993 12013
+type(
+  shape Deque.deque -> bool
+)
+ident(
+  ext_ref Deque.is_empty
+)
+"HW05/paint.ml" 288 11993 12014 "HW05/paint.ml" 288 11993 12019
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 288 11993 12014 "HW05/paint.ml" 288 11993 12026
+type(
+  shape Deque.deque
+)
+"HW05/paint.ml" 288 11993 11999 "HW05/paint.ml" 288 11993 12026
+call(
+  stack
+)
+type(
+  bool
+)
+"HW05/paint.ml" 288 11993 12032 "HW05/paint.ml" 288 11993 12034
+type(
+  unit
+)
+"HW05/paint.ml" 289 12040 12045 "HW05/paint.ml" 289 12040 12051
+type(
+  shape -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"HW05/paint.ml" 289 12040 12053 "HW05/paint.ml" 289 12040 12070
+type(
+  shape Deque.deque -> shape
+)
+ident(
+  ext_ref Deque.remove_tail
+)
+"HW05/paint.ml" 289 12040 12071 "HW05/paint.ml" 289 12040 12076
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 289 12040 12071 "HW05/paint.ml" 289 12040 12083
+type(
+  shape Deque.deque
+)
+"HW05/paint.ml" 289 12040 12052 "HW05/paint.ml" 289 12040 12084
+call(
+  stack
+)
+type(
+  shape
+)
+"HW05/paint.ml" 289 12040 12045 "HW05/paint.ml" 289 12040 12084
+type(
+  unit
+)
+"HW05/paint.ml" 288 11993 11996 "HW05/paint.ml" 289 12040 12084
+type(
+  unit
+)
+"HW05/paint.ml" 290 12086 12088 "HW05/paint.ml" 290 12086 12093
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 290 12086 12105 "HW05/paint.ml" 290 12086 12109
+type(
+  shape option
+)
+"HW05/paint.ml" 290 12086 12088 "HW05/paint.ml" 290 12086 12109
+type(
+  unit
+)
+"HW05/paint.ml" 291 12111 12125 "HW05/paint.ml" 291 12111 12130
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 291 12111 12125 "HW05/paint.ml" 291 12111 12135
+type(
+  mode
+)
+"HW05/paint.ml" 292 12141 12145 "HW05/paint.ml" 292 12141 12158
+type(
+  mode
+)
+"HW05/paint.ml" 292 12141 12162 "HW05/paint.ml" 292 12141 12164
+type(
+  unit
+)
+"HW05/paint.ml" 293 12165 12181 "HW05/paint.ml" 293 12165 12182
+type(
+  point
+)
+ident(
+  def p "HW05/paint.ml" 293 12165 12186 "HW05/paint.ml" 293 12165 12213
+)
+"HW05/paint.ml" 293 12165 12169 "HW05/paint.ml" 293 12165 12182
+type(
+  mode
+)
+"HW05/paint.ml" 293 12165 12186 "HW05/paint.ml" 293 12165 12191
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 293 12165 12200 "HW05/paint.ml" 293 12165 12213
+type(
+  mode
+)
+"HW05/paint.ml" 293 12165 12186 "HW05/paint.ml" 293 12165 12213
+type(
+  unit
+)
+"HW05/paint.ml" 294 12214 12218 "HW05/paint.ml" 294 12214 12227
+type(
+  mode
+)
+"HW05/paint.ml" 294 12214 12231 "HW05/paint.ml" 294 12214 12233
+type(
+  unit
+)
+"HW05/paint.ml" 295 12234 12238 "HW05/paint.ml" 295 12234 12254
+type(
+  mode
+)
+"HW05/paint.ml" 295 12234 12258 "HW05/paint.ml" 295 12234 12260
+type(
+  unit
+)
+"HW05/paint.ml" 296 12261 12280 "HW05/paint.ml" 296 12261 12281
+type(
+  point
+)
+ident(
+  def p "HW05/paint.ml" 296 12261 12285 "HW05/paint.ml" 296 12261 12315
+)
+"HW05/paint.ml" 296 12261 12265 "HW05/paint.ml" 296 12261 12281
+type(
+  mode
+)
+"HW05/paint.ml" 296 12261 12285 "HW05/paint.ml" 296 12261 12290
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 296 12261 12299 "HW05/paint.ml" 296 12261 12315
+type(
+  mode
+)
+"HW05/paint.ml" 296 12261 12285 "HW05/paint.ml" 296 12261 12315
+type(
+  unit
+)
+"HW05/paint.ml" 297 12316 12320 "HW05/paint.ml" 297 12316 12333
+type(
+  mode
+)
+"HW05/paint.ml" 297 12316 12337 "HW05/paint.ml" 297 12316 12339
+type(
+  unit
+)
+"HW05/paint.ml" 298 12340 12344 "HW05/paint.ml" 298 12340 12355
+type(
+  mode
+)
+"HW05/paint.ml" 298 12340 12359 "HW05/paint.ml" 298 12340 12364
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 298 12340 12373 "HW05/paint.ml" 298 12340 12386
+type(
+  mode
+)
+"HW05/paint.ml" 298 12340 12359 "HW05/paint.ml" 298 12340 12386
+type(
+  unit
+)
+"HW05/paint.ml" 291 12111 12113 "HW05/paint.ml" 299 12387 12392
+type(
+  unit
+)
+"HW05/paint.ml" 290 12086 12088 "HW05/paint.ml" 299 12387 12392
+type(
+  unit
+)
+"HW05/paint.ml" 288 11993 11995 "HW05/paint.ml" 299 12387 12393
+type(
+  unit
+)
+type(
+  unit
+)
+"HW05/paint.ml" 303 12505 12508 "HW05/paint.ml" 303 12505 12515
+type(
+  Widget.notifier_controller
+)
+ident(
+  int_ref nc_undo "HW05/paint.ml" 280 11756 11778 "HW05/paint.ml" 280 11756 11785
+)
+"HW05/paint.ml" 303 12505 12508 "HW05/paint.ml" 303 12505 12534
+type(
+  Widget.event_listener -> unit
+)
+"HW05/paint.ml" 303 12505 12536 "HW05/paint.ml" 303 12505 12555
+type(
+  (unit -> unit) -> Widget.event_listener
+)
+ident(
+  ext_ref Widget.mouseclick_listener
+)
+"HW05/paint.ml" 303 12505 12556 "HW05/paint.ml" 303 12505 12560
+type(
+  unit -> unit
+)
+ident(
+  int_ref undo "HW05/paint.ml" 287 11972 11976 "HW05/paint.ml" 287 11972 11980
+)
+"HW05/paint.ml" 303 12505 12535 "HW05/paint.ml" 303 12505 12561
+call(
+  stack
+)
+type(
+  Widget.event_listener
+)
+"HW05/paint.ml" 303 12505 12508 "HW05/paint.ml" 303 12505 12561
+call(
+  stack
+)
+type(
+  unit
+)
+"HW05/paint.ml" 306 12618 12622 "HW05/paint.ml" 306 12618 12628
+type(
+  Widget.widget
+)
+ident(
+  def w_quit "HW05/paint.ml" 308 12664 12667 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 306 12618 12630 "HW05/paint.ml" 306 12618 12637
+type(
+  Widget.label_controller
+)
+ident(
+  def lc_quit "HW05/paint.ml" 308 12664 12667 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 306 12618 12639 "HW05/paint.ml" 306 12618 12646
+type(
+  Widget.notifier_controller
+)
+ident(
+  def nc_quit "HW05/paint.ml" 308 12664 12667 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 306 12618 12622 "HW05/paint.ml" 306 12618 12646
+type(
+  Widget.widget * Widget.label_controller * Widget.notifier_controller
+)
+"HW05/paint.ml" 306 12618 12649 "HW05/paint.ml" 306 12618 12655
+type(
+  string ->
+  Widget.widget * Widget.label_controller * Widget.notifier_controller
+)
+ident(
+  ext_ref Widget.button
+)
+"HW05/paint.ml" 306 12618 12656 "HW05/paint.ml" 306 12618 12662
+type(
+  string
+)
+"HW05/paint.ml" 306 12618 12649 "HW05/paint.ml" 306 12618 12662
+call(
+  stack
+)
+type(
+  Widget.widget * Widget.label_controller * Widget.notifier_controller
+)
+"HW05/paint.ml" 308 12664 12667 "HW05/paint.ml" 308 12664 12674
+type(
+  Widget.notifier_controller
+)
+ident(
+  int_ref nc_quit "HW05/paint.ml" 306 12618 12639 "HW05/paint.ml" 306 12618 12646
+)
+"HW05/paint.ml" 308 12664 12667 "HW05/paint.ml" 308 12664 12693
+type(
+  Widget.event_listener -> unit
+)
+"HW05/paint.ml" 308 12664 12695 "HW05/paint.ml" 308 12664 12714
+type(
+  (unit -> unit) -> Widget.event_listener
+)
+ident(
+  ext_ref Widget.mouseclick_listener
+)
+"HW05/paint.ml" 308 12664 12720 "HW05/paint.ml" 308 12664 12722
+type(
+  unit
+)
+"HW05/paint.ml" 308 12664 12726 "HW05/paint.ml" 308 12664 12730
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"HW05/paint.ml" 308 12664 12731 "HW05/paint.ml" 308 12664 12732
+type(
+  int
+)
+"HW05/paint.ml" 308 12664 12726 "HW05/paint.ml" 308 12664 12732
+call(
+  tail
+)
+type(
+  unit
+)
+"HW05/paint.ml" 308 12664 12715 "HW05/paint.ml" 308 12664 12733
+type(
+  unit -> unit
+)
+"HW05/paint.ml" 308 12664 12694 "HW05/paint.ml" 308 12664 12734
+call(
+  stack
+)
+type(
+  Widget.event_listener
+)
+"HW05/paint.ml" 308 12664 12667 "HW05/paint.ml" 308 12664 12734
+call(
+  stack
+)
+type(
+  unit
+)
+"HW05/paint.ml" 311 12759 12763 "HW05/paint.ml" 311 12759 12769
+type(
+  Widget.widget
+)
+ident(
+  def spacer "HW05/paint.ml" 313 12796 12796 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 311 12759 12781 "HW05/paint.ml" 311 12759 12786
+type(
+  Gctx.dimension -> Widget.widget
+)
+ident(
+  ext_ref Widget.space
+)
+"HW05/paint.ml" 311 12759 12788 "HW05/paint.ml" 311 12759 12790
+type(
+  int
+)
+"HW05/paint.ml" 311 12759 12791 "HW05/paint.ml" 311 12759 12793
+type(
+  int
+)
+"HW05/paint.ml" 311 12759 12787 "HW05/paint.ml" 311 12759 12794
+type(
+  Gctx.dimension
+)
+"HW05/paint.ml" 311 12759 12781 "HW05/paint.ml" 311 12759 12794
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 313 12796 12801 "HW05/paint.ml" 313 12796 12807
+type(
+  Widget.widget
+)
+ident(
+  def w_line "HW05/paint.ml" 315 12844 12844 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 313 12796 12809 "HW05/paint.ml" 313 12796 12816
+type(
+  Widget.label_controller
+)
+ident(
+  def lc_line "HW05/paint.ml" 315 12844 12844 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 313 12796 12818 "HW05/paint.ml" 313 12796 12825
+type(
+  Widget.notifier_controller
+)
+ident(
+  def nc_line "HW05/paint.ml" 315 12844 12844 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 313 12796 12800 "HW05/paint.ml" 313 12796 12826
+type(
+  Widget.widget * Widget.label_controller * Widget.notifier_controller
+)
+"HW05/paint.ml" 313 12796 12829 "HW05/paint.ml" 313 12796 12835
+type(
+  string ->
+  Widget.widget * Widget.label_controller * Widget.notifier_controller
+)
+ident(
+  ext_ref Widget.button
+)
+"HW05/paint.ml" 313 12796 12836 "HW05/paint.ml" 313 12796 12842
+type(
+  string
+)
+"HW05/paint.ml" 313 12796 12829 "HW05/paint.ml" 313 12796 12842
+call(
+  stack
+)
+type(
+  Widget.widget * Widget.label_controller * Widget.notifier_controller
+)
+"HW05/paint.ml" 315 12844 12848 "HW05/paint.ml" 315 12844 12852
+type(
+  unit -> unit
+)
+ident(
+  def line "HW05/paint.ml" 326 13368 13371 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 315 12844 12853 "HW05/paint.ml" 315 12844 12855
+type(
+  unit
+)
+"HW05/paint.ml" 316 12865 12879 "HW05/paint.ml" 316 12865 12884
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 316 12865 12879 "HW05/paint.ml" 316 12865 12889
+type(
+  mode
+)
+"HW05/paint.ml" 317 12895 12899 "HW05/paint.ml" 317 12895 12912
+type(
+  mode
+)
+"HW05/paint.ml" 317 12895 12916 "HW05/paint.ml" 317 12895 12918
+type(
+  unit
+)
+"HW05/paint.ml" 318 12919 12935 "HW05/paint.ml" 318 12919 12936
+type(
+  point
+)
+ident(
+  def p "HW05/paint.ml" 318 12919 12940 "HW05/paint.ml" 318 12919 12992
+)
+"HW05/paint.ml" 318 12919 12923 "HW05/paint.ml" 318 12919 12936
+type(
+  mode
+)
+"HW05/paint.ml" 318 12919 12941 "HW05/paint.ml" 318 12919 12946
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 318 12919 12955 "HW05/paint.ml" 318 12919 12968
+type(
+  mode
+)
+"HW05/paint.ml" 318 12919 12941 "HW05/paint.ml" 318 12919 12968
+type(
+  unit
+)
+"HW05/paint.ml" 318 12919 12970 "HW05/paint.ml" 318 12919 12975
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 318 12919 12987 "HW05/paint.ml" 318 12919 12991
+type(
+  shape option
+)
+"HW05/paint.ml" 318 12919 12970 "HW05/paint.ml" 318 12919 12991
+type(
+  unit
+)
+"HW05/paint.ml" 318 12919 12940 "HW05/paint.ml" 318 12919 12992
+type(
+  unit
+)
+"HW05/paint.ml" 319 12993 12997 "HW05/paint.ml" 319 12993 13006
+type(
+  mode
+)
+"HW05/paint.ml" 319 12993 13011 "HW05/paint.ml" 319 12993 13016
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 319 12993 13024 "HW05/paint.ml" 319 12993 13037
+type(
+  mode
+)
+"HW05/paint.ml" 319 12993 13011 "HW05/paint.ml" 319 12993 13037
+type(
+  unit
+)
+"HW05/paint.ml" 319 12993 13039 "HW05/paint.ml" 319 12993 13044
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 319 12993 13055 "HW05/paint.ml" 319 12993 13059
+type(
+  shape option
+)
+"HW05/paint.ml" 319 12993 13039 "HW05/paint.ml" 319 12993 13059
+type(
+  unit
+)
+"HW05/paint.ml" 319 12993 13010 "HW05/paint.ml" 319 12993 13060
+type(
+  unit
+)
+"HW05/paint.ml" 320 13061 13065 "HW05/paint.ml" 320 13061 13081
+type(
+  mode
+)
+"HW05/paint.ml" 320 13061 13086 "HW05/paint.ml" 320 13061 13091
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 320 13061 13100 "HW05/paint.ml" 320 13061 13113
+type(
+  mode
+)
+"HW05/paint.ml" 320 13061 13086 "HW05/paint.ml" 320 13061 13113
+type(
+  unit
+)
+"HW05/paint.ml" 320 13061 13115 "HW05/paint.ml" 320 13061 13120
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 320 13061 13132 "HW05/paint.ml" 320 13061 13136
+type(
+  shape option
+)
+"HW05/paint.ml" 320 13061 13115 "HW05/paint.ml" 320 13061 13136
+type(
+  unit
+)
+"HW05/paint.ml" 320 13061 13085 "HW05/paint.ml" 320 13061 13137
+type(
+  unit
+)
+"HW05/paint.ml" 321 13138 13157 "HW05/paint.ml" 321 13138 13158
+type(
+  point
+)
+ident(
+  def p "HW05/paint.ml" 321 13138 13162 "HW05/paint.ml" 321 13138 13214
+)
+"HW05/paint.ml" 321 13138 13142 "HW05/paint.ml" 321 13138 13158
+type(
+  mode
+)
+"HW05/paint.ml" 321 13138 13163 "HW05/paint.ml" 321 13138 13168
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 321 13138 13177 "HW05/paint.ml" 321 13138 13190
+type(
+  mode
+)
+"HW05/paint.ml" 321 13138 13163 "HW05/paint.ml" 321 13138 13190
+type(
+  unit
+)
+"HW05/paint.ml" 321 13138 13192 "HW05/paint.ml" 321 13138 13197
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 321 13138 13209 "HW05/paint.ml" 321 13138 13213
+type(
+  shape option
+)
+"HW05/paint.ml" 321 13138 13192 "HW05/paint.ml" 321 13138 13213
+type(
+  unit
+)
+"HW05/paint.ml" 321 13138 13162 "HW05/paint.ml" 321 13138 13214
+type(
+  unit
+)
+"HW05/paint.ml" 322 13215 13219 "HW05/paint.ml" 322 13215 13232
+type(
+  mode
+)
+"HW05/paint.ml" 322 13215 13237 "HW05/paint.ml" 322 13215 13242
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 322 13215 13251 "HW05/paint.ml" 322 13215 13264
+type(
+  mode
+)
+"HW05/paint.ml" 322 13215 13237 "HW05/paint.ml" 322 13215 13264
+type(
+  unit
+)
+"HW05/paint.ml" 322 13215 13266 "HW05/paint.ml" 322 13215 13271
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 322 13215 13283 "HW05/paint.ml" 322 13215 13287
+type(
+  shape option
+)
+"HW05/paint.ml" 322 13215 13266 "HW05/paint.ml" 322 13215 13287
+type(
+  unit
+)
+"HW05/paint.ml" 322 13215 13236 "HW05/paint.ml" 322 13215 13288
+type(
+  unit
+)
+"HW05/paint.ml" 323 13289 13293 "HW05/paint.ml" 323 13289 13304
+type(
+  mode
+)
+"HW05/paint.ml" 323 13289 13309 "HW05/paint.ml" 323 13289 13314
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 323 13289 13323 "HW05/paint.ml" 323 13289 13336
+type(
+  mode
+)
+"HW05/paint.ml" 323 13289 13309 "HW05/paint.ml" 323 13289 13336
+type(
+  unit
+)
+"HW05/paint.ml" 323 13289 13338 "HW05/paint.ml" 323 13289 13343
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 323 13289 13355 "HW05/paint.ml" 323 13289 13359
+type(
+  shape option
+)
+"HW05/paint.ml" 323 13289 13338 "HW05/paint.ml" 323 13289 13359
+type(
+  unit
+)
+"HW05/paint.ml" 323 13289 13308 "HW05/paint.ml" 323 13289 13360
+type(
+  unit
+)
+"HW05/paint.ml" 316 12865 12867 "HW05/paint.ml" 324 13361 13366
+type(
+  unit
+)
+type(
+  unit
+)
+"HW05/paint.ml" 326 13368 13371 "HW05/paint.ml" 326 13368 13378
+type(
+  Widget.notifier_controller
+)
+ident(
+  int_ref nc_line "HW05/paint.ml" 313 12796 12818 "HW05/paint.ml" 313 12796 12825
+)
+"HW05/paint.ml" 326 13368 13371 "HW05/paint.ml" 326 13368 13397
+type(
+  Widget.event_listener -> unit
+)
+"HW05/paint.ml" 326 13368 13399 "HW05/paint.ml" 326 13368 13418
+type(
+  (unit -> unit) -> Widget.event_listener
+)
+ident(
+  ext_ref Widget.mouseclick_listener
+)
+"HW05/paint.ml" 326 13368 13419 "HW05/paint.ml" 326 13368 13423
+type(
+  unit -> unit
+)
+ident(
+  int_ref line "HW05/paint.ml" 315 12844 12848 "HW05/paint.ml" 315 12844 12852
+)
+"HW05/paint.ml" 326 13368 13398 "HW05/paint.ml" 326 13368 13424
+call(
+  stack
+)
+type(
+  Widget.event_listener
+)
+"HW05/paint.ml" 326 13368 13371 "HW05/paint.ml" 326 13368 13424
+call(
+  stack
+)
+type(
+  unit
+)
+"HW05/paint.ml" 329 13488 13493 "HW05/paint.ml" 329 13488 13500
+type(
+  Widget.widget
+)
+ident(
+  def w_point "HW05/paint.ml" 331 13540 13540 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 329 13488 13502 "HW05/paint.ml" 329 13488 13510
+type(
+  Widget.label_controller
+)
+ident(
+  def lc_point "HW05/paint.ml" 331 13540 13540 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 329 13488 13512 "HW05/paint.ml" 329 13488 13520
+type(
+  Widget.notifier_controller
+)
+ident(
+  def nc_point "HW05/paint.ml" 331 13540 13540 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 329 13488 13492 "HW05/paint.ml" 329 13488 13521
+type(
+  Widget.widget * Widget.label_controller * Widget.notifier_controller
+)
+"HW05/paint.ml" 329 13488 13524 "HW05/paint.ml" 329 13488 13530
+type(
+  string ->
+  Widget.widget * Widget.label_controller * Widget.notifier_controller
+)
+ident(
+  ext_ref Widget.button
+)
+"HW05/paint.ml" 329 13488 13531 "HW05/paint.ml" 329 13488 13538
+type(
+  string
+)
+"HW05/paint.ml" 329 13488 13524 "HW05/paint.ml" 329 13488 13538
+call(
+  stack
+)
+type(
+  Widget.widget * Widget.label_controller * Widget.notifier_controller
+)
+"HW05/paint.ml" 331 13540 13544 "HW05/paint.ml" 331 13540 13549
+type(
+  unit -> unit
+)
+ident(
+  def point "HW05/paint.ml" 342 14043 14046 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 331 13540 13550 "HW05/paint.ml" 331 13540 13552
+type(
+  unit
+)
+"HW05/paint.ml" 332 13562 13576 "HW05/paint.ml" 332 13562 13581
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 332 13562 13576 "HW05/paint.ml" 332 13562 13586
+type(
+  mode
+)
+"HW05/paint.ml" 333 13592 13596 "HW05/paint.ml" 333 13592 13609
+type(
+  mode
+)
+"HW05/paint.ml" 333 13592 13614 "HW05/paint.ml" 333 13592 13619
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 333 13592 13628 "HW05/paint.ml" 333 13592 13637
+type(
+  mode
+)
+"HW05/paint.ml" 333 13592 13614 "HW05/paint.ml" 333 13592 13637
+type(
+  unit
+)
+"HW05/paint.ml" 333 13592 13639 "HW05/paint.ml" 333 13592 13644
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 333 13592 13656 "HW05/paint.ml" 333 13592 13660
+type(
+  shape option
+)
+"HW05/paint.ml" 333 13592 13639 "HW05/paint.ml" 333 13592 13660
+type(
+  unit
+)
+"HW05/paint.ml" 333 13592 13613 "HW05/paint.ml" 333 13592 13661
+type(
+  unit
+)
+"HW05/paint.ml" 334 13662 13678 "HW05/paint.ml" 334 13662 13679
+type(
+  point
+)
+ident(
+  def p "HW05/paint.ml" 334 13662 13683 "HW05/paint.ml" 334 13662 13731
+)
+"HW05/paint.ml" 334 13662 13666 "HW05/paint.ml" 334 13662 13679
+type(
+  mode
+)
+"HW05/paint.ml" 334 13662 13684 "HW05/paint.ml" 334 13662 13689
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 334 13662 13698 "HW05/paint.ml" 334 13662 13707
+type(
+  mode
+)
+"HW05/paint.ml" 334 13662 13684 "HW05/paint.ml" 334 13662 13707
+type(
+  unit
+)
+"HW05/paint.ml" 334 13662 13709 "HW05/paint.ml" 334 13662 13714
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 334 13662 13726 "HW05/paint.ml" 334 13662 13730
+type(
+  shape option
+)
+"HW05/paint.ml" 334 13662 13709 "HW05/paint.ml" 334 13662 13730
+type(
+  unit
+)
+"HW05/paint.ml" 334 13662 13683 "HW05/paint.ml" 334 13662 13731
+type(
+  unit
+)
+"HW05/paint.ml" 335 13732 13736 "HW05/paint.ml" 335 13732 13745
+type(
+  mode
+)
+"HW05/paint.ml" 335 13732 13749 "HW05/paint.ml" 335 13732 13751
+type(
+  unit
+)
+"HW05/paint.ml" 336 13752 13756 "HW05/paint.ml" 336 13752 13772
+type(
+  mode
+)
+"HW05/paint.ml" 336 13752 13777 "HW05/paint.ml" 336 13752 13782
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 336 13752 13791 "HW05/paint.ml" 336 13752 13800
+type(
+  mode
+)
+"HW05/paint.ml" 336 13752 13777 "HW05/paint.ml" 336 13752 13800
+type(
+  unit
+)
+"HW05/paint.ml" 336 13752 13802 "HW05/paint.ml" 336 13752 13807
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 336 13752 13819 "HW05/paint.ml" 336 13752 13823
+type(
+  shape option
+)
+"HW05/paint.ml" 336 13752 13802 "HW05/paint.ml" 336 13752 13823
+type(
+  unit
+)
+"HW05/paint.ml" 336 13752 13776 "HW05/paint.ml" 336 13752 13824
+type(
+  unit
+)
+"HW05/paint.ml" 337 13825 13844 "HW05/paint.ml" 337 13825 13845
+type(
+  point
+)
+ident(
+  def p "HW05/paint.ml" 337 13825 13849 "HW05/paint.ml" 337 13825 13897
+)
+"HW05/paint.ml" 337 13825 13829 "HW05/paint.ml" 337 13825 13845
+type(
+  mode
+)
+"HW05/paint.ml" 337 13825 13850 "HW05/paint.ml" 337 13825 13855
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 337 13825 13864 "HW05/paint.ml" 337 13825 13873
+type(
+  mode
+)
+"HW05/paint.ml" 337 13825 13850 "HW05/paint.ml" 337 13825 13873
+type(
+  unit
+)
+"HW05/paint.ml" 337 13825 13875 "HW05/paint.ml" 337 13825 13880
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 337 13825 13892 "HW05/paint.ml" 337 13825 13896
+type(
+  shape option
+)
+"HW05/paint.ml" 337 13825 13875 "HW05/paint.ml" 337 13825 13896
+type(
+  unit
+)
+"HW05/paint.ml" 337 13825 13849 "HW05/paint.ml" 337 13825 13897
+type(
+  unit
+)
+"HW05/paint.ml" 338 13898 13902 "HW05/paint.ml" 338 13898 13915
+type(
+  mode
+)
+"HW05/paint.ml" 338 13898 13920 "HW05/paint.ml" 338 13898 13925
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 338 13898 13934 "HW05/paint.ml" 338 13898 13943
+type(
+  mode
+)
+"HW05/paint.ml" 338 13898 13920 "HW05/paint.ml" 338 13898 13943
+type(
+  unit
+)
+"HW05/paint.ml" 338 13898 13945 "HW05/paint.ml" 338 13898 13950
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 338 13898 13962 "HW05/paint.ml" 338 13898 13966
+type(
+  shape option
+)
+"HW05/paint.ml" 338 13898 13945 "HW05/paint.ml" 338 13898 13966
+type(
+  unit
+)
+"HW05/paint.ml" 338 13898 13919 "HW05/paint.ml" 338 13898 13967
+type(
+  unit
+)
+"HW05/paint.ml" 339 13968 13972 "HW05/paint.ml" 339 13968 13983
+type(
+  mode
+)
+"HW05/paint.ml" 339 13968 13988 "HW05/paint.ml" 339 13968 13993
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 339 13968 14002 "HW05/paint.ml" 339 13968 14011
+type(
+  mode
+)
+"HW05/paint.ml" 339 13968 13988 "HW05/paint.ml" 339 13968 14011
+type(
+  unit
+)
+"HW05/paint.ml" 339 13968 14013 "HW05/paint.ml" 339 13968 14018
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 339 13968 14030 "HW05/paint.ml" 339 13968 14034
+type(
+  shape option
+)
+"HW05/paint.ml" 339 13968 14013 "HW05/paint.ml" 339 13968 14034
+type(
+  unit
+)
+"HW05/paint.ml" 339 13968 13987 "HW05/paint.ml" 339 13968 14035
+type(
+  unit
+)
+"HW05/paint.ml" 332 13562 13564 "HW05/paint.ml" 340 14036 14041
+type(
+  unit
+)
+type(
+  unit
+)
+"HW05/paint.ml" 342 14043 14046 "HW05/paint.ml" 342 14043 14054
+type(
+  Widget.notifier_controller
+)
+ident(
+  int_ref nc_point "HW05/paint.ml" 329 13488 13512 "HW05/paint.ml" 329 13488 13520
+)
+"HW05/paint.ml" 342 14043 14046 "HW05/paint.ml" 342 14043 14073
+type(
+  Widget.event_listener -> unit
+)
+"HW05/paint.ml" 342 14043 14075 "HW05/paint.ml" 342 14043 14094
+type(
+  (unit -> unit) -> Widget.event_listener
+)
+ident(
+  ext_ref Widget.mouseclick_listener
+)
+"HW05/paint.ml" 342 14043 14095 "HW05/paint.ml" 342 14043 14100
+type(
+  unit -> unit
+)
+ident(
+  int_ref point "HW05/paint.ml" 331 13540 13544 "HW05/paint.ml" 331 13540 13549
+)
+"HW05/paint.ml" 342 14043 14074 "HW05/paint.ml" 342 14043 14101
+call(
+  stack
+)
+type(
+  Widget.event_listener
+)
+"HW05/paint.ml" 342 14043 14046 "HW05/paint.ml" 342 14043 14101
+call(
+  stack
+)
+type(
+  unit
+)
+"HW05/paint.ml" 345 14161 14166 "HW05/paint.ml" 345 14161 14175
+type(
+  Widget.widget
+)
+ident(
+  def w_ellipse "HW05/paint.ml" 347 14221 14221 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 345 14161 14177 "HW05/paint.ml" 345 14161 14187
+type(
+  Widget.label_controller
+)
+ident(
+  def lc_ellipse "HW05/paint.ml" 347 14221 14221 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 345 14161 14189 "HW05/paint.ml" 345 14161 14199
+type(
+  Widget.notifier_controller
+)
+ident(
+  def nc_ellipse "HW05/paint.ml" 347 14221 14221 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 345 14161 14165 "HW05/paint.ml" 345 14161 14200
+type(
+  Widget.widget * Widget.label_controller * Widget.notifier_controller
+)
+"HW05/paint.ml" 345 14161 14203 "HW05/paint.ml" 345 14161 14209
+type(
+  string ->
+  Widget.widget * Widget.label_controller * Widget.notifier_controller
+)
+ident(
+  ext_ref Widget.button
+)
+"HW05/paint.ml" 345 14161 14210 "HW05/paint.ml" 345 14161 14219
+type(
+  string
+)
+"HW05/paint.ml" 345 14161 14203 "HW05/paint.ml" 345 14161 14219
+call(
+  stack
+)
+type(
+  Widget.widget * Widget.label_controller * Widget.notifier_controller
+)
+"HW05/paint.ml" 347 14221 14225 "HW05/paint.ml" 347 14221 14232
+type(
+  unit -> unit
+)
+ident(
+  def ellipse "HW05/paint.ml" 358 14768 14771 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 347 14221 14233 "HW05/paint.ml" 347 14221 14235
+type(
+  unit
+)
+"HW05/paint.ml" 348 14245 14259 "HW05/paint.ml" 348 14245 14264
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 348 14245 14259 "HW05/paint.ml" 348 14245 14269
+type(
+  mode
+)
+"HW05/paint.ml" 349 14275 14279 "HW05/paint.ml" 349 14275 14292
+type(
+  mode
+)
+"HW05/paint.ml" 349 14275 14297 "HW05/paint.ml" 349 14275 14302
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 349 14275 14311 "HW05/paint.ml" 349 14275 14327
+type(
+  mode
+)
+"HW05/paint.ml" 349 14275 14297 "HW05/paint.ml" 349 14275 14327
+type(
+  unit
+)
+"HW05/paint.ml" 349 14275 14329 "HW05/paint.ml" 349 14275 14334
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 349 14275 14346 "HW05/paint.ml" 349 14275 14350
+type(
+  shape option
+)
+"HW05/paint.ml" 349 14275 14329 "HW05/paint.ml" 349 14275 14350
+type(
+  unit
+)
+"HW05/paint.ml" 349 14275 14296 "HW05/paint.ml" 349 14275 14351
+type(
+  unit
+)
+"HW05/paint.ml" 350 14352 14368 "HW05/paint.ml" 350 14352 14369
+type(
+  point
+)
+ident(
+  def p "HW05/paint.ml" 350 14352 14373 "HW05/paint.ml" 350 14352 14428
+)
+"HW05/paint.ml" 350 14352 14356 "HW05/paint.ml" 350 14352 14369
+type(
+  mode
+)
+"HW05/paint.ml" 350 14352 14374 "HW05/paint.ml" 350 14352 14379
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 350 14352 14388 "HW05/paint.ml" 350 14352 14404
+type(
+  mode
+)
+"HW05/paint.ml" 350 14352 14374 "HW05/paint.ml" 350 14352 14404
+type(
+  unit
+)
+"HW05/paint.ml" 350 14352 14406 "HW05/paint.ml" 350 14352 14411
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 350 14352 14423 "HW05/paint.ml" 350 14352 14427
+type(
+  shape option
+)
+"HW05/paint.ml" 350 14352 14406 "HW05/paint.ml" 350 14352 14427
+type(
+  unit
+)
+"HW05/paint.ml" 350 14352 14373 "HW05/paint.ml" 350 14352 14428
+type(
+  unit
+)
+"HW05/paint.ml" 351 14429 14433 "HW05/paint.ml" 351 14429 14442
+type(
+  mode
+)
+"HW05/paint.ml" 351 14429 14447 "HW05/paint.ml" 351 14429 14452
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 351 14429 14461 "HW05/paint.ml" 351 14429 14477
+type(
+  mode
+)
+"HW05/paint.ml" 351 14429 14447 "HW05/paint.ml" 351 14429 14477
+type(
+  unit
+)
+"HW05/paint.ml" 351 14429 14479 "HW05/paint.ml" 351 14429 14484
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 351 14429 14495 "HW05/paint.ml" 351 14429 14499
+type(
+  shape option
+)
+"HW05/paint.ml" 351 14429 14479 "HW05/paint.ml" 351 14429 14499
+type(
+  unit
+)
+"HW05/paint.ml" 351 14429 14446 "HW05/paint.ml" 351 14429 14500
+type(
+  unit
+)
+"HW05/paint.ml" 352 14501 14505 "HW05/paint.ml" 352 14501 14521
+type(
+  mode
+)
+"HW05/paint.ml" 352 14501 14525 "HW05/paint.ml" 352 14501 14527
+type(
+  unit
+)
+"HW05/paint.ml" 353 14528 14547 "HW05/paint.ml" 353 14528 14549
+type(
+  point
+)
+ident(
+  def p1 "HW05/paint.ml" 353 14528 14553 "HW05/paint.ml" 353 14528 14608
+)
+"HW05/paint.ml" 353 14528 14532 "HW05/paint.ml" 353 14528 14549
+type(
+  mode
+)
+"HW05/paint.ml" 353 14528 14554 "HW05/paint.ml" 353 14528 14559
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 353 14528 14568 "HW05/paint.ml" 353 14528 14584
+type(
+  mode
+)
+"HW05/paint.ml" 353 14528 14554 "HW05/paint.ml" 353 14528 14584
+type(
+  unit
+)
+"HW05/paint.ml" 353 14528 14586 "HW05/paint.ml" 353 14528 14591
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 353 14528 14603 "HW05/paint.ml" 353 14528 14607
+type(
+  shape option
+)
+"HW05/paint.ml" 353 14528 14586 "HW05/paint.ml" 353 14528 14607
+type(
+  unit
+)
+"HW05/paint.ml" 353 14528 14553 "HW05/paint.ml" 353 14528 14608
+type(
+  unit
+)
+"HW05/paint.ml" 354 14609 14613 "HW05/paint.ml" 354 14609 14626
+type(
+  mode
+)
+"HW05/paint.ml" 354 14609 14631 "HW05/paint.ml" 354 14609 14636
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 354 14609 14645 "HW05/paint.ml" 354 14609 14661
+type(
+  mode
+)
+"HW05/paint.ml" 354 14609 14631 "HW05/paint.ml" 354 14609 14661
+type(
+  unit
+)
+"HW05/paint.ml" 354 14609 14663 "HW05/paint.ml" 354 14609 14668
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 354 14609 14680 "HW05/paint.ml" 354 14609 14684
+type(
+  shape option
+)
+"HW05/paint.ml" 354 14609 14663 "HW05/paint.ml" 354 14609 14684
+type(
+  unit
+)
+"HW05/paint.ml" 354 14609 14630 "HW05/paint.ml" 354 14609 14685
+type(
+  unit
+)
+"HW05/paint.ml" 355 14686 14690 "HW05/paint.ml" 355 14686 14701
+type(
+  mode
+)
+"HW05/paint.ml" 355 14686 14706 "HW05/paint.ml" 355 14686 14711
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 355 14686 14720 "HW05/paint.ml" 355 14686 14736
+type(
+  mode
+)
+"HW05/paint.ml" 355 14686 14706 "HW05/paint.ml" 355 14686 14736
+type(
+  unit
+)
+"HW05/paint.ml" 355 14686 14738 "HW05/paint.ml" 355 14686 14743
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 355 14686 14755 "HW05/paint.ml" 355 14686 14759
+type(
+  shape option
+)
+"HW05/paint.ml" 355 14686 14738 "HW05/paint.ml" 355 14686 14759
+type(
+  unit
+)
+"HW05/paint.ml" 355 14686 14705 "HW05/paint.ml" 355 14686 14760
+type(
+  unit
+)
+"HW05/paint.ml" 348 14245 14247 "HW05/paint.ml" 356 14761 14766
+type(
+  unit
+)
+type(
+  unit
+)
+"HW05/paint.ml" 358 14768 14771 "HW05/paint.ml" 358 14768 14781
+type(
+  Widget.notifier_controller
+)
+ident(
+  int_ref nc_ellipse "HW05/paint.ml" 345 14161 14189 "HW05/paint.ml" 345 14161 14199
+)
+"HW05/paint.ml" 358 14768 14771 "HW05/paint.ml" 358 14768 14800
+type(
+  Widget.event_listener -> unit
+)
+"HW05/paint.ml" 358 14768 14802 "HW05/paint.ml" 358 14768 14821
+type(
+  (unit -> unit) -> Widget.event_listener
+)
+ident(
+  ext_ref Widget.mouseclick_listener
+)
+"HW05/paint.ml" 358 14768 14822 "HW05/paint.ml" 358 14768 14829
+type(
+  unit -> unit
+)
+ident(
+  int_ref ellipse "HW05/paint.ml" 347 14221 14225 "HW05/paint.ml" 347 14221 14232
+)
+"HW05/paint.ml" 358 14768 14801 "HW05/paint.ml" 358 14768 14830
+call(
+  stack
+)
+type(
+  Widget.event_listener
+)
+"HW05/paint.ml" 358 14768 14771 "HW05/paint.ml" 358 14768 14830
+call(
+  stack
+)
+type(
+  unit
+)
+"HW05/paint.ml" 361 14897 14902 "HW05/paint.ml" 361 14897 14912
+type(
+  Widget.widget
+)
+ident(
+  def w_checkbox "HW05/paint.ml" 364 14967 14970 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 361 14897 14914 "HW05/paint.ml" 361 14897 14925
+type(
+  bool Widget.value_controller
+)
+ident(
+  def checkbox_cb "HW05/paint.ml" 364 14967 14970 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 361 14897 14901 "HW05/paint.ml" 361 14897 14926
+type(
+  Widget.widget * bool Widget.value_controller
+)
+"HW05/paint.ml" 362 14929 14932 "HW05/paint.ml" 362 14929 14947
+type(
+  bool -> string -> Widget.widget * bool Widget.value_controller
+)
+ident(
+  ext_ref Widget.checkbox
+)
+"HW05/paint.ml" 362 14929 14948 "HW05/paint.ml" 362 14929 14952
+type(
+  bool
+)
+"HW05/paint.ml" 362 14929 14953 "HW05/paint.ml" 362 14929 14965
+type(
+  string
+)
+"HW05/paint.ml" 362 14929 14932 "HW05/paint.ml" 362 14929 14965
+call(
+  stack
+)
+type(
+  Widget.widget * bool Widget.value_controller
+)
+"HW05/paint.ml" 364 14967 14970 "HW05/paint.ml" 364 14967 14981
+type(
+  bool Widget.value_controller
+)
+ident(
+  int_ref checkbox_cb "HW05/paint.ml" 361 14897 14914 "HW05/paint.ml" 361 14897 14925
+)
+"HW05/paint.ml" 364 14967 14970 "HW05/paint.ml" 364 14967 15001
+type(
+  (bool -> unit) -> unit
+)
+"HW05/paint.ml" 365 15002 15012 "HW05/paint.ml" 365 15002 15013
+type(
+  bool
+)
+ident(
+  def x "HW05/paint.ml" 365 15002 15017 "HW05/paint.ml" 365 15002 15073
+)
+"HW05/paint.ml" 365 15002 15020 "HW05/paint.ml" 365 15002 15021
+type(
+  bool
+)
+ident(
+  int_ref x "HW05/paint.ml" 365 15002 15012 "HW05/paint.ml" 365 15002 15013
+)
+"HW05/paint.ml" 365 15002 15027 "HW05/paint.ml" 365 15002 15032
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 365 15002 15046 "HW05/paint.ml" 365 15002 15047
+type(
+  int
+)
+"HW05/paint.ml" 365 15002 15027 "HW05/paint.ml" 365 15002 15047
+type(
+  unit
+)
+"HW05/paint.ml" 365 15002 15053 "HW05/paint.ml" 365 15002 15058
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 365 15002 15072 "HW05/paint.ml" 365 15002 15073
+type(
+  int
+)
+"HW05/paint.ml" 365 15002 15053 "HW05/paint.ml" 365 15002 15073
+type(
+  unit
+)
+"HW05/paint.ml" 365 15002 15017 "HW05/paint.ml" 365 15002 15073
+type(
+  unit
+)
+"HW05/paint.ml" 365 15002 15007 "HW05/paint.ml" 365 15002 15074
+type(
+  bool -> unit
+)
+"HW05/paint.ml" 364 14967 14970 "HW05/paint.ml" 365 15002 15074
+call(
+  stack
+)
+type(
+  unit
+)
+"HW05/paint.ml" 367 15076 15081 "HW05/paint.ml" 367 15076 15090
+type(
+  Widget.widget
+)
+ident(
+  def w_textbox "HW05/paint.ml" 369 15144 15144 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 367 15076 15092 "HW05/paint.ml" 367 15076 15102
+type(
+  Widget.label_controller
+)
+ident(
+  def vc_textbox "HW05/paint.ml" 369 15144 15144 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 367 15076 15104 "HW05/paint.ml" 367 15076 15114
+type(
+  Widget.notifier_controller
+)
+ident(
+  def nc_textbox "HW05/paint.ml" 369 15144 15144 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 367 15076 15080 "HW05/paint.ml" 367 15076 15115
+type(
+  Widget.widget * Widget.label_controller * Widget.notifier_controller
+)
+"HW05/paint.ml" 367 15076 15118 "HW05/paint.ml" 367 15076 15124
+type(
+  string ->
+  Widget.widget * Widget.label_controller * Widget.notifier_controller
+)
+ident(
+  ext_ref Widget.button
+)
+"HW05/paint.ml" 367 15076 15125 "HW05/paint.ml" 367 15076 15142
+type(
+  string
+)
+"HW05/paint.ml" 367 15076 15118 "HW05/paint.ml" 367 15076 15142
+call(
+  stack
+)
+type(
+  Widget.widget * Widget.label_controller * Widget.notifier_controller
+)
+"HW05/paint.ml" 369 15144 15148 "HW05/paint.ml" 369 15144 15155
+type(
+  unit -> unit
+)
+ident(
+  def textbox "HW05/paint.ml" 380 15672 15675 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 369 15144 15156 "HW05/paint.ml" 369 15144 15158
+type(
+  unit
+)
+"HW05/paint.ml" 370 15168 15182 "HW05/paint.ml" 370 15168 15187
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 370 15168 15182 "HW05/paint.ml" 370 15168 15192
+type(
+  mode
+)
+"HW05/paint.ml" 371 15198 15202 "HW05/paint.ml" 371 15198 15215
+type(
+  mode
+)
+"HW05/paint.ml" 371 15198 15220 "HW05/paint.ml" 371 15198 15225
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 371 15198 15234 "HW05/paint.ml" 371 15198 15247
+type(
+  mode
+)
+"HW05/paint.ml" 371 15198 15220 "HW05/paint.ml" 371 15198 15247
+type(
+  unit
+)
+"HW05/paint.ml" 371 15198 15249 "HW05/paint.ml" 371 15198 15254
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 371 15198 15266 "HW05/paint.ml" 371 15198 15270
+type(
+  shape option
+)
+"HW05/paint.ml" 371 15198 15249 "HW05/paint.ml" 371 15198 15270
+type(
+  unit
+)
+"HW05/paint.ml" 371 15198 15219 "HW05/paint.ml" 371 15198 15271
+type(
+  unit
+)
+"HW05/paint.ml" 372 15272 15288 "HW05/paint.ml" 372 15272 15289
+type(
+  point
+)
+ident(
+  def p "HW05/paint.ml" 372 15272 15293 "HW05/paint.ml" 372 15272 15345
+)
+"HW05/paint.ml" 372 15272 15276 "HW05/paint.ml" 372 15272 15289
+type(
+  mode
+)
+"HW05/paint.ml" 372 15272 15294 "HW05/paint.ml" 372 15272 15299
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 372 15272 15308 "HW05/paint.ml" 372 15272 15321
+type(
+  mode
+)
+"HW05/paint.ml" 372 15272 15294 "HW05/paint.ml" 372 15272 15321
+type(
+  unit
+)
+"HW05/paint.ml" 372 15272 15323 "HW05/paint.ml" 372 15272 15328
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 372 15272 15340 "HW05/paint.ml" 372 15272 15344
+type(
+  shape option
+)
+"HW05/paint.ml" 372 15272 15323 "HW05/paint.ml" 372 15272 15344
+type(
+  unit
+)
+"HW05/paint.ml" 372 15272 15293 "HW05/paint.ml" 372 15272 15345
+type(
+  unit
+)
+"HW05/paint.ml" 373 15346 15350 "HW05/paint.ml" 373 15346 15359
+type(
+  mode
+)
+"HW05/paint.ml" 373 15346 15364 "HW05/paint.ml" 373 15346 15369
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 373 15346 15378 "HW05/paint.ml" 373 15346 15391
+type(
+  mode
+)
+"HW05/paint.ml" 373 15346 15364 "HW05/paint.ml" 373 15346 15391
+type(
+  unit
+)
+"HW05/paint.ml" 373 15346 15393 "HW05/paint.ml" 373 15346 15398
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 373 15346 15409 "HW05/paint.ml" 373 15346 15413
+type(
+  shape option
+)
+"HW05/paint.ml" 373 15346 15393 "HW05/paint.ml" 373 15346 15413
+type(
+  unit
+)
+"HW05/paint.ml" 373 15346 15363 "HW05/paint.ml" 373 15346 15414
+type(
+  unit
+)
+"HW05/paint.ml" 374 15415 15419 "HW05/paint.ml" 374 15415 15435
+type(
+  mode
+)
+"HW05/paint.ml" 374 15415 15440 "HW05/paint.ml" 374 15415 15445
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 374 15415 15454 "HW05/paint.ml" 374 15415 15467
+type(
+  mode
+)
+"HW05/paint.ml" 374 15415 15440 "HW05/paint.ml" 374 15415 15467
+type(
+  unit
+)
+"HW05/paint.ml" 374 15415 15469 "HW05/paint.ml" 374 15415 15474
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 374 15415 15485 "HW05/paint.ml" 374 15415 15489
+type(
+  shape option
+)
+"HW05/paint.ml" 374 15415 15469 "HW05/paint.ml" 374 15415 15489
+type(
+  unit
+)
+"HW05/paint.ml" 374 15415 15439 "HW05/paint.ml" 374 15415 15490
+type(
+  unit
+)
+"HW05/paint.ml" 375 15491 15510 "HW05/paint.ml" 375 15491 15512
+type(
+  point
+)
+ident(
+  def p1 "HW05/paint.ml" 375 15491 15516 "HW05/paint.ml" 375 15491 15568
+)
+"HW05/paint.ml" 375 15491 15495 "HW05/paint.ml" 375 15491 15512
+type(
+  mode
+)
+"HW05/paint.ml" 375 15491 15517 "HW05/paint.ml" 375 15491 15522
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 375 15491 15531 "HW05/paint.ml" 375 15491 15544
+type(
+  mode
+)
+"HW05/paint.ml" 375 15491 15517 "HW05/paint.ml" 375 15491 15544
+type(
+  unit
+)
+"HW05/paint.ml" 375 15491 15546 "HW05/paint.ml" 375 15491 15551
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 375 15491 15563 "HW05/paint.ml" 375 15491 15567
+type(
+  shape option
+)
+"HW05/paint.ml" 375 15491 15546 "HW05/paint.ml" 375 15491 15567
+type(
+  unit
+)
+"HW05/paint.ml" 375 15491 15516 "HW05/paint.ml" 375 15491 15568
+type(
+  unit
+)
+"HW05/paint.ml" 376 15569 15573 "HW05/paint.ml" 376 15569 15586
+type(
+  mode
+)
+"HW05/paint.ml" 376 15569 15590 "HW05/paint.ml" 376 15569 15592
+type(
+  unit
+)
+"HW05/paint.ml" 377 15593 15597 "HW05/paint.ml" 377 15593 15608
+type(
+  mode
+)
+"HW05/paint.ml" 377 15593 15613 "HW05/paint.ml" 377 15593 15618
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 377 15593 15627 "HW05/paint.ml" 377 15593 15640
+type(
+  mode
+)
+"HW05/paint.ml" 377 15593 15613 "HW05/paint.ml" 377 15593 15640
+type(
+  unit
+)
+"HW05/paint.ml" 377 15593 15642 "HW05/paint.ml" 377 15593 15647
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 377 15593 15659 "HW05/paint.ml" 377 15593 15663
+type(
+  shape option
+)
+"HW05/paint.ml" 377 15593 15642 "HW05/paint.ml" 377 15593 15663
+type(
+  unit
+)
+"HW05/paint.ml" 377 15593 15612 "HW05/paint.ml" 377 15593 15664
+type(
+  unit
+)
+"HW05/paint.ml" 370 15168 15170 "HW05/paint.ml" 378 15665 15670
+type(
+  unit
+)
+type(
+  unit
+)
+"HW05/paint.ml" 380 15672 15675 "HW05/paint.ml" 380 15672 15685
+type(
+  Widget.notifier_controller
+)
+ident(
+  int_ref nc_textbox "HW05/paint.ml" 367 15076 15104 "HW05/paint.ml" 367 15076 15114
+)
+"HW05/paint.ml" 380 15672 15675 "HW05/paint.ml" 380 15672 15704
+type(
+  Widget.event_listener -> unit
+)
+"HW05/paint.ml" 380 15672 15706 "HW05/paint.ml" 380 15672 15725
+type(
+  (unit -> unit) -> Widget.event_listener
+)
+ident(
+  ext_ref Widget.mouseclick_listener
+)
+"HW05/paint.ml" 380 15672 15726 "HW05/paint.ml" 380 15672 15733
+type(
+  unit -> unit
+)
+ident(
+  int_ref textbox "HW05/paint.ml" 369 15144 15148 "HW05/paint.ml" 369 15144 15155
+)
+"HW05/paint.ml" 380 15672 15705 "HW05/paint.ml" 380 15672 15734
+call(
+  stack
+)
+type(
+  Widget.event_listener
+)
+"HW05/paint.ml" 380 15672 15675 "HW05/paint.ml" 380 15672 15734
+call(
+  stack
+)
+type(
+  unit
+)
+"HW05/paint.ml" 386 15966 15970 "HW05/paint.ml" 386 15966 15982
+type(
+  Widget.widget
+)
+ident(
+  def mode_toolbar "HW05/paint.ml" 398 16584 16584 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 387 15994 15996 "HW05/paint.ml" 387 15994 16008
+type(
+  Widget.widget list -> Widget.widget
+)
+ident(
+  ext_ref Widget.hlist
+)
+"HW05/paint.ml" 387 15994 16010 "HW05/paint.ml" 387 15994 16016
+type(
+  Widget.widget -> Widget.widget
+)
+ident(
+  ext_ref Widget.border
+)
+"HW05/paint.ml" 387 15994 16017 "HW05/paint.ml" 387 15994 16024
+type(
+  Widget.widget
+)
+ident(
+  int_ref w_point "HW05/paint.ml" 329 13488 13493 "HW05/paint.ml" 329 13488 13500
+)
+"HW05/paint.ml" 387 15994 16010 "HW05/paint.ml" 387 15994 16024
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 387 15994 16026 "HW05/paint.ml" 387 15994 16032
+type(
+  Widget.widget
+)
+ident(
+  int_ref spacer "HW05/paint.ml" 311 12759 12763 "HW05/paint.ml" 311 12759 12769
+)
+"HW05/paint.ml" 387 15994 16034 "HW05/paint.ml" 387 15994 16040
+type(
+  Widget.widget -> Widget.widget
+)
+ident(
+  ext_ref Widget.border
+)
+"HW05/paint.ml" 387 15994 16041 "HW05/paint.ml" 387 15994 16047
+type(
+  Widget.widget
+)
+ident(
+  int_ref w_line "HW05/paint.ml" 313 12796 12801 "HW05/paint.ml" 313 12796 12807
+)
+"HW05/paint.ml" 387 15994 16034 "HW05/paint.ml" 387 15994 16047
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 387 15994 16049 "HW05/paint.ml" 387 15994 16055
+type(
+  Widget.widget
+)
+ident(
+  int_ref spacer "HW05/paint.ml" 311 12759 12763 "HW05/paint.ml" 311 12759 12769
+)
+"HW05/paint.ml" 387 15994 16057 "HW05/paint.ml" 387 15994 16063
+type(
+  Widget.widget -> Widget.widget
+)
+ident(
+  ext_ref Widget.border
+)
+"HW05/paint.ml" 387 15994 16064 "HW05/paint.ml" 387 15994 16073
+type(
+  Widget.widget
+)
+ident(
+  int_ref w_ellipse "HW05/paint.ml" 345 14161 14166 "HW05/paint.ml" 345 14161 14175
+)
+"HW05/paint.ml" 387 15994 16057 "HW05/paint.ml" 387 15994 16073
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 388 16075 16079 "HW05/paint.ml" 388 16075 16085
+type(
+  Widget.widget
+)
+ident(
+  int_ref spacer "HW05/paint.ml" 311 12759 12763 "HW05/paint.ml" 311 12759 12769
+)
+"HW05/paint.ml" 388 16075 16087 "HW05/paint.ml" 388 16075 16093
+type(
+  Widget.widget -> Widget.widget
+)
+ident(
+  ext_ref Widget.border
+)
+"HW05/paint.ml" 388 16075 16094 "HW05/paint.ml" 388 16075 16104
+type(
+  Widget.widget
+)
+ident(
+  int_ref w_checkbox "HW05/paint.ml" 361 14897 14902 "HW05/paint.ml" 361 14897 14912
+)
+"HW05/paint.ml" 388 16075 16087 "HW05/paint.ml" 388 16075 16104
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 388 16075 16106 "HW05/paint.ml" 388 16075 16112
+type(
+  Widget.widget
+)
+ident(
+  int_ref spacer "HW05/paint.ml" 311 12759 12763 "HW05/paint.ml" 311 12759 12769
+)
+"HW05/paint.ml" 388 16075 16114 "HW05/paint.ml" 388 16075 16120
+type(
+  Widget.widget -> Widget.widget
+)
+ident(
+  ext_ref Widget.border
+)
+"HW05/paint.ml" 388 16075 16121 "HW05/paint.ml" 388 16075 16127
+type(
+  Widget.widget
+)
+ident(
+  int_ref w_undo "HW05/paint.ml" 280 11756 11761 "HW05/paint.ml" 280 11756 11767
+)
+"HW05/paint.ml" 388 16075 16114 "HW05/paint.ml" 388 16075 16127
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 389 16129 16133 "HW05/paint.ml" 389 16129 16139
+type(
+  Widget.widget
+)
+ident(
+  int_ref spacer "HW05/paint.ml" 311 12759 12763 "HW05/paint.ml" 311 12759 12769
+)
+"HW05/paint.ml" 389 16129 16141 "HW05/paint.ml" 389 16129 16147
+type(
+  Widget.widget -> Widget.widget
+)
+ident(
+  ext_ref Widget.border
+)
+"HW05/paint.ml" 389 16129 16148 "HW05/paint.ml" 389 16129 16154
+type(
+  Widget.widget
+)
+ident(
+  int_ref w_quit "HW05/paint.ml" 306 12618 12622 "HW05/paint.ml" 306 12618 12628
+)
+"HW05/paint.ml" 389 16129 16141 "HW05/paint.ml" 389 16129 16154
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 387 15994 16009 "HW05/paint.ml" 389 16129 16155
+type(
+  Widget.widget list
+)
+"HW05/paint.ml" 387 15994 15996 "HW05/paint.ml" 389 16129 16155
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 398 16584 16588 "HW05/paint.ml" 398 16584 16602
+type(
+  int -> (unit -> Gctx.color) -> Widget.widget * Widget.notifier_controller
+)
+ident(
+  def colored_square "HW05/paint.ml" 407 16953 16953 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 398 16584 16604 "HW05/paint.ml" 398 16584 16609
+type(
+  int
+)
+ident(
+  def width "HW05/paint.ml" 398 16584 16615 "HW05/paint.ml" 403 16807 16844
+)
+"HW05/paint.ml" 398 16584 16616 "HW05/paint.ml" 398 16584 16625
+type(
+  unit -> Gctx.color
+)
+ident(
+  def get_color "HW05/paint.ml" 399 16641 16645 "HW05/paint.ml" 403 16807 16844
+)
+"HW05/paint.ml" 400 16678 16684 "HW05/paint.ml" 400 16678 16698
+type(
+  Gctx.gctx -> unit
+)
+ident(
+  def repaint_square "HW05/paint.ml" 403 16807 16809 "HW05/paint.ml" 403 16807 16844
+)
+"HW05/paint.ml" 400 16678 16700 "HW05/paint.ml" 400 16678 16702
+type(
+  Gctx.gctx
+)
+ident(
+  def gc "HW05/paint.ml" 401 16711 16713 "HW05/paint.ml" 402 16737 16800
+)
+"HW05/paint.ml" 401 16711 16717 "HW05/paint.ml" 401 16711 16718
+type(
+  Gctx.color
+)
+ident(
+  def c "HW05/paint.ml" 402 16737 16741 "HW05/paint.ml" 402 16737 16800
+)
+"HW05/paint.ml" 401 16711 16721 "HW05/paint.ml" 401 16711 16730
+type(
+  unit -> Gctx.color
+)
+ident(
+  int_ref get_color "HW05/paint.ml" 398 16584 16616 "HW05/paint.ml" 398 16584 16625
+)
+"HW05/paint.ml" 401 16711 16731 "HW05/paint.ml" 401 16711 16733
+type(
+  unit
+)
+"HW05/paint.ml" 401 16711 16721 "HW05/paint.ml" 401 16711 16733
+call(
+  stack
+)
+type(
+  Gctx.color
+)
+"HW05/paint.ml" 402 16737 16741 "HW05/paint.ml" 402 16737 16750
+type(
+  Gctx.gctx -> Gctx.position -> Gctx.dimension -> unit
+)
+ident(
+  ext_ref Gctx.fill_rect
+)
+"HW05/paint.ml" 402 16737 16752 "HW05/paint.ml" 402 16737 16762
+type(
+  Gctx.gctx -> Gctx.color -> Gctx.gctx
+)
+ident(
+  ext_ref Gctx.with_color
+)
+"HW05/paint.ml" 402 16737 16763 "HW05/paint.ml" 402 16737 16765
+type(
+  Gctx.gctx
+)
+ident(
+  int_ref gc "HW05/paint.ml" 400 16678 16700 "HW05/paint.ml" 400 16678 16702
+)
+"HW05/paint.ml" 402 16737 16766 "HW05/paint.ml" 402 16737 16767
+type(
+  Gctx.color
+)
+ident(
+  int_ref c "HW05/paint.ml" 401 16711 16717 "HW05/paint.ml" 401 16711 16718
+)
+"HW05/paint.ml" 402 16737 16751 "HW05/paint.ml" 402 16737 16768
+call(
+  stack
+)
+type(
+  Gctx.gctx
+)
+"HW05/paint.ml" 402 16737 16770 "HW05/paint.ml" 402 16737 16771
+type(
+  int
+)
+"HW05/paint.ml" 402 16737 16773 "HW05/paint.ml" 402 16737 16778
+type(
+  int
+)
+ident(
+  int_ref width "HW05/paint.ml" 398 16584 16604 "HW05/paint.ml" 398 16584 16609
+)
+"HW05/paint.ml" 402 16737 16778 "HW05/paint.ml" 402 16737 16779
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"HW05/paint.ml" 402 16737 16779 "HW05/paint.ml" 402 16737 16780
+type(
+  int
+)
+"HW05/paint.ml" 402 16737 16773 "HW05/paint.ml" 402 16737 16780
+type(
+  int
+)
+"HW05/paint.ml" 402 16737 16769 "HW05/paint.ml" 402 16737 16781
+type(
+  Gctx.position
+)
+"HW05/paint.ml" 402 16737 16783 "HW05/paint.ml" 402 16737 16788
+type(
+  int
+)
+ident(
+  int_ref width "HW05/paint.ml" 398 16584 16604 "HW05/paint.ml" 398 16584 16609
+)
+"HW05/paint.ml" 402 16737 16788 "HW05/paint.ml" 402 16737 16789
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"HW05/paint.ml" 402 16737 16789 "HW05/paint.ml" 402 16737 16790
+type(
+  int
+)
+"HW05/paint.ml" 402 16737 16783 "HW05/paint.ml" 402 16737 16790
+type(
+  int
+)
+"HW05/paint.ml" 402 16737 16792 "HW05/paint.ml" 402 16737 16797
+type(
+  int
+)
+ident(
+  int_ref width "HW05/paint.ml" 398 16584 16604 "HW05/paint.ml" 398 16584 16609
+)
+"HW05/paint.ml" 402 16737 16797 "HW05/paint.ml" 402 16737 16798
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"HW05/paint.ml" 402 16737 16798 "HW05/paint.ml" 402 16737 16799
+type(
+  int
+)
+"HW05/paint.ml" 402 16737 16792 "HW05/paint.ml" 402 16737 16799
+type(
+  int
+)
+"HW05/paint.ml" 402 16737 16782 "HW05/paint.ml" 402 16737 16800
+type(
+  Gctx.dimension
+)
+"HW05/paint.ml" 402 16737 16741 "HW05/paint.ml" 402 16737 16800
+call(
+  tail
+)
+type(
+  unit
+)
+"HW05/paint.ml" 401 16711 16713 "HW05/paint.ml" 402 16737 16800
+type(
+  unit
+)
+"HW05/paint.ml" 403 16807 16809 "HW05/paint.ml" 403 16807 16815
+type(
+  Gctx.dimension ->
+  (Gctx.gctx -> unit) -> Widget.widget * Widget.notifier_controller
+)
+ident(
+  ext_ref Widget.canvas
+)
+"HW05/paint.ml" 403 16807 16817 "HW05/paint.ml" 403 16807 16822
+type(
+  int
+)
+ident(
+  int_ref width "HW05/paint.ml" 398 16584 16604 "HW05/paint.ml" 398 16584 16609
+)
+"HW05/paint.ml" 403 16807 16823 "HW05/paint.ml" 403 16807 16828
+type(
+  int
+)
+ident(
+  int_ref width "HW05/paint.ml" 398 16584 16604 "HW05/paint.ml" 398 16584 16609
+)
+"HW05/paint.ml" 403 16807 16816 "HW05/paint.ml" 403 16807 16829
+type(
+  Gctx.dimension
+)
+"HW05/paint.ml" 403 16807 16830 "HW05/paint.ml" 403 16807 16844
+type(
+  Gctx.gctx -> unit
+)
+ident(
+  int_ref repaint_square "HW05/paint.ml" 400 16678 16684 "HW05/paint.ml" 400 16678 16698
+)
+"HW05/paint.ml" 403 16807 16809 "HW05/paint.ml" 403 16807 16844
+call(
+  tail
+)
+type(
+  Widget.widget * Widget.notifier_controller
+)
+"HW05/paint.ml" 400 16678 16680 "HW05/paint.ml" 403 16807 16844
+type(
+  Widget.widget * Widget.notifier_controller
+)
+type(
+  Widget.widget * Widget.notifier_controller
+)
+"HW05/paint.ml" 407 16953 16957 "HW05/paint.ml" 407 16953 16972
+type(
+  Widget.widget
+)
+ident(
+  def color_indicator "HW05/paint.ml" 415 17321 17321 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 408 16975 16981 "HW05/paint.ml" 408 16975 16990
+type(
+  Widget.widget
+)
+ident(
+  def indicator "HW05/paint.ml" 409 17040 17042 "HW05/paint.ml" 410 17080 17110
+)
+"HW05/paint.ml" 408 16975 16991 "HW05/paint.ml" 408 16975 16992
+type(
+  Widget.notifier_controller
+)
+"HW05/paint.ml" 408 16975 16981 "HW05/paint.ml" 408 16975 16992
+type(
+  Widget.widget * Widget.notifier_controller
+)
+"HW05/paint.ml" 408 16975 16995 "HW05/paint.ml" 408 16975 17009
+type(
+  int -> (unit -> Gctx.color) -> Widget.widget * Widget.notifier_controller
+)
+ident(
+  int_ref colored_square "HW05/paint.ml" 398 16584 16588 "HW05/paint.ml" 398 16584 16602
+)
+"HW05/paint.ml" 408 16975 17010 "HW05/paint.ml" 408 16975 17012
+type(
+  int
+)
+"HW05/paint.ml" 408 16975 17018 "HW05/paint.ml" 408 16975 17020
+type(
+  unit
+)
+"HW05/paint.ml" 408 16975 17024 "HW05/paint.ml" 408 16975 17029
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 408 16975 17024 "HW05/paint.ml" 408 16975 17035
+type(
+  Gctx.color
+)
+"HW05/paint.ml" 408 16975 17013 "HW05/paint.ml" 408 16975 17036
+type(
+  unit -> Gctx.color
+)
+"HW05/paint.ml" 408 16975 16995 "HW05/paint.ml" 408 16975 17036
+call(
+  stack
+)
+type(
+  Widget.widget * Widget.notifier_controller
+)
+"HW05/paint.ml" 409 17040 17046 "HW05/paint.ml" 409 17040 17049
+type(
+  Widget.widget
+)
+ident(
+  def lab "HW05/paint.ml" 410 17080 17082 "HW05/paint.ml" 410 17080 17110
+)
+"HW05/paint.ml" 409 17040 17051 "HW05/paint.ml" 409 17040 17052
+type(
+  Widget.label_controller
+)
+"HW05/paint.ml" 409 17040 17046 "HW05/paint.ml" 409 17040 17052
+type(
+  Widget.widget * Widget.label_controller
+)
+"HW05/paint.ml" 409 17040 17055 "HW05/paint.ml" 409 17040 17060
+type(
+  string -> Widget.widget * Widget.label_controller
+)
+ident(
+  ext_ref Widget.label
+)
+"HW05/paint.ml" 409 17040 17061 "HW05/paint.ml" 409 17040 17076
+type(
+  string
+)
+"HW05/paint.ml" 409 17040 17055 "HW05/paint.ml" 409 17040 17076
+call(
+  stack
+)
+type(
+  Widget.widget * Widget.label_controller
+)
+"HW05/paint.ml" 410 17080 17082 "HW05/paint.ml" 410 17080 17088
+type(
+  Widget.widget -> Widget.widget
+)
+ident(
+  ext_ref Widget.border
+)
+"HW05/paint.ml" 410 17080 17090 "HW05/paint.ml" 410 17080 17095
+type(
+  Widget.widget -> Widget.widget -> Widget.widget
+)
+ident(
+  ext_ref Widget.hpair
+)
+"HW05/paint.ml" 410 17080 17096 "HW05/paint.ml" 410 17080 17099
+type(
+  Widget.widget
+)
+ident(
+  int_ref lab "HW05/paint.ml" 409 17040 17046 "HW05/paint.ml" 409 17040 17049
+)
+"HW05/paint.ml" 410 17080 17100 "HW05/paint.ml" 410 17080 17109
+type(
+  Widget.widget
+)
+ident(
+  int_ref indicator "HW05/paint.ml" 408 16975 16981 "HW05/paint.ml" 408 16975 16990
+)
+"HW05/paint.ml" 410 17080 17089 "HW05/paint.ml" 410 17080 17110
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 410 17080 17082 "HW05/paint.ml" 410 17080 17110
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 409 17040 17042 "HW05/paint.ml" 410 17080 17110
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 408 16975 16977 "HW05/paint.ml" 410 17080 17110
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 415 17321 17325 "HW05/paint.ml" 415 17321 17337
+type(
+  Gctx.color -> Widget.widget
+)
+ident(
+  def color_button "HW05/paint.ml" 422 17605 17605 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 415 17321 17339 "HW05/paint.ml" 415 17321 17340
+type(
+  Gctx.color
+)
+ident(
+  def c "HW05/paint.ml" 415 17321 17349 "HW05/paint.ml" 419 17489 17492
+)
+"HW05/paint.ml" 416 17360 17366 "HW05/paint.ml" 416 17360 17367
+type(
+  Widget.widget
+)
+ident(
+  def w "HW05/paint.ml" 417 17408 17410 "HW05/paint.ml" 419 17489 17492
+)
+"HW05/paint.ml" 416 17360 17368 "HW05/paint.ml" 416 17360 17370
+type(
+  Widget.notifier_controller
+)
+ident(
+  def nc "HW05/paint.ml" 417 17408 17410 "HW05/paint.ml" 419 17489 17492
+)
+"HW05/paint.ml" 416 17360 17366 "HW05/paint.ml" 416 17360 17370
+type(
+  Widget.widget * Widget.notifier_controller
+)
+"HW05/paint.ml" 416 17360 17373 "HW05/paint.ml" 416 17360 17387
+type(
+  int -> (unit -> Gctx.color) -> Widget.widget * Widget.notifier_controller
+)
+ident(
+  int_ref colored_square "HW05/paint.ml" 398 16584 16588 "HW05/paint.ml" 398 16584 16602
+)
+"HW05/paint.ml" 416 17360 17388 "HW05/paint.ml" 416 17360 17390
+type(
+  int
+)
+"HW05/paint.ml" 416 17360 17396 "HW05/paint.ml" 416 17360 17398
+type(
+  unit
+)
+"HW05/paint.ml" 416 17360 17402 "HW05/paint.ml" 416 17360 17403
+type(
+  Gctx.color
+)
+ident(
+  int_ref c "HW05/paint.ml" 415 17321 17339 "HW05/paint.ml" 415 17321 17340
+)
+"HW05/paint.ml" 416 17360 17391 "HW05/paint.ml" 416 17360 17404
+type(
+  unit -> Gctx.color
+)
+"HW05/paint.ml" 416 17360 17373 "HW05/paint.ml" 416 17360 17404
+call(
+  stack
+)
+type(
+  Widget.widget * Widget.notifier_controller
+)
+"HW05/paint.ml" 417 17408 17410 "HW05/paint.ml" 417 17408 17412
+type(
+  Widget.notifier_controller
+)
+ident(
+  int_ref nc "HW05/paint.ml" 416 17360 17368 "HW05/paint.ml" 416 17360 17370
+)
+"HW05/paint.ml" 417 17408 17410 "HW05/paint.ml" 417 17408 17431
+type(
+  Widget.event_listener -> unit
+)
+"HW05/paint.ml" 417 17408 17433 "HW05/paint.ml" 417 17408 17452
+type(
+  (unit -> unit) -> Widget.event_listener
+)
+ident(
+  ext_ref Widget.mouseclick_listener
+)
+"HW05/paint.ml" 417 17408 17458 "HW05/paint.ml" 417 17408 17460
+type(
+  unit
+)
+"HW05/paint.ml" 418 17464 17468 "HW05/paint.ml" 418 17464 17473
+type(
+  state
+)
+ident(
+  int_ref paint "HW05/paint.ml" 75 2531 2535 "HW05/paint.ml" 75 2531 2540
+)
+"HW05/paint.ml" 418 17464 17483 "HW05/paint.ml" 418 17464 17484
+type(
+  Gctx.color
+)
+ident(
+  int_ref c "HW05/paint.ml" 415 17321 17339 "HW05/paint.ml" 415 17321 17340
+)
+"HW05/paint.ml" 418 17464 17468 "HW05/paint.ml" 418 17464 17484
+type(
+  unit
+)
+"HW05/paint.ml" 417 17408 17453 "HW05/paint.ml" 418 17464 17486
+type(
+  unit -> unit
+)
+"HW05/paint.ml" 417 17408 17432 "HW05/paint.ml" 418 17464 17487
+call(
+  stack
+)
+type(
+  Widget.event_listener
+)
+"HW05/paint.ml" 417 17408 17410 "HW05/paint.ml" 418 17464 17487
+call(
+  stack
+)
+type(
+  unit
+)
+"HW05/paint.ml" 419 17489 17491 "HW05/paint.ml" 419 17489 17492
+type(
+  Widget.widget
+)
+ident(
+  int_ref w "HW05/paint.ml" 416 17360 17366 "HW05/paint.ml" 416 17360 17367
+)
+"HW05/paint.ml" 417 17408 17410 "HW05/paint.ml" 419 17489 17492
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 416 17360 17362 "HW05/paint.ml" 419 17489 17492
+type(
+  Widget.widget
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 422 17605 17609 "HW05/paint.ml" 422 17605 17622
+type(
+  Widget.widget
+)
+ident(
+  def color_toolbar "HW05/paint.ml" 439 18353 18353 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 423 17634 17636 "HW05/paint.ml" 423 17634 17648
+type(
+  Widget.widget list -> Widget.widget
+)
+ident(
+  ext_ref Widget.hlist
+)
+"HW05/paint.ml" 423 17634 17650 "HW05/paint.ml" 423 17634 17665
+type(
+  Widget.widget
+)
+ident(
+  int_ref color_indicator "HW05/paint.ml" 407 16953 16957 "HW05/paint.ml" 407 16953 16972
+)
+"HW05/paint.ml" 423 17634 17667 "HW05/paint.ml" 423 17634 17673
+type(
+  Widget.widget
+)
+ident(
+  int_ref spacer "HW05/paint.ml" 311 12759 12763 "HW05/paint.ml" 311 12759 12769
+)
+"HW05/paint.ml" 424 17675 17691 "HW05/paint.ml" 424 17675 17703
+type(
+  Gctx.color -> Widget.widget
+)
+ident(
+  int_ref color_button "HW05/paint.ml" 415 17321 17325 "HW05/paint.ml" 415 17321 17337
+)
+"HW05/paint.ml" 424 17675 17704 "HW05/paint.ml" 424 17675 17709
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.black
+)
+"HW05/paint.ml" 424 17675 17691 "HW05/paint.ml" 424 17675 17709
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 424 17675 17711 "HW05/paint.ml" 424 17675 17717
+type(
+  Widget.widget
+)
+ident(
+  int_ref spacer "HW05/paint.ml" 311 12759 12763 "HW05/paint.ml" 311 12759 12769
+)
+"HW05/paint.ml" 425 17719 17735 "HW05/paint.ml" 425 17719 17747
+type(
+  Gctx.color -> Widget.widget
+)
+ident(
+  int_ref color_button "HW05/paint.ml" 415 17321 17325 "HW05/paint.ml" 415 17321 17337
+)
+"HW05/paint.ml" 425 17719 17748 "HW05/paint.ml" 425 17719 17753
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.white
+)
+"HW05/paint.ml" 425 17719 17735 "HW05/paint.ml" 425 17719 17753
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 425 17719 17755 "HW05/paint.ml" 425 17719 17761
+type(
+  Widget.widget
+)
+ident(
+  int_ref spacer "HW05/paint.ml" 311 12759 12763 "HW05/paint.ml" 311 12759 12769
+)
+"HW05/paint.ml" 426 17763 17779 "HW05/paint.ml" 426 17763 17791
+type(
+  Gctx.color -> Widget.widget
+)
+ident(
+  int_ref color_button "HW05/paint.ml" 415 17321 17325 "HW05/paint.ml" 415 17321 17337
+)
+"HW05/paint.ml" 426 17763 17792 "HW05/paint.ml" 426 17763 17795
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.red
+)
+"HW05/paint.ml" 426 17763 17779 "HW05/paint.ml" 426 17763 17795
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 426 17763 17797 "HW05/paint.ml" 426 17763 17803
+type(
+  Widget.widget
+)
+ident(
+  int_ref spacer "HW05/paint.ml" 311 12759 12763 "HW05/paint.ml" 311 12759 12769
+)
+"HW05/paint.ml" 427 17805 17821 "HW05/paint.ml" 427 17805 17833
+type(
+  Gctx.color -> Widget.widget
+)
+ident(
+  int_ref color_button "HW05/paint.ml" 415 17321 17325 "HW05/paint.ml" 415 17321 17337
+)
+"HW05/paint.ml" 427 17805 17834 "HW05/paint.ml" 427 17805 17839
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.green
+)
+"HW05/paint.ml" 427 17805 17821 "HW05/paint.ml" 427 17805 17839
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 427 17805 17841 "HW05/paint.ml" 427 17805 17847
+type(
+  Widget.widget
+)
+ident(
+  int_ref spacer "HW05/paint.ml" 311 12759 12763 "HW05/paint.ml" 311 12759 12769
+)
+"HW05/paint.ml" 428 17849 17865 "HW05/paint.ml" 428 17849 17877
+type(
+  Gctx.color -> Widget.widget
+)
+ident(
+  int_ref color_button "HW05/paint.ml" 415 17321 17325 "HW05/paint.ml" 415 17321 17337
+)
+"HW05/paint.ml" 428 17849 17878 "HW05/paint.ml" 428 17849 17882
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.blue
+)
+"HW05/paint.ml" 428 17849 17865 "HW05/paint.ml" 428 17849 17882
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 428 17849 17884 "HW05/paint.ml" 428 17849 17890
+type(
+  Widget.widget
+)
+ident(
+  int_ref spacer "HW05/paint.ml" 311 12759 12763 "HW05/paint.ml" 311 12759 12769
+)
+"HW05/paint.ml" 429 17892 17908 "HW05/paint.ml" 429 17892 17920
+type(
+  Gctx.color -> Widget.widget
+)
+ident(
+  int_ref color_button "HW05/paint.ml" 415 17321 17325 "HW05/paint.ml" 415 17321 17337
+)
+"HW05/paint.ml" 429 17892 17921 "HW05/paint.ml" 429 17892 17927
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.yellow
+)
+"HW05/paint.ml" 429 17892 17908 "HW05/paint.ml" 429 17892 17927
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 429 17892 17929 "HW05/paint.ml" 429 17892 17935
+type(
+  Widget.widget
+)
+ident(
+  int_ref spacer "HW05/paint.ml" 311 12759 12763 "HW05/paint.ml" 311 12759 12769
+)
+"HW05/paint.ml" 430 17937 17953 "HW05/paint.ml" 430 17937 17965
+type(
+  Gctx.color -> Widget.widget
+)
+ident(
+  int_ref color_button "HW05/paint.ml" 415 17321 17325 "HW05/paint.ml" 415 17321 17337
+)
+"HW05/paint.ml" 430 17937 17966 "HW05/paint.ml" 430 17937 17970
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.cyan
+)
+"HW05/paint.ml" 430 17937 17953 "HW05/paint.ml" 430 17937 17970
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 430 17937 17972 "HW05/paint.ml" 430 17937 17978
+type(
+  Widget.widget
+)
+ident(
+  int_ref spacer "HW05/paint.ml" 311 12759 12763 "HW05/paint.ml" 311 12759 12769
+)
+"HW05/paint.ml" 431 17980 17996 "HW05/paint.ml" 431 17980 18008
+type(
+  Gctx.color -> Widget.widget
+)
+ident(
+  int_ref color_button "HW05/paint.ml" 415 17321 17325 "HW05/paint.ml" 415 17321 17337
+)
+"HW05/paint.ml" 431 17980 18009 "HW05/paint.ml" 431 17980 18016
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.magenta
+)
+"HW05/paint.ml" 431 17980 17996 "HW05/paint.ml" 431 17980 18016
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 431 17980 18018 "HW05/paint.ml" 431 17980 18024
+type(
+  Widget.widget
+)
+ident(
+  int_ref spacer "HW05/paint.ml" 311 12759 12763 "HW05/paint.ml" 311 12759 12769
+)
+"HW05/paint.ml" 423 17634 17649 "HW05/paint.ml" 431 17980 18025
+type(
+  Widget.widget list
+)
+"HW05/paint.ml" 423 17634 17636 "HW05/paint.ml" 431 17980 18025
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 439 18353 18357 "HW05/paint.ml" 439 18353 18369
+type(
+  Widget.widget
+)
+ident(
+  def paint_widget "HW05/paint.ml" 448 18682 18685 "HW05/paint.ml" 1 0 -1
+)
+"HW05/paint.ml" 439 18353 18372 "HW05/paint.ml" 439 18353 18377
+type(
+  Widget.widget list -> Widget.widget
+)
+ident(
+  ext_ref Widget.vlist
+)
+"HW05/paint.ml" 439 18353 18379 "HW05/paint.ml" 439 18353 18391
+type(
+  Widget.widget
+)
+ident(
+  int_ref paint_canvas "HW05/paint.ml" 135 4756 4762 "HW05/paint.ml" 135 4756 4774
+)
+"HW05/paint.ml" 439 18353 18393 "HW05/paint.ml" 439 18353 18399
+type(
+  Widget.widget
+)
+ident(
+  int_ref spacer "HW05/paint.ml" 311 12759 12763 "HW05/paint.ml" 311 12759 12769
+)
+"HW05/paint.ml" 439 18353 18401 "HW05/paint.ml" 439 18353 18413
+type(
+  Widget.widget
+)
+ident(
+  int_ref mode_toolbar "HW05/paint.ml" 386 15966 15970 "HW05/paint.ml" 386 15966 15982
+)
+"HW05/paint.ml" 440 18415 18417 "HW05/paint.ml" 440 18415 18423
+type(
+  Widget.widget
+)
+ident(
+  int_ref spacer "HW05/paint.ml" 311 12759 12763 "HW05/paint.ml" 311 12759 12769
+)
+"HW05/paint.ml" 440 18415 18425 "HW05/paint.ml" 440 18415 18438
+type(
+  Widget.widget
+)
+ident(
+  int_ref color_toolbar "HW05/paint.ml" 422 17605 17609 "HW05/paint.ml" 422 17605 17622
+)
+"HW05/paint.ml" 440 18415 18440 "HW05/paint.ml" 440 18415 18446
+type(
+  Widget.widget
+)
+ident(
+  int_ref spacer "HW05/paint.ml" 311 12759 12763 "HW05/paint.ml" 311 12759 12769
+)
+"HW05/paint.ml" 440 18415 18448 "HW05/paint.ml" 440 18415 18454
+type(
+  Widget.widget -> Widget.widget
+)
+ident(
+  ext_ref Widget.border
+)
+"HW05/paint.ml" 440 18415 18455 "HW05/paint.ml" 440 18415 18464
+type(
+  Widget.widget
+)
+ident(
+  int_ref w_textbox "HW05/paint.ml" 367 15076 15081 "HW05/paint.ml" 367 15076 15090
+)
+"HW05/paint.ml" 440 18415 18448 "HW05/paint.ml" 440 18415 18464
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 439 18353 18378 "HW05/paint.ml" 440 18415 18465
+type(
+  Widget.widget list
+)
+"HW05/paint.ml" 439 18353 18372 "HW05/paint.ml" 440 18415 18465
+call(
+  stack
+)
+type(
+  Widget.widget
+)
+"HW05/paint.ml" 448 18682 18685 "HW05/paint.ml" 448 18682 18698
+type(
+  Widget.widget -> unit
+)
+ident(
+  ext_ref Eventloop.run
+)
+"HW05/paint.ml" 448 18682 18699 "HW05/paint.ml" 448 18682 18711
+type(
+  Widget.widget
+)
+ident(
+  int_ref paint_widget "HW05/paint.ml" 439 18353 18357 "HW05/paint.ml" 439 18353 18369
+)
+"HW05/paint.ml" 448 18682 18685 "HW05/paint.ml" 448 18682 18711
+call(
+  stack
+)
+type(
+  unit
+)
