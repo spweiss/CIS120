@@ -1,0 +1,1005 @@
+"HW01/assert.ml" 9 128 132 "HW01/assert.ml" 9 128 152
+type(
+  bool ref
+)
+ident(
+  def stop_on_failure_flag "HW01/assert.ml" 11 166 166 "HW01/assert.ml" 1 0 -1
+)
+"HW01/assert.ml" 9 128 155 "HW01/assert.ml" 9 128 158
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"HW01/assert.ml" 9 128 159 "HW01/assert.ml" 9 128 164
+type(
+  bool
+)
+"HW01/assert.ml" 9 128 155 "HW01/assert.ml" 9 128 164
+type(
+  bool ref
+)
+"HW01/assert.ml" 11 166 170 "HW01/assert.ml" 11 166 185
+type(
+  unit -> unit
+)
+ident(
+  def stop_on_failure "HW01/assert.ml" 13 221 221 "HW01/assert.ml" 1 0 -1
+)
+"HW01/assert.ml" 11 166 186 "HW01/assert.ml" 11 166 188
+type(
+  unit
+)
+"HW01/assert.ml" 11 166 191 "HW01/assert.ml" 11 166 211
+type(
+  bool ref
+)
+ident(
+  int_ref stop_on_failure_flag "HW01/assert.ml" 9 128 132 "HW01/assert.ml" 9 128 152
+)
+"HW01/assert.ml" 11 166 212 "HW01/assert.ml" 11 166 214
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"HW01/assert.ml" 11 166 215 "HW01/assert.ml" 11 166 219
+type(
+  bool
+)
+"HW01/assert.ml" 11 166 191 "HW01/assert.ml" 11 166 219
+type(
+  unit
+)
+"HW01/assert.ml" 13 221 225 "HW01/assert.ml" 13 221 235
+type(
+  string -> unit
+)
+ident(
+  def error_mesg "HW01/assert.ml" 17 317 317 "HW01/assert.ml" 1 0 -1
+)
+"HW01/assert.ml" 13 221 237 "HW01/assert.ml" 13 221 238
+type(
+  string
+)
+ident(
+  def s "HW01/assert.ml" 14 250 252 "HW01/assert.ml" 15 269 315
+)
+"HW01/assert.ml" 14 250 252 "HW01/assert.ml" 14 250 265
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"HW01/assert.ml" 14 250 266 "HW01/assert.ml" 14 250 267
+type(
+  string
+)
+ident(
+  int_ref s "HW01/assert.ml" 13 221 237 "HW01/assert.ml" 13 221 238
+)
+"HW01/assert.ml" 14 250 252 "HW01/assert.ml" 14 250 267
+call(
+  stack
+)
+type(
+  unit
+)
+"HW01/assert.ml" 15 269 274 "HW01/assert.ml" 15 269 275
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"HW01/assert.ml" 15 269 275 "HW01/assert.ml" 15 269 295
+type(
+  bool ref
+)
+ident(
+  int_ref stop_on_failure_flag "HW01/assert.ml" 9 128 132 "HW01/assert.ml" 9 128 152
+)
+"HW01/assert.ml" 15 269 274 "HW01/assert.ml" 15 269 295
+type(
+  bool
+)
+"HW01/assert.ml" 15 269 301 "HW01/assert.ml" 15 269 305
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"HW01/assert.ml" 15 269 306 "HW01/assert.ml" 15 269 307
+type(
+  int
+)
+"HW01/assert.ml" 15 269 301 "HW01/assert.ml" 15 269 307
+call(
+  tail
+)
+type(
+  unit
+)
+"HW01/assert.ml" 15 269 313 "HW01/assert.ml" 15 269 315
+type(
+  unit
+)
+"HW01/assert.ml" 15 269 271 "HW01/assert.ml" 15 269 315
+type(
+  unit
+)
+"HW01/assert.ml" 14 250 252 "HW01/assert.ml" 15 269 315
+type(
+  unit
+)
+"HW01/assert.ml" 19 360 364 "HW01/assert.ml" 19 360 374
+type(
+  string -> (unit -> 'a) -> 'a -> unit
+)
+ident(
+  def assert_eqf "HW01/assert.ml" 37 1024 1024 "HW01/assert.ml" 1 0 -1
+)
+"HW01/assert.ml" 19 360 376 "HW01/assert.ml" 19 360 379
+type(
+  string
+)
+ident(
+  def msg "HW01/assert.ml" 19 360 389 "HW01/assert.ml" 34 1003 1018
+)
+"HW01/assert.ml" 19 360 389 "HW01/assert.ml" 19 360 399
+type(
+  unit -> 'a
+)
+ident(
+  def actual_fcn "HW01/assert.ml" 19 360 400 "HW01/assert.ml" 34 1003 1018
+)
+"HW01/assert.ml" 19 360 400 "HW01/assert.ml" 19 360 408
+type(
+  'a
+)
+ident(
+  def expected "HW01/assert.ml" 19 360 409 "HW01/assert.ml" 34 1003 1018
+)
+"HW01/assert.ml" 20 418 424 "HW01/assert.ml" 20 418 425
+type(
+  unit
+)
+"HW01/assert.ml" 20 418 428 "HW01/assert.ml" 20 418 440
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"HW01/assert.ml" 20 418 442 "HW01/assert.ml" 20 418 453
+type(
+  string
+)
+"HW01/assert.ml" 20 418 453 "HW01/assert.ml" 20 418 454
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"HW01/assert.ml" 20 418 454 "HW01/assert.ml" 20 418 457
+type(
+  string
+)
+ident(
+  int_ref msg "HW01/assert.ml" 19 360 376 "HW01/assert.ml" 19 360 379
+)
+"HW01/assert.ml" 20 418 457 "HW01/assert.ml" 20 418 458
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"HW01/assert.ml" 20 418 458 "HW01/assert.ml" 20 418 465
+type(
+  string
+)
+"HW01/assert.ml" 20 418 454 "HW01/assert.ml" 20 418 465
+call(
+  stack
+)
+type(
+  string
+)
+"HW01/assert.ml" 20 418 441 "HW01/assert.ml" 20 418 466
+call(
+  stack
+)
+type(
+  string
+)
+"HW01/assert.ml" 20 418 428 "HW01/assert.ml" 20 418 466
+call(
+  stack
+)
+type(
+  unit
+)
+"HW01/assert.ml" 21 471 477 "HW01/assert.ml" 21 471 478
+type(
+  unit
+)
+"HW01/assert.ml" 21 471 481 "HW01/assert.ml" 21 471 490
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.flush_all
+)
+"HW01/assert.ml" 21 471 491 "HW01/assert.ml" 21 471 493
+type(
+  unit
+)
+"HW01/assert.ml" 21 471 481 "HW01/assert.ml" 21 471 493
+call(
+  stack
+)
+type(
+  unit
+)
+"HW01/assert.ml" 22 497 503 "HW01/assert.ml" 22 497 510
+type(
+  result
+)
+ident(
+  def outcome "HW01/assert.ml" 26 675 677 "HW01/assert.ml" 34 1003 1018
+)
+"HW01/assert.ml" 22 497 520 "HW01/assert.ml" 22 497 528
+type(
+  'a
+)
+ident(
+  int_ref expected "HW01/assert.ml" 19 360 400 "HW01/assert.ml" 19 360 408
+)
+"HW01/assert.ml" 22 497 529 "HW01/assert.ml" 22 497 530
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"HW01/assert.ml" 22 497 532 "HW01/assert.ml" 22 497 542
+type(
+  unit -> 'a
+)
+ident(
+  int_ref actual_fcn "HW01/assert.ml" 19 360 389 "HW01/assert.ml" 19 360 399
+)
+"HW01/assert.ml" 22 497 543 "HW01/assert.ml" 22 497 545
+type(
+  unit
+)
+"HW01/assert.ml" 22 497 531 "HW01/assert.ml" 22 497 546
+call(
+  stack
+)
+type(
+  'a
+)
+"HW01/assert.ml" 22 497 520 "HW01/assert.ml" 22 497 546
+type(
+  bool
+)
+"HW01/assert.ml" 22 497 552 "HW01/assert.ml" 22 497 556
+type(
+  result
+)
+"HW01/assert.ml" 22 497 562 "HW01/assert.ml" 22 497 566
+type(
+  result
+)
+"HW01/assert.ml" 22 497 517 "HW01/assert.ml" 22 497 566
+type(
+  result
+)
+"HW01/assert.ml" 23 568 597 "HW01/assert.ml" 23 568 598
+type(
+  string
+)
+ident(
+  def s "HW01/assert.ml" 23 568 602 "HW01/assert.ml" 23 568 607
+)
+"HW01/assert.ml" 23 568 589 "HW01/assert.ml" 23 568 598
+type(
+  exn
+)
+"HW01/assert.ml" 23 568 606 "HW01/assert.ml" 23 568 607
+type(
+  string
+)
+ident(
+  int_ref s "HW01/assert.ml" 23 568 597 "HW01/assert.ml" 23 568 598
+)
+"HW01/assert.ml" 23 568 602 "HW01/assert.ml" 23 568 607
+type(
+  result
+)
+"HW01/assert.ml" 24 608 629 "HW01/assert.ml" 24 608 630
+type(
+  exn
+)
+ident(
+  def e "HW01/assert.ml" 24 608 642 "HW01/assert.ml" 24 608 668
+)
+"HW01/assert.ml" 24 608 647 "HW01/assert.ml" 24 608 665
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"HW01/assert.ml" 24 608 666 "HW01/assert.ml" 24 608 667
+type(
+  exn
+)
+ident(
+  int_ref e "HW01/assert.ml" 24 608 629 "HW01/assert.ml" 24 608 630
+)
+"HW01/assert.ml" 24 608 646 "HW01/assert.ml" 24 608 668
+call(
+  stack
+)
+type(
+  string
+)
+"HW01/assert.ml" 24 608 642 "HW01/assert.ml" 24 608 668
+type(
+  result
+)
+"HW01/assert.ml" 22 497 513 "HW01/assert.ml" 24 608 668
+type(
+  result
+)
+"HW01/assert.ml" 26 675 689 "HW01/assert.ml" 26 675 696
+type(
+  result
+)
+ident(
+  int_ref outcome "HW01/assert.ml" 22 497 503 "HW01/assert.ml" 22 497 510
+)
+"HW01/assert.ml" 27 703 718 "HW01/assert.ml" 27 703 722
+type(
+  result
+)
+"HW01/assert.ml" 27 703 726 "HW01/assert.ml" 27 703 739
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"HW01/assert.ml" 27 703 740 "HW01/assert.ml" 27 703 756
+type(
+  string
+)
+"HW01/assert.ml" 27 703 726 "HW01/assert.ml" 27 703 756
+call(
+  tail
+)
+type(
+  unit
+)
+"HW01/assert.ml" 28 757 772 "HW01/assert.ml" 28 757 776
+type(
+  result
+)
+"HW01/assert.ml" 29 780 796 "HW01/assert.ml" 29 780 809
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"HW01/assert.ml" 29 780 810 "HW01/assert.ml" 29 780 812
+type(
+  unit
+)
+"HW01/assert.ml" 29 780 796 "HW01/assert.ml" 29 780 812
+call(
+  stack
+)
+type(
+  unit
+)
+"HW01/assert.ml" 30 814 830 "HW01/assert.ml" 30 814 840
+type(
+  string -> unit
+)
+ident(
+  int_ref error_mesg "HW01/assert.ml" 13 221 225 "HW01/assert.ml" 13 221 235
+)
+"HW01/assert.ml" 30 814 842 "HW01/assert.ml" 30 814 857
+type(
+  string
+)
+"HW01/assert.ml" 30 814 857 "HW01/assert.ml" 30 814 858
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"HW01/assert.ml" 30 814 858 "HW01/assert.ml" 30 814 861
+type(
+  string
+)
+ident(
+  int_ref msg "HW01/assert.ml" 19 360 376 "HW01/assert.ml" 19 360 379
+)
+"HW01/assert.ml" 30 814 861 "HW01/assert.ml" 30 814 862
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"HW01/assert.ml" 30 814 862 "HW01/assert.ml" 30 814 866
+type(
+  string
+)
+"HW01/assert.ml" 30 814 858 "HW01/assert.ml" 30 814 866
+call(
+  stack
+)
+type(
+  string
+)
+"HW01/assert.ml" 30 814 841 "HW01/assert.ml" 30 814 867
+call(
+  stack
+)
+type(
+  string
+)
+"HW01/assert.ml" 30 814 830 "HW01/assert.ml" 30 814 867
+call(
+  tail
+)
+type(
+  unit
+)
+"HW01/assert.ml" 29 780 796 "HW01/assert.ml" 30 814 867
+type(
+  unit
+)
+"HW01/assert.ml" 31 868 887 "HW01/assert.ml" 31 868 888
+type(
+  string
+)
+ident(
+  def s "HW01/assert.ml" 32 893 909 "HW01/assert.ml" 33 927 1002
+)
+"HW01/assert.ml" 31 868 883 "HW01/assert.ml" 31 868 888
+type(
+  result
+)
+"HW01/assert.ml" 32 893 909 "HW01/assert.ml" 32 893 922
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"HW01/assert.ml" 32 893 923 "HW01/assert.ml" 32 893 925
+type(
+  unit
+)
+"HW01/assert.ml" 32 893 909 "HW01/assert.ml" 32 893 925
+call(
+  stack
+)
+type(
+  unit
+)
+"HW01/assert.ml" 33 927 943 "HW01/assert.ml" 33 927 953
+type(
+  string -> unit
+)
+ident(
+  int_ref error_mesg "HW01/assert.ml" 13 221 225 "HW01/assert.ml" 13 221 235
+)
+"HW01/assert.ml" 33 927 955 "HW01/assert.ml" 33 927 970
+type(
+  string
+)
+"HW01/assert.ml" 33 927 970 "HW01/assert.ml" 33 927 971
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"HW01/assert.ml" 33 927 971 "HW01/assert.ml" 33 927 974
+type(
+  string
+)
+ident(
+  int_ref msg "HW01/assert.ml" 19 360 376 "HW01/assert.ml" 19 360 379
+)
+"HW01/assert.ml" 33 927 974 "HW01/assert.ml" 33 927 975
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"HW01/assert.ml" 33 927 975 "HW01/assert.ml" 33 927 989
+type(
+  string
+)
+"HW01/assert.ml" 33 927 990 "HW01/assert.ml" 33 927 991
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"HW01/assert.ml" 33 927 992 "HW01/assert.ml" 33 927 993
+type(
+  string
+)
+ident(
+  int_ref s "HW01/assert.ml" 31 868 887 "HW01/assert.ml" 31 868 888
+)
+"HW01/assert.ml" 33 927 994 "HW01/assert.ml" 33 927 995
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"HW01/assert.ml" 33 927 996 "HW01/assert.ml" 33 927 1001
+type(
+  string
+)
+"HW01/assert.ml" 33 927 992 "HW01/assert.ml" 33 927 1001
+call(
+  stack
+)
+type(
+  string
+)
+"HW01/assert.ml" 33 927 975 "HW01/assert.ml" 33 927 1001
+call(
+  stack
+)
+type(
+  string
+)
+"HW01/assert.ml" 33 927 971 "HW01/assert.ml" 33 927 1001
+call(
+  stack
+)
+type(
+  string
+)
+"HW01/assert.ml" 33 927 954 "HW01/assert.ml" 33 927 1002
+call(
+  stack
+)
+type(
+  string
+)
+"HW01/assert.ml" 33 927 943 "HW01/assert.ml" 33 927 1002
+call(
+  tail
+)
+type(
+  unit
+)
+"HW01/assert.ml" 32 893 909 "HW01/assert.ml" 33 927 1002
+type(
+  unit
+)
+"HW01/assert.ml" 26 675 677 "HW01/assert.ml" 34 1003 1018
+type(
+  unit
+)
+"HW01/assert.ml" 22 497 499 "HW01/assert.ml" 34 1003 1018
+type(
+  unit
+)
+"HW01/assert.ml" 21 471 473 "HW01/assert.ml" 34 1003 1018
+type(
+  unit
+)
+"HW01/assert.ml" 20 418 420 "HW01/assert.ml" 34 1003 1018
+type(
+  unit
+)
+type(
+  unit
+)
+"HW01/assert.ml" 37 1024 1028 "HW01/assert.ml" 37 1024 1037
+type(
+  string -> 'a -> 'a -> unit
+)
+ident(
+  def assert_eq "HW01/assert.ml" 40 1122 1122 "HW01/assert.ml" 1 0 -1
+)
+"HW01/assert.ml" 37 1024 1039 "HW01/assert.ml" 37 1024 1042
+type(
+  string
+)
+ident(
+  def msg "HW01/assert.ml" 37 1024 1051 "HW01/assert.ml" 38 1076 1120
+)
+"HW01/assert.ml" 37 1024 1051 "HW01/assert.ml" 37 1024 1057
+type(
+  'a
+)
+ident(
+  def actual "HW01/assert.ml" 37 1024 1058 "HW01/assert.ml" 38 1076 1120
+)
+"HW01/assert.ml" 37 1024 1058 "HW01/assert.ml" 37 1024 1066
+type(
+  'a
+)
+ident(
+  def expected "HW01/assert.ml" 37 1024 1067 "HW01/assert.ml" 38 1076 1120
+)
+"HW01/assert.ml" 38 1076 1078 "HW01/assert.ml" 38 1076 1088
+type(
+  string -> (unit -> 'a) -> 'a -> unit
+)
+ident(
+  int_ref assert_eqf "HW01/assert.ml" 19 360 364 "HW01/assert.ml" 19 360 374
+)
+"HW01/assert.ml" 38 1076 1089 "HW01/assert.ml" 38 1076 1092
+type(
+  string
+)
+ident(
+  int_ref msg "HW01/assert.ml" 37 1024 1039 "HW01/assert.ml" 37 1024 1042
+)
+"HW01/assert.ml" 38 1076 1098 "HW01/assert.ml" 38 1076 1100
+type(
+  unit
+)
+"HW01/assert.ml" 38 1076 1104 "HW01/assert.ml" 38 1076 1110
+type(
+  'a
+)
+ident(
+  int_ref actual "HW01/assert.ml" 37 1024 1051 "HW01/assert.ml" 37 1024 1057
+)
+"HW01/assert.ml" 38 1076 1093 "HW01/assert.ml" 38 1076 1111
+type(
+  unit -> 'a
+)
+"HW01/assert.ml" 38 1076 1112 "HW01/assert.ml" 38 1076 1120
+type(
+  'a
+)
+ident(
+  int_ref expected "HW01/assert.ml" 37 1024 1058 "HW01/assert.ml" 37 1024 1066
+)
+"HW01/assert.ml" 38 1076 1078 "HW01/assert.ml" 38 1076 1120
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"HW01/assert.ml" 40 1122 1126 "HW01/assert.ml" 40 1122 1134
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  def run_test "HW01/assert.ml" 42 1166 1166 "HW01/assert.ml" 1 0 -1
+)
+"HW01/assert.ml" 40 1122 1135 "HW01/assert.ml" 40 1122 1138
+type(
+  string
+)
+ident(
+  def msg "HW01/assert.ml" 40 1122 1139 "HW01/assert.ml" 40 1122 1164
+)
+"HW01/assert.ml" 40 1122 1139 "HW01/assert.ml" 40 1122 1140
+type(
+  unit -> bool
+)
+ident(
+  def f "HW01/assert.ml" 40 1122 1143 "HW01/assert.ml" 40 1122 1164
+)
+"HW01/assert.ml" 40 1122 1143 "HW01/assert.ml" 40 1122 1153
+type(
+  string -> (unit -> bool) -> bool -> unit
+)
+ident(
+  int_ref assert_eqf "HW01/assert.ml" 19 360 364 "HW01/assert.ml" 19 360 374
+)
+"HW01/assert.ml" 40 1122 1154 "HW01/assert.ml" 40 1122 1157
+type(
+  string
+)
+ident(
+  int_ref msg "HW01/assert.ml" 40 1122 1135 "HW01/assert.ml" 40 1122 1138
+)
+"HW01/assert.ml" 40 1122 1158 "HW01/assert.ml" 40 1122 1159
+type(
+  unit -> bool
+)
+ident(
+  int_ref f "HW01/assert.ml" 40 1122 1139 "HW01/assert.ml" 40 1122 1140
+)
+"HW01/assert.ml" 40 1122 1160 "HW01/assert.ml" 40 1122 1164
+type(
+  bool
+)
+"HW01/assert.ml" 40 1122 1143 "HW01/assert.ml" 40 1122 1164
+call(
+  tail
+)
+type(
+  unit
+)
+"HW01/assert.ml" 42 1166 1170 "HW01/assert.ml" 42 1166 1186
+type(
+  string -> (unit -> 'a) -> unit
+)
+ident(
+  def run_failing_test "HW01/assert.ml" 50 1464 1533 "HW01/assert.ml" 1 0 -1
+)
+"HW01/assert.ml" 42 1166 1187 "HW01/assert.ml" 42 1166 1190
+type(
+  string
+)
+ident(
+  def msg "HW01/assert.ml" 42 1166 1191 "HW01/assert.ml" 50 1464 1533
+)
+"HW01/assert.ml" 42 1166 1191 "HW01/assert.ml" 42 1166 1192
+type(
+  unit -> 'a
+)
+ident(
+  def f "HW01/assert.ml" 43 1196 1198 "HW01/assert.ml" 50 1464 1533
+)
+"HW01/assert.ml" 43 1196 1202 "HW01/assert.ml" 43 1196 1203
+type(
+  unit
+)
+"HW01/assert.ml" 43 1196 1206 "HW01/assert.ml" 43 1196 1218
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"HW01/assert.ml" 43 1196 1220 "HW01/assert.ml" 43 1196 1231
+type(
+  string
+)
+"HW01/assert.ml" 43 1196 1231 "HW01/assert.ml" 43 1196 1232
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"HW01/assert.ml" 43 1196 1232 "HW01/assert.ml" 43 1196 1235
+type(
+  string
+)
+ident(
+  int_ref msg "HW01/assert.ml" 42 1166 1187 "HW01/assert.ml" 42 1166 1190
+)
+"HW01/assert.ml" 43 1196 1235 "HW01/assert.ml" 43 1196 1236
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"HW01/assert.ml" 43 1196 1236 "HW01/assert.ml" 43 1196 1243
+type(
+  string
+)
+"HW01/assert.ml" 43 1196 1232 "HW01/assert.ml" 43 1196 1243
+call(
+  stack
+)
+type(
+  string
+)
+"HW01/assert.ml" 43 1196 1219 "HW01/assert.ml" 43 1196 1244
+call(
+  stack
+)
+type(
+  string
+)
+"HW01/assert.ml" 43 1196 1206 "HW01/assert.ml" 43 1196 1244
+call(
+  stack
+)
+type(
+  unit
+)
+"HW01/assert.ml" 44 1248 1254 "HW01/assert.ml" 44 1248 1255
+type(
+  unit
+)
+"HW01/assert.ml" 44 1248 1258 "HW01/assert.ml" 44 1248 1267
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.flush_all
+)
+"HW01/assert.ml" 44 1248 1268 "HW01/assert.ml" 44 1248 1270
+type(
+  unit
+)
+"HW01/assert.ml" 44 1248 1258 "HW01/assert.ml" 44 1248 1270
+call(
+  stack
+)
+type(
+  unit
+)
+"HW01/assert.ml" 45 1274 1280 "HW01/assert.ml" 45 1274 1286
+type(
+  result
+)
+ident(
+  def result "HW01/assert.ml" 47 1340 1342 "HW01/assert.ml" 50 1464 1533
+)
+"HW01/assert.ml" 45 1274 1295 "HW01/assert.ml" 45 1274 1301
+type(
+  'a -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"HW01/assert.ml" 45 1274 1303 "HW01/assert.ml" 45 1274 1304
+type(
+  unit -> 'a
+)
+ident(
+  int_ref f "HW01/assert.ml" 42 1166 1191 "HW01/assert.ml" 42 1166 1192
+)
+"HW01/assert.ml" 45 1274 1305 "HW01/assert.ml" 45 1274 1307
+type(
+  unit
+)
+"HW01/assert.ml" 45 1274 1302 "HW01/assert.ml" 45 1274 1308
+call(
+  stack
+)
+type(
+  'a
+)
+"HW01/assert.ml" 45 1274 1295 "HW01/assert.ml" 45 1274 1308
+type(
+  unit
+)
+"HW01/assert.ml" 45 1274 1311 "HW01/assert.ml" 45 1274 1315
+type(
+  result
+)
+"HW01/assert.ml" 45 1274 1294 "HW01/assert.ml" 45 1274 1316
+type(
+  result
+)
+"HW01/assert.ml" 46 1322 1326 "HW01/assert.ml" 46 1322 1327
+type(
+  exn
+)
+"HW01/assert.ml" 46 1322 1331 "HW01/assert.ml" 46 1322 1335
+type(
+  result
+)
+"HW01/assert.ml" 45 1274 1289 "HW01/assert.ml" 46 1322 1336
+type(
+  result
+)
+"HW01/assert.ml" 47 1340 1348 "HW01/assert.ml" 47 1340 1354
+type(
+  result
+)
+ident(
+  int_ref result "HW01/assert.ml" 45 1274 1280 "HW01/assert.ml" 45 1274 1286
+)
+"HW01/assert.ml" 48 1361 1365 "HW01/assert.ml" 48 1361 1369
+type(
+  result
+)
+"HW01/assert.ml" 48 1361 1373 "HW01/assert.ml" 48 1361 1386
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"HW01/assert.ml" 48 1361 1387 "HW01/assert.ml" 48 1361 1403
+type(
+  string
+)
+"HW01/assert.ml" 48 1361 1373 "HW01/assert.ml" 48 1361 1403
+call(
+  tail
+)
+type(
+  unit
+)
+"HW01/assert.ml" 49 1404 1408 "HW01/assert.ml" 49 1404 1412
+type(
+  result
+)
+"HW01/assert.ml" 49 1404 1416 "HW01/assert.ml" 49 1404 1426
+type(
+  string -> unit
+)
+ident(
+  int_ref error_mesg "HW01/assert.ml" 13 221 225 "HW01/assert.ml" 13 221 235
+)
+"HW01/assert.ml" 49 1404 1427 "HW01/assert.ml" 49 1404 1462
+type(
+  string
+)
+"HW01/assert.ml" 49 1404 1416 "HW01/assert.ml" 49 1404 1462
+call(
+  tail
+)
+type(
+  unit
+)
+"HW01/assert.ml" 50 1464 1472 "HW01/assert.ml" 50 1464 1473
+type(
+  string
+)
+ident(
+  def s "HW01/assert.ml" 50 1464 1477 "HW01/assert.ml" 50 1464 1533
+)
+"HW01/assert.ml" 50 1464 1468 "HW01/assert.ml" 50 1464 1473
+type(
+  result
+)
+"HW01/assert.ml" 50 1464 1477 "HW01/assert.ml" 50 1464 1487
+type(
+  string -> unit
+)
+ident(
+  int_ref error_mesg "HW01/assert.ml" 13 221 225 "HW01/assert.ml" 13 221 235
+)
+"HW01/assert.ml" 50 1464 1488 "HW01/assert.ml" 50 1464 1533
+type(
+  string
+)
+"HW01/assert.ml" 50 1464 1477 "HW01/assert.ml" 50 1464 1533
+call(
+  tail
+)
+type(
+  unit
+)
+"HW01/assert.ml" 47 1340 1342 "HW01/assert.ml" 50 1464 1533
+type(
+  unit
+)
+"HW01/assert.ml" 45 1274 1276 "HW01/assert.ml" 50 1464 1533
+type(
+  unit
+)
+"HW01/assert.ml" 44 1248 1250 "HW01/assert.ml" 50 1464 1533
+type(
+  unit
+)
+"HW01/assert.ml" 43 1196 1198 "HW01/assert.ml" 50 1464 1533
+type(
+  unit
+)
