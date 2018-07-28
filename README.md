@@ -4,7 +4,7 @@ Java implementation of Minesweeper with original graphics from the Windows 95 bu
 
 ## Usage
 
-First. clone the repository. The, compile the relevant files in command line by running 
+First, clone the repository. Then, compile the relevant files in command line by running 
 
 ```
 javac Game.java
